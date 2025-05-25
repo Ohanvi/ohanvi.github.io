@@ -1,0 +1,25 @@
+site_name: My Documentation
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Sessions:
+      - Session 1: sessions/session1.md
+      - Session 2: sessions/session2.md
+  - Chapters:
+      - Chapter 1: chapters/chapter1.md
+      - Chapter 2: chapters/chapter2.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - footnotes
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ohanvi
+# Optional: Add any additional configuration options as needed.

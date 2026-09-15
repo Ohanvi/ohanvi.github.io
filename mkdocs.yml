@@ -1,0 +1,46 @@
+site_name: Ohanvi Help Center
+site_description: Step-by-step documentation for Ohanvi WhatsApp Marketing API, social posting, email marketing, workflows, and advertisements.
+site_url: https://ohanvi.github.io/
+
+theme:
+  name: material
+  logo: https://ohanvi.com/brand/ohanvi-icon-purple-32.webp
+  favicon: https://ohanvi.com/brand/ohanvi-icon-purple-32.webp
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+  palette:
+    scheme: default
+    primary: deep purple
+    accent: deep purple
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - WhatsApp Marketing API:
+      - Overview: whatsapp-api.md
+      - Create a WhatsApp Template: create-whatsapp-template.md
+  - CRM:
+      - Import Contacts from CSV: import-contacts.md
+  - Social Media Posting:
+      - Overview: social-posting.md
+      - Connect a Social Account: connect-social-account.md
+  - Email Marketing: email-marketing.md
+  - Workflows: workflows.md
+  - Advertisements: advertisements.md
+  - Documentation:
+      - Embed Videos in Articles: embed-video-guide.md

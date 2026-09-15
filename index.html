@@ -1,1 +1,139 @@
-<h1>Hello World!</h1>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ohanvi Help Center</title>
+    <meta name="description" content="Step-by-step guides for Ohanvi WhatsApp Marketing API, social posting, email marketing, workflows, and advertisements." />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="index.html" aria-label="Ohanvi Help Center home">
+        <img class="brand-logo" src="https://ohanvi.com/brand/ohanvi-icon-purple-32.webp" alt="" />
+        <span><strong>Ohanvi</strong><small>Help Center</small></span>
+      </a>
+      <button class="menu-button" type="button" data-menu-toggle aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="topnav" aria-label="Primary navigation">
+        <a href="#whatsapp">WhatsApp API</a>
+        <a href="#social">Social Posting</a>
+        <a href="#email">Email Marketing</a>
+        <a href="#workflows">Workflows</a>
+        <a href="#ads">Advertisements</a>
+      </nav>
+    </header>
+
+    <main class="layout">
+      <aside class="sidebar" data-sidebar>
+        <div class="search-box">
+          <label for="doc-search">Search guides</label>
+          <input id="doc-search" type="search" placeholder="Campaigns, templates, leads..." data-search />
+        </div>
+        <nav class="side-nav" aria-label="Documentation sections">
+          <a href="#start">Start here</a>
+          <a href="#whatsapp">WhatsApp Marketing API</a>
+          <a href="#social">Social Media Posting</a>
+          <a href="#email">Email Marketing</a>
+          <a href="#workflows">Workflows</a>
+          <a href="#ads">Advertisements</a>
+        </nav>
+      </aside>
+
+      <section class="content">
+        <section class="hero" id="start">
+          <p class="eyebrow">Documentation portal</p>
+          <h1>How-to guides for running campaigns in Ohanvi</h1>
+          <p>A simple GitHub Pages knowledge base for customers and internal teams. Add screenshots, YouTube demos, Loom links, or embedded portal walkthroughs directly inside each guide.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="docs/whatsapp-api.html">Open sample guide</a>
+            <a class="button secondary" href="#guide-template">View writing template</a>
+          </div>
+        </section>
+
+        <section class="quick-stats" aria-label="Documentation summary">
+          <article><strong>5</strong><span>solution areas</span></article>
+          <article><strong>10+</strong><span>sample workflows</span></article>
+          <article><strong>Media</strong><span>images, videos, iframes</span></article>
+        </section>
+
+        <section class="section-heading">
+          <p class="eyebrow">Browse by product</p>
+          <h2>Documentation categories</h2>
+        </section>
+
+        <div class="doc-grid" data-search-list>
+          <article class="doc-card" id="whatsapp" data-search-item>
+            <div class="card-icon">WA</div>
+            <h3>WhatsApp Marketing API</h3>
+            <p>Set up templates, contact lists, broadcasts, opt-ins, delivery reports, and webhook events.</p>
+            <a href="docs/whatsapp-api.html">Read WhatsApp setup</a>
+          </article>
+          <article class="doc-card" id="social" data-search-item>
+            <div class="card-icon">SM</div>
+            <h3>Social Media Posting</h3>
+            <p>Connect channels, create post calendars, approve content, and publish across networks.</p>
+            <a href="docs/social-posting.html">Read social posting guide</a>
+          </article>
+          <article class="doc-card" id="email" data-search-item>
+            <div class="card-icon">EM</div>
+            <h3>Email Marketing</h3>
+            <p>Build lists, design email campaigns, segment audiences, and track engagement metrics.</p>
+            <a href="docs/email-marketing.html">Read email guide</a>
+          </article>
+          <article class="doc-card" id="workflows" data-search-item>
+            <div class="card-icon">WF</div>
+            <h3>Workflows</h3>
+            <p>Automate lead follow-up, reminders, customer journeys, alerts, and multi-step campaigns.</p>
+            <a href="docs/workflows.html">Read workflow guide</a>
+          </article>
+          <article class="doc-card" id="ads" data-search-item>
+            <div class="card-icon">AD</div>
+            <h3>Advertisements</h3>
+            <p>Plan ad campaigns, define budgets, manage creatives, and review performance reports.</p>
+            <a href="docs/advertisements.html">Read ads guide</a>
+          </article>
+        </div>
+
+        <section class="section-heading guide-list-heading">
+          <p class="eyebrow">Sample how-to pages</p>
+          <h2>Detailed step-by-step examples</h2>
+        </section>
+
+        <div class="guide-list">
+          <a class="guide-row" href="docs/import-contacts.html" data-search-item>
+            <span class="guide-row-icon">01</span>
+            <span><strong>Import contacts from a CSV file</strong><small>Prepare columns, upload contacts, map fields, and fix skipped rows.</small></span>
+          </a>
+          <a class="guide-row" href="docs/create-whatsapp-template.html" data-search-item>
+            <span class="guide-row-icon">02</span>
+            <span><strong>Create a WhatsApp message template</strong><small>Write the content, add variables, submit for approval, and use it in broadcasts.</small></span>
+          </a>
+          <a class="guide-row" href="docs/embed-video-guide.html" data-search-item>
+            <span class="guide-row-icon">03</span>
+            <span><strong>Embed a video inside a help article</strong><small>Add YouTube, Loom, Vimeo, or iframe links without breaking the page.</small></span>
+          </a>
+          <a class="guide-row" href="docs/connect-social-account.html" data-search-item>
+            <span class="guide-row-icon">04</span>
+            <span><strong>Connect a social media account</strong><small>Authorize a channel, verify permissions, and make it available for scheduling.</small></span>
+          </a>
+        </div>
+
+        <section class="panel" id="guide-template">
+          <p class="eyebrow">Reusable structure</p>
+          <h2>Recommended guide format</h2>
+          <ol class="steps">
+            <li><strong>Goal:</strong> Explain what the user will complete.</li>
+            <li><strong>Before you start:</strong> Mention permissions, connected accounts, and required data.</li>
+            <li><strong>Steps:</strong> Use short numbered actions with screenshots after important clicks.</li>
+            <li><strong>Video:</strong> Embed YouTube, Vimeo, Loom, or portal demo links where helpful.</li>
+            <li><strong>Troubleshooting:</strong> List common errors and fixes at the bottom.</li>
+          </ol>
+        </section>
+      </section>
+    </main>
+
+    <script src="assets/app.js"></script>
+  </body>
+</html>

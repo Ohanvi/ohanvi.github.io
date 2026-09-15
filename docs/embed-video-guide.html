@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>Embed Videos in Help Articles | Ohanvi Help Center</title><link rel="stylesheet" href="../assets/styles.css" /></head>
+  <body>
+    <header class="topbar"><a class="brand" href="../index.html"><img class="brand-logo" src="https://ohanvi.com/brand/ohanvi-icon-purple-32.webp" alt="" /><span><strong>Ohanvi</strong><small>Help Center</small></span></a><nav class="topnav" aria-label="Primary navigation"><a href="../index.html">All guides</a></nav></header>
+    <main class="layout">
+      <aside class="sidebar"><nav class="side-nav"><a href="#youtube">YouTube</a><a href="#loom">Loom</a><a href="#iframe">Iframe</a><a href="#fallback">Fallback</a></nav></aside>
+      <article class="content">
+        <a class="breadcrumb" href="../index.html">Help Center / Documentation</a>
+        <section class="article-hero"><p class="eyebrow">Step-by-step sample</p><h1>Embed a video inside a help article</h1><p>Add tutorial videos safely so users can watch directly from the documentation page.</p><div class="article-meta"><span>Editor</span><span>5 minutes</span><span>Media</span></div></section>
+        <div class="article-body">
+          <section class="article-section" id="youtube"><h2>YouTube embed</h2><p>Use the embed URL format, not the normal watch URL. This prevents many player configuration errors.</p><div class="media-frame"><iframe src="https://www.youtube-nocookie.com/embed/M7lc1UVf-VE?rel=0" title="YouTube embed example" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><div class="article-callout">Use this format: https://www.youtube-nocookie.com/embed/VIDEO_ID?rel=0</div></section>
+          <section class="article-section" id="loom"><h2>Loom or Vimeo</h2><ol class="steps"><li>Open the video sharing settings.</li><li>Enable public or workspace access.</li><li>Copy the embed iframe link.</li><li>Paste it inside a <strong>media-frame</strong> block.</li></ol></section>
+          <section class="article-section" id="iframe"><h2>Generic iframe checklist</h2><ul class="checklist"><li>The URL must be an embed URL.</li><li>The video must allow embedding on external websites.</li><li>Use HTTPS links only.</li><li>Keep the iframe inside <strong>media-frame</strong> so it stays responsive.</li></ul></section>
+          <section class="article-section" id="fallback"><h2>Fallback link</h2><p>If a video provider blocks embeds, add a normal button link below the video so users can open it in a new tab.</p></section>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>

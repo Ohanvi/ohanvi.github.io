@@ -1,6 +1,6 @@
 site_name: Ohanvi Help Center
 site_description: Step-by-step documentation for Ohanvi WhatsApp Marketing API, social posting, email marketing, workflows, and advertisements.
-site_url: https://ohanvi.github.io/
+site_url: https://docs.ohanvi.com/
 
 theme:
   name: material

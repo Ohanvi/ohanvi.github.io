@@ -46,22 +46,22 @@ Build a chatbot that starts when a customer sends a keyword, shows a welcome mes
 ### Ask for name and email
 
 9. At the bottom of the card, click **+ Add Content** and choose **Ask Question**.
-10. Type the question, for example `What is your name?`, and set **Save the answer as** to `Name`.
+10. Type the question, for example `What is your name?`, and set **Save the answer as** to **Name**. The answer is stored in the variable `name`.
 
     ![Ask Question block with Save the answer as set to Name](assets/screenshots/create-whatsapp-flow-5-ask-question.png)
 
-11. Repeat step 9 and 10 for the email: question `What is your email?`, save the answer as `Email`.
+11. Repeat step 9 and 10 for the email: question `What is your email?`, save the answer as **Email**. The answer is stored in the variable `email`.
 
 ### Add the closing message
 
 12. Click **+ Add Content** and choose **Text + Button**. Type the closing message using the saved answers with double curly braces:
 
     ```text
-    Thanks {{Name}}, we will contact you at {{Email}}.
+    Thanks {{name}}, we will contact you at {{email}}.
     ```
 
     !!! warning "Use double curly braces"
-        Write `{{Name}}`, not `{Name}`. A single-brace placeholder is sent to the customer as plain text.
+        Write `{{name}}` and `{{email}}` in small letters with double braces. `{Name}` or `{{Name}}` is sent to the customer as plain text.
 
 ### Save, check and publish
 
@@ -90,7 +90,7 @@ Build a chatbot that starts when a customer sends a keyword, shows a welcome mes
 | --- | --- | --- |
 | No reply on WhatsApp | Another active flow uses the same keyword, so that flow answers instead. | Open **Test** tab → **Check**. If it names another chatbot, change your keyword and publish again. |
 | Inbox shows **Bot stopped — its last message could not be delivered** | The flow that answered has an empty message step or an invalid message. | Open that flow, fill every empty message, save and publish. |
-| Closing message shows `{Name}` instead of the customer's name | Single curly braces were used. | Change to `{{Name}}` and `{{Email}}`, save, publish. |
+| Closing message shows `{Name}` or `{{Name}}` instead of the customer's name | The placeholder must be the attribute key in small letters with double braces. | Change to `{{name}}` and `{{email}}`, save, publish. |
 | Changed text still not on WhatsApp | The change was saved but not published. The chip reads **LIVE · NOT PUBLISHED**. | Click **Publish**. Customers already mid-conversation finish on the old version. |
 | Bot never replies to your test number | The contact is assigned to an agent or is in **Requesting**. | In **Inbox**, resolve the conversation, then send the keyword again. |
 | Fourth button missing on WhatsApp | WhatsApp allows 3 reply buttons per message. | Use a **List / Buttons** block for more than 3 choices. |

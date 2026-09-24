@@ -20,16 +20,16 @@ Build a chatbot that starts when a customer sends a keyword, shows a welcome mes
 1. Open **WhatsApp → Flows**.
 2. Click **New flow**. A blank canvas opens.
 
-    ![Blank flow canvas with Add first step and Build with AI options](../assets/screenshots/create-whatsapp-flow-1-new-flow.png){ loading=lazy }
+    ![Blank flow canvas with Add first step and Build with AI options](assets/screenshots/create-whatsapp-flow-1-new-flow.png){ loading=lazy }
 
 3. Click **Add first step…**, then choose **Start WhatsApp flow**.
 
-    ![How does this flow start menu with Start WhatsApp flow selected](../assets/screenshots/create-whatsapp-flow-2-how-does-flow-start.png){ loading=lazy }
+    ![How does this flow start menu with Start WhatsApp flow selected](assets/screenshots/create-whatsapp-flow-2-how-does-flow-start.png){ loading=lazy }
 
 4. In **Keywords**, type the word that starts the bot, for example `hello`. Separate several keywords with commas.
 5. Keep **Match when the message** as **Has the keyword as a word**, then click **Start building**.
 
-    ![Start a WhatsApp flow dialog with Keywords and Match type fields](../assets/screenshots/create-whatsapp-flow-3-keyword-dialog.png){ loading=lazy }
+    ![Start a WhatsApp flow dialog with Keywords and Match type fields](assets/screenshots/create-whatsapp-flow-3-keyword-dialog.png){ loading=lazy }
 
     Keywords are not case-sensitive. `hello`, `Hello` and `HELLO` all start the flow.
 
@@ -39,7 +39,7 @@ Build a chatbot that starts when a customer sends a keyword, shows a welcome mes
 7. In the right panel, type the message, for example `Hi, how can I help you?`.
 8. Click **+ Add Button** and type a label, for example `Admission`. Repeat for `Fees` and `Contact Us`.
 
-    ![Message step with three reply buttons](../assets/screenshots/create-whatsapp-flow-4-message-buttons.png){ loading=lazy }
+    ![Message step with three reply buttons](assets/screenshots/create-whatsapp-flow-4-message-buttons.png){ loading=lazy }
 
     A message can have up to 3 buttons. Each label can be up to 20 characters.
 
@@ -48,7 +48,7 @@ Build a chatbot that starts when a customer sends a keyword, shows a welcome mes
 9. At the bottom of the card, click **+ Add Content** and choose **Ask Question**.
 10. Type the question, for example `What is your name?`, and set **Save the answer as** to `Name`.
 
-    ![Ask Question block with Save the answer as set to Name](../assets/screenshots/create-whatsapp-flow-5-ask-question.png){ loading=lazy }
+    ![Ask Question block with Save the answer as set to Name](assets/screenshots/create-whatsapp-flow-5-ask-question.png){ loading=lazy }
 
 11. Repeat step 9 and 10 for the email: question `What is your email?`, save the answer as `Email`.
 
@@ -68,15 +68,15 @@ Build a chatbot that starts when a customer sends a keyword, shows a welcome mes
 13. Click **Save**. The status chip reads **DRAFT**.
 14. Open the **Test** tab in the right panel, type your keyword under **A message a customer might send**, and click **Check**. The result should read **Yes — [your flow] would answer**. If it also says **Another chatbot answers this**, change your keyword before publishing.
 
-    ![Test tab showing the Would this run check result](../assets/screenshots/create-whatsapp-flow-7-test-check.png){ loading=lazy }
+    ![Test tab showing the Would this run check result](assets/screenshots/create-whatsapp-flow-7-test-check.png){ loading=lazy }
 
 15. Click **Publish**. The message **Published and live — new runs use this version** appears and the **Active** switch turns on.
 
-    ![Published and live confirmation](../assets/screenshots/create-whatsapp-flow-6-published.png){ loading=lazy }
+    ![Published and live confirmation](assets/screenshots/create-whatsapp-flow-6-published.png){ loading=lazy }
 
 16. From your test phone, send the keyword to your business number. The bot replies with the welcome message and buttons. Tap a button, answer the name and email questions, and check the closing message.
 
-    ![Team Inbox showing the full bot conversation](../assets/screenshots/create-whatsapp-flow-8-whatsapp-result.png){ loading=lazy }
+    ![Team Inbox showing the full bot conversation](assets/screenshots/create-whatsapp-flow-8-whatsapp-result.png){ loading=lazy }
 
     The same conversation appears in **WhatsApp → Inbox** with each bot message marked **Bot**.
 

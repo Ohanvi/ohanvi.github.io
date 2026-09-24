@@ -100,6 +100,31 @@ By default every button leads to the next block in the same card. To give a butt
 
     The same conversation appears in **WhatsApp → Inbox** with each bot message marked **Bot**.
 
+## Build the flow with AI instead
+
+You can let Ohanvi draft the same flow from a sentence, then review and publish it.
+
+1. Click **New flow**, then click **Build with AI**. A chat panel opens on the left.
+
+    ![Build with AI panel](assets/screenshots/create-whatsapp-flow-13-build-with-ai-panel.png)
+
+2. In **Ask anything…**, describe the bot and send it, for example:
+
+    ```text
+    Create a WhatsApp welcome chatbot that starts when user says hi, sends a welcome message, asks for name, asks for email and then sends a thank-you message.
+    ```
+
+3. Wait for **It is on the canvas**. The AI names the flow and draws the cards. Click **Preview** to read every block.
+
+    ![AI-generated flow in Preview mode](assets/screenshots/create-whatsapp-flow-14-ai-generated-flow.png)
+
+    The AI may add extra steps, such as a tag or a **Speak to Advisor** button. Delete what you do not need.
+
+4. Nothing is saved yet. Click **Save**, run the **Test** tab check for your keyword, then click **Publish**.
+5. Send the keyword from your test phone and answer each question.
+
+    ![AI-generated flow running on WhatsApp](assets/screenshots/create-whatsapp-flow-15-ai-flow-on-whatsapp.png)
+
 ## Video walkthrough
 
 [VIDEO]

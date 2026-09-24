@@ -63,6 +63,26 @@ Build a chatbot that starts when a customer sends a keyword, shows a welcome mes
     !!! warning "Use double curly braces"
         Write `{{name}}` and `{{email}}` in small letters with double braces. `{Name}` or `{{Name}}` is sent to the customer as plain text.
 
+### Send a different message for each button (optional)
+
+By default every button leads to the next block in the same card. To give a button its own reply:
+
+1. On the card, click the **+** at the right end of the button row, for example **Fees**, and choose **Send a message**.
+
+    ![Add a step after menu opened from a button](assets/screenshots/create-whatsapp-flow-9-button-add-step.png)
+
+2. A new card opens, wired to that button. Type its message, for example `Fees details will be shared soon.`
+
+    ![New card wired from the Fees button](assets/screenshots/create-whatsapp-flow-10-branch-card.png)
+
+3. Repeat for any other button. Buttons without a wire continue to the next block of the main card.
+
+    ![Canvas with two button branches after publishing](assets/screenshots/create-whatsapp-flow-11-branches-published.png)
+
+    After the branch card finishes, the conversation returns to the main card and continues with its next block.
+
+    ![WhatsApp conversation after tapping Fees](assets/screenshots/create-whatsapp-flow-12-branch-result.png)
+
 ### Save, check and publish
 
 13. Click **Save**. The status chip reads **DRAFT**.

@@ -34,6 +34,7 @@ nav:
   - WhatsApp Marketing API:
       - Overview: whatsapp-api.md
       - Create a WhatsApp Template: create-whatsapp-template.md
+      - Create a WhatsApp Chatbot Flow: create-whatsapp-flow.md
   - CRM:
       - Import Contacts from CSV: import-contacts.md
   - Social Media Posting:

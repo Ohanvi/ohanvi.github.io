@@ -144,6 +144,7 @@ You can let Ohanvi draft the same flow from a sentence, then review and publish 
 | **Add at least one step before publishing** | The flow has no steps yet. | Add a step, such as **Send a message**, then click **Publish**. |
 | **Add a step before testing** | You clicked **Run test** on a flow with no steps. | Add at least one step, then click **Run test** again. |
 | **Could not publish — the step that needs fixing is marked on the canvas** | A step is incomplete, for example a message with no text. The card shows a warning such as **Empty message**. | Open the marked card, fill in the missing part, then click **Publish** again. |
+| Publish stops and the card shows **"[flow]" listens for "[keyword]", which already starts "[other flow]"** | Another chatbot already uses the same keyword. Hover over the warning on the card to read the full message. | Pick a keyword no other chatbot uses, then click **Publish** again. |
 | No reply on WhatsApp | Another active flow uses the same keyword, so that flow answers instead. | Open **Test** tab → **Check**. If it names another chatbot, change your keyword and publish again. |
 | Inbox shows **Bot stopped — its last message could not be delivered** | The flow that answered has an empty message step or an invalid message. | Open that flow, fill every empty message, save and publish. |
 | Closing message shows `{Name}` or `{{Name}}` instead of the customer's name | The placeholder must be the attribute key in small letters with double braces. | Change to `{{name}}` and `{{email}}`, save, publish. |

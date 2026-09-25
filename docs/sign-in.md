@@ -37,6 +37,9 @@ Use this when you do not remember your password.
 
 1. On the login page, click **Login with email code**. The **Log in with email code** screen opens.
 2. In **Enter your email**, type the email linked to your account, then click **Send code**.
+
+    ![Log in with email code screen with the email box and Send code button](assets/screenshots/sign-in-4-email-code.png)
+
 3. Open your email, copy the 6-digit code, enter it, and click **Verify**. The code works for 10 minutes.
 
 To go back to the normal login form, click **Back to password login**.

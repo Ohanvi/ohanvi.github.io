@@ -34,6 +34,9 @@ nav:
   - Getting Started:
       - Sign up for Ohanvi: sign-up.md
       - Sign in to Ohanvi: sign-in.md
+  - Account & Billing:
+      - Credits and Billing: credits-and-billing.md
+      - Add Funds: add-funds.md
   - WhatsApp Marketing API:
       - Overview: whatsapp-api.md
       - Create a WhatsApp Template: create-whatsapp-template.md

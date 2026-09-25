@@ -33,6 +33,7 @@ nav:
   - Home: index.md
   - Getting Started:
       - Sign up for Ohanvi: sign-up.md
+      - Sign in to Ohanvi: sign-in.md
   - WhatsApp Marketing API:
       - Overview: whatsapp-api.md
       - Create a WhatsApp Template: create-whatsapp-template.md

@@ -25,7 +25,7 @@ Create your Ohanvi account in two steps: fill in your details, then verify your 
 ### Choose the account type
 
 3. Under **Account type**, pick one:
-    - **Individual** — for one person.
+    - **Individual** — for yourself. You can add teammates later.
     - **Organization** — for a business. This adds one extra field, **organization name**.
 
     ![Sign-up form with Individual selected](assets/screenshots/sign-up-2-individual.png)
@@ -66,9 +66,11 @@ Create your Ohanvi account in two steps: fill in your details, then verify your 
 
 ## Sign up with Google instead
 
-1. On the sign-up form, choose **Individual** or **Organization**.
-2. Click **Sign up with Google** and sign in with your Google account. Your Ohanvi account is created with that Google email.
-3. Check your email. Ohanvi sends you a username and password, so you can also sign in without Google.
+1. On the sign-up form, click **Sign up with Google** and sign in with your Google account. Your Ohanvi account is created with that Google email, and your username is made from the email address.
+2. Check your email. Ohanvi sends you a username and password, so you can also sign in without Google.
+
+!!! note
+    Google sign-up always creates an **Individual** account, even if **Organization** is selected. To sign up as an organization, fill in the form and click **Get OTP** instead.
 
 ## Video walkthrough
 
@@ -79,10 +81,10 @@ Create your Ohanvi account in two steps: fill in your details, then verify your 
 | Issue | Cause | Fix |
 | --- | --- | --- |
 | **Username available** does not appear | Someone already uses that username. | Try a different username. |
-| **Get OTP** does nothing | A field is empty or a password check is not green. | Fill every field and meet all 3 password rules. |
+| **Get OTP** shows a message such as **Enter a valid mobile number.** | A field is empty or invalid, or a password rule is not met. | Fix the field the message names. For an organization, also fill in **organization name**. |
 | No code in your inbox | The email went to spam or promotions. | Check those folders and wait 1–2 minutes. |
 | **OTP has expired. Please request a new one.** | More than 10 minutes passed. | Start the sign-up again from [app.ohanvi.com](https://app.ohanvi.com) and enter the new code quickly. |
-| **No account found for this email** after resending the code | The account was not created before the code expired. | Close the tab, open [app.ohanvi.com](https://app.ohanvi.com) again, and sign up from the start. |
+| **No account found for this email. Please sign up first.** after **Resend code** or **Verify** | Ohanvi no longer holds your sign-up details, so the code cannot finish the sign-up. | Close the tab, open [app.ohanvi.com](https://app.ohanvi.com) in a new window, and sign up again from the start. |
 
 ## Related
 

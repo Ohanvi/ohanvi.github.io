@@ -48,7 +48,7 @@ Use this when you do not remember your password.
 
 3. Open your email, copy the 6-digit code, enter it, and click **Verify**. The code works for 10 minutes.
 
-To go back to the normal login form, click **Back to password login**.
+To go back to the normal login form, click **Back to password login**. If you already clicked **Send code**, click **Use a different email** instead.
 
 ### Sign out
 
@@ -66,7 +66,7 @@ To go back to the normal login form, click **Back to password login**.
 | Issue | Cause | Fix |
 | --- | --- | --- |
 | Wrong username or password message | A typo, or Caps Lock is on. | Click the eye icon to check the password, then try again. |
-| You forgot your password | — | Use **Login with email code** to sign in, then change your password from **Settings**. |
+| You forgot your password | — | Sign in with **Login with email code**. Then click your initials, click your name at the top of the menu, type a **New password** and click **Save changes**. |
 | **No account found for this email. Please sign up first.** | No Ohanvi account uses that email. | Check the email, or [sign up for Ohanvi](sign-up.md). |
 | **No account found for this email. Please sign up first.** after **Continue with Google** | No Ohanvi account uses that Google email. | Choose the Google account with your Ohanvi email, or use **Sign up with Google** on the sign-up form. |
 | No code in your inbox | The email went to spam or promotions. | Check those folders and wait 1–2 minutes before asking for a new code. |

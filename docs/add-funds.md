@@ -53,6 +53,7 @@ Add funds (recharge credits) to keep sending WhatsApp messages, emails and AI re
 | --- | --- | --- |
 | **Minimum recharge is ₹500.** and the **Pay** button is grey | The amount is below ₹500. | Enter ₹500 or more. |
 | **Pay** button shows **Enter an amount** | No amount is chosen. | Click a quick amount or type one. |
+| **'[code]' is not a valid coupon code.** | The coupon is mistyped, expired or not meant for your account. | Check the code with whoever gave it to you, or remove it and pay without a coupon. |
 | You want more than ₹1,00,000 | The maximum for one recharge is ₹1,00,000. | Recharge in more than one payment. |
 | Money left your bank but the balance did not change | The payment is still being confirmed. | Wait a few minutes and refresh the Credits page. If it still does not show, contact support with the payment reference. |
 | Invoice has no GSTIN | GSTIN was not added before the recharge. | Add your GSTIN in **Invoice Details** before your next recharge. |

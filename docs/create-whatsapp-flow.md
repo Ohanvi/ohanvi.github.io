@@ -133,6 +133,7 @@ You can let Ohanvi draft the same flow from a sentence, then review and publish 
 
 | Issue | Cause | Fix |
 | --- | --- | --- |
+| **Add at least one step before publishing** | The flow has no steps yet. | Add a step, such as **Send a message**, then click **Publish**. |
 | No reply on WhatsApp | Another active flow uses the same keyword, so that flow answers instead. | Open **Test** tab → **Check**. If it names another chatbot, change your keyword and publish again. |
 | Inbox shows **Bot stopped — its last message could not be delivered** | The flow that answered has an empty message step or an invalid message. | Open that flow, fill every empty message, save and publish. |
 | Closing message shows `{Name}` or `{{Name}}` instead of the customer's name | The placeholder must be the attribute key in small letters with double braces. | Change to `{{name}}` and `{{email}}`, save, publish. |

@@ -33,6 +33,14 @@ Build a chatbot that starts when a customer sends a keyword, shows a welcome mes
 
     Keywords are not case-sensitive. `hello`, `Hello` and `HELLO` all start the flow.
 
+    **Match when the message** decides how closely the customer's message must match. For the keyword `hi`:
+
+    | Option | Starts the flow on | Does not start on |
+    | --- | --- | --- |
+    | **Has the keyword as a word** | `hi`, `hi there` | `hii` |
+    | **Contains the keyword** | `hi`, `hii`, `chilli` | `hello` |
+    | **Is exactly the keyword** | `hi` | `hi there` |
+
 ### Add the welcome message and buttons
 
 6. Click the **+** next to the start node and choose **Send a message**.

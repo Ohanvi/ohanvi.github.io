@@ -28,8 +28,14 @@ Sign in to your workspace with your username and password, your Google account, 
 
 ### Sign in with Google
 
-1. On the login page, click **Continue with Google**.
-2. Choose the Google account that uses the same email as your Ohanvi account. Ohanvi opens **Home**.
+1. On the login page, click **Continue with Google**. A **Sign in with Google** window opens.
+
+    ![Sign in with Google window asking for an email or phone](assets/screenshots/sign-in-5-google-popup.png)
+
+2. Sign in with the Google account that uses the same email as your Ohanvi account. Ohanvi opens **Home**.
+
+!!! note
+    **Continue with Google** only signs in to an existing account. To create a new account with Google, use **Sign up with Google** on the sign-up form. See [Sign up for Ohanvi](sign-up.md).
 
 ### Sign in with an email code
 
@@ -62,7 +68,7 @@ To go back to the normal login form, click **Back to password login**.
 | Wrong username or password message | A typo, or Caps Lock is on. | Click the eye icon to check the password, then try again. |
 | You forgot your password | — | Use **Login with email code** to sign in, then change your password from **Settings**. |
 | **No account found for this email. Please sign up first.** | No Ohanvi account uses that email. | Check the email, or [sign up for Ohanvi](sign-up.md). |
-| **Continue with Google** opens an empty workspace | The Google account uses a different email from your Ohanvi account. | Sign out and choose the Google account with the right email. |
+| **No account found for this email. Please sign up first.** after **Continue with Google** | No Ohanvi account uses that Google email. | Choose the Google account with your Ohanvi email, or use **Sign up with Google** on the sign-up form. |
 | No code in your inbox | The email went to spam or promotions. | Check those folders and wait 1–2 minutes before asking for a new code. |
 
 ## Related

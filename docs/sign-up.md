@@ -67,7 +67,8 @@ Create your Ohanvi account in two steps: fill in your details, then verify your 
 ## Sign up with Google instead
 
 1. On the sign-up form, choose **Individual** or **Organization**.
-2. Click **Sign up with Google** and pick your Google account.
+2. Click **Sign up with Google** and sign in with your Google account. Your Ohanvi account is created with that Google email.
+3. Check your email. Ohanvi sends you a username and password, so you can also sign in without Google.
 
 ## Video walkthrough
 

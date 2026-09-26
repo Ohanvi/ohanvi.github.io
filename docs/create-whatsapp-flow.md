@@ -33,6 +33,14 @@ Build a chatbot that starts when a customer sends a keyword, shows a welcome mes
 
     Keywords are not case-sensitive. `hello`, `Hello` and `HELLO` all start the flow.
 
+    **Match when the message** decides how closely the customer's message must match. For the keyword `hi`:
+
+    | Option | Starts the flow on | Does not start on |
+    | --- | --- | --- |
+    | **Has the keyword as a word** | `hi`, `hi there` | `hii` |
+    | **Contains the keyword** | `hi`, `hii`, `chilli` | `hello` |
+    | **Is exactly the keyword** | `hi` | `hi there` |
+
 ### Add the welcome message and buttons
 
 6. Click the **+** next to the start node and choose **Send a message**.
@@ -60,8 +68,12 @@ Build a chatbot that starts when a customer sends a keyword, shows a welcome mes
     Thanks {{name}}, we will contact you at {{email}}.
     ```
 
-    !!! warning "Use double curly braces"
-        Write `{{name}}` and `{{email}}` in small letters with double braces. `{Name}` or `{{Name}}` is sent to the customer as plain text.
+    The easy way: type `Thanks `, then click the **{Name}** chip under the message box. It inserts `{{name}}` for you. Do the same with **{Email}**.
+
+    On WhatsApp the customer sees their own answer, for example **Thanks Priya**.
+
+    !!! warning "Use double curly braces in small letters"
+        If you type a variable yourself, write `{{name}}` and `{{email}}`. `{{Name}}` with a capital letter is sent to the customer as plain text.
 
 ### Send a different message for each button (optional)
 
@@ -133,12 +145,17 @@ You can let Ohanvi draft the same flow from a sentence, then review and publish 
 
 | Issue | Cause | Fix |
 | --- | --- | --- |
+| **Add at least one step before publishing** | The flow has no steps yet. | Add a step, such as **Send a message**, then click **Publish**. |
+| **Add a step before testing** | You clicked **Run test** on a flow with no steps. | Add at least one step, then click **Run test** again. |
+| **Could not publish — the step that needs fixing is marked on the canvas** | A step is incomplete, for example a message with no text. The card shows a warning such as **Empty message**. | Open the marked card, fill in the missing part, then click **Publish** again. |
+| Publish stops and the card shows **"[flow]" listens for "[keyword]", which already starts "[other flow]"** | Another chatbot already uses the same keyword. Hover over the warning on the card to read the full message. | Pick a keyword no other chatbot uses, then click **Publish** again. |
 | No reply on WhatsApp | Another active flow uses the same keyword, so that flow answers instead. | Open **Test** tab → **Check**. If it names another chatbot, change your keyword and publish again. |
 | Inbox shows **Bot stopped — its last message could not be delivered** | The flow that answered has an empty message step or an invalid message. | Open that flow, fill every empty message, save and publish. |
 | Closing message shows `{Name}` or `{{Name}}` instead of the customer's name | The placeholder must be the attribute key in small letters with double braces. | Change to `{{name}}` and `{{email}}`, save, publish. |
 | Changed text still not on WhatsApp | The change was saved but not published. The chip reads **LIVE · NOT PUBLISHED**. | Click **Publish**. Customers already mid-conversation finish on the old version. |
 | Bot never replies to your test number | The contact is assigned to an agent or is in **Requesting**. | In **Inbox**, resolve the conversation, then send the keyword again. |
 | Fourth button missing on WhatsApp | WhatsApp allows 3 reply buttons per message. | Use a **List / Buttons** block for more than 3 choices. |
+| The bot asks **Which session?** and then says **Nothing is available right now. Please try again later.** | The **Book a Demo** template picks its sessions from **Appts** → **Services**, and no service has been added yet. | Open **Appts** in the left rail, select **Services** and click **Add service**. See [Add services](appointments/add-services.md). Then send the keyword again. |
 
 ## Related
 

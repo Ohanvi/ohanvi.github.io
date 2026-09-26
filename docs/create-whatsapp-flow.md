@@ -68,8 +68,12 @@ Build a chatbot that starts when a customer sends a keyword, shows a welcome mes
     Thanks {{name}}, we will contact you at {{email}}.
     ```
 
-    !!! warning "Use double curly braces"
-        Write `{{name}}` and `{{email}}` in small letters with double braces. `{Name}` or `{{Name}}` is sent to the customer as plain text.
+    The easy way: type `Thanks `, then click the **{Name}** chip under the message box. It inserts `{{name}}` for you. Do the same with **{Email}**.
+
+    On WhatsApp the customer sees their own answer, for example **Thanks Priya**.
+
+    !!! warning "Use double curly braces in small letters"
+        If you type a variable yourself, write `{{name}}` and `{{email}}`. `{{Name}}` with a capital letter is sent to the customer as plain text.
 
 ### Send a different message for each button (optional)
 
@@ -151,6 +155,7 @@ You can let Ohanvi draft the same flow from a sentence, then review and publish 
 | Changed text still not on WhatsApp | The change was saved but not published. The chip reads **LIVE · NOT PUBLISHED**. | Click **Publish**. Customers already mid-conversation finish on the old version. |
 | Bot never replies to your test number | The contact is assigned to an agent or is in **Requesting**. | In **Inbox**, resolve the conversation, then send the keyword again. |
 | Fourth button missing on WhatsApp | WhatsApp allows 3 reply buttons per message. | Use a **List / Buttons** block for more than 3 choices. |
+| The bot asks **Which session?** and then says **Nothing is available right now. Please try again later.** | The **Book a Demo** template picks its sessions from **Appts** → **Services**, and no service has been added yet. | Open **Appts** in the left rail, select **Services** and click **Add service**. See [Add services](appointments/add-services.md). Then send the keyword again. |
 
 ## Related
 

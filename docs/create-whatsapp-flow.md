@@ -142,6 +142,6 @@ You can let Ohanvi draft the same flow from a sentence, then review and publish 
 
 ## Related
 
-- [Set up a WhatsApp broadcast campaign](whatsapp-api.md)
-- [Create a WhatsApp template](create-whatsapp-template.md)
-- [Import contacts from CSV](import-contacts.md)
+- [Send a WhatsApp broadcast campaign](whatsapp/send-broadcast-campaign.md)
+- [Create a WhatsApp template](whatsapp/create-message-template.md)
+- [Import and sync contacts](crm/import-and-sync-contacts.md)

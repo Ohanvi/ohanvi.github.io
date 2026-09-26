@@ -90,4 +90,4 @@ Create your Ohanvi account in two steps: fill in your details, then verify your 
 
 - [Sign in to Ohanvi](sign-in.md)
 - [Create a WhatsApp chatbot flow](create-whatsapp-flow.md)
-- [Create a WhatsApp template](create-whatsapp-template.md)
+- [Create a WhatsApp template](whatsapp/create-message-template.md)

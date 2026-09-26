@@ -66,12 +66,13 @@ To go back to the normal login form, click **Back to password login**. If you al
 | Issue | Cause | Fix |
 | --- | --- | --- |
 | Wrong username or password message | A typo, or Caps Lock is on. | Click the eye icon to check the password, then try again. |
-| You forgot your password | — | Sign in with **Login with email code**. Then click your initials, click your name at the top of the menu, type a **New password** and click **Save changes**. |
+| You forgot your password | — | Click **Forgot Password?** on the login page and reset it with a code sent to your email. See [Reset your password](reset-password.md). You can also sign in with **Login with email code**. |
 | **No account found for this email. Please sign up first.** | No Ohanvi account uses that email. | Check the email, or [sign up for Ohanvi](sign-up.md). |
 | **No account found for this email. Please sign up first.** after **Continue with Google** | No Ohanvi account uses that Google email. | Choose the Google account with your Ohanvi email, or use **Sign up with Google** on the sign-up form. |
 | No code in your inbox | The email went to spam or promotions. | Check those folders and wait 1–2 minutes before asking for a new code. |
 
 ## Related
 
+- [Reset your password](reset-password.md)
 - [Sign up for Ohanvi](sign-up.md)
 - [Create a WhatsApp chatbot flow](create-whatsapp-flow.md)

@@ -8,6 +8,7 @@ theme:
   favicon: https://ohanvi.com/brand/ohanvi-icon-purple-32.webp
   features:
     - navigation.sections
+    - navigation.indexes
     - navigation.expand
     - navigation.top
     - search.highlight
@@ -17,6 +18,20 @@ theme:
     scheme: default
     primary: deep purple
     accent: deep purple
+
+plugins:
+  - search
+  # Click any image to open it full-screen (zoom, swipe between images, Esc to close).
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - no-lightbox
 
 extra_css:
   - assets/stylesheets/extra.css
@@ -34,20 +49,115 @@ nav:
   - Getting Started:
       - Sign up for Ohanvi: sign-up.md
       - Sign in to Ohanvi: sign-in.md
-  - Account & Billing:
-      - Credits and Billing: credits-and-billing.md
-      - Add Funds: add-funds.md
-  - WhatsApp Marketing API:
-      - Overview: whatsapp-api.md
-      - Create a WhatsApp Template: create-whatsapp-template.md
-      - Create a WhatsApp Chatbot Flow: create-whatsapp-flow.md
-  - CRM:
-      - Import Contacts from CSV: import-contacts.md
-  - Social Media Posting:
-      - Overview: social-posting.md
-      - Connect a Social Account: connect-social-account.md
-  - Email Marketing: email-marketing.md
-  - Workflows: workflows.md
+      - Reset your password: reset-password.md
+  - CRM and Contacts:
+      - crm/index.md
+      - Contacts:
+          - Manage contacts: crm/manage-contacts.md
+          - Import and sync contacts: crm/import-and-sync-contacts.md
+          - Custom fields: crm/custom-fields.md
+          - Contact groups: crm/contact-groups.md
+          - Leads: crm/leads.md
+          - Consent and compliance: crm/consent-and-compliance.md
+      - Sales:
+          - Set up pipelines: crm/set-up-pipelines.md
+          - Manage accounts: crm/manage-accounts.md
+          - Create and manage deals: crm/manage-deals.md
+          - Activities and notes: crm/log-activities-and-notes.md
+          - Campaigns and templates: crm/track-campaigns.md
+          - Automations: crm/manage-automations.md
+          - Track sales performance: crm/track-sales-performance.md
+  - WhatsApp:
+      - whatsapp/index.md
+      - Set up:
+          - Connect your number: whatsapp/connect-whatsapp-number.md
+          - Move your number to Ohanvi: whatsapp/migrate-to-ohanvi.md
+          - Business profile: whatsapp/whatsapp-business-profile.md
+          - Add agents: whatsapp/add-whatsapp-agents.md
+          - Contacts and opt-in: whatsapp/manage-whatsapp-contacts.md
+      - Talk to customers:
+          - Use the inbox: whatsapp/use-whatsapp-inbox.md
+          - Set up the AI agent: whatsapp/set-up-ai-agent.md
+          - Create a chatbot flow: create-whatsapp-flow.md
+      - Send messages:
+          - Create a message template: whatsapp/create-message-template.md
+          - Send a broadcast campaign: whatsapp/send-broadcast-campaign.md
+          - Read a campaign report: whatsapp/read-campaign-report.md
+          - Read the dashboard: whatsapp/whatsapp-dashboard.md
+      - Sell and grow:
+          - Set up your catalog: whatsapp/set-up-whatsapp-catalog.md
+          - Run Click-to-WhatsApp ads: whatsapp/click-to-whatsapp-ads.md
+          - Webhooks and integrations: whatsapp/whatsapp-webhooks-and-integrations.md
+  - Flows:
+      - flows/index.md
+      - Understand flows: flows/flows-overview-and-list.md
+      - Build an automation: flows/build-automation-flow.md
+      - Connect an app: flows/connect-apps-for-flows.md
+      - Store automations: flows/store-journeys.md
+      - Test and fix runs: flows/test-and-monitor-flows.md
+  - Social:
+      - social/index.md
+      - Connect social accounts: social/connect-social-accounts.md
+      - Create a post: social/create-social-post.md
+      - Schedule and manage posts: social/schedule-social-posts.md
+      - Review posts: social/approve-social-posts.md
+      - Use post templates: social/use-post-templates.md
+      - Google Business Profile: social/manage-google-business-profile.md
+      - Read insights: social/view-social-insights.md
+  - Email:
+      - email/index.md
+      - Set up a sender: email/set-up-sender-identity.md
+      - Connect your email provider: email/connect-email-provider.md
+      - Contacts, lists and segments: email/manage-email-contacts.md
+      - Create an email template: email/create-email-template.md
+      - Send a campaign: email/send-email-campaign.md
+      - Automate with journeys: email/create-email-automation.md
+      - Track results: email/track-email-results.md
+  - Appointments:
+      - appointments/index.md
+      - Add services: appointments/add-services.md
+      - Add providers and working hours: appointments/add-providers.md
+      - Booking rules and reminders: appointments/set-booking-rules-and-reminders.md
+      - Take bookings on WhatsApp: appointments/take-bookings-on-whatsapp.md
+      - Manage appointments: appointments/manage-appointments.md
+      - Schedule a class: appointments/schedule-classes.md
+  - Schedule:
+      - schedule/index.md
+      - View everything scheduled: schedule/view-schedule.md
+      - Reschedule, cancel or delete: schedule/reschedule-cancel-delete.md
+      - Recurring schedules: schedule/manage-recurring-schedules.md
+  - Analytics:
+      - analytics/index.md
+      - Set up data: analytics/set-up-analytics-data.md
+      - Marketing Analytics: analytics/read-marketing-analytics.md
+      - Store Analytics: analytics/read-store-analytics.md
+      - Act on your analytics: analytics/act-on-analytics.md
+  - Tasks:
+      - tasks/index.md
+      - Set up a task project: tasks/set-up-task-project.md
+      - Create and assign tasks: tasks/create-and-assign-tasks.md
+      - Move tasks across the board: tasks/move-tasks-on-board.md
+      - Comment, mention and attach: tasks/collaborate-on-tasks.md
+      - Find, filter and view tasks: tasks/find-and-filter-tasks.md
+      - Plan work in sprints: tasks/plan-sprints.md
+  - Settings:
+      - settings/index.md
+      - Open Settings: settings/open-settings.md
+      - Update your profile: settings/update-your-profile.md
+      - Team, roles and permissions: settings/roles-and-permissions.md
+      - Invite teammates: settings/invite-teammates.md
+      - Notifications: settings/notification-preferences.md
+      - Own vs managed services: settings/choose-connectors.md
+      - Developer APIs: settings/developer-apis.md
+  - Billing and Credits:
+      - billing/index.md
+      - Credits and billing: credits-and-billing.md
+      - Add funds: add-funds.md
+      - Read your current usage: billing/read-current-usage.md
+      - Statement and invoices: billing/statement-and-invoices.md
+      - GSTIN and invoice details: billing/add-gst-invoice-details.md
+      - When credits run low or run out: billing/low-or-empty-credits.md
+      - Manage your plan and users: billing/manage-plan-and-users.md
   - Advertisements: advertisements.md
   - Documentation:
       - Embed Videos in Articles: embed-video-guide.md

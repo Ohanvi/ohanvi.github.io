@@ -81,8 +81,11 @@ A handed-off chat moves to the inbox and your team is notified. See [Use the Wha
 ### Test the agent
 
 1. Click **Test agent**. The **Test your Agent** panel opens.
-2. Type in **Ask your agent something…** and read the reply. Test replies are not visible to customers.
-3. If an answer is wrong, click **Correct this answer**, type **What the agent should say**, then click **Save & teach**.
+2. Keep **Train** selected to test your latest saved changes. Type in **Ask your agent something…** and read the reply. Test replies are not visible to customers. Click **New chat** to start over.
+
+    ![Test your Agent panel on Train, with a test question and the agent's reply](../assets/screenshots/whatsapp-ai-agent-3-test.png)
+
+3. If an answer is wrong, click the pencil icon under the reply (**Correct this answer**), type **What the agent should say**, then click **Save & teach**.
 
 ### Go live
 
@@ -118,5 +121,4 @@ To stop the agent, click **Pause AI**. Saved changes reach customers only after 
 
 !!! note "Screenshots to add"
     - After step 2 of Add knowledge — the three source cards.
-    - After step 2 of Test the agent — the **Test your Agent** panel with a reply.
     - After step 2 of Go live — the **Ready to go live** checklist.

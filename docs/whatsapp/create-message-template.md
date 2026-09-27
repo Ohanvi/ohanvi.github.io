@@ -50,6 +50,8 @@ Some **Template type** choices fix the category for you. **Carousel**, **Catalog
 
 1. Open **WhatsApp** in the left rail, then select **Template**. The **Templates** page opens.
 2. Click **New template**. The **Add Template** form opens, with a **Template Preview** beside it.
+
+    ![Add Template form filled in for demo_booking_confirmation, with the Template Preview on the right](../assets/screenshots/whatsapp-template-1-add-template.png)
 3. Choose your **Organization**, if you have more than 1.
 4. Choose a **Template type**. The hint under the field says what each type does.
 5. Choose a **Template Category**: **UTILITY**, **MARKETING** or **AUTHENTICATION**.
@@ -87,6 +89,8 @@ A body must follow Meta's rules:
 
 1. Under **Variables**, fill in a **Name** for each variable, for example `customer name`. The name becomes the column heading when you upload a recipient list.
 2. Fill in an **Example** for each variable, for example `Lakshmi` or `ORD-10482`. Meta sees the example when it reviews the template.
+
+    ![Variables with Name and Example filled in for {{1}} and {{2}}](../assets/screenshots/whatsapp-template-2-variables.png)
 
 Use real-looking examples, not placeholders like `xxx`. Meta rejects templates it cannot read as a real message.
 
@@ -196,7 +200,4 @@ If you try to send a rejected template in a campaign, Ohanvi refuses it and expl
 - [Set up a WhatsApp catalog](set-up-whatsapp-catalog.md)
 
 !!! note "Screenshots to add"
-    - After step 2 of Create the template — the **Add Template** form with **Template Preview**
-    - After step 2 of Name each variable — the **Variables** section with **Name** and **Example** filled in
-    - After step 2 of Submit for approval — the **Templates** list with the **In review** status chip
     - After step 1 of Fix a rejected template — the template pane showing a **Rejection reason**

@@ -18,7 +18,10 @@ Answer your customers' WhatsApp messages as a team. At the end of this page you 
 ### Find a conversation
 
 1. Open **WhatsApp** in the left rail, then select **Inbox**.
-2. On the left, under **Folders**, pick **All conversations**, **My chats** or **Unassigned**. Managers and admins can also pick a teammate under **TEAM** to see that person's inbox.
+2. Click **Team** above the list and pick **All conversations**, **My chats** or **Unassigned**. Managers and admins also see each teammate, with their role, to open that person's inbox.
+
+    ![Team menu with All conversations, My chats, Unassigned, the teammates, Unread only and Search message text](../assets/screenshots/whatsapp-inbox-2-team-menu.png)
+
 3. Use the tabs above the list:
 
     | Tab | What it shows |
@@ -28,7 +31,9 @@ Answer your customers' WhatsApp messages as a team. At the end of this page you 
     | **Active** | The bot is handling the chat, or an agent took it over. Taken-over chats show **Intervened by** and a name. |
     | **Orders** | Chats with store activity, such as an order placed, shipped or cancelled, or an abandoned cart. Shown only when a store is connected. |
 
-4. To narrow the list, type in **Search name or number…**, or open **Refine** and pick **Unread only** or **Search message text**.
+    ![Inbox tabs All, Requesting, Active and Orders, the Team menu, and the All, No reply and Expired chips](../assets/screenshots/whatsapp-inbox-1-tabs.png)
+
+4. To narrow the list, pick **All**, **No reply** or **Expired** under **Inbox**, type in **Search name or number…**, or pick **Unread only** or **Search message text** in the **Team** menu.
 5. Click a conversation. The chat opens on the right.
 
 To switch the layout, pick **List** or **Board**. To find an old chat, open **Chat history**.

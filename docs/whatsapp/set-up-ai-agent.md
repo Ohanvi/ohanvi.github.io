@@ -24,11 +24,18 @@ Open **WhatsApp** in the left rail, then select **AI Agent**. The **Who answers 
 3. **Otherwise this AI agent replies** — from everything you set up on this page.
 4. **If the agent cannot answer** — the chat moves to the inbox and your team is notified.
 
+While the AI is off, line 3 reads **This AI agent would reply — but it is paused**, and a bar at the top offers **Turn AI on**.
+
+![AI Agent page with the AI paused bar, the list on the left, the Who answers your customer card and the Test your Agent panel](../assets/screenshots/whatsapp-ai-agent-1-who-answers.png)
+
 ### Describe your business
 
 1. Select **Business Profile** in the list on the left.
 2. In **Website**, type your site address, then click **Regenerate from site**. Ohanvi drafts your details from the website.
-3. Check **Agent / business name**, **Greeting message (optional)**, **Business type** and **What the business does**. If you pick **Other** as the business type, describe it.
+3. Check **Agent / business name**, **Greeting message (optional)**, **Store currency**, **Business type** and **What the business does**. If you pick **Other** as the business type, describe it.
+
+    ![Business Profile section with Website, Regenerate from site, Agent / business name, Greeting message, Store currency, Business type and What the business does](../assets/screenshots/whatsapp-ai-agent-2-business-profile.png)
+
 4. Under **Persona & guardrails**, fill in **Allowed topics**, **Forbidden topics**, **Off-topic response** and **Escalation triggers** as needed.
 5. Select **Tone**. Pick a tone and a **Response length**: **Short**, **Medium** or **Long**.
 6. Click **Save changes**. The message **AI agent saved.** appears.
@@ -110,7 +117,6 @@ To stop the agent, click **Pause AI**. Saved changes reach customers only after 
 - [Add funds to your account](../add-funds.md)
 
 !!! note "Screenshots to add"
-    - The **Who answers your customer** card.
     - After step 2 of Add knowledge — the three source cards.
     - After step 2 of Test the agent — the **Test your Agent** panel with a reply.
     - After step 2 of Go live — the **Ready to go live** checklist.

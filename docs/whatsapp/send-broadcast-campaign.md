@@ -68,7 +68,10 @@ Click **Continue**. The **Review** step opens.
 
 ### Step 3: Test the campaign
 
-1. Under **Test message**, pick the country and type your own WhatsApp number.
+1. Under **Test message**, pick the country and type your own WhatsApp number. It is on the **Review** step, under **When**.
+
+    ![When with Send now and Schedule, and Test message with the number box and the Test button](../assets/screenshots/whatsapp-broadcast-5-when-and-test.png)
+
 2. Click **Test**. The message **Test message sent.** appears when WhatsApp accepts it.
 3. Check the message on your phone: the header, the values, and every button.
 
@@ -77,6 +80,9 @@ A test message is charged like any other message.
 ### Step 4: Send now or schedule
 
 1. Check the summary under **Review & send**: the name, template, category and audience.
+
+    ![Review & send summary with Name, Audience, Template and Category](../assets/screenshots/whatsapp-broadcast-4-review.png)
+
 2. Under **When**, choose **Send now**, or click **Schedule** and pick a date and time in your local time zone.
 3. Optional: to send again and again, set **Repeat** to **Daily**, **Weekly**, **Monthly** or **Yearly**. **Once** sends 1 time.
 4. Click **Send now** or **Schedule**.

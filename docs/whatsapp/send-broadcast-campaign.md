@@ -31,6 +31,8 @@ See [Low or empty credits](../billing/low-or-empty-credits.md) for what else sto
 
 1. Open **WhatsApp** in the left rail, then select **Campaign**. The **Campaigns** page opens.
 2. Click **New Campaign**. The **New Campaign** page opens on the **Audience** step, with a **Live preview** beside it.
+
+    ![New Campaign page on the Audience step, with Broadcast name, Contact groups and the Live preview](../assets/screenshots/whatsapp-broadcast-1-audience.png)
 3. Type a **Broadcast name**, for example `Diwali offer 2026`. Only your team sees it.
 4. Under **Contact groups**, tick 1 or more groups. Everyone opted in to those groups gets the message once, even if they are in 2 groups. Hover a group to see who is in it.
 5. Click **Continue**. The **Message** step opens.
@@ -40,10 +42,10 @@ See [Low or empty credits](../billing/low-or-empty-credits.md) for what else sto
 
 ### Step 2: Choose the template and fill the variables
 
-1. Choose a **Template**. Only Meta-approved templates are listed.
+1. Choose a **Template**. **Choose a template** opens with only Meta-approved templates. Filter by **All**, **Authentication**, **Marketing** or **Utility**, or search by name or message text.
 2. If the template has an image, video or document header, check the header file. Leave it as it is to reuse the sample the template was approved with, or pick a new file.
-3. Under **Variables**, fill a **Value for {{1}}**, **Value for {{2}}** and so on. The **Live preview** updates as you type.
-4. To give each person their own value, click **Insert attribute** and pick a field under **CONTACT FIELDS** or **CUSTOM ATTRIBUTES**, for example **First Name**.
+3. Under **Variables**, fill the **{{1}}**, **{{2}}** boxes and so on. If you leave **{{1}}** blank, it uses the contact's name. The **Live preview** updates as you type.
+4. To give each person their own value, click the **@** icon at the end of the variable and pick a field under **CONTACT FIELDS** or **CUSTOM ATTRIBUTES**, for example **First Name**.
 5. Fill **Fallback — sent when a contact has no value for this attribute**, for example `there`. This stops anyone getting a message with a blank in it.
 
 ### Optional: Send to a CSV list or per-person values

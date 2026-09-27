@@ -56,7 +56,9 @@ WhatsApp lets you send free-text messages for 24 hours after the customer's last
 
 ### Reply after the 24-hour window closes
 
-When the window is closed, the composer shows **24-hour window closed** and **Only approved templates deliver now — a reply reopens the chat for 24 hours.**
+When the window is closed, the composer shows **24-hour window closed**, how long ago the customer last replied, and **Only approved templates deliver now — a reply reopens the chat for 24 hours.**
+
+![24-hour window closed banner with Write anyway and Send Template](../assets/screenshots/whatsapp-inbox-3-window-closed.png)
 
 1. Click **Send Template**. The template list opens.
 2. Search with **Search templates…** and pick an approved template.
@@ -85,7 +87,9 @@ You can also right-click a conversation in the list and choose **Assign to teamm
 
 1. Click the contact's name at the top of the chat. The profile panel opens.
 2. Under **Tags**, type in **Add a tag…** and press Enter.
-3. Under **Notes**, type in **Add a note…**, then click **Add note**. Only your team sees notes.
+3. Click **Notes** to open it, type in **Add a note…**, then click **Add note**. Only your team sees notes.
+
+    ![Profile panel with Notes, WA conversation Closed — template only, and Tags with Add a tag](../assets/screenshots/whatsapp-inbox-4-profile-panel.png)
 
 The profile also shows the **WA conversation** state (**Open — free replies deliver** or **Closed — template only**), opt-in, orders, campaigns and **Custom attributes**.
 
@@ -136,7 +140,4 @@ To give the chat back to the queue without resolving it, click **Release this ch
 - [Create a WhatsApp chatbot flow](../create-whatsapp-flow.md)
 
 !!! note "Screenshots to add"
-    - After step 3 of Find a conversation — the inbox with **Folders** and the **All**, **Requesting**, **Active** tabs.
     - After step 2 of Take over a chat from the bot — the **Take over this conversation?** dialog.
-    - After step 1 of Reply after the 24-hour window closes — the **24-hour window closed** banner with **Send Template**.
-    - After step 1 of Add notes and tags — the profile panel with **Tags** and **Notes**.

@@ -18,7 +18,9 @@ Add the people who answer WhatsApp chats, each with their own login. At the end,
 ### Open your team
 
 1. Open **WhatsApp** in the left rail, then select **Manage**.
-2. Select **Agents**. The list of your team opens.
+2. Select **Agents**. The list of your team opens, with each person's role. The chip at the top shows how many agents you use out of your plan, for example **Quota: 2 / 10 agents**. Click a person to see their details on the right.
+
+    ![Agents list with the Quota chip and each person's role](../assets/screenshots/whatsapp-agents-1-team.png)
 
 There are 2 roles:
 
@@ -91,6 +93,5 @@ Auto-routing skips an agent for chats that do not match. Assigning a non-matchin
 - [Manage team members, roles and permissions](../settings/roles-and-permissions.md)
 
 !!! note "Screenshots to add"
-    - After step 2 of Open your team — the **Agents** list with the **Quota** chip.
     - After step 5 of Add an agent — the filled **Create Agent** form.
     - After step 2 of Set chat rules — the **Rules for** dialog with a tag rule.

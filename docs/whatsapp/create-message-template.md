@@ -58,6 +58,8 @@ Some **Template type** choices fix the category for you. **Carousel**, **Catalog
 6. Type a **Template name**, for example `order_shipped`. Use lowercase letters, numbers and underscores only. If the name breaks a rule, click the **Use "…"** suggestion under the field.
 7. Choose a **Template Language**. Type in **Search language or code** to find it, for example `Hindi` or `en_US`.
 
+    ![Template Category UTILITY, Template Language English (US), and the template name demo_booking_confirmation](../assets/screenshots/whatsapp-template-4-name-language.png)
+
 !!! tip "Start from a ready-made template"
     Click **Browse Library** to clone a template from the library, or click **Generate** and describe the message to have AI write it. Check the result before you submit.
 
@@ -66,6 +68,9 @@ Some **Template type** choices fix the category for you. **Carousel**, **Catalog
 The header is optional and sits at the top of the message.
 
 1. Choose a **Header (top of the message)**: **Text heading**, **Image**, **Video** or **Document**. There is no "none" option: for no header, keep **Text heading** and leave **Header text** empty.
+
+    ![Header options: Text heading, Image, Video and Document](../assets/screenshots/whatsapp-template-5-header-options.png)
+
 2. For **Text heading**, type the **Header text**. It can hold up to 60 characters and at most 1 variable.
 3. For **Image**, **Video** or **Document**, upload a sample file. Meta uses the sample to review the template. You choose the real file each time you send a campaign.
 

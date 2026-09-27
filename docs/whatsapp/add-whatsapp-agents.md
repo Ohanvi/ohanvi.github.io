@@ -18,7 +18,9 @@ Add the people who answer WhatsApp chats, each with their own login. At the end,
 ### Open your team
 
 1. Open **WhatsApp** in the left rail, then select **Manage**.
-2. Select **Agents**. The list of your team opens.
+2. Select **Agents**. The list of your team opens, with each person's role. The chip at the top shows how many agents you use out of your plan, for example **Quota: 2 / 10 agents**. Click a person to see their details on the right.
+
+    ![Agents list with the Quota chip and each person's role](../assets/screenshots/whatsapp-agents-1-team.png)
 
 There are 2 roles:
 
@@ -32,8 +34,11 @@ There are 2 roles:
 1. Click **Add Agent**. **Create Agent** opens.
 2. Fill in **Agent's Name**, **Agent's Email**, the country **Code** and **Agent's WhatsApp Number**.
 3. In **Role**, pick **Agent** or **Manager**.
-4. For an agent, pick a **Manager (optional)**.
+4. For an agent, pick a **Manager (optional)**. The field shows only when your team has a manager.
 5. Under **Login details**, type a **User Name** and a **Password**.
+
+    ![Create Agent form with Agent's Name, Email, Code, WhatsApp Number, Role and Login details](../assets/screenshots/whatsapp-agents-2-create-agent.png)
+
 6. Click **Create Agent**. The message **Agent created — they can sign in now.** appears.
 7. Share the user name and password with the agent.
 
@@ -52,8 +57,14 @@ To let someone set their own password instead, click **Invite via Link**. See [I
 
 Chat rules limit an agent to chats that match every rule. With no rules, the agent can take any chat.
 
-1. Click the agent, then click **Set chat rules (tag / attribute)**. **Rules for** and the name opens.
-2. Click **Add rule**. Pick **Tag** and type a tag, or pick **Attribute** and type the attribute and its **Value**.
+1. Click the agent, then click **Set chat rules** at the top. **Rules for** and the name opens.
+
+    ![Rules for window with Add rule, the Rules on switch, Cancel and Save](../assets/screenshots/whatsapp-agents-3-rules.png)
+
+2. Click **Add rule**. A rule row appears, set to **Attribute** at first. Open the drop-down and pick **Tag** to type a tag, or keep **Attribute** and type the attribute and its **Value**. Click the bin icon to remove a rule.
+
+    ![A new rule row with the Attribute drop-down, the Attribute and Value boxes, and the Rules on switch](../assets/screenshots/whatsapp-agents-4-rule-row.png)
+
 3. Make sure the switch shows **Rules on**.
 4. Click **Save**. The message **Rules saved for** and the name appears.
 
@@ -89,8 +100,3 @@ Auto-routing skips an agent for chats that do not match. Assigning a non-matchin
 - [Manage WhatsApp contacts](manage-whatsapp-contacts.md)
 - [Invite teammates with a link](../settings/invite-teammates.md)
 - [Manage team members, roles and permissions](../settings/roles-and-permissions.md)
-
-!!! note "Screenshots to add"
-    - After step 2 of Open your team — the **Agents** list with the **Quota** chip.
-    - After step 5 of Add an agent — the filled **Create Agent** form.
-    - After step 2 of Set chat rules — the **Rules for** dialog with a tag rule.

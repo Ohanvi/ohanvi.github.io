@@ -24,11 +24,18 @@ Open **WhatsApp** in the left rail, then select **AI Agent**. The **Who answers 
 3. **Otherwise this AI agent replies** — from everything you set up on this page.
 4. **If the agent cannot answer** — the chat moves to the inbox and your team is notified.
 
+While the AI is off, line 3 reads **This AI agent would reply — but it is paused**, and a bar at the top offers **Turn AI on**.
+
+![AI Agent page with the AI paused bar, the list on the left, the Who answers your customer card and the Test your Agent panel](../assets/screenshots/whatsapp-ai-agent-1-who-answers.png)
+
 ### Describe your business
 
 1. Select **Business Profile** in the list on the left.
 2. In **Website**, type your site address, then click **Regenerate from site**. Ohanvi drafts your details from the website.
-3. Check **Agent / business name**, **Greeting message (optional)**, **Business type** and **What the business does**. If you pick **Other** as the business type, describe it.
+3. Check **Agent / business name**, **Greeting message (optional)**, **Store currency**, **Business type** and **What the business does**. If you pick **Other** as the business type, describe it.
+
+    ![Business Profile section with Website, Regenerate from site, Agent / business name, Greeting message, Store currency, Business type and What the business does](../assets/screenshots/whatsapp-ai-agent-2-business-profile.png)
+
 4. Under **Persona & guardrails**, fill in **Allowed topics**, **Forbidden topics**, **Off-topic response** and **Escalation triggers** as needed.
 5. Select **Tone**. Pick a tone and a **Response length**: **Short**, **Medium** or **Long**.
 6. Click **Save changes**. The message **AI agent saved.** appears.
@@ -74,13 +81,19 @@ A handed-off chat moves to the inbox and your team is notified. See [Use the Wha
 ### Test the agent
 
 1. Click **Test agent**. The **Test your Agent** panel opens.
-2. Type in **Ask your agent something…** and read the reply. Test replies are not visible to customers.
-3. If an answer is wrong, click **Correct this answer**, type **What the agent should say**, then click **Save & teach**.
+2. Keep **Train** selected to test your latest saved changes. Type in **Ask your agent something…** and read the reply. Test replies are not visible to customers. Click **New chat** to start over.
+
+    ![Test your Agent panel on Train, with a test question and the agent's reply](../assets/screenshots/whatsapp-ai-agent-3-test.png)
+
+3. If an answer is wrong, click the pencil icon under the reply (**Correct this answer**), type **What the agent should say**, then click **Save & teach**.
 
 ### Go live
 
 1. Under **Settings** → **Test numbers & going live**, add up to 3 WhatsApp numbers to try the agent first. While the list has a number, only those numbers get agent replies.
-2. Check **Ready to go live**. It lists **Business profile**, **Knowledge added**, **Skills configured** and **Published**.
+2. Check **Ready to go live**. It shows how many are done, for example **1 of 4**, and lists **Business profile**, **Knowledge added**, **Skills configured** and **Published**. If **Not answering — no key configured anywhere** shows below it, click **Manage AI provider** and add a key first.
+
+    ![AI Agent Settings with Ready to go live 1 of 4, the AI provider warning, the AI paused switch, Fallback message and Test numbers](../assets/screenshots/whatsapp-ai-agent-4-go-live.png)
+
 3. Click **Publish & go live**. The message **Published — customers now get this version.** appears.
 4. Turn the agent on with **Turn AI on**. The status shows **AI is live**.
 5. When you are ready for every customer, clear the test numbers.
@@ -110,7 +123,4 @@ To stop the agent, click **Pause AI**. Saved changes reach customers only after 
 - [Add funds to your account](../add-funds.md)
 
 !!! note "Screenshots to add"
-    - The **Who answers your customer** card.
     - After step 2 of Add knowledge — the three source cards.
-    - After step 2 of Test the agent — the **Test your Agent** panel with a reply.
-    - After step 2 of Go live — the **Ready to go live** checklist.

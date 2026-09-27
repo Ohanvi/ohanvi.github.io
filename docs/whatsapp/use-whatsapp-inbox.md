@@ -18,7 +18,10 @@ Answer your customers' WhatsApp messages as a team. At the end of this page you 
 ### Find a conversation
 
 1. Open **WhatsApp** in the left rail, then select **Inbox**.
-2. On the left, under **Folders**, pick **All conversations**, **My chats** or **Unassigned**. Managers and admins can also pick a teammate under **TEAM** to see that person's inbox.
+2. Click **Team** above the list and pick **All conversations**, **My chats** or **Unassigned**. Managers and admins also see each teammate, with their role, to open that person's inbox.
+
+    ![Team menu with All conversations, My chats, Unassigned, the teammates, Unread only and Search message text](../assets/screenshots/whatsapp-inbox-2-team-menu.png)
+
 3. Use the tabs above the list:
 
     | Tab | What it shows |
@@ -28,7 +31,9 @@ Answer your customers' WhatsApp messages as a team. At the end of this page you 
     | **Active** | The bot is handling the chat, or an agent took it over. Taken-over chats show **Intervened by** and a name. |
     | **Orders** | Chats with store activity, such as an order placed, shipped or cancelled, or an abandoned cart. Shown only when a store is connected. |
 
-4. To narrow the list, type in **Search name or number…**, or open **Refine** and pick **Unread only** or **Search message text**.
+    ![Inbox tabs All, Requesting, Active and Orders, the Team menu, and the All, No reply and Expired chips](../assets/screenshots/whatsapp-inbox-1-tabs.png)
+
+4. To narrow the list, pick **All**, **No reply** or **Expired** under **Inbox**, type in **Search name or number…**, or pick **Unread only** or **Search message text** in the **Team** menu.
 5. Click a conversation. The chat opens on the right.
 
 To switch the layout, pick **List** or **Board**. To find an old chat, open **Chat history**.
@@ -51,7 +56,9 @@ WhatsApp lets you send free-text messages for 24 hours after the customer's last
 
 ### Reply after the 24-hour window closes
 
-When the window is closed, the composer shows **24-hour window closed** and **Only approved templates deliver now — a reply reopens the chat for 24 hours.**
+When the window is closed, the composer shows **24-hour window closed**, how long ago the customer last replied, and **Only approved templates deliver now — a reply reopens the chat for 24 hours.**
+
+![24-hour window closed banner with Write anyway and Send Template](../assets/screenshots/whatsapp-inbox-3-window-closed.png)
 
 1. Click **Send Template**. The template list opens.
 2. Search with **Search templates…** and pick an approved template.
@@ -80,7 +87,9 @@ You can also right-click a conversation in the list and choose **Assign to teamm
 
 1. Click the contact's name at the top of the chat. The profile panel opens.
 2. Under **Tags**, type in **Add a tag…** and press Enter.
-3. Under **Notes**, type in **Add a note…**, then click **Add note**. Only your team sees notes.
+3. Click **Notes** to open it, type in **Add a note…**, then click **Add note**. Only your team sees notes.
+
+    ![Profile panel with Notes, WA conversation Closed — template only, and Tags with Add a tag](../assets/screenshots/whatsapp-inbox-4-profile-panel.png)
 
 The profile also shows the **WA conversation** state (**Open — free replies deliver** or **Closed — template only**), opt-in, orders, campaigns and **Custom attributes**.
 
@@ -131,7 +140,4 @@ To give the chat back to the queue without resolving it, click **Release this ch
 - [Create a WhatsApp chatbot flow](../create-whatsapp-flow.md)
 
 !!! note "Screenshots to add"
-    - After step 3 of Find a conversation — the inbox with **Folders** and the **All**, **Requesting**, **Active** tabs.
     - After step 2 of Take over a chat from the bot — the **Take over this conversation?** dialog.
-    - After step 1 of Reply after the 24-hour window closes — the **24-hour window closed** banner with **Send Template**.
-    - After step 1 of Add notes and tags — the profile panel with **Tags** and **Notes**.

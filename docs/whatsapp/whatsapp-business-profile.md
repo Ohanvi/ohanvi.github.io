@@ -20,6 +20,8 @@ Fill in the profile customers see when they tap your business name inside WhatsA
 1. Click your initials in the bottom-left corner, then click **Settings**.
 2. Select **WhatsApp**, then **Business Profile**. The **Business Profile** screen opens.
 
+    ![Business Profile screen with Business Name, Verified badge, Profile Picture, About and Description](../assets/screenshots/whatsapp-business-profile-1-screen.png)
+
 When you are already on a WhatsApp settings screen, you can also pick **Business Profile** in the **Settings** list on the left.
 
 ### Change the profile picture
@@ -42,13 +44,18 @@ When you are already on a WhatsApp settings screen, you can also pick **Business
     | **Business Category** | The category that fits your business best. | — |
     | **Websites** | Click **Add website** for each link. | Up to 2 URLs |
 
-2. Click **Save Changes**. The message **Business profile saved.** appears.
+    ![Address, Email, Business Category and Websites filled in on the Business Profile](../assets/screenshots/whatsapp-business-profile-2-details.png)
+
+2. Click **Save Changes** at the top right. The message **Business profile saved.** appears.
 
 **Business Name** shows **Verified by Meta** and cannot be edited here. To change it, submit a display-name change request in WhatsApp Manager for Meta review.
 
 ### Apply for the blue tick
 
 1. Under **Verified badge**, read the **Official Business Account (blue tick)** note.
+
+    ![Verified badge card with the Official Business Account (blue tick) note and the Apply for Blue Tick button](../assets/screenshots/whatsapp-business-profile-3-verified-badge.png)
+
 2. Click **Apply for Blue Tick**. Meta's WhatsApp Manager opens in a new tab.
 3. Complete the request there. The badge is free. Meta approves it based on how notable your brand is.
 
@@ -84,6 +91,8 @@ Open **WhatsApp** in the left rail, then select **Manage**. Its list on the left
 | **Billing & Usage** | Meta conversation charges. |
 | **Recycle Bin** | Items you deleted. Select them and click **Restore selected**. |
 
+![Manage screen with its list on the left and Tags open on the right](../assets/screenshots/whatsapp-business-profile-4-manage.png)
+
 ## Video walkthrough
 
 [VIDEO]
@@ -104,8 +113,3 @@ Open **WhatsApp** in the left rail, then select **Manage**. Its list on the left
 - [Move your number to Ohanvi](migrate-to-ohanvi.md)
 - [Open Settings and find a setting](../settings/open-settings.md)
 
-!!! note "Screenshots to add"
-    - After step 2 of Open the business profile — the full **Business Profile** screen.
-    - After step 1 of Edit the profile details — the filled **About**, **Address** and **Websites** fields.
-    - After step 1 of Apply for the blue tick — the **Verified badge** card.
-    - The **Manage** screen with its list on the left.

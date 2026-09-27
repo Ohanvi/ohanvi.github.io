@@ -32,33 +32,46 @@ Figures fill in as WhatsApp confirms each message, so a campaign sent a minute a
 
 1. Open **WhatsApp** in the left rail, then select **Campaign**.
 2. At the top, read the totals across all campaigns: **Campaigns**, **Messages sent**, **Delivered**, **Read** and **Failed**.
-3. Click a campaign in the list. Its report opens on the right, with a **GRADE** and 3 tabs: **Overview**, **Recipients** and **Diagnostics**.
+3. Click a campaign in the list. Its report opens on the right, with a **GRADE** and 3 tabs: **Overview**, **Recipients** and **Diagnostics**. On the right, **Message sent** shows the message that went out.
+
+    ![Campaign report with the Overview, Recipients and Diagnostics tabs, Where the audience went, and Message sent](../assets/screenshots/whatsapp-campaign-report-1-report.png)
 
 ### Read the Overview tab
 
 - **Where the audience went** shows each stage from sent to delivered, read, clicked, replied and ordered. The drops are where you lose people. Click a stage to open that exact list of people.
-- **Is this good?** compares this campaign with your own recent campaigns. Green is ahead of your average, red is behind it. A small campaign shows no comparison.
+- **What the readers then did** shows how many readers **Clicked**, **Replied**, **Ordered** or **Unsubscribed**.
+- **vs your last broadcast** compares this send with the broadcast before it. Green beat the one before, red slipped.
+- **What it drove** shows reads and clicks. With a store connected, it also shows the revenue.
 - **Do this next** lists suggested actions, for example following up people who read but never clicked, or leaving out numbers that failed twice in a row.
 - **How fast it landed** shows the **Median time to deliver**, **Median time to read** and **Peak reading hour**.
 
 ### Find out why messages failed
 
-1. Open the **Diagnostics** tab.
-2. Read **Why messages failed**. It groups failures by WhatsApp's reason, in plain words, with the fix.
+1. Open the **Diagnostics** tab. **Is this good?** compares this campaign's **Delivery rate**, **Read rate**, **Click rate** and **Reply rate** with **Your average** and **Your best** over your own last 30 days. Green is **ahead** of your average, red is **behind** it.
+
+    ![Diagnostics tab with Is this good? comparing this campaign with your average and your best](../assets/screenshots/whatsapp-campaign-report-2-diagnostics.png)
+
+2. When messages failed, read **Why messages failed**. It groups failures by WhatsApp's reason, in plain words, with the fix.
 3. Read **Links & buttons** for clicks per link, and **Template health** for the template's quality rating.
 4. Read **What this send cost your list**: **Reached first time**, **At risk** (2 or more failures in a row), **Unsubscribed** and **Excluded**.
 
 ### Resend to the people it missed
 
-1. On the campaign, open **More actions** and click **Resend**. The **Resend?** window shows how many people it goes to.
+1. On the campaign, click the **Resend** icon (a paper plane) at the top right. The **Resend?** window shows how many people it goes to. If every message was delivered, the message **Nothing to resend — every message landed.** appears instead.
+
+    ![Nothing to resend — every message landed.](../assets/screenshots/whatsapp-campaign-report-4-nothing-to-resend.png)
+
 2. Click **Resend**. **Resend started** appears. Delivery updates arrive as WhatsApp confirms each one.
 
 Resend goes to the failed recipients. When nothing failed, it goes to the people whose message was not delivered. Each resent message is charged when it is delivered.
 
 ### See who received it
 
-1. On the campaign, open **More actions** and click **Who received it**. The **Recipients** list opens.
-2. Filter by **SENT**, **DELIVERED**, **READ** or **FAILED**.
+1. On the campaign, open the **Recipients** tab, or click the **Who received it** icon (a list with ticks) at the top right. Each row shows the **Contact**, how far the message **Reached**, and **When**.
+2. Filter with the chips **All**, **Delivered**, **Read**, **Clicked**, **Replied** or **Failed**. Each chip shows its count. The set you filter to is the set you can resend.
+
+    ![Recipients tab with the All, Delivered, Read, Clicked, Replied and Failed chips](../assets/screenshots/whatsapp-campaign-report-3-recipients.png)
+
 3. To resend only the failures, click **Resend … failed**.
 
 ### Open the full report and download it
@@ -95,6 +108,5 @@ For totals across all your campaigns, including revenue from broadcasts, use **A
 - [Read Marketing Analytics](../analytics/read-marketing-analytics.md)
 
 !!! note "Screenshots to add"
-    - After step 3 of Read the summary — the campaign report pane with **GRADE** and the 3 tabs
     - After step 2 of Find out why messages failed — **Why messages failed** with grouped reasons
     - After step 2 of Open the full report — **Campaign Analytics** with its status tabs

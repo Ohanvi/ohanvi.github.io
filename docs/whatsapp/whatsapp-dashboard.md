@@ -25,9 +25,19 @@ Use the WhatsApp **Dashboard** to see how your messages are doing at a glance. A
     | Manager | **Team throughput**, with **Sent today**, **Running now**, **Waiting for a reply** and **Failed today**. Click **Open shared inbox** to go to the inbox. |
     | Executive | **Your messages**, with shortcuts to **Inbox**, **Contacts**, **Chat history** and **Your WhatsApp link**. |
 
+    ![WhatsApp Dashboard for an admin, with Message performance, the Messages per day chart and the account panel](../assets/screenshots/whatsapp-dashboard-1-overview.png)
+
+### Act on alerts
+
+When something needs your attention, a bar shows at the top of the dashboard. Click the button on the right of the bar:
+
+| Bar | Button | What opens |
+| --- | --- | --- |
+| **2 messages failed.** | **Review failures** | **Failed messages** for the period. Each message shows the contact, the reason, for example **Media upload error**, and the broadcast it came from. Click **Open Delivery Logs** at the bottom to see every failed message with its **Error code** and **Error message**. |
+
 ### Read message performance
 
-1. Pick a period: **Week**, **Month**, **Quarter** or **Year**.
+1. Pick a period: **Week**, **Month**, **Quarter** or **Year**. The text next to **Message performance** shows the dates covered, for example **Monday to today** for **Week** and **This calendar month** for **Month**.
 2. Read the 4 numbers:
 
     | Number | What it means |
@@ -37,8 +47,12 @@ Use the WhatsApp **Dashboard** to see how your messages are doing at a glance. A
     | **Read** | Messages the customer opened, as a share of delivered. |
     | **Replied** | Messages the customer answered, as a share of delivered. |
 
-3. Click any number to open the messages behind it.
-4. Read the chart below. **This period** is a solid line and **Previous** is dashed.
+    ![Sent, Delivered, Read and Replied numbers with the Week, Month, Quarter and Year picker](../assets/screenshots/whatsapp-dashboard-2-numbers.png)
+
+3. Click any number to open the messages behind it. For example, **Sent** opens **Messages sent** for the period. Each message shows the contact, its status (**Sent**, **Delivered**, **Read**, **Replied**) and the broadcast it came from. Click a message to read it on the right.
+4. Read the **Messages per day** chart below. **This period** is a solid line and **Previous** is dashed.
+
+Under the chart, a strip shows your latest broadcast and how many of its messages are sent, for example **1 of 1 sent**. Click **Watch** on the strip to open a side panel with its status, for example **Completed**, the sent, delivered, read and failed counts, and the list of recipients.
 
 ### Check sending capacity and quality
 
@@ -48,17 +62,25 @@ On a wide screen, the panel on the right shows your account:
 | --- | --- |
 | **Sending capacity** | How many people you can message today. Meta sets it once the number is verified and sending. |
 | Quality | **Quality: High**, **Quality: Medium**, **Quality: Low** or **Quality: Not rated yet**. Meta rates it from how customers react to your messages. |
-| **Plan messages** | Messages used this month out of your plan, with the charge for any messages over it. |
-| **Setup Progress** | Whether **WhatsApp Business API Connected** and **Business Name Verified by Meta** are done. |
+| **Plan messages** | Messages used this month out of your plan, with the charge for any messages over it. The **Add credit** button is below it. |
+| Business card | Your business name, WhatsApp number and `wa.me` link, with **View Profile** and **Apply for Blue Tick**. |
 | **Quick Actions** | **Customize WhatsApp Link** and **Website Chat Widget**. |
+| **Setup Progress** | Shows until **WhatsApp Business API Connected** and **Business Name Verified by Meta** are both done. After that it is hidden. |
+
+![Account panel with Sending capacity, Quality: High, Plan messages, the business card and Quick Actions](../assets/screenshots/whatsapp-dashboard-3-account-panel.png)
 
 Meta raises your daily limit once you use at least half of it while quality stays **High**. While quality is Medium or Low, Meta does not raise it.
 
 ### Check recent broadcasts
 
 1. Scroll to **Broadcasts**. It lists your latest 6 broadcasts with **Audience**, **Delivered**, **Read** and **Replies**.
-2. Click **View all campaigns** to open the full campaign list.
-3. To start a new one, click **Start Broadcast** at the top.
+
+    ![Broadcasts table with a broadcast and its Audience, Delivered, Read and Replies](../assets/screenshots/whatsapp-dashboard-4-broadcasts.png)
+
+2. Click **View all campaigns** at the bottom to open the full campaign list in **Campaign**.
+3. To start a new one, click **Start Broadcast** at the top. The **New broadcast** dialog opens. See [Send a broadcast campaign](send-broadcast-campaign.md).
+
+    ![New broadcast dialog with Campaign name, Who receives it and Message template](../assets/screenshots/whatsapp-dashboard-5-new-broadcast.png)
 
 ## Video walkthrough
 
@@ -81,8 +103,3 @@ Meta raises your daily limit once you use at least half of it while quality stay
 - [Read marketing analytics](../analytics/read-marketing-analytics.md)
 - [Credits and billing](../credits-and-billing.md)
 
-!!! note "Screenshots to add"
-    - After step 2 of Open the dashboard — the admin dashboard with **Message performance**.
-    - After step 2 of Read message performance — the 4 numbers with the period picker.
-    - The right-hand panel with **Sending capacity** and quality.
-    - After step 1 of Check recent broadcasts — the **Broadcasts** table.

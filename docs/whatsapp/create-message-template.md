@@ -50,11 +50,15 @@ Some **Template type** choices fix the category for you. **Carousel**, **Catalog
 
 1. Open **WhatsApp** in the left rail, then select **Template**. The **Templates** page opens.
 2. Click **New template**. The **Add Template** form opens, with a **Template Preview** beside it.
+
+    ![Add Template form filled in for demo_booking_confirmation, with the Template Preview on the right](../assets/screenshots/whatsapp-template-1-add-template.png)
 3. Choose your **Organization**, if you have more than 1.
 4. Choose a **Template type**. The hint under the field says what each type does.
 5. Choose a **Template Category**: **UTILITY**, **MARKETING** or **AUTHENTICATION**.
 6. Type a **Template name**, for example `order_shipped`. Use lowercase letters, numbers and underscores only. If the name breaks a rule, click the **Use "…"** suggestion under the field.
 7. Choose a **Template Language**. Type in **Search language or code** to find it, for example `Hindi` or `en_US`.
+
+    ![Template Category UTILITY, Template Language English (US), and the template name demo_booking_confirmation](../assets/screenshots/whatsapp-template-4-name-language.png)
 
 !!! tip "Start from a ready-made template"
     Click **Browse Library** to clone a template from the library, or click **Generate** and describe the message to have AI write it. Check the result before you submit.
@@ -63,7 +67,10 @@ Some **Template type** choices fix the category for you. **Carousel**, **Catalog
 
 The header is optional and sits at the top of the message.
 
-1. Choose a **Header (top of the message)**: **Text heading**, **Image**, **Video** or **Document**. Leave it empty for no header.
+1. Choose a **Header (top of the message)**: **Text heading**, **Image**, **Video** or **Document**. There is no "none" option: for no header, keep **Text heading** and leave **Header text** empty.
+
+    ![Header options: Text heading, Image, Video and Document](../assets/screenshots/whatsapp-template-5-header-options.png)
+
 2. For **Text heading**, type the **Header text**. It can hold up to 60 characters and at most 1 variable.
 3. For **Image**, **Video** or **Document**, upload a sample file. Meta uses the sample to review the template. You choose the real file each time you send a campaign.
 
@@ -87,6 +94,8 @@ A body must follow Meta's rules:
 
 1. Under **Variables**, fill in a **Name** for each variable, for example `customer name`. The name becomes the column heading when you upload a recipient list.
 2. Fill in an **Example** for each variable, for example `Lakshmi` or `ORD-10482`. Meta sees the example when it reviews the template.
+
+    ![Variables with Name and Example filled in for {{1}} and {{2}}](../assets/screenshots/whatsapp-template-2-variables.png)
 
 Use real-looking examples, not placeholders like `xxx`. Meta rejects templates it cannot read as a real message.
 
@@ -120,7 +129,10 @@ Authentication templates cannot have a media header or call-to-action buttons.
 ### Submit for approval
 
 1. Check the **Template Preview**. Fix any problem listed below the form.
-2. Click **Save & Submit for Approval**. The message **Template submitted to WhatsApp. Awaiting approval.** appears.
+2. Click **Save & Submit for Approval**. The message **Template submitted to WhatsApp. Awaiting approval.** appears. The template shows **In review** and is counted under the **Pending** tab.
+
+    ![Templates list with the new template marked In review](../assets/screenshots/whatsapp-template-3-in-review.png)
+
 3. To save without sending to Meta, click **Save as Draft** instead. The template shows **Draft** until you submit it.
 
 On the free trial, the form shows **Free trial: a “Powered by Ohanvi” footer is added to your templates.**
@@ -193,7 +205,4 @@ If you try to send a rejected template in a campaign, Ohanvi refuses it and expl
 - [Set up a WhatsApp catalog](set-up-whatsapp-catalog.md)
 
 !!! note "Screenshots to add"
-    - After step 2 of Create the template — the **Add Template** form with **Template Preview**
-    - After step 2 of Name each variable — the **Variables** section with **Name** and **Example** filled in
-    - After step 2 of Submit for approval — the **Templates** list with the **In review** status chip
     - After step 1 of Fix a rejected template — the template pane showing a **Rejection reason**

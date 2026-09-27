@@ -31,6 +31,8 @@ See [Low or empty credits](../billing/low-or-empty-credits.md) for what else sto
 
 1. Open **WhatsApp** in the left rail, then select **Campaign**. The **Campaigns** page opens.
 2. Click **New Campaign**. The **New Campaign** page opens on the **Audience** step, with a **Live preview** beside it.
+
+    ![New Campaign page on the Audience step, with Broadcast name, Contact groups and the Live preview](../assets/screenshots/whatsapp-broadcast-1-audience.png)
 3. Type a **Broadcast name**, for example `Diwali offer 2026`. Only your team sees it.
 4. Under **Contact groups**, tick 1 or more groups. Everyone opted in to those groups gets the message once, even if they are in 2 groups. Hover a group to see who is in it.
 5. Click **Continue**. The **Message** step opens.
@@ -40,10 +42,16 @@ See [Low or empty credits](../billing/low-or-empty-credits.md) for what else sto
 
 ### Step 2: Choose the template and fill the variables
 
-1. Choose a **Template**. Only Meta-approved templates are listed.
+1. Choose a **Template**. **Choose a template** opens with only Meta-approved templates. Filter by **All**, **Authentication**, **Marketing** or **Utility**, or search by name or message text.
+
+    ![Choose a template window with the search box and the All, Authentication, Marketing and Utility filters](../assets/screenshots/whatsapp-broadcast-2-choose-template.png)
+
 2. If the template has an image, video or document header, check the header file. Leave it as it is to reuse the sample the template was approved with, or pick a new file.
-3. Under **Variables**, fill a **Value for {{1}}**, **Value for {{2}}** and so on. The **Live preview** updates as you type.
-4. To give each person their own value, click **Insert attribute** and pick a field under **CONTACT FIELDS** or **CUSTOM ATTRIBUTES**, for example **First Name**.
+3. Under **Variables**, fill the **{{1}}**, **{{2}}** boxes and so on. If you leave **{{1}}** blank, it uses the contact's name. The **Live preview** updates as you type.
+4. To give each person their own value, click the **@** icon at the end of the variable and pick a field under **CONTACT FIELDS** or **CUSTOM ATTRIBUTES**, for example **First Name**.
+
+    ![Attribute list opened from the @ icon, with Contact fields such as First Name and Full Name](../assets/screenshots/whatsapp-broadcast-3-attributes.png)
+
 5. Fill **Fallback — sent when a contact has no value for this attribute**, for example `there`. This stops anyone getting a message with a blank in it.
 
 ### Optional: Send to a CSV list or per-person values
@@ -60,7 +68,10 @@ Click **Continue**. The **Review** step opens.
 
 ### Step 3: Test the campaign
 
-1. Under **Test message**, pick the country and type your own WhatsApp number.
+1. Under **Test message**, pick the country and type your own WhatsApp number. It is on the **Review** step, under **When**.
+
+    ![When with Send now and Schedule, and Test message with the number box and the Test button](../assets/screenshots/whatsapp-broadcast-5-when-and-test.png)
+
 2. Click **Test**. The message **Test message sent.** appears when WhatsApp accepts it.
 3. Check the message on your phone: the header, the values, and every button.
 
@@ -69,8 +80,14 @@ A test message is charged like any other message.
 ### Step 4: Send now or schedule
 
 1. Check the summary under **Review & send**: the name, template, category and audience.
-2. Under **When**, choose **Send now**, or click **Schedule** and pick a date and time in your local time zone.
+
+    ![Review & send summary with Name, Audience, Template and Category](../assets/screenshots/whatsapp-broadcast-4-review.png)
+
+2. Under **When**, choose **Send now**, or click **Schedule**. A date and time appear. Click **Change** to pick yours, in your local time zone.
 3. Optional: to send again and again, set **Repeat** to **Daily**, **Weekly**, **Monthly** or **Yearly**. **Once** sends 1 time.
+
+    ![Schedule chosen, with the date and time, Change, and the Repeat list open: Once, Daily, Weekly, Monthly, Yearly](../assets/screenshots/whatsapp-broadcast-6-schedule-repeat.png)
+
 4. Click **Send now** or **Schedule**.
 
 !!! warning "A sent broadcast cannot be recalled"
@@ -141,5 +158,4 @@ A campaign marked **Automatic** sends itself to 1 customer at a time when an eve
 !!! note "Screenshots to add"
     - After step 4 of Step 1 — the **Audience** step with **Contact groups** ticked
     - After step 5 of Step 2 — **Variables** with an attribute and fallback filled, and the **Live preview**
-    - After step 2 of Step 4 — the **When** field with **Schedule** and **Repeat** open
     - After step 2 of Manage scheduled and recurring campaigns — the **Repeating schedule** card

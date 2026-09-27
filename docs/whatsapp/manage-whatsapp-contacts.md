@@ -18,25 +18,34 @@ Build your WhatsApp audience and keep its consent up to date. At the end of this
 ### Open your contacts
 
 1. Open **WhatsApp** in the left rail, then select **Contact**. The **Contacts** screen opens.
-2. The top row shows **Total Contacts**, **Opted In**, **Active** and **Opted Out**.
-3. Type in **Search name, phone or email…** to find someone. Click a row to see the contact on the right.
+2. The top row filters by status: **All Status**, **Active** and **Inactive**, each with its count. Below it, the **Contacts** and **Groups** tabs show how many of each you have.
+
+    ![Contacts list filtered to one contact, with the All Status, Active and Inactive filters and the Contacts and Groups tabs](../assets/screenshots/whatsapp-contacts-1-list.png)
+
+3. Type in **Search name, phone or email…** to find someone. Click a row to see the contact on the right, in the sections **Identity**, **Messaging**, **Custom Attributes**, **Activity** and **Record**.
 
 ### Add a contact
 
-1. Click **Add Contact**.
+1. Click **Add contact** at the top right. **Add Contact** opens.
 2. In **Phone number \***, pick the country and type the number. Everything else is optional.
-3. Fill in **First name**, **Last name** and **Email** if you have them.
-4. Keep **Opted In** on only if the person agreed to get your messages.
-5. Click **Save Contact**.
+3. Fill in **First name**, **Last name** and **Email** if you have them. You can also add **Tags** and **Custom Attributes**.
+4. Tick **Opted In** only if the person agreed to get your messages. It is off by default.
+
+    ![Add Contact form filled in for Priya Sharma, with Opted In not ticked](../assets/screenshots/whatsapp-contacts-2-add-contact.png)
+
+5. Click **Save Contact**. The contact is added to the list. Search for the name to find it.
 
 ### Import contacts
 
-1. Click **Import**. **Import WhatsApp Contacts** opens.
-2. Click **Download Sample CSV** if you need a template.
-3. Click **Choose an Excel or CSV file** and pick your file.
-4. Under **Header identifiers**, pick the column in your file for each field, such as **Phone Number** and **First Name**.
-5. Under **Options**, set **Default Country Code** for numbers without one. Turn on **Replace Tags** to replace existing tags with the file's tags.
-6. In **Add to List**, pick a contact group, or leave it empty to use the **Business Contact** group.
+1. Click the **Import** (upload) icon at the top right. **Import WhatsApp Contacts** opens.
+
+    ![Import WhatsApp Contacts window with Add to List and Choose an Excel or CSV file](../assets/screenshots/whatsapp-contacts-3-import.png)
+
+2. In **Add to List** at the top, pick a contact group, or leave **— None —** to use the **Business Contact** group. Click **New Contact Group** to make a new one.
+3. Click **Download Sample CSV** if you need a template.
+4. Click **Choose an Excel or CSV file** and pick your file. It can be `.xlsx` or `.csv`, with the columns in any order.
+5. Under **Header identifiers**, pick the column in your file for each field, such as **Phone Number** and **First Name**.
+6. Under **Options**, set **Default Country Code** for numbers without one. Turn on **Replace Tags** to replace existing tags with the file's tags.
 7. Click **Import**. **Import complete** appears when it finishes.
 
 A phone number that already exists is merged into that contact. Rows without a phone number are skipped. Click **Import history** to see past imports.
@@ -45,8 +54,16 @@ To import and send a campaign straight away, choose **Import and broadcast** ins
 
 ### Group and tag contacts
 
-1. Tick the contacts you want. A bar appears with actions for the selection.
-2. Click **Add to group** and pick a contact group. To remove, click **Remove from group…**.
+1. Tick the contacts you want. A dark bar appears with **Add tag**, **Add to group**, **Send broadcast** and **Export** for the selection.
+
+    ![Dark selection bar with Add tag, Add to group, Send broadcast and Export](../assets/screenshots/whatsapp-contacts-5-selection-bar.png)
+
+2. Click **Add to group**. **Add to contact group** opens. Pick a group in **Contact Group**, or click **New Contact Group**, then click **Confirm**.
+
+    ![Add to contact group window with All Customers picked and the Confirm button](../assets/screenshots/whatsapp-contacts-6-add-to-group.png)
+
+    To take a contact out of a group, click the contact, then click **Remove…** next to **Groups** on the right. The message **Removed 1 contact from "All Customers".** appears, with your group's name.
+
 3. Click **Tags**, type in **Type to search or add a tag…**, then click **Add Tags**.
 
 To create or edit groups, click **Contact Groups**, or open the **Groups** tab. Groups are shared with CRM. See [Create and manage contact groups](../crm/contact-groups.md).
@@ -75,7 +92,10 @@ A customer who sends **stop** is opted out at once and left out of every broadca
 
 1. Open **WhatsApp** in the left rail, then select **Manage**.
 2. Select **Opt-in Management**.
-3. Under **Opt-out words**, add your own words, separated with commas. For example, words in your customers' language.
+
+    ![Opt-in Management with the always-active stop word and the Your own words boxes](../assets/screenshots/whatsapp-contacts-4-opt-in-management.png)
+
+3. Under **Opt-out words**, type your own words in **Your own words**, separated with commas. For example, words in your customers' language. They match whole words in any capitalisation.
 4. Under **Opt-in words**, add words that opt a contact back in.
 5. Under **Confirmation replies**, edit **After opting out** and **After opting back in**. Leave them empty to use the standard wording.
 6. Click **Save changes**. The message **Opt-in settings saved.** appears.
@@ -103,7 +123,5 @@ A customer who sends **stop** is opted out at once and left out of every broadca
 - [Add custom contact fields](../crm/custom-fields.md)
 
 !!! note "Screenshots to add"
-    - After step 2 of Open your contacts — the **Contacts** screen with the counts.
     - After step 4 of Import contacts — **Header identifiers** with columns mapped.
     - After step 2 of Opt contacts in or out (for one contact) — the **Messaging** section.
-    - After step 3 of Set opt-out and opt-in words — the **Opt-out words** card.

@@ -42,14 +42,16 @@ Figures fill in as WhatsApp confirms each message, so a campaign sent a minute a
 - **What the readers then did** shows how many readers **Clicked**, **Replied**, **Ordered** or **Unsubscribed**.
 - **vs your last broadcast** compares this send with the broadcast before it. Green beat the one before, red slipped.
 - **What it drove** shows reads and clicks. With a store connected, it also shows the revenue.
-- **Is this good?** compares this campaign with your own recent campaigns. Green is ahead of your average, red is behind it. A small campaign shows no comparison.
 - **Do this next** lists suggested actions, for example following up people who read but never clicked, or leaving out numbers that failed twice in a row.
 - **How fast it landed** shows the **Median time to deliver**, **Median time to read** and **Peak reading hour**.
 
 ### Find out why messages failed
 
-1. Open the **Diagnostics** tab.
-2. Read **Why messages failed**. It groups failures by WhatsApp's reason, in plain words, with the fix.
+1. Open the **Diagnostics** tab. **Is this good?** compares this campaign's **Delivery rate**, **Read rate**, **Click rate** and **Reply rate** with **Your average** and **Your best** over your own last 30 days. Green is **ahead** of your average, red is **behind** it.
+
+    ![Diagnostics tab with Is this good? comparing this campaign with your average and your best](../assets/screenshots/whatsapp-campaign-report-2-diagnostics.png)
+
+2. When messages failed, read **Why messages failed**. It groups failures by WhatsApp's reason, in plain words, with the fix.
 3. Read **Links & buttons** for clicks per link, and **Template health** for the template's quality rating.
 4. Read **What this send cost your list**: **Reached first time**, **At risk** (2 or more failures in a row), **Unsubscribed** and **Excluded**.
 

@@ -74,8 +74,13 @@ Meta raises your daily limit once you use at least half of it while quality stay
 ### Check recent broadcasts
 
 1. Scroll to **Broadcasts**. It lists your latest 6 broadcasts with **Audience**, **Delivered**, **Read** and **Replies**.
+
+    ![Broadcasts table with a broadcast and its Audience, Delivered, Read and Replies](../assets/screenshots/whatsapp-dashboard-4-broadcasts.png)
+
 2. Click **View all campaigns** at the bottom to open the full campaign list in **Campaign**.
 3. To start a new one, click **Start Broadcast** at the top. The **New broadcast** dialog opens. See [Send a broadcast campaign](send-broadcast-campaign.md).
+
+    ![New broadcast dialog with Campaign name, Who receives it and Message template](../assets/screenshots/whatsapp-dashboard-5-new-broadcast.png)
 
 ## Video walkthrough
 
@@ -98,5 +103,3 @@ Meta raises your daily limit once you use at least half of it while quality stay
 - [Read marketing analytics](../analytics/read-marketing-analytics.md)
 - [Credits and billing](../credits-and-billing.md)
 
-!!! note "Screenshots to add"
-    - After step 1 of Check recent broadcasts — the **Broadcasts** table.

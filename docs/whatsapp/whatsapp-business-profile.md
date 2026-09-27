@@ -44,6 +44,8 @@ When you are already on a WhatsApp settings screen, you can also pick **Business
     | **Business Category** | The category that fits your business best. | — |
     | **Websites** | Click **Add website** for each link. | Up to 2 URLs |
 
+    ![Address, Email, Business Category and Websites filled in on the Business Profile](../assets/screenshots/whatsapp-business-profile-2-details.png)
+
 2. Click **Save Changes** at the top right. The message **Business profile saved.** appears.
 
 **Business Name** shows **Verified by Meta** and cannot be edited here. To change it, submit a display-name change request in WhatsApp Manager for Meta review.
@@ -111,5 +113,3 @@ Open **WhatsApp** in the left rail, then select **Manage**. Its list on the left
 - [Move your number to Ohanvi](migrate-to-ohanvi.md)
 - [Open Settings and find a setting](../settings/open-settings.md)
 
-!!! note "Screenshots to add"
-    - After step 1 of Edit the profile details — the filled **About**, **Address** and **Websites** fields.

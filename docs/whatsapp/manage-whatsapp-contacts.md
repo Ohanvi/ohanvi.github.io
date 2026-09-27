@@ -55,7 +55,15 @@ To import and send a campaign straight away, choose **Import and broadcast** ins
 ### Group and tag contacts
 
 1. Tick the contacts you want. A dark bar appears with **Add tag**, **Add to group**, **Send broadcast** and **Export** for the selection.
-2. Click **Add to group**. **Add to contact group** opens. Pick a group in **Contact Group**, or click **New Contact Group**, then click **Confirm**. To take a contact out of a group, click the contact, then click **Remove…** next to **Groups** on the right. The message **Removed 1 contact from "All Customers".** appears, with your group's name.
+
+    ![Dark selection bar with Add tag, Add to group, Send broadcast and Export](../assets/screenshots/whatsapp-contacts-5-selection-bar.png)
+
+2. Click **Add to group**. **Add to contact group** opens. Pick a group in **Contact Group**, or click **New Contact Group**, then click **Confirm**.
+
+    ![Add to contact group window with All Customers picked and the Confirm button](../assets/screenshots/whatsapp-contacts-6-add-to-group.png)
+
+    To take a contact out of a group, click the contact, then click **Remove…** next to **Groups** on the right. The message **Removed 1 contact from "All Customers".** appears, with your group's name.
+
 3. Click **Tags**, type in **Type to search or add a tag…**, then click **Add Tags**.
 
 To create or edit groups, click **Contact Groups**, or open the **Groups** tab. Groups are shared with CRM. See [Create and manage contact groups](../crm/contact-groups.md).

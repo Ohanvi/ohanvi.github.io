@@ -32,11 +32,16 @@ Figures fill in as WhatsApp confirms each message, so a campaign sent a minute a
 
 1. Open **WhatsApp** in the left rail, then select **Campaign**.
 2. At the top, read the totals across all campaigns: **Campaigns**, **Messages sent**, **Delivered**, **Read** and **Failed**.
-3. Click a campaign in the list. Its report opens on the right, with a **GRADE** and 3 tabs: **Overview**, **Recipients** and **Diagnostics**.
+3. Click a campaign in the list. Its report opens on the right, with a **GRADE** and 3 tabs: **Overview**, **Recipients** and **Diagnostics**. On the right, **Message sent** shows the message that went out.
+
+    ![Campaign report with the Overview, Recipients and Diagnostics tabs, Where the audience went, and Message sent](../assets/screenshots/whatsapp-campaign-report-1-report.png)
 
 ### Read the Overview tab
 
 - **Where the audience went** shows each stage from sent to delivered, read, clicked, replied and ordered. The drops are where you lose people. Click a stage to open that exact list of people.
+- **What the readers then did** shows how many readers **Clicked**, **Replied**, **Ordered** or **Unsubscribed**.
+- **vs your last broadcast** compares this send with the broadcast before it. Green beat the one before, red slipped.
+- **What it drove** shows reads and clicks. With a store connected, it also shows the revenue.
 - **Is this good?** compares this campaign with your own recent campaigns. Green is ahead of your average, red is behind it. A small campaign shows no comparison.
 - **Do this next** lists suggested actions, for example following up people who read but never clicked, or leaving out numbers that failed twice in a row.
 - **How fast it landed** shows the **Median time to deliver**, **Median time to read** and **Peak reading hour**.
@@ -95,6 +100,5 @@ For totals across all your campaigns, including revenue from broadcasts, use **A
 - [Read Marketing Analytics](../analytics/read-marketing-analytics.md)
 
 !!! note "Screenshots to add"
-    - After step 3 of Read the summary — the campaign report pane with **GRADE** and the 3 tabs
     - After step 2 of Find out why messages failed — **Why messages failed** with grouped reasons
     - After step 2 of Open the full report — **Campaign Analytics** with its status tabs

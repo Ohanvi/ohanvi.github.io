@@ -43,9 +43,15 @@ See [Low or empty credits](../billing/low-or-empty-credits.md) for what else sto
 ### Step 2: Choose the template and fill the variables
 
 1. Choose a **Template**. **Choose a template** opens with only Meta-approved templates. Filter by **All**, **Authentication**, **Marketing** or **Utility**, or search by name or message text.
+
+    ![Choose a template window with the search box and the All, Authentication, Marketing and Utility filters](../assets/screenshots/whatsapp-broadcast-2-choose-template.png)
+
 2. If the template has an image, video or document header, check the header file. Leave it as it is to reuse the sample the template was approved with, or pick a new file.
 3. Under **Variables**, fill the **{{1}}**, **{{2}}** boxes and so on. If you leave **{{1}}** blank, it uses the contact's name. The **Live preview** updates as you type.
 4. To give each person their own value, click the **@** icon at the end of the variable and pick a field under **CONTACT FIELDS** or **CUSTOM ATTRIBUTES**, for example **First Name**.
+
+    ![Attribute list opened from the @ icon, with Contact fields such as First Name and Full Name](../assets/screenshots/whatsapp-broadcast-3-attributes.png)
+
 5. Fill **Fallback — sent when a contact has no value for this attribute**, for example `there`. This stops anyone getting a message with a blank in it.
 
 ### Optional: Send to a CSV list or per-person values

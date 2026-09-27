@@ -90,7 +90,10 @@ A handed-off chat moves to the inbox and your team is notified. See [Use the Wha
 ### Go live
 
 1. Under **Settings** → **Test numbers & going live**, add up to 3 WhatsApp numbers to try the agent first. While the list has a number, only those numbers get agent replies.
-2. Check **Ready to go live**. It lists **Business profile**, **Knowledge added**, **Skills configured** and **Published**.
+2. Check **Ready to go live**. It shows how many are done, for example **1 of 4**, and lists **Business profile**, **Knowledge added**, **Skills configured** and **Published**. If **Not answering — no key configured anywhere** shows below it, click **Manage AI provider** and add a key first.
+
+    ![AI Agent Settings with Ready to go live 1 of 4, the AI provider warning, the AI paused switch, Fallback message and Test numbers](../assets/screenshots/whatsapp-ai-agent-4-go-live.png)
+
 3. Click **Publish & go live**. The message **Published — customers now get this version.** appears.
 4. Turn the agent on with **Turn AI on**. The status shows **AI is live**.
 5. When you are ready for every customer, clear the test numbers.
@@ -121,4 +124,3 @@ To stop the agent, click **Pause AI**. Saved changes reach customers only after 
 
 !!! note "Screenshots to add"
     - After step 2 of Add knowledge — the three source cards.
-    - After step 2 of Go live — the **Ready to go live** checklist.

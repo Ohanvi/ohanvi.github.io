@@ -64,8 +64,11 @@ Resend goes to the failed recipients. When nothing failed, it goes to the people
 
 ### See who received it
 
-1. On the campaign, open **More actions** and click **Who received it**. The **Recipients** list opens.
-2. Filter by **SENT**, **DELIVERED**, **READ** or **FAILED**.
+1. On the campaign, open the **Recipients** tab, or click the **Who received it** icon (a list with ticks) at the top right. Each row shows the **Contact**, how far the message **Reached**, and **When**.
+2. Filter with the chips **All**, **Delivered**, **Read**, **Clicked**, **Replied** or **Failed**. Each chip shows its count. The set you filter to is the set you can resend.
+
+    ![Recipients tab with the All, Delivered, Read, Clicked, Replied and Failed chips](../assets/screenshots/whatsapp-campaign-report-3-recipients.png)
+
 3. To resend only the failures, click **Resend … failed**.
 
 ### Open the full report and download it

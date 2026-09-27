@@ -57,7 +57,10 @@ Figures fill in as WhatsApp confirms each message, so a campaign sent a minute a
 
 ### Resend to the people it missed
 
-1. On the campaign, open **More actions** and click **Resend**. The **Resend?** window shows how many people it goes to.
+1. On the campaign, click the **Resend** icon (a paper plane) at the top right. The **Resend?** window shows how many people it goes to. If every message was delivered, the message **Nothing to resend — every message landed.** appears instead.
+
+    ![Nothing to resend — every message landed.](../assets/screenshots/whatsapp-campaign-report-4-nothing-to-resend.png)
+
 2. Click **Resend**. **Resend started** appears. Delivery updates arrive as WhatsApp confirms each one.
 
 Resend goes to the failed recipients. When nothing failed, it goes to the people whose message was not delivered. Each resent message is charged when it is delivered.

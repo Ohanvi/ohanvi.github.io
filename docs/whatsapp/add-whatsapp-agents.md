@@ -100,5 +100,3 @@ Auto-routing skips an agent for chats that do not match. Assigning a non-matchin
 - [Manage WhatsApp contacts](manage-whatsapp-contacts.md)
 - [Invite teammates with a link](../settings/invite-teammates.md)
 - [Manage team members, roles and permissions](../settings/roles-and-permissions.md)
-
-!!! note "Screenshots to add"

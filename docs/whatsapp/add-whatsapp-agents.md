@@ -57,8 +57,14 @@ To let someone set their own password instead, click **Invite via Link**. See [I
 
 Chat rules limit an agent to chats that match every rule. With no rules, the agent can take any chat.
 
-1. Click the agent, then click **Set chat rules (tag / attribute)**. **Rules for** and the name opens.
-2. Click **Add rule**. Pick **Tag** and type a tag, or pick **Attribute** and type the attribute and its **Value**.
+1. Click the agent, then click **Set chat rules** at the top. **Rules for** and the name opens.
+
+    ![Rules for window with Add rule, the Rules on switch, Cancel and Save](../assets/screenshots/whatsapp-agents-3-rules.png)
+
+2. Click **Add rule**. A rule row appears, set to **Attribute** at first. Open the drop-down and pick **Tag** to type a tag, or keep **Attribute** and type the attribute and its **Value**. Click the bin icon to remove a rule.
+
+    ![A new rule row with the Attribute drop-down, the Attribute and Value boxes, and the Rules on switch](../assets/screenshots/whatsapp-agents-4-rule-row.png)
+
 3. Make sure the switch shows **Rules on**.
 4. Click **Save**. The message **Rules saved for** and the name appears.
 
@@ -96,4 +102,3 @@ Auto-routing skips an agent for chats that do not match. Assigning a non-matchin
 - [Manage team members, roles and permissions](../settings/roles-and-permissions.md)
 
 !!! note "Screenshots to add"
-    - After step 2 of Set chat rules — the **Rules for** dialog with a tag rule.

@@ -83,8 +83,11 @@ A test message is charged like any other message.
 
     ![Review & send summary with Name, Audience, Template and Category](../assets/screenshots/whatsapp-broadcast-4-review.png)
 
-2. Under **When**, choose **Send now**, or click **Schedule** and pick a date and time in your local time zone.
+2. Under **When**, choose **Send now**, or click **Schedule**. A date and time appear. Click **Change** to pick yours, in your local time zone.
 3. Optional: to send again and again, set **Repeat** to **Daily**, **Weekly**, **Monthly** or **Yearly**. **Once** sends 1 time.
+
+    ![Schedule chosen, with the date and time, Change, and the Repeat list open: Once, Daily, Weekly, Monthly, Yearly](../assets/screenshots/whatsapp-broadcast-6-schedule-repeat.png)
+
 4. Click **Send now** or **Schedule**.
 
 !!! warning "A sent broadcast cannot be recalled"
@@ -155,5 +158,4 @@ A campaign marked **Automatic** sends itself to 1 customer at a time when an eve
 !!! note "Screenshots to add"
     - After step 4 of Step 1 — the **Audience** step with **Contact groups** ticked
     - After step 5 of Step 2 — **Variables** with an attribute and fallback filled, and the **Live preview**
-    - After step 2 of Step 4 — the **When** field with **Schedule** and **Repeat** open
     - After step 2 of Manage scheduled and recurring campaigns — the **Repeating schedule** card

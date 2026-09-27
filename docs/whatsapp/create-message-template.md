@@ -63,7 +63,7 @@ Some **Template type** choices fix the category for you. **Carousel**, **Catalog
 
 The header is optional and sits at the top of the message.
 
-1. Choose a **Header (top of the message)**: **Text heading**, **Image**, **Video** or **Document**. Leave it empty for no header.
+1. Choose a **Header (top of the message)**: **Text heading**, **Image**, **Video** or **Document**. There is no "none" option: for no header, keep **Text heading** and leave **Header text** empty.
 2. For **Text heading**, type the **Header text**. It can hold up to 60 characters and at most 1 variable.
 3. For **Image**, **Video** or **Document**, upload a sample file. Meta uses the sample to review the template. You choose the real file each time you send a campaign.
 
@@ -120,7 +120,10 @@ Authentication templates cannot have a media header or call-to-action buttons.
 ### Submit for approval
 
 1. Check the **Template Preview**. Fix any problem listed below the form.
-2. Click **Save & Submit for Approval**. The message **Template submitted to WhatsApp. Awaiting approval.** appears.
+2. Click **Save & Submit for Approval**. The message **Template submitted to WhatsApp. Awaiting approval.** appears. The template shows **In review** and is counted under the **Pending** tab.
+
+    ![Templates list with the new template marked In review](../assets/screenshots/whatsapp-template-3-in-review.png)
+
 3. To save without sending to Meta, click **Save as Draft** instead. The template shows **Draft** until you submit it.
 
 On the free trial, the form shows **Free trial: a “Powered by Ohanvi” footer is added to your templates.**

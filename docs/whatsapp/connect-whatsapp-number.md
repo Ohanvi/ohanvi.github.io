@@ -82,7 +82,10 @@ Keep the PIN safe. You need it if you ever register the number again.
 ### Manage your numbers
 
 1. Click your initials in the bottom-left corner, then click **Settings**.
-2. Select **WhatsApp**, then **Configuration**. Each card shows the number, its **Phone ID** and **WABA**, and **Connected** or **Incomplete**.
+2. Select **WhatsApp**, then **Configuration**. The top shows how many **Configurations**, **Connected numbers** and **Active now** you have. Each card shows the number, its **Phone ID** and **WABA**, and **Connected** or **Incomplete**. The number in use says **Currently active**.
+
+    ![Configuration with the counts, the search box and a connected number marked Currently active](../assets/screenshots/whatsapp-connect-1-configuration.png)
+
 3. Use the buttons on a card:
     - **Switch to this** — make this number the active one. The active card shows **Currently active**.
     - **Edit** — open **Edit Configuration** to change the name, token or IDs. Click **Save Configuration**.
@@ -118,4 +121,3 @@ The **Voice Calling** section in **Edit Configuration** lets customers call your
     - After step 2 of Choose how to connect — the **How do you want to connect?** selector.
     - After step 5 of Connect a new number — the **Link Facebook** step with **Continue with Facebook**.
     - After step 3 of Activate the number — the verification code step.
-    - After step 2 of Manage your numbers — the **Configuration** cards with **Switch to this**.

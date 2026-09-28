@@ -43,7 +43,10 @@ You can also open any WhatsApp setup screen and use the tabs across the top: **C
 
 ### Send messages from your own software (Developer API)
 
-1. Open **Developer API**. It has 3 tabs: **API Keys**, **Usage Log** and **Docs**.
+1. In **Settings** → **WhatsApp**, open **Developer API**. It has 3 tabs: **API Keys**, **Usage Log** and **Docs**. With no keys yet, it shows **No API keys yet** and **Create your first key**.
+
+    ![Developer API with the API Keys, Usage Log and Docs tabs and the Create key button](../assets/screenshots/whatsapp-developer-api-1-keys.png)
+
 2. Click **Create key**. The **Create API key** window opens.
 3. Type a **Key name**, for example `Website checkout`.
 4. Choose **Expires after**: **30 days**, **90 days**, **1 year** or **Never expires**.

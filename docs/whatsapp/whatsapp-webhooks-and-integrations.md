@@ -29,14 +29,17 @@ You can also open any WhatsApp setup screen and use the tabs across the top: **C
 
 ### Connect the Meta webhook
 
-1. Open **Webhooks**. The **Callback Endpoint** card shows your **Webhook URL** and **Verify Token**.
+1. Click your initials in the bottom-left corner, click **Settings**, select **WhatsApp**, then **Webhooks**. The **Callback Endpoint** card shows your **Webhook URL** and **Verify Token**. The **Setup in Meta** card beside it lists the same steps.
+
+    ![Callback Endpoint with Webhook URL and Verify Token, and the Setup in Meta card](../assets/screenshots/whatsapp-webhooks-1-callback.png)
+
 2. If **Verify Token** shows **Not set — add one in Configuration, then paste it into Meta.**, add a verify token in **Configuration** first.
 3. In a new tab, open Meta Developer Console → your app → **WhatsApp** → **Configuration**.
 4. Click **Copy** next to **Webhook URL** in Ohanvi and paste it into Meta.
 5. Click **Copy** next to **Verify Token** and paste it into Meta. Save.
 6. In Meta, subscribe to the **messages** webhook field and save.
 7. Send a test message to your number. It appears in the **Inbox** at once.
-8. Back in Ohanvi, click **Refresh Events**. The event shows under **Recent Webhook Events** with its **Contact**, **Campaign**, **Status** and **Updated** time.
+8. Back in Ohanvi, click the refresh icon next to **Webhook Events**. The event shows in the list. Until the first one arrives, it says **No events yet**.
 
 ### Send messages from your own software (Developer API)
 
@@ -120,7 +123,6 @@ To replace the URL, click **Create new URL**, then **Create new URL** again in t
 - [Settings](../settings/index.md)
 
 !!! note "Screenshots to add"
-    - After step 1 of Connect the Meta webhook — the **Callback Endpoint** card with **Webhook URL** and **Verify Token**
     - After step 5 of Developer API — the **Your API key — copy it now** window (key blurred)
     - After step 7 of Send BUSY invoices — the **3. Enter these in BUSY** card
     - After step 9 of Send BUSY invoices — **Recent activity** with a sent invoice

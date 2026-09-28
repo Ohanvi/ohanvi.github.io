@@ -1,11 +1,11 @@
 ---
 title: Read a WhatsApp campaign report
-description: See how many campaign messages were sent, delivered, read, clicked and replied to, why some failed, and resend or export the results.
+description: See how many campaign messages were sent, delivered, read, clicked and replied to, why some failed, and resend to the people it missed.
 ---
 
 # Read a WhatsApp campaign report
 
-Open a sent campaign and read how it landed: how many people got it, read it and acted on it, and why some messages failed. At the end, you know what to fix, you have resent the failures, and you have a report file to share.
+Open a sent campaign and read how it landed: how many people got it, read it and acted on it, and why some messages failed. At the end, you know what to fix and you have resent the failures.
 
 ## Before you start
 

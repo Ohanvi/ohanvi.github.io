@@ -90,7 +90,9 @@ Keep the PIN safe. You need it if you ever register the number again.
     - **Switch to this** — make this number the active one. The active card shows **Currently active**.
     - **Edit** — open **Edit Configuration** to change the name, token or IDs. Click **Save Configuration**.
     - **Clone** — copy the configuration as a starting point.
-4. To add another number, click **Add Configuration**.
+4. To add another number, click **Add Configuration** at the top right. The **Add Configuration** form opens for Cloud API details: **Configuration Name**, **Business Name**, **Display Phone Number**, **Access Token**, **Phone Number ID**, **WABA ID**, **Business ID** and **API Version**.
+
+    ![Add Configuration form with the Cloud API fields](../assets/screenshots/whatsapp-connect-2-add-configuration.png)
 
 The **Voice Calling** section in **Edit Configuration** lets customers call your number. It needs Calling API access approved by Meta first. The screen lists the Meta steps under **Before this works: Meta setup checklist**.
 

@@ -47,6 +47,8 @@ While the AI is off, line 3 reads **This AI agent would reply — but it is paus
     - **Crawl a page** — any public URL on your site.
     - **Upload files** — PDF, DOCX, TXT or CSV, up to 50 MB each.
     - **Paste text** — policies, scripts or price lists.
+
+    ![Knowledge with the Crawl a page, Upload files and Paste text cards, and Quick Q&A with Add question](../assets/screenshots/whatsapp-ai-agent-5-knowledge.png)
 3. Under **Quick Q&A**, click **Add question** and type a question and its **Answer**.
 4. Click **Save changes**. Sources index within seconds of saving.
 
@@ -121,6 +123,3 @@ To stop the agent, click **Pause AI**. Saved changes reach customers only after 
 - [Create a WhatsApp chatbot flow](../create-whatsapp-flow.md)
 - [Choose your own or managed services](../settings/choose-connectors.md)
 - [Add funds to your account](../add-funds.md)
-
-!!! note "Screenshots to add"
-    - After step 2 of Add knowledge — the three source cards.

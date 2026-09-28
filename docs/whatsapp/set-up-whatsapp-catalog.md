@@ -30,7 +30,9 @@ Each product card shows its **Source**:
 
 ### Sync your catalog from Meta
 
-1. Open **WhatsApp** in the left rail, then select **Catalog**. The **Catalog** page opens.
+1. Open **WhatsApp** in the left rail, then select **Catalog**. The **Catalog** page opens. The counts at the top show **Products**, **Ready to send**, **On Meta**, **Pending review**, **Rejected** and **Out of stock**.
+
+    ![Catalog page with Sync from Meta, the search box, the product counts and the filter chips](../assets/screenshots/whatsapp-catalog-1-counts.png)
 2. Click **Sync from Meta**. The button shows **Syncing…** while it works.
 3. When it finishes, **Synced N product(s) from "…"** appears and the products fill the grid.
 
@@ -49,7 +51,7 @@ The **Retailer ID** must match the product in your Meta catalog, or WhatsApp can
 
 ### Check which products can be sent
 
-Use the filter chips above the grid. Each shows how many products sit behind it.
+Use the filter chips above the grid, for example **All**, **Ready to send** and **Meta catalog**. Each shows how many products sit behind it.
 
 | Filter | Meaning |
 | --- | --- |
@@ -67,7 +69,10 @@ To fix a rejected product, open it, read the reason in **Rejected by Meta**, fix
 
 ### Send a product in a chat
 
-1. On a **Ready to send** product, click **Send to a chat**. The **Send product to a chat** window opens.
+1. On a **Ready to send** product, click **Send to a chat** (the paper-plane icon on the card). The **Send product to a chat** window opens. The product goes as a picture with its name, price and link, and the customer must have messaged you in the last 24 hours.
+
+    ![Send product to a chat window with Customer WhatsApp number, Add a line (optional), Cancel and Send](../assets/screenshots/whatsapp-catalog-2-send-to-chat.png)
+
 2. Type the **Customer WhatsApp number** with the country code.
 3. Optional: type a line in **Add a line (optional)**, for example `This one is back in stock!`.
 4. Click **Send**. **Product sent.** appears.
@@ -106,6 +111,4 @@ Click **Use in a flow** on a product. Flows send products with their Single Prod
 - [Choose connectors](../settings/choose-connectors.md)
 
 !!! note "Screenshots to add"
-    - After step 3 of Sync your catalog from Meta — the product grid with filter chips
     - After step 1 of Check which products can be sent — a product card showing **Source** and **Meta review**
-    - After step 1 of Send a product in a chat — the **Send product to a chat** window

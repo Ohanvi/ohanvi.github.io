@@ -79,6 +79,17 @@ If Meta has not activated the number yet, the Dashboard shows **Connect Account*
 
 Keep the PIN safe. You need it if you ever register the number again.
 
+### Get help with the Cloud API
+
+Open **WhatsApp** → **Manage** → **API Key**. **Cloud API Access** offers 2 ways to bring your number onto the official Meta Cloud API:
+
+- **Ohanvi Assisted Setup** (recommended): Ohanvi creates your Meta Business Portfolio and developer app, registers your number, sets up the access token and webhook, and gets your first template approved. It is usually live in 2–3 working days, for the one-time fee shown on the card. Click **Apply for Assisted Setup**.
+- **Do It Yourself**: no setup charge. Click **Continue with Facebook**, or **I have an Access Token** if you already have a permanent token. Follow **How to apply on Meta yourself** below the cards: 7 steps, about 30–45 minutes if your business documents are ready.
+
+Meta bills conversation charges separately. The Ohanvi platform fee applies to both.
+
+![Cloud API Access with Ohanvi Assisted Setup and Do It Yourself](../assets/screenshots/whatsapp-connect-3-cloud-api-access.png)
+
 ### Manage your numbers
 
 1. Click your initials in the bottom-left corner, then click **Settings**.

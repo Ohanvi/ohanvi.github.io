@@ -75,7 +75,9 @@ Clicking **Write anyway** unlocks the composer, but WhatsApp does not deliver fr
 2. Pick a reply. It is inserted into the composer. Filter by **All**, **Starred**, **Text**, **Image**, **Video** or **Doc**.
 3. Star a reply to find it faster later.
 
-To create quick replies, open **WhatsApp** → **Manage** → **Canned Messages**, then click **New quick reply**. Give it a **Shortcut** and a message, then click **Create**.
+To create quick replies, open **WhatsApp** → **Manage** → **Canned Messages**, then click **New quick reply**. **New Canned Message** opens. Give it a **Shortcut** and a **Message**, pick a **Type** (**Text**, **Image**, **Video** or **Document**), then click **Create**. Click a chip under **Insert variable**, such as `{{name}}` or `{{agent}}`, to personalise it. Turn on **Star this reply** to show it first in the picker.
+
+![New Canned Message with Shortcut, Message, Type, Star this reply, the variable chips and the Preview](../assets/screenshots/whatsapp-inbox-6-canned-message.png)
 
 To draft with AI, click **Help me write**, or click **Rephrase with AI** to rewrite your draft.
 

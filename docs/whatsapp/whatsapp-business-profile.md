@@ -91,7 +91,7 @@ Open **WhatsApp** in the left rail, then select **Manage**. Its list on the left
 | **Connection Health** | Whether your number's connection is working. |
 | **Integrations** | The services your automations read from and write to. |
 | **Notification Preferences** | Which WhatsApp events notify you. |
-| **API Key** | Keys for sending WhatsApp messages from your own systems. |
+| **API Key** | Opens **Cloud API Access**: get Ohanvi's assisted setup, or connect your number to the Meta Cloud API yourself. See [Connect your WhatsApp number](connect-whatsapp-number.md). |
 | **Billing & Usage** | Meta conversation charges. |
 | **Recycle Bin** | Items you deleted. Select them and click **Restore selected**. |
 

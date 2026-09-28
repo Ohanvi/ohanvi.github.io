@@ -51,7 +51,10 @@ Figures fill in as WhatsApp confirms each message, so a campaign sent a minute a
 
     ![Diagnostics tab with Is this good? comparing this campaign with your average and your best](../assets/screenshots/whatsapp-campaign-report-2-diagnostics.png)
 
-2. When messages failed, read **Why messages failed**. It groups failures by WhatsApp's reason, in plain words, with the fix.
+2. When messages failed, read **Why messages failed**. It groups failures by WhatsApp's reason, in plain words, with the **Count** and a **Fix** button, for example **Retry 2**.
+
+    ![Why messages failed with the reason Media upload error, a count of 2 and a Retry 2 button](../assets/screenshots/whatsapp-campaign-report-5-why-failed.png)
+
 3. Read **Links & buttons** for clicks per link, and **Template health** for the template's quality rating.
 4. Read **What this send cost your list**: **Reached first time**, **At risk** (2 or more failures in a row), **Unsubscribed** and **Excluded**.
 
@@ -108,5 +111,4 @@ For totals across all your campaigns, including revenue from broadcasts, use **A
 - [Read Marketing Analytics](../analytics/read-marketing-analytics.md)
 
 !!! note "Screenshots to add"
-    - After step 2 of Find out why messages failed — **Why messages failed** with grouped reasons
     - After step 2 of Open the full report — **Campaign Analytics** with its status tabs

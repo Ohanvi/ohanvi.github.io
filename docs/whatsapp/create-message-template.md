@@ -205,5 +205,3 @@ If you try to send a rejected template in a campaign, Ohanvi refuses it and expl
 - [Read a campaign report](read-campaign-report.md)
 - [Build a WhatsApp chatbot flow](../create-whatsapp-flow.md)
 - [Set up a WhatsApp catalog](set-up-whatsapp-catalog.md)
-
-!!! note "Screenshots to add"

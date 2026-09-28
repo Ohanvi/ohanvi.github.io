@@ -69,7 +69,10 @@ To stop a key working, click **Revoke** on it, then **Revoke** in **Revoke this 
 
 BUSY → WhatsApp is one way. When BUSY sends an invoice message, Ohanvi delivers it on WhatsApp through your template. It does not sync BUSY data or read your inventory.
 
-1. Open **BUSY**. Turn the switch at the top to **On**.
+1. In **Settings** → **WhatsApp**, open **BUSY**. Turn the switch at the top right from **Off** to **On**.
+
+    ![BUSY to WhatsApp page with the Off switch, 1. Template, 2. BUSY URL and 3. Enter these in BUSY](../assets/screenshots/whatsapp-busy-1-setup.png)
+
 2. In **1. Template**, choose an approved template whose body has exactly 1 variable, `{{1}}`. BUSY's message goes into it. The template cannot have a media header or dynamic buttons. A body like `Message from {{business}}: {{1}} Thank you.` in the **Utility** category works, with your business name in place of `{{business}}`.
 3. Set **Country code for 10-digit numbers**, for example `91`, and click **Save**.
 4. In **2. BUSY URL**, click **Generate URL**. **Your BUSY URL — copy it now** opens.
@@ -130,5 +133,4 @@ To replace the URL, click **Create new URL**, then **Create new URL** again in t
 
 !!! note "Screenshots to add"
     - After step 5 of Developer API — the **Your API key — copy it now** window (key blurred)
-    - After step 7 of Send BUSY invoices — the **3. Enter these in BUSY** card
     - After step 9 of Send BUSY invoices — **Recent activity** with a sent invoice

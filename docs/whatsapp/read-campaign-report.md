@@ -77,15 +77,13 @@ Resend goes to the failed recipients. When nothing failed, it goes to the people
 
 3. To resend only the failures, click **Resend … failed**.
 
-### Open the full report and download it
+### Open the report on its own page
 
-1. On the campaign, open **More actions** and click **Full report**. **Campaign Analytics** opens.
-2. Use the tabs **Overview**, **Sent**, **Delivered**, **Read**, **Clicked**, **Replied**, **Failed** and **Test**. Each tab shows its share, for example **94% (250)**.
-3. On a list tab, filter by **Click Status** (**Has Clicked** / **Not Clicked**) or **Reply Status** (**Has Replied** / **Not Replied**).
-4. Click **Broadcast** to send the campaign again to only the people in the filtered list, then confirm in **Re-send to filtered recipients?**.
-5. Click **Export** to download the filtered list, or **Download Report** to download the whole report.
+1. Open **WhatsApp** → **Dashboard** and click a broadcast in the **Broadcasts** table. **Campaign analysis** opens on its own page.
+2. It has the same **Overview**, **Recipients** and **Diagnostics** tabs as the report in **Campaign**, with **Message sent** on the right.
+3. Click the back arrow next to **Campaign analysis** to return.
 
-The **Test** tab lists the test messages you sent for this campaign, with their status.
+![Campaign analysis on its own page, with the Overview tab and Message sent](../assets/screenshots/whatsapp-campaign-report-6-analysis-page.png)
 
 For totals across all your campaigns, including revenue from broadcasts, use **Analytics**. See [Read Marketing Analytics](../analytics/read-marketing-analytics.md).
 
@@ -109,6 +107,3 @@ For totals across all your campaigns, including revenue from broadcasts, use **A
 - [Send a broadcast campaign](send-broadcast-campaign.md)
 - [Create a WhatsApp message template](create-message-template.md)
 - [Read Marketing Analytics](../analytics/read-marketing-analytics.md)
-
-!!! note "Screenshots to add"
-    - After step 2 of Open the full report — **Campaign Analytics** with its status tabs

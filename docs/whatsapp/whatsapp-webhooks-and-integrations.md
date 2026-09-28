@@ -49,7 +49,10 @@ You can also open any WhatsApp setup screen and use the tabs across the top: **C
 
 2. Click **Create key**. The **Create API key** window opens.
 3. Type a **Key name**, for example `Website checkout`.
-4. Choose **Expires after**: **30 days**, **90 days**, **1 year** or **Never expires**.
+4. Choose **Expires after**: **30 days**, **90 days**, **1 year** or **Never expires**. **1 year** is picked at first.
+
+    ![Create API key window with Key name, the Expires after choices and the Create key button](../assets/screenshots/whatsapp-developer-api-2-create-key.png)
+
 5. Click **Create key**. **Your API key — copy it now** opens.
 6. Click **Copy key** and store it somewhere safe. Tick **I have copied the key and stored it somewhere safe.** and click **Done**.
 

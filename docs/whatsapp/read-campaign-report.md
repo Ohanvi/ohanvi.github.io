@@ -1,11 +1,11 @@
 ---
 title: Read a WhatsApp campaign report
-description: See how many campaign messages were sent, delivered, read, clicked and replied to, why some failed, and resend or export the results.
+description: See how many campaign messages were sent, delivered, read, clicked and replied to, why some failed, and resend to the people it missed.
 ---
 
 # Read a WhatsApp campaign report
 
-Open a sent campaign and read how it landed: how many people got it, read it and acted on it, and why some messages failed. At the end, you know what to fix, you have resent the failures, and you have a report file to share.
+Open a sent campaign and read how it landed: how many people got it, read it and acted on it, and why some messages failed. At the end, you know what to fix and you have resent the failures.
 
 ## Before you start
 
@@ -51,7 +51,10 @@ Figures fill in as WhatsApp confirms each message, so a campaign sent a minute a
 
     ![Diagnostics tab with Is this good? comparing this campaign with your average and your best](../assets/screenshots/whatsapp-campaign-report-2-diagnostics.png)
 
-2. When messages failed, read **Why messages failed**. It groups failures by WhatsApp's reason, in plain words, with the fix.
+2. When messages failed, read **Why messages failed**. It groups failures by WhatsApp's reason, in plain words, with the **Count** and a **Fix** button, for example **Retry 2**.
+
+    ![Why messages failed with the reason Media upload error, a count of 2 and a Retry 2 button](../assets/screenshots/whatsapp-campaign-report-5-why-failed.png)
+
 3. Read **Links & buttons** for clicks per link, and **Template health** for the template's quality rating.
 4. Read **What this send cost your list**: **Reached first time**, **At risk** (2 or more failures in a row), **Unsubscribed** and **Excluded**.
 
@@ -74,15 +77,13 @@ Resend goes to the failed recipients. When nothing failed, it goes to the people
 
 3. To resend only the failures, click **Resend … failed**.
 
-### Open the full report and download it
+### Open the report on its own page
 
-1. On the campaign, open **More actions** and click **Full report**. **Campaign Analytics** opens.
-2. Use the tabs **Overview**, **Sent**, **Delivered**, **Read**, **Clicked**, **Replied**, **Failed** and **Test**. Each tab shows its share, for example **94% (250)**.
-3. On a list tab, filter by **Click Status** (**Has Clicked** / **Not Clicked**) or **Reply Status** (**Has Replied** / **Not Replied**).
-4. Click **Broadcast** to send the campaign again to only the people in the filtered list, then confirm in **Re-send to filtered recipients?**.
-5. Click **Export** to download the filtered list, or **Download Report** to download the whole report.
+1. Open **WhatsApp** → **Dashboard** and click a broadcast in the **Broadcasts** table. **Campaign analysis** opens on its own page.
+2. It has the same **Overview**, **Recipients** and **Diagnostics** tabs as the report in **Campaign**, with **Message sent** on the right.
+3. Click the back arrow next to **Campaign analysis** to return.
 
-The **Test** tab lists the test messages you sent for this campaign, with their status.
+![Campaign analysis on its own page, with the Overview tab and Message sent](../assets/screenshots/whatsapp-campaign-report-6-analysis-page.png)
 
 For totals across all your campaigns, including revenue from broadcasts, use **Analytics**. See [Read Marketing Analytics](../analytics/read-marketing-analytics.md).
 
@@ -106,7 +107,3 @@ For totals across all your campaigns, including revenue from broadcasts, use **A
 - [Send a broadcast campaign](send-broadcast-campaign.md)
 - [Create a WhatsApp message template](create-message-template.md)
 - [Read Marketing Analytics](../analytics/read-marketing-analytics.md)
-
-!!! note "Screenshots to add"
-    - After step 2 of Find out why messages failed — **Why messages failed** with grouped reasons
-    - After step 2 of Open the full report — **Campaign Analytics** with its status tabs

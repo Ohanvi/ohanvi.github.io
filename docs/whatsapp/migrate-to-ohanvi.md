@@ -19,7 +19,9 @@ Bring your WhatsApp Business number, contacts and chat history from another What
 
 1. Click your initials in the bottom-left corner, then click **Settings**.
 2. Select **WhatsApp**, then **Migrate to Ohanvi**. The screen lists 6 steps.
-3. Next to **I am coming from:**, pick your current platform. The steps change to match it.
+3. Next to **I am coming from:**, pick your current platform, **Wati** or **AiSensy**. The steps change to match it.
+
+    ![Migrate to Ohanvi with the I am coming from picker set to Wati and the first steps](../assets/screenshots/whatsapp-migrate-1-guide.png)
 
 ### What moves on its own
 
@@ -71,6 +73,5 @@ Contacts missing from your list are created from the chat file. Uploading the sa
 - [Import and sync contacts](../crm/import-and-sync-contacts.md)
 
 !!! note "Screenshots to add"
-    - After step 3 of Open the migration guide — the 6 steps with the platform picker.
     - After step 2 of Import contacts and chat history — the **WhatsApp Contacts** upload dialog.
     - After step 3 of Check everything works — the test reply in the inbox.

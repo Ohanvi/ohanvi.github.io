@@ -79,15 +79,31 @@ If Meta has not activated the number yet, the Dashboard shows **Connect Account*
 
 Keep the PIN safe. You need it if you ever register the number again.
 
+### Get help with the Cloud API
+
+Open **WhatsApp** → **Manage** → **API Key**. **Cloud API Access** offers 2 ways to bring your number onto the official Meta Cloud API:
+
+- **Ohanvi Assisted Setup** (recommended): Ohanvi creates your Meta Business Portfolio and developer app, registers your number, sets up the access token and webhook, and gets your first template approved. It is usually live in 2–3 working days, for the one-time fee shown on the card. Click **Apply for Assisted Setup**.
+- **Do It Yourself**: no setup charge. Click **Continue with Facebook**, or **I have an Access Token** if you already have a permanent token. Follow **How to apply on Meta yourself** below the cards: 7 steps, about 30–45 minutes if your business documents are ready.
+
+Meta bills conversation charges separately. The Ohanvi platform fee applies to both.
+
+![Cloud API Access with Ohanvi Assisted Setup and Do It Yourself](../assets/screenshots/whatsapp-connect-3-cloud-api-access.png)
+
 ### Manage your numbers
 
 1. Click your initials in the bottom-left corner, then click **Settings**.
-2. Select **WhatsApp**, then **Configuration**. Each card shows the number, its **Phone ID** and **WABA**, and **Connected** or **Incomplete**.
+2. Select **WhatsApp**, then **Configuration**. The top shows how many **Configurations**, **Connected numbers** and **Active now** you have. Each card shows the number, its **Phone ID** and **WABA**, and **Connected** or **Incomplete**. The number in use says **Currently active**.
+
+    ![Configuration with the counts, the search box and a connected number marked Currently active](../assets/screenshots/whatsapp-connect-1-configuration.png)
+
 3. Use the buttons on a card:
     - **Switch to this** — make this number the active one. The active card shows **Currently active**.
     - **Edit** — open **Edit Configuration** to change the name, token or IDs. Click **Save Configuration**.
     - **Clone** — copy the configuration as a starting point.
-4. To add another number, click **Add Configuration**.
+4. To add another number, click **Add Configuration** at the top right. The **Add Configuration** form opens for Cloud API details: **Configuration Name**, **Business Name**, **Display Phone Number**, **Access Token**, **Phone Number ID**, **WABA ID**, **Business ID** and **API Version**.
+
+    ![Add Configuration form with the Cloud API fields](../assets/screenshots/whatsapp-connect-2-add-configuration.png)
 
 The **Voice Calling** section in **Edit Configuration** lets customers call your number. It needs Calling API access approved by Meta first. The screen lists the Meta steps under **Before this works: Meta setup checklist**.
 
@@ -118,4 +134,3 @@ The **Voice Calling** section in **Edit Configuration** lets customers call your
     - After step 2 of Choose how to connect — the **How do you want to connect?** selector.
     - After step 5 of Connect a new number — the **Link Facebook** step with **Continue with Facebook**.
     - After step 3 of Activate the number — the verification code step.
-    - After step 2 of Manage your numbers — the **Configuration** cards with **Switch to this**.

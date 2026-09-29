@@ -29,21 +29,30 @@ You can also open any WhatsApp setup screen and use the tabs across the top: **C
 
 ### Connect the Meta webhook
 
-1. Open **Webhooks**. The **Callback Endpoint** card shows your **Webhook URL** and **Verify Token**.
+1. Click your initials in the bottom-left corner, click **Settings**, select **WhatsApp**, then **Webhooks**. The **Callback Endpoint** card shows your **Webhook URL** and **Verify Token**. The **Setup in Meta** card beside it lists the same steps.
+
+    ![Callback Endpoint with Webhook URL and Verify Token, and the Setup in Meta card](../assets/screenshots/whatsapp-webhooks-1-callback.png)
+
 2. If **Verify Token** shows **Not set — add one in Configuration, then paste it into Meta.**, add a verify token in **Configuration** first.
 3. In a new tab, open Meta Developer Console → your app → **WhatsApp** → **Configuration**.
 4. Click **Copy** next to **Webhook URL** in Ohanvi and paste it into Meta.
 5. Click **Copy** next to **Verify Token** and paste it into Meta. Save.
 6. In Meta, subscribe to the **messages** webhook field and save.
 7. Send a test message to your number. It appears in the **Inbox** at once.
-8. Back in Ohanvi, click **Refresh Events**. The event shows under **Recent Webhook Events** with its **Contact**, **Campaign**, **Status** and **Updated** time.
+8. Back in Ohanvi, click the refresh icon next to **Webhook Events**. The event shows in the list. Until the first one arrives, it says **No events yet**.
 
 ### Send messages from your own software (Developer API)
 
-1. Open **Developer API**. It has 3 tabs: **API Keys**, **Usage Log** and **Docs**.
+1. In **Settings** → **WhatsApp**, open **Developer API**. It has 3 tabs: **API Keys**, **Usage Log** and **Docs**. With no keys yet, it shows **No API keys yet** and **Create your first key**.
+
+    ![Developer API with the API Keys, Usage Log and Docs tabs and the Create key button](../assets/screenshots/whatsapp-developer-api-1-keys.png)
+
 2. Click **Create key**. The **Create API key** window opens.
 3. Type a **Key name**, for example `Website checkout`.
-4. Choose **Expires after**: **30 days**, **90 days**, **1 year** or **Never expires**.
+4. Choose **Expires after**: **30 days**, **90 days**, **1 year** or **Never expires**. **1 year** is picked at first.
+
+    ![Create API key window with Key name, the Expires after choices and the Create key button](../assets/screenshots/whatsapp-developer-api-2-create-key.png)
+
 5. Click **Create key**. **Your API key — copy it now** opens.
 6. Click **Copy key** and store it somewhere safe. Tick **I have copied the key and stored it somewhere safe.** and click **Done**.
 
@@ -60,7 +69,10 @@ To stop a key working, click **Revoke** on it, then **Revoke** in **Revoke this 
 
 BUSY → WhatsApp is one way. When BUSY sends an invoice message, Ohanvi delivers it on WhatsApp through your template. It does not sync BUSY data or read your inventory.
 
-1. Open **BUSY**. Turn the switch at the top to **On**.
+1. In **Settings** → **WhatsApp**, open **BUSY**. Turn the switch at the top right from **Off** to **On**.
+
+    ![BUSY to WhatsApp page with the Off switch, 1. Template, 2. BUSY URL and 3. Enter these in BUSY](../assets/screenshots/whatsapp-busy-1-setup.png)
+
 2. In **1. Template**, choose an approved template whose body has exactly 1 variable, `{{1}}`. BUSY's message goes into it. The template cannot have a media header or dynamic buttons. A body like `Message from {{business}}: {{1}} Thank you.` in the **Utility** category works, with your business name in place of `{{business}}`.
 3. Set **Country code for 10-digit numbers**, for example `91`, and click **Save**.
 4. In **2. BUSY URL**, click **Generate URL**. **Your BUSY URL — copy it now** opens.
@@ -120,7 +132,5 @@ To replace the URL, click **Create new URL**, then **Create new URL** again in t
 - [Settings](../settings/index.md)
 
 !!! note "Screenshots to add"
-    - After step 1 of Connect the Meta webhook — the **Callback Endpoint** card with **Webhook URL** and **Verify Token**
     - After step 5 of Developer API — the **Your API key — copy it now** window (key blurred)
-    - After step 7 of Send BUSY invoices — the **3. Enter these in BUSY** card
     - After step 9 of Send BUSY invoices — **Recent activity** with a sent invoice

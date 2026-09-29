@@ -159,6 +159,8 @@ Approved templates can also show a quality rating: **High quality**, **Medium qu
 ## Fix a rejected template
 
 1. Open the **Action Required** tab and click the template. The **Rejection reason** shows under the preview, in Meta's own words, for example `INVALID_FORMAT`.
+
+    ![Action Required tab with a rejected template and its Rejection reason under the preview](../assets/screenshots/whatsapp-template-6-rejection-reason.png)
 2. Match the reason to the table below and change the template.
 3. Click **Edit**, make the change, then click **Save Changes**. The template is submitted to Meta again.
 
@@ -203,6 +205,3 @@ If you try to send a rejected template in a campaign, Ohanvi refuses it and expl
 - [Read a campaign report](read-campaign-report.md)
 - [Build a WhatsApp chatbot flow](../create-whatsapp-flow.md)
 - [Set up a WhatsApp catalog](set-up-whatsapp-catalog.md)
-
-!!! note "Screenshots to add"
-    - After step 1 of Fix a rejected template — the template pane showing a **Rejection reason**

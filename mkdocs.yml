@@ -86,8 +86,13 @@ nav:
           - Read the dashboard: whatsapp/whatsapp-dashboard.md
       - Sell and grow:
           - Set up your catalog: whatsapp/set-up-whatsapp-catalog.md
+          - Add a chat button to your website: whatsapp/add-website-chat-button.md
           - Run Click-to-WhatsApp ads: whatsapp/click-to-whatsapp-ads.md
           - Webhooks and integrations: whatsapp/whatsapp-webhooks-and-integrations.md
+      - Manage:
+          - Tags, attributes and events: whatsapp/tags-attributes-and-events.md
+          - Scheduler and delivery logs: whatsapp/scheduler-and-delivery-logs.md
+          - Health, alerts and billing: whatsapp/health-notifications-and-billing.md
   - Flows:
       - flows/index.md
       - Understand flows: flows/flows-overview-and-list.md

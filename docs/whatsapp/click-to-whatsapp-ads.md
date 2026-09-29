@@ -84,7 +84,9 @@ Meta reviews the ad, usually within 24 hours. Until then it shows **In review**.
 
 ### Track your ads and leads
 
-1. Open **Ads Manager** to see each ad's status, **Total Spend**, **Number of Leads**, **Cost Per Lead** and **Click-Through Rate**.
+1. Open **Ads Manager** to see each ad's status, **Total Spend**, **Number of Leads**, **Cost Per Lead** and **Click-Through Rate**. Filter the ads by **All**, **Active**, **In review**, **Paused** or **Not approved**, and pick the date range at the top.
+
+    ![Ads Manager with the date range, the status filters and the Number of Leads, Click-Through Rate, Cost Per Lead and Total Spend tiles](../assets/screenshots/whatsapp-ads-1-manager.png)
 2. Open **Leads** to see who messaged you from an ad. Search by name, phone or ad, or click **Download Report**.
 3. Reply to them from the **Inbox**, like any other chat.
 
@@ -114,4 +116,3 @@ Meta reviews the ad, usually within 24 hours. Until then it shows **In review**.
     - After step 2 of Step 1 — the **Set up Ads Manager** page with its 3 steps
     - After step 3 of Step 3 — the linked WhatsApp number
     - After step 1 of Step 5 — the **Create Click-to-WhatsApp Ad** form with preview
-    - After step 1 of Track your ads — the ads grid with status and **Cost Per Lead**

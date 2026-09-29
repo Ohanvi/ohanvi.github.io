@@ -48,6 +48,9 @@ See [Low or empty credits](../billing/low-or-empty-credits.md) for what else sto
 
 2. If the template has an image, video or document header, check the header file. Leave it as it is to reuse the sample the template was approved with, or pick a new file.
 3. Under **Variables**, fill the **{{1}}**, **{{2}}** boxes and so on. If you leave **{{1}}** blank, it uses the contact's name. The **Live preview** updates as you type.
+
+    ![Variables with {{1}} left blank for the contact's name, and values typed in {{2}} and {{3}}](../assets/screenshots/whatsapp-broadcast-7-variables.png)
+
 4. To give each person their own value, click the **@** icon at the end of the variable and pick a field under **CONTACT FIELDS** or **CUSTOM ATTRIBUTES**, for example **First Name**.
 
     ![Attribute list opened from the @ icon, with Contact fields such as First Name and Full Name](../assets/screenshots/whatsapp-broadcast-3-attributes.png)

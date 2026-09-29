@@ -115,7 +115,13 @@ For flows Ohanvi created for you, such as store automations, the menu reads **Ar
 ### Create a new flow
 
 1. Click **New flow**. A blank canvas opens.
-2. To start from a ready-made flow instead, open the menu on **New flow** [VERIFY: how the New flow menu opens] and click **Start from library**. Pick a flow under **Starters** or **Chatbot templates**.
+2. To start from a ready-made flow instead, click the arrow (**⌄**) on the right side of **New flow**, then click **Start from library**.
+
+    ![New flow button with its arrow menu open on Start from library](../assets/screenshots/flows-overview-6-new-flow-menu.png)
+
+3. In **Start from library**, search with **Search templates** or pick a flow under **Starters** or **Chatbot templates**, then click **Use** on it.
+
+    ![Start from library with Starters such as Collect a lead on WhatsApp and Add form answers to a Google Sheet](../assets/screenshots/flows-overview-7-start-from-library.png)
 
 For the next steps, see [Build an automation flow](build-automation-flow.md) or [Create a WhatsApp chatbot flow](../create-whatsapp-flow.md).
 

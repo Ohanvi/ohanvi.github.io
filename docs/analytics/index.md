@@ -7,6 +7,8 @@ description: See how your WhatsApp broadcasts and your online store perform, and
 
 Analytics reports on your WhatsApp broadcasts and your connected online store. Each screen ends with suggestions for what to do next.
 
+![Marketing Analytics with Can you send?, Where you stand, Do this next and Performance over time](../assets/screenshots/analytics-marketing-1-overview.png)
+
 ## Where to find it
 
 Open **Analytics** in the left rail. The panel lists:

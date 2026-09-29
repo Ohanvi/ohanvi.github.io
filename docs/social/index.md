@@ -7,6 +7,8 @@ description: Connect your social accounts and Google Business Profile, then writ
 
 Social lets you publish to several networks from one composer. Connect your accounts, write a post once, schedule it, and read how it performed.
 
+![Social Home with the post composer, Performance, Recent posts, what needs attention and recent activity](../assets/screenshots/social-home-1-overview.png)
+
 ## Where to find it
 
 Open **Social** in the left rail. The panel lists:

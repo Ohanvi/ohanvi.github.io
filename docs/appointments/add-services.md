@@ -18,6 +18,9 @@ A service is what a customer books, such as a haircut, a consultation or a produ
 
 1. Open **Appts** in the left rail, then select **Services**. The **Services** page opens.
 2. Click **Add service**. The **Add service** dialog opens.
+
+    ![Add service dialog with Name, Duration, Buffer, Price and the Active switch](../assets/screenshots/appointments-add-service-1-dialog.png)
+
 3. In **Name**, type the service name customers will see, for example `Haircut`.
 4. In **Duration (minutes)**, type how long the service takes. It starts at `30`.
 5. In **Buffer (minutes)**, type the break to keep free after each booking, for example `10`. Leave `0` for no break.
@@ -60,6 +63,5 @@ A service is what a customer books, such as a haircut, a consultation or a produ
 - [Schedule a class](schedule-classes.md)
 
 !!! note "Screenshots to add"
-    - After step 2 of Add a service — the **Add service** dialog
     - After step 8 of Add a service — the **Services** list with one service and its duration, buffer and price
     - After step 3 of Edit a service — a service with the **Inactive** badge

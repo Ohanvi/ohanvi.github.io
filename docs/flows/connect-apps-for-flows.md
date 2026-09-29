@@ -11,7 +11,7 @@ Connect an outside app, such as a store or a CRM, through the connector catalog 
 
 - You can see **Connectors** in the **Connect** panel. This screen is for admins by default. If you do not see it, ask your admin.
 - You have the app's credentials, for example an API key, or you can sign in to the app to approve access.
-- The app is listed in the catalog. Apps built into Ohanvi, such as your store, WhatsApp and Google Workspace, are connected on their own screens and do not need this page.
+- The app is listed in the catalog. Apps built into Ohanvi, such as your store, WhatsApp and Google Workspace, are connected on their own screens and do not need the catalog. For Google apps, see "Connect a Google app" below.
 
 ## How connectors work
 
@@ -20,6 +20,22 @@ Connect an outside app, such as a store or a CRM, through the connector catalog 
 - A flow step picks an operation and the connection it signs in with. Published flows stay on the operation version they were built with, so a catalog change does not alter them.
 
 ## Steps
+
+### Connect a Google app
+
+Google Sheets, Google Calendar, Google Meet, Google Forms and Google Contacts are built into Ohanvi, so they do not go through the connector catalog.
+
+1. Open **Connect** in the left rail, then select **Google Workspace** under **Connectors**.
+2. Read each card. **In flows** says what the app can do in a flow, for example **Add a row · Read rows · Create a spreadsheet** for Google Sheets. A card shows **Not connected** until you sign in.
+
+    ![Google Workspace with the Google Sheets, Calendar, Meet, Forms and Contacts cards](../assets/screenshots/flows-connect-1-google-workspace.png)
+
+3. Click the button on the card you need, for example **Connect Google Sheets**. The **Sign in with Google** window opens.
+4. Choose your Google account and allow access. Each app asks only for its own access.
+
+    ![Sign in with Google window, Choose an account to continue to Ohanvi](../assets/screenshots/flows-connect-2-google-signin.png)
+
+The connected account then shows under **Google accounts**. To grant several apps at once, use **Connect Google**.
 
 ### Open the connector catalog
 

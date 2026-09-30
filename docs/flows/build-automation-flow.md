@@ -117,7 +117,9 @@ You can mix expressions with text, for example `Hi {{trigger.firstName}}, your o
 5. Send a test from Zapier or Pabbly. Its fields appear under **Sample**, ready to use in your steps.
 6. Optional: in **Field that identifies one event (optional)**, type a field such as `order.id`. The same value sent twice starts the flow once.
 
-The API key comes from **Connect** → **Zapier** or **Connect** → **Pabbly**.
+The API key comes from **Connect** → **Zapier** or **Connect** → **Pabbly**. There, **API keys** lists each key with its status, and **Create key** at the top right makes a new one. Each key acts with the permissions of the user who created it.
+
+![Zapier page in Connect with the API keys list](../assets/screenshots/flows-build-1-zapier-keys.png)
 
 ### Save and publish
 

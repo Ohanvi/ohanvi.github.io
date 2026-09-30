@@ -9,6 +9,8 @@ Step-by-step guides for running campaigns, automations, and customer communicati
   <p><a class="primary-button" href="sign-up/">Get started</a></p>
 </div>
 
+![The Ohanvi Home screen with today's numbers, running journeys, what is scheduled next and quick access](assets/screenshots/home-1-overview.png)
+
 ## Browse by module
 
 The modules are listed in the same order as the left rail in the app.

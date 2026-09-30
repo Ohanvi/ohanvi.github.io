@@ -75,6 +75,8 @@ In **Settings** → **WhatsApp**, under **Setup**:
 | **BUSY** | Sends invoices from BUSY accounting software on WhatsApp. See [Webhooks and integrations](whatsapp-webhooks-and-integrations.md). |
 | **Migrate to Ohanvi** | Steps to move from another WhatsApp provider. See [Move your number to Ohanvi](migrate-to-ohanvi.md). |
 
+![Settings, WhatsApp list with the Setup and Chat & engagement rows](../assets/screenshots/whatsapp-business-profile-5-settings-list.png)
+
 Open **WhatsApp** in the left rail, then select **Manage**. Its list on the left holds:
 
 | Item | What it holds |

@@ -42,6 +42,8 @@ The list shows every flow in your workspace, whichever way you came in.
 4. Open the second drop-down to pick a trigger, for example **On a schedule**. Choose **Any trigger** to clear it.
 5. Click the sort icon (tooltip **Sort**) and choose **Recently updated**, **Name (A–Z)** or **Last run first**.
 
+    ![Search flows, the All, Active, Draft and Paused pills, the All flows and Any trigger drop-downs, and the sort menu](../assets/screenshots/flows-overview-2-find-and-sort.png)
+
 If nothing matches, click **Clear filters**.
 
 ### Read a flow's row
@@ -60,9 +62,14 @@ Rows under **Not yet migrated** are older chatbots or email journeys. Open one t
 
 1. Click a row. A panel opens beside the list.
 2. Read the **Overview** tab. It shows the steps as a timeline and in plain words.
+
+    ![A flow's preview panel with the Overview timeline, the Recent runs, Latest output and Versions tabs, and the More menu open](../assets/screenshots/flows-overview-1-preview-panel.png)
+
 3. Open **Version, owner & technical** to see **Last run**, **Owner**, **Trigger**, **Current version**, **Steps** and **Flow ID**.
 4. Use the other tabs to check results: **Recent runs**, **Latest output** and **Versions**. See [Test a flow and fix failed runs](test-and-monitor-flows.md).
 5. Click **Open builder** to edit the flow on the canvas.
+
+    ![A chatbot flow on the builder canvas, with a branch for each button](../assets/screenshots/flows-overview-5-canvas.png)
 
 ### Publish a draft from the list
 
@@ -74,6 +81,9 @@ Rows under **Not yet migrated** are older chatbots or email journeys. Open one t
 
 1. Click the flow's row. The **On**/**Off** switch sits beside the flow's name. It appears only after the flow is published once.
 2. To stop it, click the switch. The **Pause this flow?** window opens.
+
+    ![Pause this flow? window with Pause only](../assets/screenshots/flows-overview-3-pause.png)
+
 3. Click **Pause only**. New events stop starting runs. Runs already going will finish.
 4. If a run is going right now, you can click **Pause and stop runs** instead. This also cancels the runs in progress.
 5. To start it again, click the switch, or click **Resume**. The message **Flow resumed. New events start runs again.** appears.
@@ -83,7 +93,10 @@ Rows under **Not yet migrated** are older chatbots or email journeys. Open one t
 
 ### Duplicate a flow
 
-1. Click the flow's row, then click the **More** menu (**…**).
+1. Click the flow's row, then click the **More** menu (**…**). It has **Pause**, **Duplicate** and **Delete**, or **Archive** for a flow Ohanvi created for you.
+
+    ![More menu with Pause, Duplicate and Archive](../assets/screenshots/flows-overview-4-more-menu.png)
+
 2. Click **Duplicate**. A copy named **Copy of** followed by the flow's name opens in the builder.
 
 The copy is a draft. Publish it before it can run.
@@ -102,7 +115,13 @@ For flows Ohanvi created for you, such as store automations, the menu reads **Ar
 ### Create a new flow
 
 1. Click **New flow**. A blank canvas opens.
-2. To start from a ready-made flow instead, open the menu on **New flow** [VERIFY: how the New flow menu opens] and click **Start from library**. Pick a flow under **Starters** or **Chatbot templates**.
+2. To start from a ready-made flow instead, click the arrow (**⌄**) on the right side of **New flow**, then click **Start from library**.
+
+    ![New flow button with its arrow menu open on Start from library](../assets/screenshots/flows-overview-6-new-flow-menu.png)
+
+3. In **Start from library**, search with **Search templates** or pick a flow under **Starters** or **Chatbot templates**, then click **Use** on it.
+
+    ![Start from library with Starters such as Collect a lead on WhatsApp and Add form answers to a Google Sheet](../assets/screenshots/flows-overview-7-start-from-library.png)
 
 For the next steps, see [Build an automation flow](build-automation-flow.md) or [Create a WhatsApp chatbot flow](../create-whatsapp-flow.md).
 
@@ -129,8 +148,3 @@ For the next steps, see [Build an automation flow](build-automation-flow.md) or 
 - [Create a WhatsApp chatbot flow](../create-whatsapp-flow.md)
 - [Manage CRM automations](../crm/manage-automations.md)
 
-!!! note "Screenshots to add"
-    - After step 1 of "Open the Flows list" — the **Automation flows** screen with the list and the preview panel.
-    - After step 5 of "Find a flow" — the status pills, the kind and trigger drop-downs and the sort menu.
-    - After step 2 of "Turn a flow on or off" — the **Pause this flow?** window.
-    - After step 1 of "Duplicate a flow" — the **More** menu with **Duplicate** and **Delete**.

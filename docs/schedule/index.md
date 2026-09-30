@@ -7,6 +7,8 @@ description: See every scheduled WhatsApp message, CRM activity, email campaign,
 
 Schedule shows everything that is set to happen later, across every module, in one calendar or list. You create items in their own module; the Schedule is where you see and change them together.
 
+![Schedule in Calendar view for a month, with WhatsApp, CRM, Email, Social and Appointments items in their own colours](../assets/screenshots/schedule-1-calendar.png)
+
 ## Where to find it
 
 Open **Schedule** in the left rail. The panel lists:

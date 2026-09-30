@@ -9,7 +9,9 @@ Send WhatsApp messages to shoppers when something happens in your store, such as
 
 ## Before you start
 
-- Your Shopify or WooCommerce store is connected in **Connect** → **Store Connections**.
+- Your Shopify or WooCommerce store is connected in **Connect** → **Store Connections**. A connected store shows **Connected** and a **WhatsApp Automations** link.
+
+    ![Store Connections with Shopify, WooCommerce, Wix and Zoho Commerce cards](../assets/screenshots/flows-store-1-store-connections.png)
 - Your WhatsApp number is connected.
 - The WhatsApp templates each automation sends are approved by Meta. Check them in **WhatsApp** → **Template**.
 - You can open **Flows** and publish flows. See [Understand flows and the Flows list](flows-overview-and-list.md).

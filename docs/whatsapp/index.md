@@ -7,6 +7,8 @@ description: Connect your WhatsApp Business number, chat with customers in the i
 
 WhatsApp is where you connect your business number, answer customers in a shared inbox, and send approved template messages and broadcasts. It also runs your product catalog, Click-to-WhatsApp ads and an AI agent that replies for you.
 
+![WhatsApp Inbox in Board view, with conversations sorted into Unassigned, Escalated, With an Agent, In Automation, Awaiting Customer and Window Closed](../assets/screenshots/whatsapp-inbox-7-board.png)
+
 ## Where to find it
 
 Open **WhatsApp** in the left rail. The panel is one list, split by dividers into 3 bands:

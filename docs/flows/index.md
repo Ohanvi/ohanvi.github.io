@@ -7,6 +7,8 @@ description: Build chatbots, automations and store journeys on one canvas — pi
 
 A flow runs a set of steps on its own when something happens: a customer messages a keyword, an order is placed, a contact is added, or a time arrives. WhatsApp chatbots, automations and store journeys are all built on the same **Flows** canvas.
 
+![A chatbot flow on the builder canvas, with a branch for each button](../assets/screenshots/flows-overview-5-canvas.png)
+
 ## Where to find it
 
 **Flows** opens from 2 places. Both open the same **Automation flows** screen.

@@ -7,6 +7,8 @@ description: Keep every customer, lead, company and deal in one place, and track
 
 The CRM holds everyone you talk to and every deal you work on. **Contacts** stores the people. **CRM** tracks the companies, deals, activities and sales numbers built on them.
 
+![CRM Deals in Board view, with deals in the New, Paid / Fulfilled and Cancelled / Refunded stages and the quick filters](../assets/screenshots/crm-deals-1-board.png)
+
 ## Where to find it
 
 CRM spans two icons in the left rail:

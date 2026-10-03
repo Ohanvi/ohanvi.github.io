@@ -75,12 +75,26 @@ nav:
           - Business profile: whatsapp/whatsapp-business-profile.md
           - Add agents: whatsapp/add-whatsapp-agents.md
           - Contacts and opt-in: whatsapp/manage-whatsapp-contacts.md
+          - Edit a configuration: whatsapp/whatsapp-configuration-settings.md
       - Talk to customers:
           - Use the inbox: whatsapp/use-whatsapp-inbox.md
+          - Use the Board and List views: whatsapp/inbox-board-and-list-views.md
+          - Handle store orders: whatsapp/handle-orders-in-the-inbox.md
+          - Send files and voice notes: whatsapp/send-files-and-voice-notes.md
+          - Create canned messages: whatsapp/create-canned-messages.md
+          - Use WhatsApp Calling: whatsapp/whatsapp-calling.md
           - Set up the AI agent: whatsapp/set-up-ai-agent.md
+          - Review and correct AI answers: whatsapp/review-and-correct-ai-agent-answers.md
           - Create a chatbot flow: create-whatsapp-flow.md
+          - Chatbot flow blocks:
+              - Media, product and form blocks: whatsapp/chatbot-message-blocks.md
+              - Ask and wait blocks: whatsapp/chatbot-ask-and-wait-blocks.md
+              - Action blocks: whatsapp/chatbot-action-blocks.md
+              - Integration and advanced steps: whatsapp/chatbot-integration-and-advanced-steps.md
+              - Test with the chat simulator: whatsapp/test-a-flow-with-the-chat-simulator.md
       - Send messages:
           - Create a message template: whatsapp/create-message-template.md
+          - Use the template library: whatsapp/use-template-library.md
           - Send a broadcast campaign: whatsapp/send-broadcast-campaign.md
           - Read a campaign report: whatsapp/read-campaign-report.md
           - Read the dashboard: whatsapp/whatsapp-dashboard.md
@@ -108,6 +122,9 @@ nav:
           - Tags, attributes and events: whatsapp/tags-attributes-and-events.md
           - Scheduler and delivery logs: whatsapp/scheduler-and-delivery-logs.md
           - Health, alerts and billing: whatsapp/health-notifications-and-billing.md
+          - Manage integrations: whatsapp/manage-whatsapp-integrations.md
+          - Manage the media library: whatsapp/manage-media-library.md
+          - Restore deleted items: whatsapp/restore-deleted-items.md
   - Flows:
       - flows/index.md
       - Understand flows: flows/flows-overview-and-list.md

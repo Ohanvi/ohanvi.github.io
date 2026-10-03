@@ -122,6 +122,35 @@ To give the chat back to the queue without resolving it, click **Release this ch
 
 4. Click **Save**. The message **Live chat settings saved.** appears.
 
+### Tell waiting customers that the team has their chat
+
+Once the bot hands a chat to a person, the bot stays silent until the chat is resolved. This setting decides what a customer who writes again sees in the meantime.
+
+1. Open **WhatsApp** in the left rail, then select **Manage**.
+2. Select **Live Chat Settings**.
+3. Turn on **Waiting for an Agent**. A text box opens.
+
+    ![Live Chat Settings with Waiting for an Agent and Escalate Unanswered Handoffs turned on and the Escalate after list set to 15 min](../assets/screenshots/whatsapp-live-chat-settings-1-waiting.png)
+
+4. Type the reply. The box shows an example: `Thanks for your patience — our team has your message and will reply here shortly.`
+5. Click **Save**. The message **Live chat settings saved.** appears.
+
+The reply goes out at most once every 30 minutes, and never once an agent has replied. Outside working hours, the **Off Hours Message** is used instead.
+
+### Escalate chats that nobody answers
+
+When a chat is handed to an agent and nobody replies, Ohanvi can route it to another agent and alert your team.
+
+1. In **Live Chat Settings**, turn on **Escalate Unanswered Handoffs**. The **Escalate after** list opens.
+2. Pick **Escalate after** 5, 10, 15, 30 or 60 min. The default is 15 min.
+3. Read the end of the line, which says **with no reply**.
+4. Click **Save**. The message **Live chat settings saved.** appears.
+
+From then on, a handed-off chat with no reply goes to an available agent again. Admins, managers and the assignee are alerted.
+
+!!! tip "Turn it off"
+    Turn **Escalate Unanswered Handoffs** off and click **Save** to stop escalation. Chats stay with the agent they were assigned to.
+
 ## Video walkthrough
 
 [VIDEO]

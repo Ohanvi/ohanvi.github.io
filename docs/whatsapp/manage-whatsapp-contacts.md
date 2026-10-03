@@ -52,6 +52,31 @@ A phone number that already exists is merged into that contact. Rows without a p
 
 To import and send a campaign straight away, choose **Import and broadcast** instead.
 
+### Import contacts and broadcast to them
+
+Use this when you want to message the people in the file straight away. It is the same file import, but a contact group is required.
+
+1. Click **Actions** at the top, then **Import and Broadcast**. You can also right-click the **Import** icon and choose **Import and broadcast**. **Import WhatsApp Contacts** opens.
+2. In **Add to List**, pick a contact group. The help text reads **The contact group these contacts will be broadcast to.** There is no **— None —** option here.
+3. Click **New Contact Group** if the group does not exist yet.
+4. Click **Choose an Excel or CSV file** and pick your file.
+5. Pick the column for each field under **Header identifiers**, as in **Import contacts** above.
+6. Click **Import**. **Import complete** appears when it finishes.
+7. Read the message **Contacts imported — pick that group in the Audience step to broadcast to them.** The **Campaign** compose screen opens.
+8. In the **Audience** step, pick the group you chose in step 2. Then continue as in [Send a WhatsApp broadcast campaign](send-broadcast-campaign.md).
+
+!!! warning "Check opt-in first"
+    Only message people who agreed to hear from you. See [Opt contacts in or out](#opt-contacts-in-or-out) below.
+
+### Read the import history
+
+1. Click **Actions** at the top, then **Import History**. You can also right-click the **Import** icon and choose **Import history**. The **Import History** window opens.
+2. Read the list, newest first. Each row shows **Date**, **Status**, **Total**, **Imported**, **Failed** and **Details**.
+3. Check **Failed**. A number above 0 shows in red. **Details** says why those rows failed, or shows **—** when nothing failed.
+4. Click the close icon when you are done.
+
+The window lists contact file imports only. When there are none, it reads **No imports yet**.
+
 ### Group and tag contacts
 
 1. Tick the contacts you want. A dark bar appears with **Add tag**, **Add to group**, **Send broadcast** and **Export** for the selection.

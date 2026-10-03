@@ -22,6 +22,12 @@ The **Appointments** page lists your bookings by day with their status. Use it t
 4. To see one day, click **Today**. Use **Previous day** and **Next day** to move. Click **Show all upcoming** (the X icon) to see every day again.
 5. Click **Refresh** to load new bookings.
 
+### Read an empty list
+
+1. If the page shows **No appointments yet**, no booking exists. The message reads **Requests booked over WhatsApp and manual bookings will appear here.** Set up WhatsApp booking first. See [Take bookings on WhatsApp](take-bookings-on-whatsapp.md).
+2. If the page shows **Nothing on this day**, you are looking at one day with no bookings. The message reads **Pick another day, or clear the filter to see everything.** Click **Show all upcoming**.
+3. If the page shows an error with **Please try again.**, click **Refresh**.
+
 ### Confirm or reject a request
 
 New requests show the status **Requested**.
@@ -88,9 +94,3 @@ To mark no-shows automatically, set **Mark as no-show after (minutes, 0 = never)
 - [Take bookings on WhatsApp](take-bookings-on-whatsapp.md)
 - [Set booking rules and reminders](set-booking-rules-and-reminders.md)
 - [Schedule](../schedule/index.md)
-
-!!! note "Screenshots to add"
-    - After step 1 of Find a booking — **Appointments** page with day headings and a **Requested** booking
-    - After step 1 of Confirm or reject a request — a row with **Confirm**, **Reject**, **Move** and **Cancel**
-    - After step 4 of Move a booking — the **Move appointment** dialog with free times
-    - After step 1 of Close off a visit — the menu with **Mark completed** and **Mark no-show**

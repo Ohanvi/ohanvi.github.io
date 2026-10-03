@@ -98,9 +98,3 @@ Tasks cannot be deleted once created. To take a task off the active board, move 
 - [Set up a task project](set-up-task-project.md)
 - [Move tasks across the board](move-tasks-on-board.md)
 - [Comment, mention and attach files](collaborate-on-tasks.md)
-
-!!! note "Screenshots to add"
-    - After step 2 of "Create a task from the Tasks panel" — the empty task dialog with **Add a summary** and the right-hand details panel.
-    - After step 3 of "Add a task straight into a column" — the inline composer with the **Work type** menu open.
-    - "Set the task details" — the expanded **Details** panel with **Assignee**, **Priority** and **Due date** filled in.
-    - After step 4 of "Break a task into subtasks" — the **Subtasks** table with 2 subtasks.

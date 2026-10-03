@@ -66,6 +66,3 @@ A successful call returns `{ "status": "success", "whatsappMessageId": "wamid…
 - [Create a WhatsApp message template](../whatsapp/create-message-template.md)
 - [Choose your own or Ohanvi's managed services](choose-connectors.md)
 
-!!! note "Screenshots to add"
-    - After step 3 of Open Developer APIs — the **AUTHENTICATION** section with the base URL and 3 steps
-    - After step 1 of Copy a request body — an open **Template** row showing **REQUEST BODY** and **Copy**

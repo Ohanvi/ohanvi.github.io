@@ -34,6 +34,9 @@ The same profile menu also has **My Account** (click your name), **Switch role**
 | [Update your profile and password](update-your-profile.md) | You want to change your name, email, phone or password. |
 | [Manage team members, roles and permissions](roles-and-permissions.md) | You want to add, edit or remove teammates, or choose their role. |
 | [Invite teammates with a link](invite-teammates.md) | You want teammates to sign up on their own and join your workspace. |
+| [Team and access](team-and-access/index.md) | You want one place for profile, teammates and roles. |
+| [Integrations](integrations/index.md) | You want to connect a store, Tally, Zapier or Pabbly. |
+| [Refer and earn](../billing/refer-and-earn.md) | You want to invite businesses and earn. |
 | [Choose how notifications reach you](notification-preferences.md) | You get too many notifications, or too few. |
 | [Choose your own or Ohanvi's managed services](choose-connectors.md) | You want to use your own WhatsApp, AI or email provider. |
 | [Send WhatsApp messages with the Developer APIs](developer-apis.md) | A developer needs to send messages from your own systems. |

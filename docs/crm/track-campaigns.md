@@ -81,9 +81,3 @@ Use **Preview**, **Duplicate**, **Edit** and **Delete** on each template. Filter
 - [Track sales performance](track-sales-performance.md)
 - [Email overview](../email/index.md)
 - [CRM overview](../crm/index.md)
-
-!!! note "Screenshots to add"
-    - After step 2 of "Create a campaign" — the **New Campaign** window on **Campaign Details**
-    - After step 3 of "Add the audience" — the **Members — …** window with **Add entire segment**
-    - After step 2 of "Review a campaign" — a campaign's **Overview** tab
-    - After step 6 of "Keep campaign templates" — the template **Preview**

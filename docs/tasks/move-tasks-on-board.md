@@ -83,12 +83,7 @@ A board always keeps at least 1 column.
 
 ## Related
 
+- [Use the List view](use-the-list-view.md)
 - [Create and assign tasks](create-and-assign-tasks.md)
 - [Find, filter and view tasks](find-and-filter-tasks.md)
 - [Plan work in sprints](plan-sprints.md)
-
-!!! note "Screenshots to add"
-    - After step 2 of "Drag a task to a new column" — a card mid-drag over a highlighted column.
-    - "Change the status without dragging" — a card's **…** menu with **Change status** expanded.
-    - After step 2 of "Remove a column" — the **Remove column?** dialog.
-    - After step 3 of "Change the status of many tasks at once" — the **List** view with tasks ticked and the **Change status** menu open.

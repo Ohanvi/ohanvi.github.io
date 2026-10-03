@@ -119,8 +119,3 @@ The summary counts skipped rows but does not list them. Find them in your file w
 - [Create and manage contact groups](contact-groups.md)
 - [Track contact consent](consent-and-compliance.md)
 - [Send a WhatsApp broadcast campaign](../whatsapp/send-broadcast-campaign.md)
-
-!!! note "Screenshots to add"
-    - After step 2 of "See your contact sources" — the Import & sync screen with its 4 source cards.
-    - After step 3 of "Upload the file" — the mapping step with Header identifiers and Options.
-    - After step 2 of "Import and review the results" — the Import complete summary.

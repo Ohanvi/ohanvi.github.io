@@ -20,10 +20,11 @@ Use the **Schedule** section to see everything your workspace has queued, across
 2. Use the arrows next to the month name to move to the previous or next month. Click **Today** to jump back to the current month.
 3. Each item shows as a coloured chip with its time and title. The colour tells you the channel.
 4. Click a day to open a list of everything scheduled that day, for example **Today · 4 scheduled**. Click an item to open its details.
+5. If a day holds more items than fit in its box, the box shows **+N more**, for example **+3 more**. Click the day to see them all.
 
 ### Switch between calendar and list
 
-1. At the top of the page, click **List**. Items are listed by time, grouped under day headings such as **Today · 26 Sep**.
+1. At the top of the page, click **List**. Items are listed by time, grouped under day headings. The headings read **Yesterday**, **Today**, **Tomorrow**, then a date such as **Fri, 3 Oct**.
 2. Click an item in the list. Its details open on the right: **When**, **Recurrence**, **Audience / with**, **Owner**, **Channel** and **Type**.
 3. Click **Calendar** to go back to the month view.
 
@@ -74,7 +75,7 @@ Each panel item opens the same page with a filter already applied:
 
 | Issue | Cause | Fix |
 | --- | --- | --- |
-| **Nothing scheduled here** | No items match the channel, owner or status filters. | Click another channel chip, choose **Everyone's schedule**, or set the status back to **Any status**. |
+| **Nothing scheduled here**, with the message **No schedules match these filters. Try another channel or clear the status filter.** | No items match the channel, owner or status filters. | Click another channel chip, choose **Everyone's schedule**, or set the status back to **Any status**. |
 | **Could not load your schedule.** | The page could not reach the server. | Click the retry button on the message. If it keeps failing, sign out and sign in again. |
 | **Schedule** is missing from the left rail | Your role does not include schedule access. | Ask your admin to add it to your role. |
 | An item you created is not shown | Items without a date and time do not appear on the Schedule. | Open the item in its module and give it a scheduled time. |
@@ -86,9 +87,3 @@ Each panel item opens the same page with a filter already applied:
 - [Manage recurring schedules](manage-recurring-schedules.md)
 - [Appointments](../appointments/index.md)
 - [Email Marketing](../email/index.md)
-
-!!! note "Screenshots to add"
-    - After step 1 of Open the Schedule — **My Schedule** calendar with coloured chips from several channels
-    - After step 4 of Open the Schedule — the day sheet listing everything scheduled that day
-    - After step 2 of Switch between calendar and list — **List** view with the details pane open
-    - After step 3 of Filter the view — the status menu with **Any status**, **Scheduled**, **Draft**, **Sent**, **Cancelled**

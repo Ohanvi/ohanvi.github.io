@@ -78,9 +78,3 @@ What cancel does in each module:
 - [Manage recurring schedules](manage-recurring-schedules.md)
 - [Appointments](../appointments/index.md)
 - [CRM](../crm/index.md)
-
-!!! note "Screenshots to add"
-    - After step 3 of Open the item — details pane with **Reschedule**, **Edit**, **Cancel** and **Delete**
-    - After step 1 of Reschedule to a new time — the date picker
-    - After step 1 of Cancel an item — the **Cancel schedule** dialog
-    - After step 1 of Delete an item — the **Delete schedule** dialog

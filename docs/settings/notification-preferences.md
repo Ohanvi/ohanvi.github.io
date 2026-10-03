@@ -53,6 +53,3 @@ Super Admins also see an **Email** column. It turns email alerts for that module
 - [Open Settings and find a setting](open-settings.md)
 - [Manage team members, roles and permissions](roles-and-permissions.md)
 
-!!! note "Screenshots to add"
-    - After step 3 — the **Notifications** page with **In-app** and **Push** switches per module
-    - After step 1 of Fine-tune single events — a module's per-event settings

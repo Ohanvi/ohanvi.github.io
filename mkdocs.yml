@@ -48,25 +48,46 @@ nav:
   - Home: index.md
   - Getting Started:
       - Sign up for Ohanvi: sign-up.md
+      - Start your free trial: welcome-and-free-trial.md
+      - Join a team: join-a-team.md
+      - Sign up as a partner: partner-sign-up.md
       - Sign in to Ohanvi: sign-in.md
       - Reset your password: reset-password.md
   - CRM and Contacts:
       - crm/index.md
       - Contacts:
-          - Manage contacts: crm/manage-contacts.md
-          - Import and sync contacts: crm/import-and-sync-contacts.md
-          - Custom fields: crm/custom-fields.md
+          - crm/contacts/index.md
+          - All contacts:
+              - Manage contacts: crm/manage-contacts.md
+              - Call contacts and review calls: crm/call-contacts-and-review-calls.md
+              - Auto Calling: crm/auto-call-contacts.md
+              - Send a welcome email: crm/send-a-welcome-email.md
+              - Set up the welcome email: crm/set-up-the-welcome-email.md
+              - Recent contacts: crm/find-recent-contacts.md
+          - Leads:
+              - Work with leads: crm/leads.md
+              - Recover abandoned carts: crm/recover-abandoned-carts.md
           - Contact groups: crm/contact-groups.md
-          - Leads: crm/leads.md
+          - Import and sync: crm/import-and-sync-contacts.md
+          - Custom fields: crm/custom-fields.md
           - Consent and compliance: crm/consent-and-compliance.md
-      - Sales:
-          - Set up pipelines: crm/set-up-pipelines.md
-          - Manage accounts: crm/manage-accounts.md
-          - Create and manage deals: crm/manage-deals.md
+      - CRM:
+          - crm/sales/index.md
+          - Dashboard: crm/track-sales-performance.md
+          - Deals: crm/manage-deals.md
+          - Accounts: crm/manage-accounts.md
           - Activities and notes: crm/log-activities-and-notes.md
-          - Campaigns and templates: crm/track-campaigns.md
+          - Campaigns: crm/track-campaigns.md
           - Automations: crm/manage-automations.md
-          - Track sales performance: crm/track-sales-performance.md
+          - Funnel: crm/read-the-funnel.md
+          - Forecast: crm/read-the-forecast.md
+          - Sales reports: crm/run-sales-reports.md
+          - Configure:
+              - crm/configure/index.md
+              - Pipelines: crm/set-up-pipelines.md
+              - Lead sources: crm/manage-lead-sources.md
+              - Products: crm/add-products.md
+              - Sales quotas: crm/set-sales-quotas.md
   - WhatsApp:
       - whatsapp/index.md
       - Set up:
@@ -148,42 +169,92 @@ nav:
           - Recycle Bin: whatsapp/restore-deleted-items.md
   - Flows:
       - flows/index.md
-      - Understand flows: flows/flows-overview-and-list.md
-      - Build an automation: flows/build-automation-flow.md
+      - Understand flows and the Flows list: flows/flows-overview-and-list.md
+      - Start a flow from a template: flows/use-flow-templates.md
+      - The flow panel:
+          - flows/flow-panel/index.md
+          - Test and fix runs: flows/test-and-monitor-flows.md
+          - "Read a run's output": flows/read-a-runs-output.md
+          - Review versions: flows/review-flow-versions.md
+      - Build an automation flow: flows/build-automation-flow.md
+      - Automate store messages: flows/store-journeys.md
       - Connect an app: flows/connect-apps-for-flows.md
-      - Store automations: flows/store-journeys.md
-      - Test and fix runs: flows/test-and-monitor-flows.md
   - Social:
       - social/index.md
-      - Connect social accounts: social/connect-social-accounts.md
-      - Create a post: social/create-social-post.md
-      - Schedule and manage posts: social/schedule-social-posts.md
-      - Review posts: social/approve-social-posts.md
-      - Use post templates: social/use-post-templates.md
-      - Google Business Profile: social/manage-google-business-profile.md
-      - Read insights: social/view-social-insights.md
+      - Set up:
+          - social/set-up/index.md
+          - Connect social accounts: social/connect-social-accounts.md
+          - Use the Social sidebar: social/use-the-social-sidebar.md
+      - Home: social/use-social-home.md
+      - Insights:
+          - social/insights/index.md
+          - Read social insights: social/view-social-insights.md
+          - Explore Insights charts and one channel: social/explore-insights-charts.md
+      - Publish:
+          - social/publish/index.md
+          - Create a post: social/create-social-post.md
+          - Use the AI Assistant: social/use-ai-assistant-in-the-composer.md
+          - Schedule and manage posts: social/schedule-social-posts.md
+          - Publish filters, overview and post details: social/use-publish-filters-and-extras.md
+          - Review posts: social/approve-social-posts.md
+      - Templates: social/use-post-templates.md
+      - Business Info:
+          - social/business-info/index.md
+          - Google Business Profile: social/manage-google-business-profile.md
+          - Reply to Google reviews: social/reply-to-google-reviews.md
   - Email:
       - email/index.md
-      - Set up a sender: email/set-up-sender-identity.md
-      - Connect your email provider: email/connect-email-provider.md
-      - Contacts, lists and segments: email/manage-email-contacts.md
-      - Create an email template: email/create-email-template.md
-      - Send a campaign: email/send-email-campaign.md
-      - Automate with journeys: email/create-email-automation.md
-      - Track results: email/track-email-results.md
+      - Campaigns:
+          - email/campaigns/index.md
+          - Send an email campaign: email/send-email-campaign.md
+          - Track results and handle unsubscribes: email/track-email-results.md
+      - Flows: email/create-email-automation.md
+      - Audience:
+          - email/audience/index.md
+          - Add contacts, lists and segments: email/manage-email-contacts.md
+          - Find, tag and export contacts: email/find-tag-and-export-contacts.md
+          - Use Email Groups: email/use-email-groups.md
+      - Email Templates: email/create-email-template.md
+      - Manage:
+          - email/manage/index.md
+          - Scheduler: email/use-the-email-scheduler.md
+          - Business Holidays: email/manage-business-holidays.md
+          - Sender Identities: email/set-up-sender-identity.md
+          - Email Sending Server: email/connect-email-provider.md
+          - Send Logs: email/read-send-logs.md
+          - Suppression List: email/use-the-suppression-list.md
+          - Topics: email/manage-email-topics.md
+      - Forms:
+          - email/forms/index.md
+          - Create and manage forms: email/forms-create-and-manage.md
+          - Build a form: email/forms-build-a-form.md
+          - Preview and share a form: email/forms-share-and-preview.md
+          - Read form responses: email/forms-read-responses.md
+          - Read form submissions: email/forms-read-submissions.md
+          - Signup and popup forms: email/collect-signups-with-forms.md
   - Appointments:
       - appointments/index.md
-      - Add services: appointments/add-services.md
-      - Add providers and working hours: appointments/add-providers.md
+      - Appointments: appointments/manage-appointments.md
+      - Services: appointments/add-services.md
+      - Classes: appointments/schedule-classes.md
+      - Providers: appointments/add-providers.md
       - Booking rules and reminders: appointments/set-booking-rules-and-reminders.md
       - Take bookings on WhatsApp: appointments/take-bookings-on-whatsapp.md
-      - Manage appointments: appointments/manage-appointments.md
-      - Schedule a class: appointments/schedule-classes.md
   - Schedule:
       - schedule/index.md
-      - View everything scheduled: schedule/view-schedule.md
-      - Reschedule, cancel or delete: schedule/reschedule-cancel-delete.md
-      - Recurring schedules: schedule/manage-recurring-schedules.md
+      - All schedules:
+          - schedule/all-schedules/index.md
+          - View everything scheduled: schedule/view-schedule.md
+          - Reschedule, cancel or delete: schedule/reschedule-cancel-delete.md
+      - Today: schedule/view-todays-schedule.md
+      - Upcoming: schedule/view-upcoming-schedule.md
+      - Drafts: schedule/find-and-finish-drafts.md
+      - WhatsApp: schedule/view-whatsapp-schedule.md
+      - CRM: schedule/view-crm-schedule.md
+      - Email: schedule/view-email-schedule.md
+      - Social: schedule/view-social-schedule.md
+      - Appointments: schedule/view-appointments-schedule.md
+      - Recurring: schedule/manage-recurring-schedules.md
   - Analytics:
       - analytics/index.md
       - Set up data: analytics/set-up-analytics-data.md
@@ -193,29 +264,52 @@ nav:
   - Tasks:
       - tasks/index.md
       - Set up a task project: tasks/set-up-task-project.md
-      - Create and assign tasks: tasks/create-and-assign-tasks.md
-      - Move tasks across the board: tasks/move-tasks-on-board.md
-      - Comment, mention and attach: tasks/collaborate-on-tasks.md
-      - Find, filter and view tasks: tasks/find-and-filter-tasks.md
-      - Plan work in sprints: tasks/plan-sprints.md
+      - Tasks panel:
+          - tasks/tasks-panel/index.md
+          - Create and assign tasks: tasks/create-and-assign-tasks.md
+          - Write in the task editor: tasks/write-in-the-task-editor.md
+          - Comment, mention and attach: tasks/collaborate-on-tasks.md
+          - Find, filter and view tasks: tasks/find-and-filter-tasks.md
+      - Summary: tasks/read-the-board-summary.md
+      - Timeline: tasks/use-the-timeline.md
+      - Backlog:
+          - tasks/backlog/index.md
+          - Work with items in the Backlog: tasks/work-with-the-backlog.md
+          - Plan work in sprints: tasks/plan-sprints.md
+      - Board: tasks/move-tasks-on-board.md
+      - List: tasks/use-the-list-view.md
+      - Notifications: tasks/read-task-notifications.md
   - Settings:
       - settings/index.md
       - Open Settings: settings/open-settings.md
-      - Update your profile: settings/update-your-profile.md
-      - Team, roles and permissions: settings/roles-and-permissions.md
-      - Invite teammates: settings/invite-teammates.md
+      - Team and access:
+          - settings/team-and-access/index.md
+          - Update your profile: settings/update-your-profile.md
+          - Team, roles and permissions: settings/roles-and-permissions.md
+          - Invite teammates: settings/invite-teammates.md
+          - Deactivate your account: settings/deactivate-your-account.md
       - Notifications: settings/notification-preferences.md
-      - Own vs managed services: settings/choose-connectors.md
+      - Integrations:
+          - settings/integrations/index.md
+          - Store connections: settings/connect-your-store.md
+          - Accounting ERP (Tally): settings/connect-tally-accounting.md
+          - Zapier: settings/connect-zapier.md
+          - Pabbly: settings/connect-pabbly.md
+          - Own vs managed services: settings/choose-connectors.md
       - Developer APIs: settings/developer-apis.md
   - Billing and Credits:
       - billing/index.md
-      - Credits and billing: credits-and-billing.md
-      - Add funds: add-funds.md
+      - Plans and pricing: billing/plans-and-pricing.md
+      - Manage your plan and users: billing/manage-plan-and-users.md
+      - Plan billed through Shopify: billing/shopify-billed-accounts.md
+      - GSTIN and invoice details: billing/add-gst-invoice-details.md
+      - Credits:
+          - Credits and billing: credits-and-billing.md
+          - Add funds: add-funds.md
+          - When credits run low or run out: billing/low-or-empty-credits.md
       - Read your current usage: billing/read-current-usage.md
       - Statement and invoices: billing/statement-and-invoices.md
-      - GSTIN and invoice details: billing/add-gst-invoice-details.md
-      - When credits run low or run out: billing/low-or-empty-credits.md
-      - Manage your plan and users: billing/manage-plan-and-users.md
+      - Refer and earn: billing/refer-and-earn.md
   - Advertisements: advertisements.md
   - Documentation:
       - Embed Videos in Articles: embed-video-guide.md

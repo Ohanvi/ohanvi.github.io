@@ -16,6 +16,8 @@ A service is what a customer books, such as a haircut, a consultation or a produ
 
 ### Add a service
 
+The page subtitle reads **What a customer can book, and how long each one takes.** If you have no services yet, the page shows **No services yet** and **Add one to start taking bookings.** Click **Add service** there to start.
+
 1. Open **Appts** in the left rail, then select **Services**. The **Services** page opens.
 2. Click **Add service**. The **Add service** dialog opens.
 
@@ -61,7 +63,3 @@ A service is what a customer books, such as a haircut, a consultation or a produ
 - [Add providers and working hours](add-providers.md)
 - [Set booking rules and reminders](set-booking-rules-and-reminders.md)
 - [Schedule a class](schedule-classes.md)
-
-!!! note "Screenshots to add"
-    - After step 8 of Add a service — the **Services** list with one service and its duration, buffer and price
-    - After step 3 of Edit a service — a service with the **Inactive** badge

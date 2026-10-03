@@ -100,6 +100,7 @@ The **Last broadcast** panel, on the right, shows your most recent campaign in t
 | **No broadcasts in this window** | Nothing was sent in the selected period. | Choose a longer window, such as **All**. |
 | **Messages opened** looks low | WhatsApp reports a read only when the recipient's phone sends a read receipt. | Compare read rates between campaigns rather than against 100%. |
 | **Can you send?** strip is missing | Ohanvi could not load your WhatsApp configuration. | Check **WhatsApp** → **Configuration**, then click **Refresh**. |
+| No campaigns appear under **Best campaigns** and **Worst campaigns** | The panel reads **No campaigns with delivered messages in this window yet.** Only campaigns with at least 1 delivered message are ranked. | Choose a longer window, or wait until a campaign has delivered messages. |
 | No **What it earned** section | No store is connected, or no order was credited in the window. | Connect a store. See [Set up data for Analytics](set-up-analytics-data.md). |
 
 ## Related
@@ -108,9 +109,3 @@ The **Last broadcast** panel, on the right, shows your most recent campaign in t
 - [Act on your analytics](act-on-analytics.md)
 - [Read Store Analytics](read-store-analytics.md)
 - [Create a WhatsApp template](../whatsapp/create-message-template.md)
-
-!!! note "Screenshots to add"
-    - After Open the screen, step 2 — full screen with the window pills and **Can you send?** strip
-    - After Read Where you stand — the tile row with green and red captions
-    - After Read Performance over time — the weekly bar chart with its legend
-    - After Read What it earned — the revenue panel with campaign rows

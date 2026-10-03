@@ -74,7 +74,3 @@ To change it later, click **Manage email providers**.
 - [Send a WhatsApp broadcast campaign](../whatsapp/send-broadcast-campaign.md)
 - [Email section](../email/index.md)
 
-!!! note "Screenshots to add"
-    - After step 3 of Open Connectors — the 3 cards: **WhatsApp (Meta)**, **AI** and **Email**
-    - After step 1 of Choose how WhatsApp is billed — the **Pay through Ohanvi** / **Pay Meta directly** choice
-    - After step 3 of Use your own AI key — the AI card showing **Your key · connected**

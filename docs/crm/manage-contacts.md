@@ -71,6 +71,7 @@ If you click another contact before saving, the **Unsaved changes** dialog asks 
 
 1. In the record header, click **Message** to send a WhatsApp message, or **Broadcast** to open the broadcast composer.
 2. Click **More actions** (the **…** button) for the other actions: **Call Now**, **Call on Mobile — send this number to your phone**, **Send Welcome Email**, **Send WhatsApp**, **WhatsApp Call** and **Notes & Activities**.
+3. For the steps of each action, see [Call contacts and review your calls](call-contacts-and-review-calls.md), [Call many contacts in a row with Auto Calling](auto-call-contacts.md) and [Send a welcome email to a contact](send-a-welcome-email.md).
 
 ### Merge duplicate contacts
 
@@ -113,14 +114,13 @@ If you click another contact before saving, the **Unsaved changes** dialog asks 
 
 ## Related
 
+- [Call contacts and review your calls](call-contacts-and-review-calls.md)
+- [Call many contacts in a row with Auto Calling](auto-call-contacts.md)
+- [Send a welcome email to a contact](send-a-welcome-email.md)
+- [Set up the welcome email and your brochures](set-up-the-welcome-email.md)
+- [Jump back to recent contacts](find-recent-contacts.md)
 - [Import and sync contacts](import-and-sync-contacts.md)
 - [Create and manage contact groups](contact-groups.md)
 - [Track contact consent](consent-and-compliance.md)
 - [Work with leads](leads.md)
 - [CRM overview](../crm/index.md)
-
-!!! note "Screenshots to add"
-    - After step 2 of "Open your contacts" — the 3-pane All contacts screen with one contact selected.
-    - After step 4 of "Add a contact" — the Add Contact form showing the duplicate warning.
-    - After step 1 of "Act on many contacts at once" — the selection bar with More bulk actions open.
-    - After step 1 of "Merge duplicate contacts" — the Merge dialog with a Surviving record picked.

@@ -63,7 +63,3 @@ Your details apply to invoices raised after you save them. Invoices that were al
 - [Export your statement and view invoices](statement-and-invoices.md)
 - [Credits and billing in Ohanvi](../credits-and-billing.md)
 
-!!! note "Screenshots to add"
-    - After "Open Invoice Details" step 2 — the empty **Invoice details** form with the yellow GSTIN note.
-    - After "Fill in your details" step 2 — the GSTIN field showing the **Doesn't look like a GSTIN** error.
-    - After "Fill in your details" step 6 — the saved form with **Invoice details saved.** and the state code hint.

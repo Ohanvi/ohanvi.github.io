@@ -109,11 +109,8 @@ Ohanvi tries each network up to 5 times before it marks the post **Failed**.
 
 ## Related
 
+- [Use Publish filters, overview and post details](use-publish-filters-and-extras.md)
 - [Create and publish a social post](create-social-post.md)
 - [Review posts before they publish](approve-social-posts.md)
 - [Read social insights](view-social-insights.md)
 
-!!! note "Screenshots to add"
-    - After "Schedule a post" step 4 — the composer footer showing **Publishes** and **Schedule Post**.
-    - After "Use the calendar" step 2 — the **Week** view with scheduled posts.
-    - After "Retry a failed post" step 2 — a **Partial** post with the **Retry** button.

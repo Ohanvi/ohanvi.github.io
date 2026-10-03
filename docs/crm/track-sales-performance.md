@@ -1,15 +1,15 @@
 ---
-title: Track sales performance
-description: Read the CRM Dashboard, Funnel and Forecast, set monthly sales quotas, and run and export the sales reports.
+title: Read the CRM dashboard
+description: Read your open pipeline, wins, win rate, deal size and the deals going cold on the CRM Dashboard.
 ---
 
-# Track sales performance
+# Read the CRM dashboard
 
-Read how your pipeline is doing and where it is heading. At the end, you can read the **Dashboard**, see where leads drop off in the **Funnel**, check the weighted **Forecast** against monthly quotas, and export any of the 7 sales reports to Excel or PDF.
+Read how your pipeline is doing today. At the end, you can read the open pipeline, the wins and the deals that are going cold, and download your deals as a file. Reading the dashboard takes about 5 minutes.
 
 ## Before you start
 
-- You can see **CRM** in the left rail, with **Dashboard**, **Funnel** and **Forecast** in its panel. These need access to the CRM reports. If you do not see them, ask your admin.
+- You can see **CRM** in the left rail with **Dashboard** in its panel. It needs access to the CRM reports. If you do not see it, ask your admin.
 - Your deals have stages, amounts and expected close dates. The figures are worked out from them. See [Create and manage deals](manage-deals.md).
 
 ## Steps
@@ -30,44 +30,14 @@ Read how your pipeline is doing and where it is heading. At the end, you can rea
 
 Open pipeline, what is due and what has gone cold are always as of now, whatever period you pick.
 
-### See where leads drop off
+### Go further
 
-1. Select **Funnel** in the CRM panel.
-2. Read **Conversion funnel**. Each bar is a stage, with the share lost before the next one.
-3. Read **Funnel by source** to see which lead source converts best. Click **Lead Sources** to manage them.
-4. Click **Board** to see leads as cards in their stages. Click **Funnel** to go back.
-5. Click **Export** to download the funnel as an Excel file.
+The rest of the sales numbers have their own pages:
 
-**Edit stages** shows only for the platform sysadmin. It hides stages and changes their order in your own view of the funnel.
-
-### Set sales quotas
-
-1. On **Forecast**, click **Manage quotas**. Or press **Ctrl K** (**⌘K** on a Mac), type **Sales Quotas**, and select it.
-2. Click **Add**. The **Add Sales Quotas** form opens.
-3. Fill **Owner Username** and, optionally, **Owner Display Name**.
-4. Pick the **Year** and **Month**.
-5. Enter the **Target Amount** and **Currency**. Currency defaults to **INR**.
-6. Click **Submit**. The message **Quota created** appears.
-7. To check progress, click **View** in the **Achievement** column. The **Forecast vs Quota** window opens for that month.
-
-Each owner can have 1 quota per month.
-
-### Read the Forecast
-
-1. Select **Forecast** in the CRM panel.
-2. Read the 3 figures at the top:
-    - **Weighted forecast** — each open deal's value multiplied by its probability.
-    - **Open pipeline** — the best case if every open deal closes.
-    - **Committed** — the weighted value of deals in stages at 80% or higher.
-3. Read **Weighted pipeline by stage**, **Quota attainment** and **3-month forecast**. In the 3-month chart, **Committed** is already won and **Upside** is the weighted open value.
-4. Click **Export** to download the forecast.
-
-### Run the sales reports
-
-1. Press **Ctrl K**, type **Sales reports**, and select it. **Sales reports** is not listed in the CRM panel.
-2. Pick a report: **Sales Funnel**, **Pipeline Value**, **Win / Loss**, **Lead Sources**, **Activity Productivity**, **Campaign ROI** or **Forecast vs Quota**.
-3. Click the date range button to choose the period.
-4. Click **Export Excel** or **Export PDF** to download the report.
+- [Read the funnel and move leads on the board](read-the-funnel.md)
+- [Read the sales forecast](read-the-forecast.md)
+- [Set sales quotas](set-sales-quotas.md)
+- [Run the sales reports](run-sales-reports.md)
 
 ## Video walkthrough
 
@@ -78,21 +48,10 @@ Each owner can have 1 quota per month.
 | Issue | Cause | Fix |
 | --- | --- | --- |
 | **Win rate** shows **—** | Fewer than 4 deals are won or lost in the period. | Pick a longer period, or wait for more deals to close. |
-| **A quota for this owner and period already exists.** | That owner already has a quota for that month. | Edit the existing quota instead. |
-| **Target amount must be positive.** | **Target Amount** is 0 or less. | Enter an amount above 0. |
-| **Month must be between 1 and 12.** | The month is out of range. | Pick a month from 1 to 12. |
-| **Forecast vs Quota** shows the whole team's figures | The report cannot filter by owner yet. | Compare the owner's quota with **Won by owner** on the **Dashboard**. |
-| **Nothing in this period** on a sales report | No data falls in the date range. | Widen the date range. |
 
 ## Related
 
 - [Create and manage deals](manage-deals.md)
-- [Set up pipelines, lead sources and products](set-up-pipelines.md)
-- [Analytics overview](../analytics/index.md)
-- [CRM overview](../crm/index.md)
-
-!!! note "Screenshots to add"
-    - After step 2 of "Read the Dashboard" — the figures row
-    - After step 2 of "See where leads drop off" — the **Conversion funnel**
-    - After step 2 of "Read the Forecast" — the 3 forecast figures and **Quota attainment**
-    - After step 2 of "Run the sales reports" — **Sales reports** with a report picked
+- [Read the funnel and move leads on the board](read-the-funnel.md)
+- [Read the sales forecast](read-the-forecast.md)
+- [Run the sales reports](run-sales-reports.md)

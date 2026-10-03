@@ -26,10 +26,16 @@ Tasks is in the **right-hand** rail, next to the notification bell and **Help** 
 | --- | --- |
 | [Set up a task project](set-up-task-project.md) | You are starting with Tasks, or need a project for a new team. |
 | [Create and assign tasks](create-and-assign-tasks.md) | You want to add work, give it an owner, a priority and a due date. |
-| [Move tasks across the board](move-tasks-on-board.md) | You want to update a task's status or change the board's columns. |
+| [Write in the task editor](write-in-the-task-editor.md) | You want headings, lists, tables, pictures or voice in a description. |
 | [Comment, mention and attach files](collaborate-on-tasks.md) | You want to discuss a task, share files, or log time. |
 | [Find, filter and view tasks](find-and-filter-tasks.md) | You want to see only your work, or switch the board's view. |
+| [Read the board Summary](read-the-board-summary.md) | You want a project's progress in charts. |
+| [Use the Timeline](use-the-timeline.md) | You want to see tasks on a calendar by date. |
+| [Work with items in the Backlog](work-with-the-backlog.md) | You want to add and tidy tasks that are not in a sprint. |
 | [Plan work in sprints](plan-sprints.md) | Your team plans work in fixed periods. |
+| [Move tasks across the board](move-tasks-on-board.md) | You want to update a task's status or change the columns. |
+| [Use the List view](use-the-list-view.md) | You want a table, and bulk changes. |
+| [Read task notifications](read-task-notifications.md) | You want to see task alerts. |
 
 ## Related
 

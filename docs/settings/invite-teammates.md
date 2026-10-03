@@ -65,7 +65,3 @@ Some module team screens, such as the WhatsApp team screen, have their own invit
 - [Sign up for Ohanvi](../sign-up.md)
 - [Settings overview](../settings/index.md)
 
-!!! note "Screenshots to add"
-    - After step 4 — the **Invite teammate** window with **JOINS AS** and **SHARE VIA**
-    - After step 7 — the QR code with **Scan to join as Manager**
-    - After step 1 of What your teammate does — the join page showing **You're joining … team**

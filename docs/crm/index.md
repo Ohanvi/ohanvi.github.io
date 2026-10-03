@@ -34,28 +34,49 @@ Some CRM screens are not in the panel:
 
 ## Contacts
 
+See [Contacts](contacts/index.md) for every guide in this part.
+
 | Guide | Use it when |
 | --- | --- |
 | [Manage contacts](manage-contacts.md) | You want to add, find, filter, edit, tag, merge or export contacts. |
-| [Import and sync contacts](import-and-sync-contacts.md) | You have contacts in an Excel or CSV file, or want them to flow in from WhatsApp, a store or Zapier. |
-| [Add custom contact fields](custom-fields.md) | You need to store something about contacts that the built-in fields don't cover. |
+| [Call contacts and review your calls](call-contacts-and-review-calls.md) | You call a contact and want to record the outcome and a follow-up. |
+| [Call many contacts in a row with Auto Calling](auto-call-contacts.md) | You have a list of contacts to call one after another. |
+| [Send a welcome email to a contact](send-a-welcome-email.md) | You want to email one contact with your brochures attached. |
+| [Set up the welcome email and your brochures](set-up-the-welcome-email.md) | You want a default welcome message and a shared brochure library. |
+| [Jump back to recent contacts](find-recent-contacts.md) | You want the contacts you opened or called lately. |
+| [Work with leads](leads.md) | You want to qualify, score and convert new enquiries. |
+| [Recover abandoned carts with Commerce leads](recover-abandoned-carts.md) | Shoppers left your online store without paying. |
 | [Create and manage contact groups](contact-groups.md) | You want a saved list of contacts to message together. |
-| [Work with leads](leads.md) | You want to qualify, score and convert new enquiries, or follow up abandoned carts. |
+| [Import and sync contacts](import-and-sync-contacts.md) | You have contacts in a file, or want them to flow in from WhatsApp, a store or Zapier. |
+| [Add custom contact fields](custom-fields.md) | You need to store something about contacts that the built-in fields do not cover. |
 | [Track contact consent](consent-and-compliance.md) | You need to check or change who agreed to hear from you, or export a consent log. |
 
-## Sales
+## CRM
 
-Follow these in order the first time you set up the CRM.
+See [CRM](sales/index.md) for every guide in this part.
 
 | Guide | Use it when |
 | --- | --- |
-| [Set up pipelines, lead sources and products](set-up-pipelines.md) | You are configuring the CRM for the first time. |
-| [Add and manage accounts](manage-accounts.md) | You want to track the companies you sell to. |
+| [Read the CRM dashboard](track-sales-performance.md) | You want your open pipeline, wins and the deals going cold. |
 | [Create and manage deals](manage-deals.md) | You want to add a deal, move it through stages and close it. |
+| [Add and manage accounts](manage-accounts.md) | You want to track the companies you sell to. |
 | [Log activities and notes](log-activities-and-notes.md) | You want to plan calls and meetings and keep notes on a contact or deal. |
 | [Track campaigns and campaign templates](track-campaigns.md) | You want to record a campaign, its audience and its results. |
 | [Manage CRM automations](manage-automations.md) | You want to see, pause or resume the rules running on leads and deals. |
-| [Track sales performance](track-sales-performance.md) | You want the dashboard, funnel, forecast, quotas or sales reports. |
+| [Read the funnel and move leads on the board](read-the-funnel.md) | You want to see where leads drop off. |
+| [Read the sales forecast](read-the-forecast.md) | You want to compare the pipeline with your targets. |
+| [Run the sales reports](run-sales-reports.md) | You want a report as an Excel or PDF file. |
+
+## Configure the CRM
+
+Follow these when you set up the CRM for the first time. See [Configure the CRM](configure/index.md).
+
+| Guide | Use it when |
+| --- | --- |
+| [Set up pipelines](set-up-pipelines.md) | You create the stages a deal moves through. |
+| [Manage lead sources and see which ones convert](manage-lead-sources.md) | You add the channels your leads come from. |
+| [Add products](add-products.md) | You add what you sell. |
+| [Set sales quotas](set-sales-quotas.md) | You give each salesperson a monthly target. |
 
 ## Related
 

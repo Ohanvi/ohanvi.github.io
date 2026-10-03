@@ -98,12 +98,8 @@ To edit a draft later, open **Social** → **Publish**, click the **Drafts** tab
 
 ## Related
 
+- [Use the AI Assistant in the composer](use-ai-assistant-in-the-composer.md)
 - [Schedule posts and manage the queue](schedule-social-posts.md)
 - [Use post templates](use-post-templates.md)
 - [Connect social accounts](connect-social-accounts.md)
 
-!!! note "Screenshots to add"
-    - After "Open the composer" step 2 — the empty **Create Post** window.
-    - After "Pick the networks" step 1 — the channel strip with 2 networks selected.
-    - After "Set Google Business options" step 3 — the **Offer** fields.
-    - After "Preview and publish" step 1 — the per-network preview.

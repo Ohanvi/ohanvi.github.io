@@ -21,16 +21,14 @@ Booking rules and reminders are not in the panel: click your initials bottom-lef
 
 ## Guides
 
-Follow these in order the first time.
-
 | Guide | Use it when |
 | --- | --- |
+| [Manage appointments](manage-appointments.md) | Bookings are coming in and need confirming, moving or closing. |
 | [Add bookable services](add-services.md) | You are listing what customers can book. |
+| [Schedule a class](schedule-classes.md) | You run group sessions with a fixed number of places. |
 | [Add providers and working hours](add-providers.md) | You are adding the people customers are booked with. |
 | [Set booking rules and reminders](set-booking-rules-and-reminders.md) | You want to control confirmation, notice, reminders and no-shows. |
 | [Take bookings on WhatsApp](take-bookings-on-whatsapp.md) | You want customers to book by chatting with your number. |
-| [Manage appointments](manage-appointments.md) | Bookings are coming in and need confirming, moving or closing. |
-| [Schedule a class](schedule-classes.md) | You run group sessions with a fixed number of places. |
 
 ## Related
 

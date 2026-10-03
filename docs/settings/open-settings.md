@@ -79,7 +79,3 @@ If the list shows **Nothing to manage with your current role.**, ask your worksp
 - [Choose how notifications reach you](notification-preferences.md)
 - [Credits and billing in Ohanvi](../credits-and-billing.md)
 
-!!! note "Screenshots to add"
-    - After step 1 of Open Settings — the profile menu with **Settings**, **Current usage** and **Sign out**
-    - After step 2 of Open Settings — the Settings screen with your name, **Workspace** and **Modules**
-    - After step 1 of Open a setting — your name selected, with the **Team & access** and **Billing & credits** groups

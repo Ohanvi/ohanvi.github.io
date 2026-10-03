@@ -88,8 +88,3 @@ Before a WhatsApp broadcast, campaign or test message goes out, Ohanvi checks yo
 - [Read your current usage](read-current-usage.md)
 - [Manage your plan and users](manage-plan-and-users.md)
 
-!!! note "Screenshots to add"
-    - After "Spot a low balance" step 1 — the red **Credits** box with the **Credits low — recharge** tooltip.
-    - After "Spot a low balance" step 2 — the **Credit balance** tile showing **running low — recharge soon**.
-    - After "Send a WhatsApp broadcast" step 1 — the **Your credits are running low** window.
-    - After "Send a WhatsApp broadcast" step 2 — the **Your credits are empty** window.

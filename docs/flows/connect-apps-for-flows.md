@@ -119,9 +119,3 @@ Values in the mapping can use the trigger and earlier steps. See "Use data from 
 - [Test a flow and fix failed runs](test-and-monitor-flows.md)
 - [Understand flows and the Flows list](flows-overview-and-list.md)
 - [Choose your own or Ohanvi's managed services](../settings/choose-connectors.md)
-
-!!! note "Screenshots to add"
-    - After step 3 of "Open the connector catalog" — an app open with its tabs.
-    - After step 2 of "Add a connection" — the **Connect** window with **Label**, **Credentials (JSON)** and **Who can build on this**.
-    - After step 2 of "Test the connection" — a connection row with **Last tested**.
-    - After step 4 of "Use an operation in a flow step" — the **Step** panel with an operation and **Signs in as** chosen.

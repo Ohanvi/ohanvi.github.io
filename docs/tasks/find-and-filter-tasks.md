@@ -69,11 +69,11 @@ Pick a view from the switcher at the top of the board:
 
 | View | Use it to |
 | --- | --- |
-| **Summary** | See the project at a glance: **Status overview**, **Priority breakdown**, **Types of work**, **Team workload**, **Epic progress** and **Recent activity**. |
-| **Timeline** | See tasks on a calendar by start and due date. Switch the scale with **Weeks**, **Months** or **Quarters**, and click **Today** to jump to today. |
-| **Backlog** | Plan work into sprints. See [Plan work in sprints](plan-sprints.md). |
+| **Summary** | See the project at a glance: **Status overview**, **Priority breakdown**, **Types of work**, **Team workload**, **Epic progress** and **Recent activity**. See [Read the board Summary](read-the-board-summary.md). |
+| **Timeline** | See tasks on a calendar by start and due date. Switch the scale with **Weeks**, **Months** or **Quarters**, and click **Today** to jump to today. See [Use the Timeline](use-the-timeline.md). |
+| **Backlog** | Plan work into sprints. See [Work with items in the Backlog](work-with-the-backlog.md) and [Plan work in sprints](plan-sprints.md). |
 | **Board** | Move cards between status columns. See [Move tasks across the board](move-tasks-on-board.md). |
-| **List** | See tasks as a table with **Work**, **Assignee**, **Reporter**, **Priority**, **Status**, **Created**, **Updated** and **Due date**, and change many tasks at once. |
+| **List** | See tasks as a table with **Work**, **Assignee**, **Reporter**, **Priority**, **Status**, **Created**, **Updated** and **Due date**, and change many tasks at once. See [Use the List view](use-the-list-view.md). |
 
 The **Timeline** only shows tasks that have a start or due date.
 
@@ -97,9 +97,3 @@ The **Timeline** only shows tasks that have a start or due date.
 - [Move tasks across the board](move-tasks-on-board.md)
 - [Plan work in sprints](plan-sprints.md)
 - [Tasks overview](../tasks/index.md)
-
-!!! note "Screenshots to add"
-    - After step 2 of "See your own tasks in the Tasks panel" — the panel on **Today** with a **Due today** and an **Overdue** row.
-    - After step 2 of "Filter the Tasks panel by status" — the **Filter by status** dialog.
-    - "Filter the board by type, priority or person" — the board toolbar with **Type**, **Priority**, **Group** and the member avatars.
-    - "Switch the board view" — the **Summary** view with its charts.

@@ -20,6 +20,8 @@ Booking rules decide what happens when a customer asks for a time: confirm it, h
 1. Click your initials in the bottom-left corner, then click **Settings**.
 2. Select **Appointments**, then **Booking Rules**. The **Appointment Request Handling** page opens.
 
+The subtitle reads **Working hours come from the WhatsApp Manage screen. These rules decide how a valid request is handled based on WHEN the customer sends it.** Set the hours in **WhatsApp** → **Manage** → **Live Chat Settings**. See [Set up Live Chat Settings](../whatsapp/set-up-live-chat-settings.md).
+
 ### Choose how requests are confirmed
 
 Ohanvi uses the time the customer sends the request to pick a rule.
@@ -44,7 +46,7 @@ Under **Booking rules**, type a number in each box:
 
 ### Turn on reminders
 
-Reminders are off by default.
+Reminders are off by default. The switch explains: **Off by default. Reminders are the single biggest lever on no-shows.**
 
 1. Under **Reminders**, turn on **Send appointment reminders**.
 2. In **Send before (minutes)**, type when to send, separated by commas. `1440,120` means 1 day before and 2 hours before.
@@ -55,11 +57,11 @@ Ohanvi fills the template's first variable with the service name and the second 
 ### Set cancellation and no-show rules
 
 1. Under **Cancellations and no-shows**, in **Cancellation notice (minutes, 0 = any time)**, type how long before the appointment customers can still cancel from the WhatsApp chat.
-2. In **Mark as no-show after (minutes, 0 = never)**, type how long after a confirmed appointment ends Ohanvi marks it **No-show**. Leave `0` to mark no-shows by hand.
+2. In **Mark as no-show after (minutes, 0 = never)**, type how long after a confirmed appointment ends Ohanvi marks it **No-show**. Leave `0` to mark no-shows by hand. The page explains: **Marking somebody a no-show is a judgement about a customer, so it stays off until a time is set here.**
 
 ### Save
 
-1. Click **Save**. The message **Saved** appears at the top of the page.
+1. Click **Save**. The button reads **Saving…** while it works. The message **Saved** appears at the top of the page.
 
 ## Video walkthrough
 
@@ -80,8 +82,3 @@ Ohanvi fills the template's first variable with the service name and the second 
 - [Add providers and working hours](add-providers.md)
 - [Take bookings on WhatsApp](take-bookings-on-whatsapp.md)
 - [Manage appointments](manage-appointments.md)
-
-!!! note "Screenshots to add"
-    - After step 2 of Open the booking rules — **Appointment Request Handling** page, top half
-    - After step 3 of Turn on reminders — **Reminders** card with **Send before (minutes)** and **Send as template**
-    - After step 2 of Set cancellation and no-show rules — **Cancellations and no-shows** card

@@ -79,8 +79,3 @@ The file has one row per rate line, with the columns **Product**, **Category**, 
 - [When credits run low or run out](low-or-empty-credits.md)
 - [Billing overview](index.md)
 
-!!! note "Screenshots to add"
-    - After "Open Current usage" step 2 — the full **Current usage** page for the cycle in progress.
-    - After "Pick a cycle" step 1 — the open cycle list with **this cycle** marked.
-    - **Cost this cycle** card showing **Short by** and the **Recharge credits** button.
-    - After "Export CSV" step 2 — the downloaded file open in a spreadsheet.

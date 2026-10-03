@@ -75,8 +75,3 @@ Turn what **Analytics** shows into your next step. At the end, you have cleaned 
 - [Read Store Analytics](read-store-analytics.md)
 - [Create a WhatsApp template](../whatsapp/create-message-template.md)
 - [Create a WhatsApp flow](../create-whatsapp-flow.md)
-
-!!! note "Screenshots to add"
-    - After Follow a Do this next suggestion, step 2 — the **Do this next** panel with 2–3 suggestions
-    - After Tune cart recovery, step 3 — the **Flows** screen opened from the link
-    - After Time your next broadcast, step 1 — the **When orders come in** caption naming the peak hour

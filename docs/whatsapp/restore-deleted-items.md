@@ -39,6 +39,9 @@ A type with nothing deleted does not show.
 
 1. Open **WhatsApp** in the left rail, then select **Manage**.
 2. Select **Recycle Bin**. The header reads how many deleted records you have. It also reads **Restoring puts one back exactly as it was — same details, same groups, same settings.**
+
+    ![Recycle Bin with the count of deleted records, the Contacts list and a Restore button on each row](../assets/screenshots/whatsapp-recycle-bin-1-list.png)
+
 3. Click a type, for example **Contacts**, to open its list. Click it again to close the list.
 4. Read each row. It shows the name, a short description, and **Deleted** with the date and time. If it is known, it also shows who deleted it, as **by** and a name.
 5. If the list is long, its foot reads **Showing the N most recently deleted of M.** Older items are not listed. [LIMIT]

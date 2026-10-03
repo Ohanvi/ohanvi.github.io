@@ -31,6 +31,9 @@ The audit has 5 tabs. Every tab compares the period you pick with the same numbe
 
 1. Open **WhatsApp** in the left rail, then select **Ads Manager**.
 2. Under **Reports** in the left column, select **Account audit**.
+
+    ![The Account audit with the Overview, Auction, Targeting, Geo and demo and Creative and copy tabs and the Filter, Smart filter, Views and Columns buttons](../../assets/screenshots/whatsapp-ads-account-audit-1-overview.png)
+
 3. Pick a period: **Last 7 days**, **Last 14 days**, **Last 30 days** or **Last 90 days**. The line **vs the N days before** shows what each number is compared with.
 4. Optional: narrow the audit with **Filter**, **Smart filter** or **Views**. See [Filter the audit](#filter-the-audit).
 5. Click **Refresh** to rebuild the audit.

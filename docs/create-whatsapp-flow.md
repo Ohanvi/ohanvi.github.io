@@ -159,6 +159,9 @@ You can let Ohanvi draft the same flow from a sentence, then review and publish 
 
 ## Related
 
+- [Understand the flow builder](whatsapp/understand-the-flow-builder.md)
+- [Choose how a flow starts](whatsapp/chatbot-flow-start-and-triggers.md)
+- [Send text and list messages in a chatbot](whatsapp/chatbot-text-and-list-blocks.md)
 - [Send a WhatsApp broadcast campaign](whatsapp/send-broadcast-campaign.md)
 - [Create a WhatsApp template](whatsapp/create-message-template.md)
 - [Import and sync contacts](crm/import-and-sync-contacts.md)

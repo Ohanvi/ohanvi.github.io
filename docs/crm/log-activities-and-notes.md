@@ -78,9 +78,3 @@ To read notes next to your tasks, click **Notes** on the **Activities** screen. 
 - [Create and manage deals](manage-deals.md)
 - [Add and manage accounts](manage-accounts.md)
 - [Schedule overview](../schedule/index.md)
-
-!!! note "Screenshots to add"
-    - After step 2 of "Add an activity" — the **Add Activity** form
-    - After step 1 of "Work through your list" — the list grouped into Overdue, Today and This week
-    - After step 3 of "See activities on a calendar" — **Activity Calendar** in month view
-    - After step 1 of "Write a note" — the **Notes** feed

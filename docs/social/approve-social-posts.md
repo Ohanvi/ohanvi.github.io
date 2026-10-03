@@ -73,7 +73,3 @@ The author gets a **Post approved** notification and can now schedule or publish
 - [Create and publish a social post](create-social-post.md)
 - [Social overview](index.md)
 
-!!! note "Screenshots to add"
-    - After "Submit a draft for review" step 3 — the **Drafts** tab with the **Submit** button.
-    - After "Approve a post" step 2 — an **Approvals** card with **Request Changes** and **Approve**.
-    - After "Request changes" step 2 — the **Request changes?** window with feedback typed.

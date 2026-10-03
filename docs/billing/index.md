@@ -28,7 +28,10 @@ Ohanvi runs on prepaid credits: you recharge, and paid actions such as WhatsApp 
 | [Export your statement and view invoices](statement-and-invoices.md) | You need a statement or an invoice. |
 | [Add your GSTIN and invoice details](add-gst-invoice-details.md) | You want your GSTIN on invoices to claim input tax credit. |
 | [When credits run low or run out](low-or-empty-credits.md) | Sends have stopped, or you saw a low-balance warning. |
+| [Compare plans and pricing](plans-and-pricing.md) | You want to compare plans, build your own or subscribe. |
 | [Manage your plan and users](manage-plan-and-users.md) | You want to change plan, add users or cancel. |
+| [Manage a plan billed through Shopify](shopify-billed-accounts.md) | You installed Ohanvi from Shopify. |
+| [Refer and earn](refer-and-earn.md) | You want to invite businesses and earn commission. |
 
 ## Related
 

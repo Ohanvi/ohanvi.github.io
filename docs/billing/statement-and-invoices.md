@@ -87,8 +87,3 @@ An invoice that is not yet paid shows **Pending** or **Awaiting payment**, with 
 - [Read your current usage](read-current-usage.md)
 - [Manage your plan and users](manage-plan-and-users.md)
 
-!!! note "Screenshots to add"
-    - After "Export your statement" step 2 — the **Statement** card with **Export CSV** at the top of the page.
-    - After "Find your invoices" step 3 — the **Invoices** table on the **Billing** page.
-    - After "Open an invoice" step 3 — the invoice window with the GST lines.
-    - After "Pay an open invoice" step 2 — an invoice row with **Pay now**.

@@ -107,8 +107,3 @@ A rule group shows **Membership follows the rule** instead. Change the rule to c
 - [Import and sync contacts](import-and-sync-contacts.md)
 - [Work with leads](leads.md)
 - [CRM overview](../crm/index.md)
-
-!!! note "Screenshots to add"
-    - After step 3 of "Open your groups" — a group selected with its member list.
-    - After step 2 of "Fill a group from a rule" — the New group dialog with the rule switched on.
-    - After step 3 of "Add people to a group" — the Add to which group? list.

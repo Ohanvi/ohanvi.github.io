@@ -70,8 +70,3 @@ The **Filled on** column shows **—**. Ohanvi does not yet count how many conta
 - [Manage contacts](manage-contacts.md)
 - [Create a WhatsApp message template](../whatsapp/create-message-template.md)
 - [CRM overview](../crm/index.md)
-
-!!! note "Screenshots to add"
-    - After step 2 of "See the built-in fields" — the Built-in fields card.
-    - After step 4 of "Create a custom field" — the New field dialog filled in.
-    - After step 5 of "Create a custom field" — the new field listed under Your custom fields.

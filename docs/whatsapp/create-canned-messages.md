@@ -39,7 +39,7 @@ A variable fills in a value for each customer. Insert one from the chips under *
 1. Open **WhatsApp** in the left rail, then select **Manage**.
 2. Select **Canned Messages**. The list opens with the line **Saved quick-replies your team inserts with "/" in the Live Chat composer.**
 
-    ![Canned Messages with the search box, the list of quick replies and the Edit, Copy message, Copy shortcut and Delete buttons](../assets/screenshots/whatsapp-canned-messages-1-list.png)
+    ![Canned Messages with the Refresh and New quick reply buttons, the search box, a saved quick reply in the list and its Edit, Copy message, Copy shortcut and Delete buttons](../assets/screenshots/whatsapp-canned-messages-1-list.png)
 
 3. Read the **Canned Messages** card. It counts your saved replies.
 

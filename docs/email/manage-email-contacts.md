@@ -9,7 +9,7 @@ Bring in the people you want to email, then group them. At the end you have cont
 
 ## Before you start
 
-- You can see **Email** in the left rail with **Contacts**, **Lists** and **Segments** in its panel. If not, ask your admin for access.
+- You can see **Email** in the left rail with **Audience** in its panel. If not, ask your admin for access.
 - You have permission to email these people. Only **Subscribed** contacts receive marketing emails.
 - To import, your file is a CSV, XLSX or XLS file with the columns **Email**, **First Name**, **Last Name** and **Phone**.
 
@@ -17,7 +17,7 @@ Bring in the people you want to email, then group them. At the end you have cont
 
 ### Add contacts one at a time or several at once
 
-1. Open **Email** in the left rail, then select **Contacts**.
+1. Open **Email** in the left rail, then select **Audience**, then the **Emails** tab.
 2. To add 1 person, click **Add Contact**. Fill in **Email**, and optionally **First Name**, **Last Name**, **Phone**, **Birthday**, **Subscription Status** and **Tags (comma-separated) — e.g. vip,newsletter**. Save the form.
 3. To add several, click the arrow next to **Bulk Import Contacts**, then click **Add Multiple**. The **Add Multiple Contacts** dialog opens.
 4. Type 1 address in each **Email** row. Click **Add another row** for more.
@@ -29,7 +29,7 @@ On a new account, the **Add the people you want to email** card offers **Add con
 
 ### Import contacts from a file
 
-1. On **Contacts**, click **Bulk Import Contacts**. The **Import Contacts** wizard opens.
+1. On the **Emails** tab, click **Bulk Import Contacts**. The **Import Contacts** wizard opens.
 2. Under **How would you like to add contacts?**, choose **Upload a file** or **Copy and paste**. Click **Continue**.
 3. Select your file, or paste 1 contact per line as `email, first name, last name, phone`. Click **Continue**.
 4. Under **Organize your contacts**, optionally choose a list in **Mailing List (optional)**. Click **Continue**.
@@ -42,11 +42,11 @@ On a new account, the **Add the people you want to email** card offers **Add con
 !!! note
     Column matching works for CSV files only. Excel files must use the standard column order: **Email**, **First Name**, **Last Name**, **Phone**.
 
-To see earlier imports, click **Manage audience** on **Contacts**, then click **Import history**.
+To see earlier imports, click **Manage audience** on the **Emails** tab, then click **Import history**.
 
 ### Create a list and add people to it
 
-1. Open **Email** in the left rail, then select **Lists**.
+1. Open **Email** in the left rail, then select **Audience**, then the **Email Groups** tab and **Fixed**.
 2. Click **Create list**. In **List name**, type a name such as `Newsletter`. Add a **Description (optional)**, then click **Create list**.
 3. On the new list, click **Add contacts — this list is empty**. The **Members** dialog opens.
 4. In **Search contacts to add…**, find and tick the people to add, then click **Add**.
@@ -60,7 +60,7 @@ To add people from a file straight into a list, open **Manage Members**, then cl
 
 A segment narrows a list to the people who match your conditions. It never adds people who are not on the list.
 
-1. Open **Email** in the left rail, then select **Segments**.
+1. Open **Email** in the left rail, then select **Audience**, then the **Email Groups** tab and **Rule**.
 2. Click **Create segment**. The **New segment** screen opens.
 3. Pick a card under **Start with a common segment**, or click **Build from scratch**.
 4. Click **Add filter**, choose a filter in **Choose a filter**, then set its value.
@@ -90,8 +90,4 @@ To aim a campaign at a segment, choose a list and the segment in the campaign. S
 - [Send an email campaign](send-email-campaign.md)
 - [Track results and handle unsubscribes and bounces](track-email-results.md)
 
-!!! note "Screenshots to add"
-    - After step 3 of "Add contacts one at a time or several at once" — the **Add Multiple Contacts** dialog
-    - After step 6 of "Import contacts from a file" — the **Match Columns** step
-    - After step 4 of "Create a list" — the **Members** dialog with contacts ticked
-    - After step 6 of "Build a segment" — the builder with the **WHO MATCHES THIS SEGMENT** preview
+<!-- Menu paths updated: Contacts, Lists and Segments are now in Audience. -->

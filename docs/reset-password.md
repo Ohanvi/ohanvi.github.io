@@ -85,8 +85,3 @@ Each code allows **3** wrong tries. After the third, request a new code. When a 
 - [Sign in to Ohanvi](sign-in.md)
 - [Update your profile and password](settings/update-your-profile.md) — change your password when you are signed in.
 
-!!! note "Screenshots to add"
-    - After step 1 — the **Reset your password** panel with the email box and **Send code**.
-    - After step 5 — the **Enter verification code** screen with a code typed in.
-    - After step 7 — the new password screen with the checklist partly green.
-    - After step 9 — the success message on the login page.

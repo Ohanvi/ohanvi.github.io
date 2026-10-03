@@ -109,6 +109,3 @@ Click **Use in a flow** on a product. Flows send products with their Single Prod
 - [Build a WhatsApp chatbot flow](../create-whatsapp-flow.md)
 - [Create a WhatsApp message template](create-message-template.md)
 - [Choose connectors](../settings/choose-connectors.md)
-
-!!! note "Screenshots to add"
-    - After step 1 of Check which products can be sent — a product card showing **Source** and **Meta review**

@@ -65,8 +65,3 @@ Each row shows **Company**, **Health**, **Contacts**, **Open pipeline**, **Sourc
 - [Create and manage deals](manage-deals.md)
 - [Log activities and notes](log-activities-and-notes.md)
 - [CRM overview](../crm/index.md)
-
-!!! note "Screenshots to add"
-    - After step 2 of "Add an account" — the **Add Account** form with its sections
-    - After "Read the account list" — the list with the **Health** column
-    - After step 2 of "Export the list" — the **Exported N accounts.** message

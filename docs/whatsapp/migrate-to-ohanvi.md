@@ -71,7 +71,3 @@ Contacts missing from your list are created from the chat file. Uploading the sa
 - [Manage WhatsApp contacts](manage-whatsapp-contacts.md)
 - [Use the WhatsApp inbox](use-whatsapp-inbox.md)
 - [Import and sync contacts](../crm/import-and-sync-contacts.md)
-
-!!! note "Screenshots to add"
-    - After step 2 of Import contacts and chat history — the **WhatsApp Contacts** upload dialog.
-    - After step 3 of Check everything works — the test reply in the inbox.

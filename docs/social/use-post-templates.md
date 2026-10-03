@@ -54,6 +54,17 @@ To let AI fill this form, click **Draft with AI** at the top of the window and d
 4. In **Review your template**, check **Template name**, **Category**, **Content** and **Platforms**. Change anything you want.
 5. Click **Save template**. The message **Saved "…" to your templates** appears. Click **Use now** to open it in the composer.
 
+### Save a template and find it again
+
+1. On a template card, click the heart icon at the top right of the preview. A filled heart means saved.
+2. Click the heart again to remove it.
+3. To see your hearts, open **Templates** and pick **Saved**.
+4. To see templates you opened in the composer, pick **Recently Used**.
+5. In a row of cards, click **View all** to see every template in that row.
+
+!!! note
+    Saved and recently used templates are kept for the current session.
+
 ### Edit or delete your template
 
 1. On a template you created, click the **More** (⋯) menu.
@@ -81,7 +92,3 @@ You can only edit or delete templates you created.
 - [Schedule posts and manage the queue](schedule-social-posts.md)
 - [Social overview](index.md)
 
-!!! note "Screenshots to add"
-    - After "Find a template" step 2 — the **Templates** screen on **Discover**.
-    - After "Create a template" step 5 — the **New Template** window with a `[bracketed]` blank.
-    - After "Generate a template with AI" step 4 — the **Review your template** step.

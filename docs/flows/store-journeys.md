@@ -110,8 +110,3 @@ Each one has an outcome for each result, such as found or not found, that you wi
 - [Test a flow and fix failed runs](test-and-monitor-flows.md)
 - [Understand flows and the Flows list](flows-overview-and-list.md)
 - [Read store analytics](../analytics/read-store-analytics.md)
-
-!!! note "Screenshots to add"
-    - After step 3 of "Find the store automations" — the list filtered to draft automations, with the store automations.
-    - After step 2 of "Check and finish an automation" — the **Abandoned checkout recovery** flow on the canvas.
-    - After step 2 of "Publish and turn it on" — the **Published and live** message.

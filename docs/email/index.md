@@ -11,13 +11,13 @@ Email lets you send campaigns and automated emails to your contacts. Verify a se
 
 Open **Email** in the left rail (hover title **Email Marketing**). The panel lists:
 
-**Dashboard**, **Campaigns**, **Calendar**, **Automations**, **Contacts**, **Lists**, **Segments**, **Email Templates**, **Send Logs**, **Sender Identities**, **Email Sending Server**
+**Campaigns**, **Flows**, **Audience**, **Email Templates** and **Manage**. **Manage** holds **Scheduler**, **Business Holidays**, **Sender Identities**, **Email Sending Server**, **Send Logs**, **Suppression List** and **Topics**. Build forms under **Forms** in the left rail.
 
 Your own email provider is connected under **Connect** → **Email Provider** in the left rail.
 
 ## Before you start
 
-- Your workspace has the Email Marketing module, and your role has email access. Each panel item has its own permission, and **Dashboard** needs reports access.
+- Your workspace has the Email Marketing module, and your role has email access. Each panel item has its own permission.
 - You have a verified sender address or domain. Campaigns cannot send without one — see [Set up a sender address and verify your domain](set-up-sender-identity.md).
 - You have credits. Every email uses credits, and a campaign is blocked when the balance is empty. See [Credits and billing](../credits-and-billing.md).
 
@@ -40,3 +40,5 @@ Follow these in order the first time.
 - [CRM and contacts](../crm/index.md)
 - [Schedule](../schedule/index.md) — see scheduled campaigns next to everything else.
 - [When credits run low or run out](../billing/low-or-empty-credits.md)
+
+<!-- Menu paths updated: panel list now matches the app. -->

@@ -106,12 +106,8 @@ A reminder is a time you want to be nudged about a task. You set one from a What
 
 ## Related
 
+- [Read task notifications](read-task-notifications.md)
+- [Write in the task editor](write-in-the-task-editor.md)
 - [Create and assign tasks](create-and-assign-tasks.md)
 - [Find, filter and view tasks](find-and-filter-tasks.md)
 - [Settings overview (notification preferences)](../settings/index.md)
-
-!!! note "Screenshots to add"
-    - After step 2 of "Mention a teammate" — the @ mention list open in the comment box.
-    - After step 3 of "Attach files" — the **Attachments** list with an image and a PDF.
-    - "Reply to, react to, edit or delete a comment" — a comment showing the reply, emoji, edit and **More actions** icons.
-    - After step 5 of "Log time" — the **Work log** tab with a logged entry.

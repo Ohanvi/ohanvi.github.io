@@ -128,6 +128,32 @@ It works like **Chat with agent**. See [Add action blocks to a chatbot flow](cha
 2. Read the note. The split is by contact id and is not weighted, so about half of the contacts take each path.
 3. Path A is the next block. Under **Path B starts at**, choose where path B begins.
 
+### Branch a journey by a contact detail
+
+1. Add a **Condition** block to the journey.
+2. Under **If the contact's**, click the first row. The list **Which field** opens. Choose **Tags**, **Subscription status**, **Email address**, **Source** or **Lawful basis**.
+3. Click the second row to choose the comparison. The options depend on the field:
+
+    | Field | Comparisons |
+    | --- | --- |
+    | **Tags** | **is tagged**, **is not tagged**, **tags contain** |
+    | **Subscription status** | **is**, **is not** |
+    | **Email address** | **is**, **is not**, **contains** |
+    | **Source** | **is**, **is not** |
+    | **Lawful basis** | **is**, **is not** |
+
+4. In **Value**, type what to compare with, for example a tag name.
+5. Read the line **If yes, the next block runs.** The yes path is the block right below.
+6. Under **If no, jump to**, choose the block where the no path starts. The list only shows blocks after this one. If there are none, the list is not shown.
+
+### Skip ahead after a journey block
+
+1. Click a journey block that does not branch, for example a **Send email** or **Wait** block.
+2. Under **Afterwards, jump to**, choose a later block.
+3. When this block finishes, the journey goes to that block and skips the ones in between.
+
+Use it to step over the blocks of another path. The list only shows blocks after this one, and it is not shown on the last block.
+
 ### Call a webhook from a journey
 
 1. Add a **Webhook** step.
@@ -171,8 +197,11 @@ For every automation step, **Step name** lets you type what the step is for.
 
 ## Related
 
+- [Understand the flow builder](understand-the-flow-builder.md)
+- [Add Google Sheets, Calendar, Meet and Contacts steps](flow-google-workspace-steps.md)
 - [Add action blocks to a chatbot flow](chatbot-action-blocks.md)
 - [Create a WhatsApp chatbot flow](../create-whatsapp-flow.md)
 - [Build an automation flow](../flows/build-automation-flow.md)
 - [Connect an app and use it in a flow](../flows/connect-apps-for-flows.md)
 - [Test a flow and fix failed runs](../flows/test-and-monitor-flows.md)
+- [Use the Action step and conditions in a flow](flow-action-and-condition-steps.md)

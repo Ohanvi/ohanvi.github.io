@@ -62,8 +62,3 @@ You can also reach the WhatsApp **Scheduler** from **WhatsApp** → **Manage** �
 - [View everything scheduled](view-schedule.md)
 - [Reschedule, cancel or delete a scheduled item](reschedule-cancel-delete.md)
 - [Create a WhatsApp template](../whatsapp/create-message-template.md)
-
-!!! note "Screenshots to add"
-    - After step 2 of See what repeats — **Recurring** list with a series selected and **Recurrence** visible
-    - After step 2 of Pause, stop or change the repeat rule — WhatsApp **Scheduler** panel with **Repeats**, **Next send**, **Ends**
-    - After step 3 of Set up a new repeating broadcast — the **Repeat** selector on a broadcast

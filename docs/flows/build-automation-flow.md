@@ -168,9 +168,3 @@ A step that blocks publishing is marked on the canvas. Select it to read why.
 - [Automate store messages with flows](store-journeys.md)
 - [Test a flow and fix failed runs](test-and-monitor-flows.md)
 - [Create a WhatsApp chatbot flow](../create-whatsapp-flow.md)
-
-!!! note "Screenshots to add"
-    - After step 6 of "Create the flow and choose a trigger" — the **When this runs** panel with the trigger drop-down open.
-    - After step 2 of "Add steps" — the **Add a step after** menu with **COMMON** and **All steps**.
-    - After step 3 of "Use data from the trigger or an earlier step" — the field picker with trigger fields.
-    - After step 4 of "Save and publish" — the **Published and live** message and the **Active** switch.

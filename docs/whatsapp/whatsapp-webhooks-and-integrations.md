@@ -130,7 +130,3 @@ To replace the URL, click **Create new URL**, then **Create new URL** again in t
 - [Send a broadcast campaign](send-broadcast-campaign.md)
 - [Create a WhatsApp message template](create-message-template.md)
 - [Settings](../settings/index.md)
-
-!!! note "Screenshots to add"
-    - After step 5 of Developer API — the **Your API key — copy it now** window (key blurred)
-    - After step 9 of Send BUSY invoices — **Recent activity** with a sent invoice

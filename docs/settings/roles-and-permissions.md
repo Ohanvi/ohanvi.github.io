@@ -112,8 +112,3 @@ If you hold more than 1 role, click your initials bottom-left, then **Switch rol
 - [Open Settings and find a setting](open-settings.md)
 - [Settings overview](../settings/index.md)
 
-!!! note "Screenshots to add"
-    - After step 3 of Open the team list — the **App User Management** list with the **Role** column
-    - After step 6 of Add a teammate — the **Add teammate** window with **Super Admin**, **Manager** and **Executive**
-    - After step 1 of Change a teammate's details or role — the **Edit teammate** window
-    - After step 1 of Remove a teammate — the delete confirmation

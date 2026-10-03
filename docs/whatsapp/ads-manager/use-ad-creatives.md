@@ -34,7 +34,7 @@ If **Creatives** shows **Setup** instead of data, finish the connection in **Set
 2. Select **Creatives** in the left column. The **Creatives** tab opens.
 3. Click **Sync from Meta** to pull the latest numbers now. The message **Ad data synced from Meta.** appears.
 
-    ![The Creatives tab with the toolbar, summary tiles and format cards](../../assets/screenshots/ads-manager-use-ad-creatives-01.png)
+    ![The Creatives tab with the Creatives, Ad copy, Library and Inspiration sub-tabs, the filter toolbar and the Sync from Meta button before the first sync](../../assets/screenshots/ads-manager-use-ad-creatives-01.png)
 
 4. Pick a date range. Choices are **Last 7 days**, **Last 14 days**, **Last 30 days** and **Last 90 days**.
 5. Set **Graded by**. Choices are **Cost per result**, **Results**, **ROAS**, **Revenue** and **CTR**. The grade decides how each creative is ranked.

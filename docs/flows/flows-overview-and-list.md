@@ -119,7 +119,7 @@ For flows Ohanvi created for you, such as store automations, the menu reads **Ar
 
     ![New flow button with its arrow menu open on Start from library](../assets/screenshots/flows-overview-6-new-flow-menu.png)
 
-3. In **Start from library**, search with **Search templates** or pick a flow under **Starters** or **Chatbot templates**, then click **Use** on it.
+3. In **Start from library**, search with **Search templates** or pick a flow under **Starters** or **Chatbot templates**, then click **Use** on it. See [Start a flow from a template](use-flow-templates.md) for every starter and template.
 
     ![Start from library with Starters such as Collect a lead on WhatsApp and Add form answers to a Google Sheet](../assets/screenshots/flows-overview-7-start-from-library.png)
 
@@ -147,4 +147,6 @@ For the next steps, see [Build an automation flow](build-automation-flow.md) or 
 - [Test a flow and fix failed runs](test-and-monitor-flows.md)
 - [Create a WhatsApp chatbot flow](../create-whatsapp-flow.md)
 - [Manage CRM automations](../crm/manage-automations.md)
+- [Start a flow from a template](use-flow-templates.md)
+- [Review a flow's versions](review-flow-versions.md)
 

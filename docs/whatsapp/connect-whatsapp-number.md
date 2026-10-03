@@ -129,8 +129,3 @@ The **Voice Calling** section in **Edit Configuration** lets customers call your
 - [Read the WhatsApp dashboard](whatsapp-dashboard.md)
 - [Choose your own or managed services](../settings/choose-connectors.md)
 - [Settings overview](../settings/index.md)
-
-!!! note "Screenshots to add"
-    - After step 2 of Choose how to connect — the **How do you want to connect?** selector.
-    - After step 5 of Connect a new number — the **Link Facebook** step with **Continue with Facebook**.
-    - After step 3 of Activate the number — the verification code step.

@@ -93,8 +93,3 @@ A campaign can send your own template only after it is approved. Ready-made desi
 - [Send an email campaign](send-email-campaign.md)
 - [Automate emails with journeys](create-email-automation.md)
 - [Email overview](../email/index.md)
-
-!!! note "Screenshots to add"
-    - After step 4 of "Start a new email" — the **Create an email** dialog with the 6 starting points
-    - After step 3 of "Design the email" — the builder with blocks on the canvas and the **STYLES** panel
-    - After step 1 of "Send the template for review" — the row menu with **Send for review**

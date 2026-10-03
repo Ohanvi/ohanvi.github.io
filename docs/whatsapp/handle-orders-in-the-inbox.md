@@ -47,6 +47,9 @@ The chips scroll sideways when the list is narrow.
 
 1. Open a chat with a shopper. The profile panel opens on the right.
 2. At the top of the panel, click your store's name, for example **Shopify**. The other choice is **Profile**.
+
+    ![The chat side panel with the Profile and Shopify tabs at the top](../assets/screenshots/whatsapp-inbox-4-profile-panel.png)
+
 3. Read the line at the top of the pane. It shows **Live from** your store with **Read from … just now**, or **From last sync** with **Showing our last synced copy of the store**.
 4. Click **Refresh from** your store to read the store again.
 5. Click **Open** your store **admin** to open the store in a new tab.

@@ -63,8 +63,3 @@ If you build a flow from scratch, add these blocks in this order: **Pick a servi
 - [Manage appointments](manage-appointments.md)
 - [Set booking rules and reminders](set-booking-rules-and-reminders.md)
 - [Create a WhatsApp chatbot flow](../create-whatsapp-flow.md)
-
-!!! note "Screenshots to add"
-    - After step 3 of Add the booking chatbot — **Chatbot templates** with **Appointment Booking** visible
-    - After step 4 of Add the booking chatbot — the cloned booking flow in the builder
-    - After step 4 of What the customer sees — a phone chat showing service, day and time lists

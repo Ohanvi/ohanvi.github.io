@@ -98,8 +98,3 @@ Your credits are separate from your plan. An expired plan does not remove your c
 - [Credits and billing in Ohanvi](../credits-and-billing.md)
 - [Settings overview (users and roles)](../settings/index.md)
 
-!!! note "Screenshots to add"
-    - After "See your current plan" step 2 — the plan card with **Users**, **Cycle** and **Renews on**.
-    - After "Change your plan" step 1 — the **Plans & Pricing** plan cards.
-    - After "Change your plan" step 4 — the review step with **Order summary** and the credits note.
-    - After "Cancel your subscription" step 2 — the **Cancel subscription?** window.

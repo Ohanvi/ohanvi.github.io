@@ -1,11 +1,11 @@
 ---
 title: Read social insights
-description: See what needs your attention on Social Home, and compare posts, reactions, comments and engagement across your networks on Insights.
+description: Compare posts, reactions, comments and engagement across your networks on Insights, and see the numbers for a single post.
 ---
 
 # Read social insights
 
-Use **Home** to see what needs action today, and **Insights** to see how your posts perform. You can compare networks side by side, find your top posts, and open the numbers for any single post you published.
+Use **Insights** to see how your posts perform. You can compare networks side by side, find your top posts, and open the numbers for any single post you published.
 
 ## Before you start
 
@@ -16,17 +16,7 @@ Use **Home** to see what needs action today, and **Insights** to see how your po
 
 ### Check Social Home
 
-1. Open **Social** in the left rail, then select **Home**.
-2. To see one network only, click **All platforms** and pick a network.
-3. Read **NEEDS ATTENTION**. It lists items to act on, each with a button:
-    - **Google reviews** that need a response — click **Reply**. See [Manage your Google Business Profile](manage-google-business-profile.md).
-    - **Failed posts** that need a retry — click **Retry**.
-    - A **connection** that needs attention — reconnect it in **Connect** → **Social Connections**.
-4. Read **TODAY** for posts going out today. Click **Calendar** to open the full calendar.
-5. Under **Performance**, pick **This Week**, **Last 30 Days** or **Last 90 Days**. The card shows **Reach**, **Engagement**, **Followers** and **Posts**.
-6. Scroll to **RECENT ACTIVITY** and **RECENT POSTS**. Click a post, then **Open in Publish** to manage it.
-
-If nothing is connected yet, Home shows **Connect your first social account**. Click **Connect Platforms** to start.
+Social Home has its own page. See [Use Social Home](use-social-home.md).
 
 ### Compare performance on Insights
 
@@ -64,11 +54,9 @@ If nothing is connected yet, Home shows **Connect your first social account**. C
 
 ## Related
 
+- [Explore Insights charts and one channel](explore-insights-charts.md)
+- [Use Social Home](use-social-home.md)
 - [Schedule posts and manage the queue](schedule-social-posts.md)
 - [Manage your Google Business Profile](manage-google-business-profile.md)
 - [Analytics overview](../analytics/index.md)
 
-!!! note "Screenshots to add"
-    - After "Check Social Home" step 3 — the **NEEDS ATTENTION** card.
-    - After "Compare performance on Insights" step 4 — the **Summary** with the date range picker.
-    - After "See the numbers for one post" step 3 — the **Post Analytics** window.

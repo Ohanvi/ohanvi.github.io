@@ -104,9 +104,5 @@ If a **When a record appears** trigger fails to reach its app many times in a ro
 - [Understand flows and the Flows list](flows-overview-and-list.md)
 - [Connect an app and use it in a flow](connect-apps-for-flows.md)
 - [Automate store messages with flows](store-journeys.md)
-
-!!! note "Screenshots to add"
-    - After step 4 of "Run a test from the list" — the **Test run succeeded.** message and the row's last-run line.
-    - After step 3 of "Read the run history" — **Recent runs** with **View details** open on a failed run.
-    - After step 2 of "Read a step's output" — the **Latest output** tab with a step selected.
-    - After step 3 of "Stop runs in progress" — the **Stop the runs in progress?** window.
+- [Read a run's output in detail](read-a-runs-output.md)
+- [Review a flow's versions](review-flow-versions.md)

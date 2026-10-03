@@ -34,9 +34,15 @@ A flow card holds one or more blocks. Each block is one message the bot sends. E
 ### Add a block to a card
 
 1. Open your flow in the builder.
+
+    ![The flow builder with the canvas on the left and the Step panel on the right, showing Add a step, Triggers and Message types](../assets/screenshots/whatsapp-chatbot-1-builder.png)
+
 2. Click **+** next to a step, or click **+ Add Content** at the bottom of a card.
 3. Choose **All steps**.
 4. Under **Message types**, choose the block you want.
+
+    ![The Step panel with the message types List / Buttons, Catalogue, Single product, Multi product, Template and WhatsApp Form, and the Ask the customer group](../assets/screenshots/whatsapp-chatbot-2-message-and-ask-blocks.png)
+
 5. Click the block in the card to open its fields in the right panel.
 
 !!! note "Keywords on message blocks"
@@ -140,6 +146,8 @@ Timeout is available on **Media** and **WhatsApp Form** blocks, and on list and 
 ## Related
 
 - [Create a WhatsApp chatbot flow](../create-whatsapp-flow.md)
+- [Understand the flow builder](understand-the-flow-builder.md)
+- [Send text and list messages in a chatbot](chatbot-text-and-list-blocks.md)
 - [Ask for a location, a file or a reply](chatbot-ask-and-wait-blocks.md)
 - [Test a flow with the chat simulator](test-a-flow-with-the-chat-simulator.md)
 - [Set up your WhatsApp catalog](set-up-whatsapp-catalog.md)

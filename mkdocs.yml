@@ -88,6 +88,21 @@ nav:
           - Set up your catalog: whatsapp/set-up-whatsapp-catalog.md
           - Add a chat button to your website: whatsapp/add-website-chat-button.md
           - Run Click-to-WhatsApp ads: whatsapp/click-to-whatsapp-ads.md
+          - Ads Manager:
+              - whatsapp/ads-manager/index.md
+              - Set up Ads Manager: whatsapp/ads-manager/set-up-ads-manager.md
+              - Create an ad: whatsapp/ads-manager/create-an-ad.md
+              - Manage your ads: whatsapp/ads-manager/manage-your-ads.md
+              - Use ad creatives: whatsapp/ads-manager/use-ad-creatives.md
+              - Automate your ads: whatsapp/ads-manager/automate-your-ads.md
+              - Manage ad leads: whatsapp/ads-manager/manage-ad-leads.md
+              - Manage lead forms: whatsapp/ads-manager/manage-lead-forms.md
+              - Build ad audiences: whatsapp/ads-manager/build-ad-audiences.md
+              - Track website events: whatsapp/ads-manager/track-website-events.md
+              - Set up server tracking: whatsapp/ads-manager/set-up-server-tracking.md
+              - Read the performance report: whatsapp/ads-manager/read-the-performance-report.md
+              - Read the business dashboard: whatsapp/ads-manager/read-the-business-dashboard.md
+              - Run an account audit: whatsapp/ads-manager/run-an-account-audit.md
           - Webhooks and integrations: whatsapp/whatsapp-webhooks-and-integrations.md
       - Manage:
           - Tags, attributes and events: whatsapp/tags-attributes-and-events.md

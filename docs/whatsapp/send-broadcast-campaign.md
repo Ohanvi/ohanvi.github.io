@@ -157,8 +157,3 @@ A campaign marked **Automatic** sends itself to 1 customer at a time when an eve
 - [Read Marketing Analytics](../analytics/read-marketing-analytics.md)
 - [Manage recurring schedules](../schedule/manage-recurring-schedules.md)
 - [Low or empty credits](../billing/low-or-empty-credits.md)
-
-!!! note "Screenshots to add"
-    - After step 4 of Step 1 — the **Audience** step with **Contact groups** ticked
-    - After step 5 of Step 2 — **Variables** with an attribute and fallback filled, and the **Live preview**
-    - After step 2 of Manage scheduled and recurring campaigns — the **Repeating schedule** card

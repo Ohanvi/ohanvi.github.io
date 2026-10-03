@@ -49,6 +49,9 @@ The first two views show a table.
 
 1. Open **WhatsApp** in the left rail, then select **Ads Manager**.
 2. Click **Audiences**.
+
+    ![The Audiences tab with the Ohanvi Audiences, Fetched Audiences, Library, Studio and Top audiences chips and the list of audiences](../../assets/screenshots/whatsapp-ads-audiences-1-list.png)
+
 3. Click a type chip to narrow the list: **All**, **Website**, **Custom** or **Lookalike**.
 4. Or type in the **Search audiences** box.
 5. For audiences that already exist at Meta, open **Fetched Audiences** and click **Sync**. If the list was never synced, the tab shows **No audiences fetched from the Meta ad account yet — tap Sync to pull the ones that already exist there.**

@@ -47,6 +47,9 @@ The numbers are grouped as **Sales**, **Ads**, **Customers** and **Profit**. Eac
 
 1. Open **WhatsApp** in the left rail, then select **Ads Manager**.
 2. In the left column, under **Reports**, click **Business dashboard**.
+
+    ![The Business dashboard with the PDF, Schedule, Share, Customize, Settings and Rebuild numbers buttons and the Sales, Ads and Customers cards](../../assets/screenshots/whatsapp-ads-business-dashboard-1-overview.png)
+
 3. Pick a period from the date list at the top: **Today**, **Yesterday**, **Last 3 days**, **Last 7 days**, **Last 14 days**, **Last 30 days**, **Last 90 days** or **Custom range…**.
 
     

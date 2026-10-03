@@ -146,7 +146,3 @@ A customer who sends **stop** is opted out at once and left out of every broadca
 - [Import and sync contacts](../crm/import-and-sync-contacts.md)
 - [Track contact consent](../crm/consent-and-compliance.md)
 - [Add custom contact fields](../crm/custom-fields.md)
-
-!!! note "Screenshots to add"
-    - After step 4 of Import contacts — **Header identifiers** with columns mapped.
-    - After step 2 of Opt contacts in or out (for one contact) — the **Messaging** section.

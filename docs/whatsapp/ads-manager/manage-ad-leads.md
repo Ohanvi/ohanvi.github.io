@@ -38,6 +38,9 @@ The last four columns show the message funnel: sent, then delivered, then read, 
 1. Open **WhatsApp** in the left rail, then select **Ads Manager**.
 2. Click **Leads**. The lead list opens, 25 rows at a time.
 
+    ![The Leads tab with the search box, the Export button and the message No leads yet before the first ad conversation](../../assets/screenshots/whatsapp-ads-leads-1-empty.png)
+
+
     
 
 3. Click **Refresh** to load the newest leads.

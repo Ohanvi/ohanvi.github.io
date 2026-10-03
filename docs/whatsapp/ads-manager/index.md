@@ -7,6 +7,8 @@ description: Connect Meta, create ads, and track spend, leads, audiences and web
 
 **Ads Manager** runs Facebook and Instagram ads from inside Ohanvi. Use it to connect Meta, create ads, track results, and send website events back to Meta. Each page below covers one part of the module.
 
+![The Ads Manager tab with the toolbar, the status filters, the metric cards and the ads table](../../assets/screenshots/ads-manager-manage-your-ads-01.png)
+
 ## Guides
 
 | Guide | Use it when |

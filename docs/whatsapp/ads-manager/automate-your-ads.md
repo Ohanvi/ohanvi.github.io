@@ -43,6 +43,9 @@ The top bar has **New rule**, **Run now** and **Refresh**.
 
 1. Open **WhatsApp** in the left rail, then select **Ads Manager**.
 2. Select **Automation** in the left column.
+
+    ![The Automation tab with Overview, Rules, AI Bidding and Activity log, the New rule and Run now buttons and the results chart](../../assets/screenshots/whatsapp-ads-automation-1-overview.png)
+
 3. Click **New rule**. The **New rule** window opens.
 4. Pick a card under **Tactics** or **Strategies**, or click **Start from scratch**.
 

@@ -34,7 +34,7 @@ The **Ads Manager** tab has 5 parts, from top to bottom.
 
 1. Open **WhatsApp** in the left rail, then select **Ads Manager**.
 
-    ![The Ads Manager tab with the command bar, status filters, metric cards and the ads table](../../assets/screenshots/ads-manager-manage-your-ads-01.png)
+    ![The Ads Manager tab with the toolbar, the status filters, the metric cards, the Campaigns, Ad sets, Ads and All assets chips and the ads table](../../assets/screenshots/ads-manager-manage-your-ads-01.png)
 
 2. Click the date range, for example **7 Aug – 6 Sep**.
 3. Pick a start and end date, up to 2 years back. The default is the last 30 days. The cards and table reload.

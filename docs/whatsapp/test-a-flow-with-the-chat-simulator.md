@@ -31,6 +31,9 @@ For a chatbot, the **Test** tab in the right panel holds 3 tools, from top to bo
 ### Start a test chat
 
 1. Open your flow in the builder.
+
+    ![The flow builder with the Test button in the top toolbar and the Run test button at the bottom right](../assets/screenshots/whatsapp-chatbot-1-builder.png)
+
 2. Click **Test** in the toolbar. The **Test** tab opens.
 3. Scroll to **Test on WhatsApp**.
 4. In **WhatsApp number to test with**, type your number with the country code, for example `9198…`.

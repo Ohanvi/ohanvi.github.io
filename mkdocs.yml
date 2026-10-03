@@ -70,61 +70,82 @@ nav:
   - WhatsApp:
       - whatsapp/index.md
       - Set up:
+          - whatsapp/setup/index.md
           - Connect your number: whatsapp/connect-whatsapp-number.md
-          - Move your number to Ohanvi: whatsapp/migrate-to-ohanvi.md
-          - Business profile: whatsapp/whatsapp-business-profile.md
-          - Add agents: whatsapp/add-whatsapp-agents.md
-          - Contacts and opt-in: whatsapp/manage-whatsapp-contacts.md
           - Edit a configuration: whatsapp/whatsapp-configuration-settings.md
-      - Talk to customers:
+          - Business profile: whatsapp/whatsapp-business-profile.md
+          - Move your number to Ohanvi: whatsapp/migrate-to-ohanvi.md
+          - Add a chat button to your website: whatsapp/add-website-chat-button.md
+          - Webhooks, Developer API and BUSY: whatsapp/whatsapp-webhooks-and-integrations.md
+      - Dashboard: whatsapp/whatsapp-dashboard.md
+      - Inbox:
+          - whatsapp/inbox/index.md
           - Use the inbox: whatsapp/use-whatsapp-inbox.md
           - Use the Board and List views: whatsapp/inbox-board-and-list-views.md
           - Handle store orders: whatsapp/handle-orders-in-the-inbox.md
           - Send files and voice notes: whatsapp/send-files-and-voice-notes.md
-          - Create canned messages: whatsapp/create-canned-messages.md
           - Use WhatsApp Calling: whatsapp/whatsapp-calling.md
-          - Set up the AI agent: whatsapp/set-up-ai-agent.md
-          - Review and correct AI answers: whatsapp/review-and-correct-ai-agent-answers.md
-          - Create a chatbot flow: create-whatsapp-flow.md
-          - Chatbot flow blocks:
-              - Media, product and form blocks: whatsapp/chatbot-message-blocks.md
-              - Ask and wait blocks: whatsapp/chatbot-ask-and-wait-blocks.md
-              - Action blocks: whatsapp/chatbot-action-blocks.md
-              - Integration and advanced steps: whatsapp/chatbot-integration-and-advanced-steps.md
-              - Test with the chat simulator: whatsapp/test-a-flow-with-the-chat-simulator.md
-      - Send messages:
-          - Create a message template: whatsapp/create-message-template.md
-          - Use the template library: whatsapp/use-template-library.md
+      - Campaign:
+          - whatsapp/campaign/index.md
           - Send a broadcast campaign: whatsapp/send-broadcast-campaign.md
           - Read a campaign report: whatsapp/read-campaign-report.md
-          - Read the dashboard: whatsapp/whatsapp-dashboard.md
-      - Sell and grow:
-          - Set up your catalog: whatsapp/set-up-whatsapp-catalog.md
-          - Add a chat button to your website: whatsapp/add-website-chat-button.md
+      - Ads Manager:
+          - whatsapp/ads-manager/index.md
           - Run Click-to-WhatsApp ads: whatsapp/click-to-whatsapp-ads.md
-          - Ads Manager:
-              - whatsapp/ads-manager/index.md
-              - Set up Ads Manager: whatsapp/ads-manager/set-up-ads-manager.md
-              - Create an ad: whatsapp/ads-manager/create-an-ad.md
-              - Manage your ads: whatsapp/ads-manager/manage-your-ads.md
-              - Use ad creatives: whatsapp/ads-manager/use-ad-creatives.md
-              - Automate your ads: whatsapp/ads-manager/automate-your-ads.md
-              - Manage ad leads: whatsapp/ads-manager/manage-ad-leads.md
-              - Manage lead forms: whatsapp/ads-manager/manage-lead-forms.md
-              - Build ad audiences: whatsapp/ads-manager/build-ad-audiences.md
-              - Track website events: whatsapp/ads-manager/track-website-events.md
-              - Set up server tracking: whatsapp/ads-manager/set-up-server-tracking.md
-              - Read the performance report: whatsapp/ads-manager/read-the-performance-report.md
-              - Read the business dashboard: whatsapp/ads-manager/read-the-business-dashboard.md
-              - Run an account audit: whatsapp/ads-manager/run-an-account-audit.md
-          - Webhooks and integrations: whatsapp/whatsapp-webhooks-and-integrations.md
+          - Set up Ads Manager: whatsapp/ads-manager/set-up-ads-manager.md
+          - Create an ad: whatsapp/ads-manager/create-an-ad.md
+          - Manage your ads: whatsapp/ads-manager/manage-your-ads.md
+          - Use ad creatives: whatsapp/ads-manager/use-ad-creatives.md
+          - Automate your ads: whatsapp/ads-manager/automate-your-ads.md
+          - Manage ad leads: whatsapp/ads-manager/manage-ad-leads.md
+          - Manage lead forms: whatsapp/ads-manager/manage-lead-forms.md
+          - Build ad audiences: whatsapp/ads-manager/build-ad-audiences.md
+          - Track website events: whatsapp/ads-manager/track-website-events.md
+          - Set up server tracking: whatsapp/ads-manager/set-up-server-tracking.md
+          - Read the performance report: whatsapp/ads-manager/read-the-performance-report.md
+          - Read the business dashboard: whatsapp/ads-manager/read-the-business-dashboard.md
+          - Run an account audit: whatsapp/ads-manager/run-an-account-audit.md
+      - Template:
+          - whatsapp/template/index.md
+          - Create a message template: whatsapp/create-message-template.md
+          - Use the template library: whatsapp/use-template-library.md
+      - Flows:
+          - whatsapp/flows/index.md
+          - Understand the flow builder: whatsapp/understand-the-flow-builder.md
+          - Create a chatbot flow: create-whatsapp-flow.md
+          - Flow Start and triggers: whatsapp/chatbot-flow-start-and-triggers.md
+          - Text and List / Buttons blocks: whatsapp/chatbot-text-and-list-blocks.md
+          - Media, product and form blocks: whatsapp/chatbot-message-blocks.md
+          - Ask name, phone, email, address, Delay and Condition: whatsapp/chatbot-ask-details-blocks.md
+          - Ask Question, Location, Media and Wait & Branch: whatsapp/chatbot-ask-and-wait-blocks.md
+          - Action blocks: whatsapp/chatbot-action-blocks.md
+          - Action step and Condition rules: whatsapp/flow-action-and-condition-steps.md
+          - Store action blocks: whatsapp/chatbot-store-action-blocks.md
+          - Google Workspace steps: whatsapp/flow-google-workspace-steps.md
+          - Integration and advanced steps: whatsapp/chatbot-integration-and-advanced-steps.md
+          - Test with the chat simulator: whatsapp/test-a-flow-with-the-chat-simulator.md
+      - Contact: whatsapp/manage-whatsapp-contacts.md
+      - AI Agent:
+          - whatsapp/ai-agent/index.md
+          - Set up the AI agent: whatsapp/set-up-ai-agent.md
+          - Review and correct AI answers: whatsapp/review-and-correct-ai-agent-answers.md
+      - Catalog: whatsapp/set-up-whatsapp-catalog.md
       - Manage:
-          - Tags, attributes and events: whatsapp/tags-attributes-and-events.md
-          - Scheduler and delivery logs: whatsapp/scheduler-and-delivery-logs.md
+          - whatsapp/manage/index.md
+          - Opt-in Management: whatsapp/manage-opt-in-and-opt-out-words.md
+          - Live Chat Settings: whatsapp/set-up-live-chat-settings.md
+          - Canned Messages: whatsapp/create-canned-messages.md
+          - Agents: whatsapp/add-whatsapp-agents.md
+          - Tags, User Attributes and Custom Events: whatsapp/tags-attributes-and-events.md
+          - Scheduler and Delivery Logs: whatsapp/scheduler-and-delivery-logs.md
+          - Connection Health: whatsapp/check-connection-health.md
+          - Integrations: whatsapp/manage-whatsapp-integrations.md
+          - Notification Preferences: whatsapp/set-notification-preferences.md
+          - API Key and Cloud API access: whatsapp/get-cloud-api-access.md
+          - Billing and Usage: whatsapp/read-billing-and-usage.md
           - Health, alerts and billing: whatsapp/health-notifications-and-billing.md
-          - Manage integrations: whatsapp/manage-whatsapp-integrations.md
-          - Manage the media library: whatsapp/manage-media-library.md
-          - Restore deleted items: whatsapp/restore-deleted-items.md
+          - Media Library: whatsapp/manage-media-library.md
+          - Recycle Bin: whatsapp/restore-deleted-items.md
   - Flows:
       - flows/index.md
       - Understand flows: flows/flows-overview-and-list.md

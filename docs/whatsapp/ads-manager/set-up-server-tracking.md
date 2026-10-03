@@ -26,6 +26,9 @@ The tab shows your websites on the left and the selected website on the right. E
 
 1. Open **WhatsApp** in the left rail, then select **Ads Manager**.
 2. Click **Server tracking**.
+
+    ![Server tracking with the Add website button before any website is added](../../assets/screenshots/whatsapp-ads-server-tracking-1-empty.png)
+
 3. Click **Add website**. The **Add website** window opens.
 
     

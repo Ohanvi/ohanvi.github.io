@@ -58,6 +58,9 @@ The **Ad objective** is what you buy from Meta. The **Performance goal** is the 
 
 1. Open **WhatsApp** in the left rail, then select **Ads Manager**.
 2. Click **Create Ad**. The **Create Click-to-WhatsApp Ad** form opens, with a preview beside it.
+
+    ![The Create Click-to-WhatsApp Ad form with section 1 open, the Ad type cards, the Ad objective and Performance goal lists and the preview](../../assets/screenshots/whatsapp-ads-create-ad-1-where-to-click.png)
+
 3. Open section 1, **Where should people go after clicking your ad?**.
 4. Under **Special ad category**, answer **Is this ad about credit, jobs, housing or politics?**. Choose **No — a regular ad** for most ads.
 5. If the ad is regulated, choose **Credit (loans, cards, finance)**, **Employment (jobs, hiring)**, **Housing (property, rentals)** or **Social issues, elections or politics**. The form clears age, gender, detailed and audience targeting.
@@ -118,6 +121,9 @@ Do this when you chose **WhatsApp Status**.
 ### Choose locations
 
 1. Open section 2, **Ad targeting & audience**. **Estimated reach** beside the form updates as you choose.
+
+    ![Section 2 Ad targeting and audience with Select locations, gender, age group, Language and Advanced targeting, and Estimated reach beside the form](../../assets/screenshots/whatsapp-ads-create-ad-2-audience.png)
+
 2. Under **Select locations**, type in **Where the ad should run**. Search cities, regions, countries or pin codes, then pick from the list. Add as many as you need.
 3. Choose the radius in the list beside the box: **city +17 km**, **city +25 km**, **city +40 km**, **city +60 km** or **city +80 km**. It applies to the next city you add.
 4. Optional: click **Add exclusions**. Under **Where the ad must not run**, search and pick places to cut out. Click **Hide** to close it. People in these places do not see the ad.

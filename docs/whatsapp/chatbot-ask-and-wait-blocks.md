@@ -33,6 +33,9 @@ Find all four under **All steps** → **Ask the customer**.
 2. Click **+** next to a step, or click **+ Add Content** at the bottom of a card.
 3. Choose **All steps**.
 4. Under **Ask the customer**, choose **Ask Question**, **Ask Location**, **Ask Media** or **Wait & Branch**.
+
+    ![The Step panel with Ask Media, Wait and Branch, Delay and the Actions group](../assets/screenshots/whatsapp-chatbot-3-wait-and-action-blocks.png)
+
 5. Click the block to open its fields in the right panel.
 
 ### Ask a question and choose the answer type
@@ -110,6 +113,8 @@ Choices you leave unwired continue to the next block of the card.
 ## Related
 
 - [Create a WhatsApp chatbot flow](../create-whatsapp-flow.md)
+- [Understand the flow builder](understand-the-flow-builder.md)
+- [Ask for name, phone, email and address, then wait or branch](chatbot-ask-details-blocks.md)
 - [Add media, catalogue, product, template and form blocks](chatbot-message-blocks.md)
 - [Set tags, call an API and hand off to an agent](chatbot-action-blocks.md)
 - [Test a flow with the chat simulator](test-a-flow-with-the-chat-simulator.md)

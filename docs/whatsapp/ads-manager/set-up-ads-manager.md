@@ -32,7 +32,7 @@ Open **WhatsApp** in the left rail, then select **Ads Manager** → **Setup**. T
 1. Open **WhatsApp** in the left rail, then select **Ads Manager**.
 2. Click **Setup**. The **Set up Ads Manager** page opens.
 
-    ![The Set up Ads Manager page with the Connect your Facebook account card and the Choose your ad account and Choose your Facebook page cards](../../assets/screenshots/ads-manager-setup-01.png)
+    ![The Set up Ads Manager page with Step 1, 2 and 3 DONE, the Connect your Facebook account card and the ad account and Page cards](../../assets/screenshots/ads-manager-setup-01.png)
 
 3. Under **Connect your Facebook account**, click **Continue with Facebook**.
 4. Log in with the Facebook account that manages your business.

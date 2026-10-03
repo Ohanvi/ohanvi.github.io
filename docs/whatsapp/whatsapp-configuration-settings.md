@@ -31,6 +31,9 @@ Open the configuration of a connected number and change its details, smart repli
 
 1. Click your initials in the bottom-left corner, then click **Settings**.
 2. Select **WhatsApp**, then **Configuration**.
+
+    ![Settings, WhatsApp, Configuration with the list of connected numbers, their status and the edit, copy and delete buttons](../assets/screenshots/whatsapp-config-1-list.png)
+
 3. Find your number's card. It shows **Phone ID**, **WABA** and **Connected** or **Incomplete**.
 4. Click **Edit**. **Edit Configuration** opens.
 
@@ -39,6 +42,9 @@ To add another number instead, click **Add Configuration**. See [Connect your Wh
 ### Check the number details
 
 1. In **Configuration Name**, type a name only your team sees, for example `Sales Number` or `Support WABA`. It is required.
+
+    ![Edit Configuration with Configuration Name, Business Name, Display Phone Number, Access Token, Phone Number ID, WABA ID, Business ID and API Version](../assets/screenshots/whatsapp-config-2-edit.png)
+
 2. In **Business Name**, type the business name. It is required.
 3. In **Display Phone Number**, type the number with the country code and no spaces, for example `919899920019`.
 4. In **Access Token**, paste a permanent token from Meta. The field hides what you type. It is required when you add a configuration.

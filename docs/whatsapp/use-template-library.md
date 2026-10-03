@@ -27,7 +27,7 @@ A template you use is copied to your account. You can change it before you submi
 1. Open **WhatsApp** in the left rail, then select **Template**. The **Templates** page opens.
 2. Click **Browse Library**. The **Template Library** page opens.
 
-    ![The Template Library with the DISCOVER and INDUSTRY panels, template cards with Use template buttons, and the Generate box at the top](../assets/screenshots/whatsapp-template-library-1-browse.png)
+    ![The Template Library with the search box, the All types list, the Generate box, the DISCOVER and INDUSTRY panels, and template cards with Use template buttons](../assets/screenshots/whatsapp-template-library-1-browse.png)
 
 3. To go back to your templates, use the back arrow at the top left of the page.
 

@@ -19,6 +19,7 @@ Add blocks that do something in the background of a chat: save a value on the co
 | --- | --- |
 | **Set Attribute** | Saves a value on the contact. |
 | **Add Tag** | Tags the contact. |
+| **Condition** | Sends the chat to a **True** or **False** exit. See [Ask for name, phone, email and address, then wait or branch](chatbot-ask-details-blocks.md). |
 | **Connect Flow** | Runs another flow, then comes back. |
 | **API Request** | Calls an external API and keeps the reply. |
 | **Chat with agent** | Hands the chat over to a human. |
@@ -34,6 +35,9 @@ Add blocks that do something in the background of a chat: save a value on the co
 2. Click the **+** after the block where the action should run. The **Add a step after** menu opens.
 3. Click **All steps**.
 4. Find the **Actions** group. It holds all the blocks on this page.
+
+    ![The Actions group with Set Attribute, Add Tag, Condition, Connect Flow, API Request, Chat with agent, AI Reply and Jump to flow](../assets/screenshots/whatsapp-chatbot-4-actions-group.png)
+
 5. Click the block you want. Its settings open in the right panel.
 
 ### Save a value on the contact
@@ -135,6 +139,8 @@ The conversation moves there and does not return. To come back afterwards, use *
 ## Related
 
 - [Create a WhatsApp chatbot flow](../create-whatsapp-flow.md)
+- [Understand the flow builder](understand-the-flow-builder.md)
+- [Look up orders and bookings in a chatbot](chatbot-store-action-blocks.md)
 - [Add integration and advanced steps to a flow](chatbot-integration-and-advanced-steps.md)
 - [Add WhatsApp agents](add-whatsapp-agents.md)
 - [Use the WhatsApp inbox](use-whatsapp-inbox.md)

@@ -25,6 +25,9 @@ Some figures come from Ohanvi and some from Meta. A dash (—) means Meta did no
 
 1. Open **WhatsApp** in the left rail, then select **Ads Manager**.
 2. In the left column, under **Reports**, click **Performance report**. The page **WhatsApp Ads Manager** opens.
+
+    ![The Performance report with the summary line of leads, messages sent, delivered, read and replied, and the Create Ad button](../../assets/screenshots/whatsapp-ads-performance-report-1-empty.png)
+
 3. Click the refresh icon at the top right to load the latest numbers.
 
     

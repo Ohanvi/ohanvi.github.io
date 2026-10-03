@@ -45,6 +45,22 @@ Figures fill in as WhatsApp confirms each message, so a campaign sent a minute a
 - **Do this next** lists suggested actions, for example following up people who read but never clicked, or leaving out numbers that failed twice in a row.
 - **How fast it landed** shows the **Median time to deliver**, **Median time to read** and **Peak reading hour**.
 
+### Read how fast it landed
+
+The **How fast it landed** card shows time since launch in minutes, not calendar days. A broadcast finishes in minutes, so a per-day chart would show a single point.
+
+1. Open the **Overview** tab and scroll to **How fast it landed**.
+2. Read **Median time to deliver**. Half of the messages reached the phone faster than this time.
+3. Read **Median time to read**. Half of the readers opened the message faster than this time. Under it, **p95** shows the time that 95 of every 100 readers stayed within.
+4. Read **Peak reading hour**. It shows the clock hour with the most reads, for example `19:00–20:00`. The caption reads **when to send the next one**.
+5. If nobody has read the message yet, **Peak reading hour** shows **—** and the caption reads **no reads yet**. Check again later.
+6. Read **Never delivered**. It is the messages sent minus the messages delivered. The caption reads **see Diagnostics for why**.
+
+Times show in the shortest honest unit, for example `45 s`, `12 min 30 s` or `2 h 15 m`.
+
+!!! tip "Send when people read"
+    Schedule your next broadcast for the **Peak reading hour** of this one. See [Check scheduled messages and delivery logs](scheduler-and-delivery-logs.md).
+
 ### Find out why messages failed
 
 1. Open the **Diagnostics** tab. **Is this good?** compares this campaign's **Delivery rate**, **Read rate**, **Click rate** and **Reply rate** with **Your average** and **Your best** over your own last 30 days. Green is **ahead** of your average, red is **behind** it.

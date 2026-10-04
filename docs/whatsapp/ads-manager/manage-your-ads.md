@@ -23,7 +23,7 @@ The **Ads Manager** tab has 5 parts, from top to bottom.
 | Status filters | **All**, **Active**, **In review**, **Paused** and **Not approved**. |
 | Metric cards | Totals for the date range, such as **Total Spend** and **Number of Leads**. |
 | Level chips | **Campaigns**, **Ad sets**, **Ads** and **All assets**. |
-| Table | One row per campaign, ad set or ad, with a checkbox and an **ACTIONS** menu. |
+| Table | One row per campaign, ad set or ad, with a checkbox and an **ACTIONS** menu. Ad rows also show quick actions when you hover them. |
 
 !!! note "Where the buttons are"
     In some layouts the command bar is a row of buttons under the page title. They are labelled **Sync**, **Download Report**, **Customize Metrics**, **Columns** and **Presets**, and the date range sits beside them. They do the same things.
@@ -93,6 +93,48 @@ A card shows **₹0** or **0×** when there is no data yet.
 | **Performance overtime** | A small chart of the last 7 days. Bars show spend and the green line shows results. Hover for each day. |
 | **Latest actions** | The last change to the ad, who made it and when. A bolt icon means an automation rule made it. |
 | **Active optimization** | The automation rules watching this row. Green means the rule is live. Amber means preview only. Click it to open **Automation**. |
+
+### Use the quick actions on an ad row
+
+1. Point at an ad name. The ID line turns into **Charts**, **Edit**, **Duplicate** and a **⋯** button.
+2. Click **Charts** to open the [performance report](read-the-performance-report.md).
+3. Click **Edit** to change the ad. See [Edit an ad](#edit-an-ad).
+4. Click **Duplicate** to copy the ad on the same ad set. The copy is paused and named with **— copy**. Activate it when you are ready.
+5. Click **⋯** for more:
+    - **Analyze** opens [Account audit](run-an-account-audit.md).
+    - **Pin** keeps the ad at the top of the table. A pin icon shows beside its name. Choose **Unpin** to remove it.
+    - **View history** opens the ad's storyline of changes and results by day.
+    - **Rules** opens [Automation](automate-your-ads.md).
+
+Pins are kept in this browser only.
+
+### Preview an ad
+
+1. Point at the small picture of an ad. A larger picture appears with **Open ad preview** and **Analyze ad**.
+2. Click **Open ad preview** (or choose **Preview ad** in the **ACTIONS** menu).
+3. On the **Ad** tab, pick a placement: **Facebook feed**, **Instagram feed**, **Instagram story** or **Instagram reels**. Meta draws the ad. Click **Open in a new tab** if the frame is empty.
+4. Click the **Destination** tab to see the WhatsApp chat a person lands in. It shows the ad card, the greeting and the icebreakers.
+
+Meta needs a minute or so to draw a new ad. If nothing shows, try again shortly.
+
+### Edit an ad
+
+1. Click **Edit** on the ad row.
+2. On the **Edit** tab, change the **Ad name**, **Primary text**, **Headline**, **Daily budget** or **Ends**.
+3. Click **Save changes**.
+4. Click the **Review** tab to see Meta's preview of the ad.
+
+The budget and end date belong to the ad set, so they change for every ad in it. Meta may restart delivery when you edit a running ad.
+
+### Change the budget or end date of an ad set
+
+1. In the **Daily Budget** or **Ends** column, click the pencil.
+2. For the budget, type the new **Daily budget**. Under the box, Ohanvi shows the most you can spend on any day and in a week.
+3. For the end date, pick the **End** date and time. The **Start** is shown for reference.
+4. Click **Publish** to change it at Meta now, or **Save to draft** to keep it for later.
+5. A draft shows **Draft** in the cell. A banner above the table reads **N unpublished changes saved as draft.** Click **Review and publish** to publish them all, or **Discard**.
+
+Drafts are kept in this browser only.
 
 ### Pause, activate, rename or preview one ad
 
@@ -167,6 +209,8 @@ The button is off while the table is empty.
 | **Nothing matches this filter** | The status filter or search hides every row. | Click **All** and clear the search box. |
 | A red circle beside **Status** | Meta found a problem with the ad. | Tap the circle, read Meta's reason, fix the ad and create it again. |
 | **Nothing ticked has a daily budget of its own to change.** | The rows you ticked have no daily budget. | Tick ad sets with a daily budget, or change the budget on the campaign. |
+| **This ad has no ad set id yet. Sync and try again.** | The ad was just created and its ad set is not loaded. | Click **Sync**, then change the budget or end date again. |
+| **Could not duplicate the ad.** | Meta refused the copy. | Read the message from Meta and fix what it names. |
 | **Could not update the ad.** | Meta refused the change, for example a budget below the account minimum. | Read the message from Meta that appears with it and adjust the value. |
 | **Could not download the report.** | The export did not finish. | Click **Export** again. |
 

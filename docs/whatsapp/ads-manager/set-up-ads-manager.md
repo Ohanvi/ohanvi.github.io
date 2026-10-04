@@ -58,6 +58,7 @@ The card now reads **Ohanvi receives advertisement analytics and events from Fac
 1. Under **Choose your Facebook page**, open **Choose your page** and pick the Page your ads will run from.
 2. Check the line under the Page. If an Instagram account is linked, it reads **Instagram ads run as @your_username.**
 3. If none is linked, the line reads **No Instagram account is connected to it, so Instagram ads will show your Page name instead of an Instagram profile.**
+    If you linked an Instagram account to the Page recently, reload **Setup**. Ohanvi asks Meta again and shows the account when it finds one.
 4. Under **Choose your business portfolio**, open **Business portfolio** and pick the Meta business that owns your ad account.
 5. Under **Choose your ad account**, open **Ad account** and pick the account your campaigns are billed to.
 6. Click **Save**. Each card now shows what you chose, for example **Billing to** and the ad account.
@@ -77,7 +78,7 @@ Next, accept the audience and data terms:
 
 1. Find **Meta terms for audiences and data**. It lists more terms.
 2. Click **Open on Facebook** next to each term and accept it on Facebook. Meta accepts these only there.
-3. Return to Ohanvi and click **Check again**.
+3. Return to Ohanvi and click **Check again**. Ohanvi asks Meta again each time, so a term you just accepted should change to **Accepted**.
 4. When all are accepted, the card reads **All set. Contact audiences and chat conversion events can reach Meta.**
 
 Click to WhatsApp ads run without these terms.

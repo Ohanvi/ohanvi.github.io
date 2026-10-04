@@ -17,7 +17,8 @@ Fill in the **Create Click-to-WhatsApp Ad** form, check the preview, and launch 
 
 ## How the form works
 
-- Click **Create Ad** in **Ads Manager**. The form opens with a live preview beside it.
+- Click **Create Ad** in **Ads Manager**. The form opens with a live preview beside it. The preview looks like an Instagram feed post. It shows your whole picture, the headline and button in a bar under it, and the text folds after about 125 characters.
+- Click **Save draft** at any time to keep the form and come back later. See [Save a draft](#save-a-draft).
 - The form has 5 numbered sections. Click a section to open it. Click **Next** to finish it and open the next one. A finished section shows a tick.
 - A small **(i)** icon beside a field opens a short hint.
 - Section 5 changes with the ad type. It is **Greeting & icebreakers (optional)**, **Landing page** or **Lead form**.
@@ -141,8 +142,7 @@ Location notes:
 4. Optional: under **Advanced targeting (optional)**, search **Interests, demographics or behaviours**, for example online shopping or new parents. Pick two or three. The chips are coloured: **Interests**, **Demographics**, **Behaviours**.
 5. Optional: under **Your audiences (optional)**, click **Reach this audience** or **Exclude this audience**, then pick a list.
 6. To build a list now, click **Create custom or lookalike**. The **Audiences** tab opens.
-7. Tick **Already your customers** to skip people who already like your Page.
-8. Turn on **Audience expansion**. Meta may go beyond your interests when it expects cheaper results.
+7. Turn on **Audience expansion**. Meta may go beyond your interests when it expects cheaper results.
 
 Targeting limits:
 
@@ -150,7 +150,7 @@ Targeting limits:
 - Leave **Language (optional)** empty unless the ad text works in one language only. A language can shrink the audience a lot.
 - Many interests make the audience too small. Two or three are enough.
 - Meta no longer allows leaving people out by interest. Exclude one of your audiences instead.
-- **Already your customers** covers Page followers only. To skip a customer list, exclude it under **Your audiences**.
+- Meta no longer lets you skip people who like your Page. To skip your customers, exclude a customer list under **Your audiences**.
 - Your locations, age and gender still apply when **Audience expansion** is on.
 
 !!! note "Special ad categories"
@@ -219,6 +219,9 @@ Date limits:
 9. Pick the **Facebook Page \***. If the list is empty, type the **Facebook Page ID \***.
 10. Optional: type a **WhatsApp number (optional)** with the country code and digits only, for example `919812345678`.
 11. After you finish, click **Save as preset** to reuse these fields.
+
+12. Optional: add another version of the text to test. Under **Primary text**, click **Add another primary text** (up to 5), or click **Add version** under **Test another version (optional)** and type **Version 2 text** and **Version 2 headline (optional)**. Meta shows the version that works better more often.
+13. Look at the preview. If you added versions, click **Version 1**, **Version 2** and so on above it to read each one.
 
 Text limits:
 
@@ -289,6 +292,23 @@ Lead form limits:
 - Meta refuses a lead form without a privacy policy URL.
 - Leads land in **Ads Manager** → **Leads** when someone submits the form.
 
+### Check the ad as Meta shows it
+
+1. Under the preview, find **See it as Meta shows it**. Add the picture first.
+2. Click a placement chip. With **Placements** on automatic you see **Facebook feed**, **Instagram feed** and **Instagram story**. With placements chosen, you see those.
+3. Meta draws the ad with its own crop and layout. If you chose a text version above the preview, Meta shows that version.
+4. If the frame stays empty, click **Open in a new tab**.
+
+Each click asks Meta for the preview, so click one placement at a time.
+
+### Save a draft
+
+1. Click **Save draft** at the bottom of the form. The message **Draft saved. Open Create Ad again to resume it.** appears.
+2. Close the form. Later, click **Create Ad** again.
+3. Click **Resume draft from …** at the bottom to bring back everything you typed, including the targeting, budget, dates, text, versions and greeting. Click **Discard** to delete the draft.
+
+A draft is kept in this browser only. It does not show on another device. It is removed when you launch the ad.
+
 ### Launch the ad
 
 1. Check the billing strip. **Billing ready** with the payment method means Meta can bill the account.
@@ -319,6 +339,7 @@ Meta reviews the ad, usually within 24 hours. Until then it shows **In review**.
 | **Meta's minimum on this account is ₹…** | The budget is below Meta's minimum. | Raise the amount to the minimum shown under the box. |
 | **The URL must start with https://** | The **Website URL \*** uses http://. | Change it to an https:// address. |
 | The launch stops on a video ad. | The video has no thumbnail. | Add the thumbnail image under the video. |
+| **Connections are no longer available** when you launch. | An old form skipped Page followers, and Meta no longer accepts that. | Update Ohanvi. The setting is gone. Exclude a customer list under **Your audiences** instead. |
 | Ad shows **Not approved**. | Meta rejected the ad. | Change the text or image to follow Meta's ad rules. Create the ad again. |
 | **Connect your Facebook account in Setup before creating an ad.** | Setup is not complete. | Finish **Setup**. See [Set up Ads Manager](set-up-ads-manager.md). |
 

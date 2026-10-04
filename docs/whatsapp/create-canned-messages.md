@@ -22,17 +22,14 @@ Each canned message has a **Shortcut**, a **Message** and a **Type**. The type i
 
 ### Variables
 
-A variable is a placeholder such as `{{name}}`. Insert one from the chips under **INSERT VARIABLE**.
+A variable is a placeholder such as `{{name}}`. Insert one from the chips under **INSERT VARIABLE**. When you insert the reply in a chat, Ohanvi fills each variable with that customer's value.
 
-!!! warning "Variables are not filled in yet"
-    When you insert a canned message in the inbox, the variable is sent as typed, for example `Hi {{name}}`. Replace each one by hand in the composer before you send.
-
-| Variable | Meant to show |
+| Variable | Fills in |
 | --- | --- |
 | `{{name}}` | The customer's name. |
 | `{{first_name}}` | The customer's first name. |
 | `{{phone}}` | The customer's phone number. |
-| `{{company}}` | The customer's company. |
+| `{{company}}` | The customer's company. It is not filled in a chat yet, so it stays as typed. Replace it by hand. |
 | `{{agent}}` | The name of the agent who sends the reply. |
 
 ## Steps
@@ -92,6 +89,14 @@ If nothing is open, the panel reads **Select a canned message**. It adds **Pick 
 
 Click **Cancel** to keep it.
 
+### Use your custom attributes
+
+Custom attributes you defined for contacts also appear as chips under **INSERT VARIABLE**. They insert as `{{attribute.Name}}`, for example `{{attribute.City}}`.
+
+1. Open the canned message and click the chip of the attribute, for example `{{attribute.City}}`.
+2. To set a fallback, type it after a bar: `{{attribute.City|there}}`. The fallback shows when the customer has no value.
+3. Insert the reply in a chat. The attribute value from the contact's profile fills in. With no value and no fallback, the placeholder stays as typed.
+
 ### Insert a canned message in the inbox
 
 1. Open **WhatsApp** → **Inbox**, then open a chat.
@@ -99,7 +104,7 @@ Click **Cancel** to keep it.
 3. Type part of the shortcut to narrow the list.
 4. Filter by **All**, **Starred**, **Text**, **Image**, **Video** or **Doc**.
 5. Click a reply. It is inserted into the composer.
-6. Read the message, then send it. A variable is not filled in, so replace it by hand before you send.
+6. Read the message, then send it. The variables show this customer's values. A variable with no value stays as typed, so replace it by hand.
 
 For the 24-hour window and the rest of the composer, see [Use the WhatsApp inbox](use-whatsapp-inbox.md).
 

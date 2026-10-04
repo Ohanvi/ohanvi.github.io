@@ -78,6 +78,7 @@ A cart counts as recovered whether or not a WhatsApp reminder was sent.
 | **Couldn't load store analytics** | The report failed to load. | Click **Retry**. |
 | Revenue differs from your store's report | Ohanvi excludes cancelled and fully refunded orders and uses the order time it received. | Compare with your store's net sales for the same dates. |
 | No % change on the tiles | **All** is selected, or the previous period had no data. | Choose a fixed window such as **30d**. |
+| **Top products** reads **No line items yet.** or **Top customers** reads **No customers yet.** | No completed order in the window has line items or a buyer to rank. | Choose a longer window, or wait for completed orders. |
 | Top customer name is not clickable | That buyer has no WhatsApp number on file. | Add the number to the contact. |
 
 ## Related
@@ -85,9 +86,3 @@ A cart counts as recovered whether or not a WhatsApp reminder was sent.
 - [Set up data for Analytics](set-up-analytics-data.md)
 - [Read Marketing Analytics](read-marketing-analytics.md)
 - [Act on your analytics](act-on-analytics.md)
-
-!!! note "Screenshots to add"
-    - After Open the screen, step 2 — headline tiles with a % change caption
-    - After Read the daily charts — both daily charts
-    - After Read Abandoned carts — the **What WhatsApp added** and **Abandoned carts** cards side by side
-    - After Read Order status — the **When orders come in** hour chart with the peak highlighted

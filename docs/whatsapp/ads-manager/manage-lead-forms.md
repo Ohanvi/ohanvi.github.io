@@ -38,7 +38,7 @@ The **Forms** tab only lists and syncs forms. You create a form while you create
 
 ### Pull the latest forms from Meta
 
-1. Click **Sync**. [VERIFY: the in-page button reads **Sync from Meta** when the ribbon is off]
+1. Click **Sync** in the top bar. On a page without the top bar, the button reads **Sync from Meta**.
 2. Wait while the button reads **Syncing…**.
 3. Check the table. Forms created on Meta appear in the list.
 

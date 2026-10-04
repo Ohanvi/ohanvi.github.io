@@ -44,7 +44,7 @@ Use this when you want to set the teammate's username and first password yoursel
 1. Click **Add**. The **Add teammate** window opens.
 2. Under **User Details**, fill in **Name**, **Username**, **Email** and **Phone Number**.
 3. Wait for **Username available** under **Username**. If you see **Username already taken**, try another.
-4. Leave **User Type** as **Standard** [VERIFY: when to pick Generic].
+4. Leave **User Type** as **Standard**. Pick **Generic** only for an outside user who needs a short list of allowed actions.
 5. Type a first **Password**. It must meet every rule in the checklist below the box.
 6. Under **Role**, click **Super Admin**, **Manager** or **Executive**.
 7. If you picked **Executive**, choose who they report to under **Reports To** → **Manager (optional)**. Only Managers and Super Admins are listed.
@@ -112,8 +112,3 @@ If you hold more than 1 role, click your initials bottom-left, then **Switch rol
 - [Open Settings and find a setting](open-settings.md)
 - [Settings overview](../settings/index.md)
 
-!!! note "Screenshots to add"
-    - After step 3 of Open the team list — the **App User Management** list with the **Role** column
-    - After step 6 of Add a teammate — the **Add teammate** window with **Super Admin**, **Manager** and **Executive**
-    - After step 1 of Change a teammate's details or role — the **Edit teammate** window
-    - After step 1 of Remove a teammate — the delete confirmation

@@ -102,8 +102,3 @@ To reconnect, click **Reconnect** on the card and repeat the connect steps. If y
 - [Manage your Google Business Profile](manage-google-business-profile.md)
 - [Social overview](index.md)
 
-!!! note "Screenshots to add"
-    - After step 1 — the **Social Connections** page with the network cards.
-    - After step 3 — the **How would you like to connect Instagram?** window with both options.
-    - After step 7 — the **Choose a Page** step for Facebook.
-    - Reconnect — a card showing the token-expiry warning.

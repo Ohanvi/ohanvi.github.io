@@ -9,7 +9,7 @@ Build an automation flow (a journey) that emails contacts on its own, for exampl
 
 ## Before you start
 
-- You can see **Email** in the left rail with **Automations** in its panel. If not, ask your admin for access.
+- You can see **Email** in the left rail with **Flows** in its panel. If not, ask your admin for access.
 - You have a verified sending address and at least 1 approved email template. See [Set up a sender address and verify your domain](set-up-sender-identity.md) and [Create an email template](create-email-template.md).
 - A teammate with approval access is available. You cannot activate a flow you created yourself.
 - Every email a flow sends uses credits. See [Credits and billing](../credits-and-billing.md).
@@ -18,7 +18,7 @@ Build an automation flow (a journey) that emails contacts on its own, for exampl
 
 ### Start a flow
 
-1. Open **Email** in the left rail, then select **Automations**. The **Automation flows** screen opens.
+1. Open **Email** in the left rail, then select **Flows**. The shared **Flows** screen opens. Email automations are flows on the same canvas as the other channels. See [Build an automation flow](../flows/build-automation-flow.md). Older journeys show under **Not yet migrated**.
 2. Choose how to start:
     - Click **Choose flow template** to pick a starter flow, such as **Single Welcome Email**, **Simple 2-Email Nurture**, **Welcome Series (3 emails)**, **Tag Engaged Contacts** or **Win-Back Then Sunset**.
     - Click **Build from scratch** for an empty flow.
@@ -57,7 +57,7 @@ For a cart email, use `{{cartValue}}`, `{{cartItems}}` and `{{recoveryUrl}}` in 
 
 ### Turn the flow on
 
-1. Ask a teammate to open **Automations**.
+1. Ask a teammate to open **Flows**.
 2. They click **⋮** (**More actions**) on the flow, then click **Activate**. The status changes to **Active**.
 
 To stop new contacts entering, click **⋮** → **Pause**. Contacts already in the flow wait where they are until you activate it again. To copy a flow, click **⋮** → **Clone**.
@@ -93,8 +93,4 @@ To stop new contacts entering, click **⋮** → **Pause**. Contacts already in 
 - [Create an email template](create-email-template.md)
 - [Add email contacts, lists and segments](manage-email-contacts.md)
 
-!!! note "Screenshots to add"
-    - After step 2 of "Start a flow" — the **Starter Flows** picker
-    - After step 2 of "Name the flow" — the starting-point tiles
-    - After step 2 of "Add the steps" — a flow map with Send Email and Wait steps
-    - After step 2 of "Turn the flow on" — the row menu with **Activate**
+<!-- Menu paths updated: Automations is now Email > Flows. -->

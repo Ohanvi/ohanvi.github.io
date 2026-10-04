@@ -33,6 +33,9 @@ Find all four under **All steps** → **Ask the customer**.
 2. Click **+** next to a step, or click **+ Add Content** at the bottom of a card.
 3. Choose **All steps**.
 4. Under **Ask the customer**, choose **Ask Question**, **Ask Location**, **Ask Media** or **Wait & Branch**.
+
+    ![The Step panel with Ask Media, Wait and Branch, Delay and the Actions group](../assets/screenshots/whatsapp-chatbot-3-wait-and-action-blocks.png)
+
 5. Click the block to open its fields in the right panel.
 
 ### Ask a question and choose the answer type
@@ -80,7 +83,7 @@ The types are **Short text**, **Long text**, **Number**, **Email**, **Phone numb
 2. Optional: type a **Header**. It can hold up to 20 characters.
 3. Type a **Body**. It can hold up to 4,096 characters.
 4. Optional: type a **Footer**, up to 60 characters.
-5. Click **+ Add Section** to add a choice. [VERIFY: the button reads Add Section but adds a list row]
+5. Click **+ Add Section** to add a choice. The button reads **+ Add Section**, but it adds a list row.
 6. In **Item**, type the choice name, up to 24 characters.
 7. In **Describe it**, type a short line under the name, up to 72 characters.
 8. Repeat steps 5 to 7 for each choice. You can add up to 10.
@@ -110,6 +113,8 @@ Choices you leave unwired continue to the next block of the card.
 ## Related
 
 - [Create a WhatsApp chatbot flow](../create-whatsapp-flow.md)
+- [Understand the flow builder](understand-the-flow-builder.md)
+- [Ask for name, phone, email and address, then wait or branch](chatbot-ask-details-blocks.md)
 - [Add media, catalogue, product, template and form blocks](chatbot-message-blocks.md)
 - [Set tags, call an API and hand off to an agent](chatbot-action-blocks.md)
 - [Test a flow with the chat simulator](test-a-flow-with-the-chat-simulator.md)

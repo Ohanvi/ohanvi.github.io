@@ -26,14 +26,21 @@ The connector catalog, where you connect outside apps, is under **Connect** → 
 
 ## Guides
 
+The guides follow the order of the screens in the app.
+
 | Guide | Use it when |
 | --- | --- |
 | [Understand flows and the Flows list](flows-overview-and-list.md) | You are new to flows, or want to pause, copy or delete one. |
-| [Create a WhatsApp chatbot flow](../create-whatsapp-flow.md) | You want a chatbot that replies to customers on WhatsApp. |
-| [Build an automation flow](build-automation-flow.md) | You want steps to run on their own when an event happens. |
-| [Connect an app and use it in a flow](connect-apps-for-flows.md) | A step needs to call an outside app. |
-| [Automate store messages with flows](store-journeys.md) | You want order, cart and delivery messages on WhatsApp. |
+| [Start a flow from a template](use-flow-templates.md) | You want a ready-made starter or chatbot template instead of a blank canvas. |
+| [The flow panel](flow-panel/index.md) | You want to read a flow's runs, output and versions. |
 | [Test a flow and fix failed runs](test-and-monitor-flows.md) | You want to check that a flow works, or a run failed. |
+| [Read a run's output in detail](read-a-runs-output.md) | You want to see what each step returned. |
+| [Review a flow's versions](review-flow-versions.md) | You want to see which version is live. |
+| [Build an automation flow](build-automation-flow.md) | You want steps to run on their own when an event happens. |
+| [Automate store messages with flows](store-journeys.md) | You want order, cart and delivery messages on WhatsApp. |
+| [Connect an app and use it in a flow](connect-apps-for-flows.md) | A step needs to call an outside app. |
+
+The chatbot guides, such as [Create a WhatsApp chatbot flow](../create-whatsapp-flow.md) and [Understand the flow builder](../whatsapp/understand-the-flow-builder.md), are in **WhatsApp** → **Flows**.
 
 ## Related
 

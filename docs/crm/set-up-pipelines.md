@@ -1,11 +1,11 @@
 ---
-title: Set up pipelines, lead sources and products
-description: Create the sales pipeline your deals move through, set stage probabilities, and add the lead sources and products your deals use.
+title: Set up pipelines
+description: Create the sales pipeline your deals move through, set stage probabilities, and add or change stages.
 ---
 
-# Set up pipelines, lead sources and products
+# Set up pipelines
 
-Set up the pieces your CRM is measured in: a pipeline with the stages a deal moves through, the lead sources your enquiries come from, and the products a deal is made of. Once they exist, every deal, board, funnel and forecast uses them.
+Set up the pipeline your deals move through, with its stages and the chance of winning at each one. Once it exists, every deal, board, funnel and forecast uses it. Lead sources and products have their own pages.
 
 ## Before you start
 
@@ -72,25 +72,12 @@ A stage added this way goes to the end of the pipeline with 0% probability and t
 
 To open the pipeline's deals, click **Open board →** on its card.
 
-### Add lead sources
+### Add lead sources and products
 
-A lead source is the channel a lead or deal came through. Ohanvi starts you with **Website**, **Referral**, **Cold Call**, **Trade Show**, **Social Media**, **Email Campaign**, **Partner** and **Other**.
+Lead sources and products have their own pages:
 
-1. Open **Lead Sources**. The **Performance by source** view shows leads and conversion per source.
-2. Click **Add source**. The **Add Lead Source** form opens.
-3. In **Name**, type the source, for example `Instagram`.
-4. Optional: add a **Description**, and tick **Default Source** to preselect it.
-5. Click **Submit**. The message **Lead source created** appears.
-
-### Add products
-
-Products are what a deal is made of. A deal can carry product lines, and then its amount is the sum of the lines.
-
-1. Open **Products**, then click **Add**. The **Add Products** form opens.
-2. Enter a **Code** and a **Name**. Both are required, and the code must be unique.
-3. Enter the **Unit Price** and **Currency**. Currency defaults to **INR**.
-4. Keep **Active** ticked so the product can be picked on a deal.
-5. Click **Submit**. The message **Product created** appears.
+- [Manage lead sources and see which ones convert](manage-lead-sources.md)
+- [Add products](add-products.md)
 
 ### Change funnel stages
 
@@ -108,18 +95,13 @@ The **Funnel Stages** tab is read-only. It is marked **Sysadmin only**, and only
 | **Stage probability must be between 0 and 100.** | A **Prob %** is below 0 or above 100. | Enter a number from 0 to 100. |
 | **Pipeline has active deals in stage '…'. Move or delete them first.** | You tried to delete a pipeline that still holds deals. | Move those deals to another pipeline's stage, or delete them, then try again. |
 | **No WON stage configured for this deal's pipeline** when you mark a deal won | The pipeline has no stage with the **WON** category (or no **LOST** stage for a loss). | Edit the pipeline and set one stage's **Category** to **WON** (and one to **LOST**). |
-| **Product code '…' already exists.** | Another product uses that code. | Give the product a unique **Code**. |
 | You cannot change an existing stage's probability or order from the pipeline card | The wide card view only adds stages at the end. | Open **Pipelines** in a narrow window, where each pipeline row has an **Edit** action with the full stage editor [VERIFY: edit path on desktop]. |
 
 ## Related
 
 - [Create and manage deals](manage-deals.md)
+- [Manage lead sources and see which ones convert](manage-lead-sources.md)
+- [Add products](add-products.md)
 - [Track sales performance](track-sales-performance.md)
 - [CRM overview](../crm/index.md)
 - [Settings overview](../settings/index.md)
-
-!!! note "Screenshots to add"
-    - After step 2 of "Open the CRM settings" — Settings with the CRM rows listed
-    - After step 5 of "Create a pipeline" — the stage editor with name, Prob % and Category filled
-    - After step 3 of "Add a stage to an existing pipeline" — pipeline card with its stage chips and **+ Stage**
-    - After step 1 of "Add lead sources" — the **Performance by source** view

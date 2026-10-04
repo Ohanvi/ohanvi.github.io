@@ -31,6 +31,9 @@ The audit has 5 tabs. Every tab compares the period you pick with the same numbe
 
 1. Open **WhatsApp** in the left rail, then select **Ads Manager**.
 2. Under **Reports** in the left column, select **Account audit**.
+
+    ![The Account audit with the Overview, Auction, Targeting, Geo and demo and Creative and copy tabs and the Filter, Smart filter, Views and Columns buttons](../../assets/screenshots/whatsapp-ads-account-audit-1-overview.png)
+
 3. Pick a period: **Last 7 days**, **Last 14 days**, **Last 30 days** or **Last 90 days**. The line **vs the N days before** shows what each number is compared with.
 4. Optional: narrow the audit with **Filter**, **Smart filter** or **Views**. See [Filter the audit](#filter-the-audit).
 5. Click **Refresh** to rebuild the audit.
@@ -159,7 +162,7 @@ See [Use ad creatives](use-ad-creatives.md) for these reports.
 
 ### Download the audit as a PDF
 
-1. Click **PDF** to download the audit. [VERIFY: PDF button label is **Download PDF** when the ribbon is not shown]
+1. Click **PDF** in the top bar to download the audit. On a page without the top bar, the button reads **Download PDF**.
 2. Open the file. It is named like `ad-account-audit-30d.pdf`.
 
 ### Email the audit on a schedule
@@ -168,7 +171,7 @@ See [Use ad creatives](use-ad-creatives.md) for these reports.
 2. Type a **Name (optional)**, for example "Monday numbers for the owner".
 3. Under **How often**, pick **Daily**, **Weekly** or **Monthly**. Pick at least 1.
 4. For **Monthly**, set **Day of month**.
-5. Set **Minute**, the minute the email goes out. [VERIFY: hour field label]
+5. Set **At** for the hour and **Minute** for the minute the email goes out.
 6. In **Send to**, type up to 10 email addresses, separated by commas. Click **Add team members** to pick from your team.
 7. Optional: type addresses in **CC (optional)** to copy them.
 8. Optional: click **Edit PDF view** to choose the sections, measures and logo in the PDF.
@@ -179,7 +182,7 @@ See [Use ad creatives](use-ad-creatives.md) for these reports.
 ### Share the audit with a link
 
 1. Click **Share**. The **Share the Account audit** window opens.
-2. Pick the expiry, for example **Expires in 7 days**, **Expires in 30 days** or **Expires in 90 days**. [VERIFY: where the expiry is chosen]
+2. Pick the expiry from the list beside **Create & copy link**: **Expires in 7 days**, **Expires in 30 days**, **Expires in 90 days** or **Never expires**.
 3. Click **Create & copy link**.
 4. Send the link. Anyone with it sees a live page with a PDF download, with no login.
 5. To stop sharing, revoke the link in the same window.

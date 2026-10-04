@@ -89,9 +89,3 @@ To remove someone, open **Add members** again and click the red bin icon next to
 - [Create and assign tasks](create-and-assign-tasks.md)
 - [Move tasks across the board](move-tasks-on-board.md)
 - [Tasks overview](../tasks/index.md)
-
-!!! note "Screenshots to add"
-    - After step 2 of "Create your first project from the Tasks panel" — the **Set up your tasks** prompt with a name typed in.
-    - After step 2 of "Create another project from the board" — the **Create ticket project** dialog with **Uniq key**, **Name** and **Description**.
-    - After step 3 of "Add members to the project" — the **Add people** dialog with two people selected and their role dropdowns.
-    - After step 3 of "Add your first columns" — a board with three new columns.

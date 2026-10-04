@@ -32,7 +32,7 @@ Ohanvi raises an invoice for every recharge and every plan charge. Recharge invo
 2. Click **All invoices →**. The **Billing** page opens on the **Ohanvi** tab.
 3. Scroll to **Invoices**. The table shows **Date**, **Invoice**, **Total**, **Status** and **Actions** for every invoice.
 
-You can also open this page from **Settings**: select **Organization**, then **Billing** under **Billing & credits** [VERIFY: Settings → Organization → Billing path].
+You can also open this page from **Settings**: select **Organization**, then **Billing** under **Billing & credits**.
 
 ### Open an invoice
 
@@ -87,8 +87,3 @@ An invoice that is not yet paid shows **Pending** or **Awaiting payment**, with 
 - [Read your current usage](read-current-usage.md)
 - [Manage your plan and users](manage-plan-and-users.md)
 
-!!! note "Screenshots to add"
-    - After "Export your statement" step 2 — the **Statement** card with **Export CSV** at the top of the page.
-    - After "Find your invoices" step 3 — the **Invoices** table on the **Billing** page.
-    - After "Open an invoice" step 3 — the invoice window with the GST lines.
-    - After "Pay an open invoice" step 2 — an invoice row with **Pay now**.

@@ -18,6 +18,9 @@ A lead is a prospect you are still qualifying. This page shows how to add leads,
 ### Open your leads
 
 1. Open **Contacts** in the left rail, then select **Leads**.
+
+    ![The Leads screen with the Open, Closed and All tabs, the lead list and the lead details with the Convert button (names and contact details blurred)](../assets/screenshots/crm-contacts-2-leads.png)
+
 2. The list on the left has 3 tabs with counts: **Open**, **Closed** and **All**. **Open** shows leads that are **NEW**, **CONTACTED**, **QUALIFIED** or **WORKING** and not yet converted.
 3. Click a lead. Its details open on the right, with its status and score.
 
@@ -80,19 +83,9 @@ A lead reaches **CONVERTED** only by being converted, not by moving its status.
 1. Select the lead, then click **More actions** → **Notes & Activities**.
 2. Add a note or an activity for the lead. See the [CRM overview](../crm/index.md) for notes and activities.
 
-### Follow up on abandoned carts (Commerce leads)
+### Follow up on abandoned carts
 
-When a Shopify or WooCommerce store is connected, shoppers who leave without paying arrive as commerce leads.
-
-1. Open the **Commerce Leads** screen. It is not listed in the **Contacts** panel. Open it from the **Abandoned Carts** tile in **Workspace**, using **Work the carts** [VERIFY: how users reach Commerce Leads].
-2. Each row shows the **Platform**, **Cart** value, **Priority** and **Abandoned Since**.
-3. Use the row actions:
-    - **Overview** — see the lead and its cart.
-    - **Copy resume-cart link** — copies a link that takes the shopper back to their cart. The message **Resume-cart link copied** appears.
-    - **Send on WhatsApp** — opens WhatsApp with a message and the resume-cart link filled in.
-    - **Notes & Activities**, **Move Status** and **Convert** — the same as for other leads.
-
-If no store is connected, the screen says **No Shopify or WooCommerce store is connected yet.** Connect a store under **Connect** → **Store Connections**.
+Shoppers who leave your Shopify or WooCommerce store without paying arrive as commerce leads. They have their own screen and steps. See [Recover abandoned carts with Commerce leads](recover-abandoned-carts.md).
 
 ## Video walkthrough
 
@@ -113,9 +106,6 @@ If no store is connected, the screen says **No Shopify or WooCommerce store is c
 - [Manage contacts](manage-contacts.md)
 - [Create and manage contact groups](contact-groups.md)
 - [Import and sync contacts](import-and-sync-contacts.md)
+- [Recover abandoned carts with Commerce leads](recover-abandoned-carts.md)
+- [Manage lead sources and see which ones convert](manage-lead-sources.md)
 - [CRM overview](../crm/index.md)
-
-!!! note "Screenshots to add"
-    - After step 3 of "Open your leads" — the leads triage view with a lead selected and its score.
-    - After step 2 of "Convert a lead into a contact" — the Convert Lead dialog.
-    - After step 2 of "Follow up on abandoned carts" — the Commerce Leads grid with row actions.

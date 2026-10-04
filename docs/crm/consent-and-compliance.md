@@ -17,6 +17,9 @@ Ohanvi records permission separately for each channel: WhatsApp opt-in, email su
 ### Review consent
 
 1. Open **Contacts** in the left rail, then select **Consent & compliance**.
+
+    ![Consent and compliance with the Export log button and a table of WhatsApp, Email and Calls consent for each contact (contacts blurred)](../assets/screenshots/crm-contacts-6-consent.png)
+
 2. The table shows one row per contact:
 
     | Column | What it shows |
@@ -81,8 +84,3 @@ The file has the columns **Contact**, **Email**, **Phone**, **WhatsApp**, **Emai
 - [Import and sync contacts](import-and-sync-contacts.md)
 - [Create and manage contact groups](contact-groups.md)
 - [CRM overview](../crm/index.md)
-
-!!! note "Screenshots to add"
-    - After step 2 of "Review consent" — the Consent & compliance table.
-    - After step 3 of "Change WhatsApp opt-in for one contact" — the WhatsApp block with the Opted in switch.
-    - After step 3 of "Change consent for many contacts" — the More bulk actions menu.

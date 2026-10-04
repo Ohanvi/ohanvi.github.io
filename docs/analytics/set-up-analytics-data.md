@@ -78,8 +78,3 @@ Both screens use preset windows. There is no custom date range.
 - [Read Store Analytics](read-store-analytics.md)
 - [Act on your analytics](act-on-analytics.md)
 - [Connect your WhatsApp number](../whatsapp/connect-whatsapp-number.md)
-
-!!! note "Screenshots to add"
-    - After Check what you can see, step 1 — the **Analytics** panel with **Marketing Analytics** and **Store Analytics**
-    - After Connect a store, step 2 — the **Store Connections** screen with the Shopify and WooCommerce cards
-    - After Pick a date window, step 1 — the window pills and **Refresh** button, with **30d** selected

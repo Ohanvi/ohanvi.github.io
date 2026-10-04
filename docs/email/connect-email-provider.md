@@ -11,13 +11,13 @@ Connect your own SMTP relay, SendGrid, Mailgun or Postmark account so your email
 
 - You do not need this page to send email. With nothing connected, every send uses Ohanvi's shared default sender (Amazon SES).
 - You have your provider's details: SMTP host, port, username and password, or an API key. For Mailgun you also need your sending domain.
-- You can see **Connect** in the left rail with **Email Provider** in its panel, or **Email Sending Server** in the **Email** panel. Both open the same screen. If you see neither, ask your admin for access.
+- You can see **Connect** in the left rail with **Email Provider** in its panel, or **Manage** → **Email Sending Server** in the **Email** panel. Both open the same screen. If you see neither, ask your admin for access.
 
 ## Steps
 
 ### Open the Email Provider screen
 
-1. Open **Connect** in the left rail, then select **Email Provider**. You can also open **Email** and select **Email Sending Server**.
+1. Open **Connect** in the left rail, then select **Email Provider**. You can also open **Email**, select **Manage**, then **Email Sending Server**.
 2. The **Email Provider** screen shows 1 card each for **SMTP**, **SendGrid**, **Mailgun** and **Postmark**. A card you have not set up reads **not connected** with a **Set up** chip.
 
 ### Connect an SMTP server
@@ -75,7 +75,4 @@ Connect your own SMTP relay, SendGrid, Mailgun or Postmark account so your email
 - [Send an email campaign](send-email-campaign.md)
 - [Credits and billing](../credits-and-billing.md)
 
-!!! note "Screenshots to add"
-    - After step 2 of "Open the Email Provider screen" — the 4 provider cards
-    - After step 7 of "Connect an SMTP server" — the dialog with **Connected successfully.**
-    - After step 9 — the SMTP card showing **Active**
+<!-- Menu paths updated: Email Sending Server is under Manage. -->

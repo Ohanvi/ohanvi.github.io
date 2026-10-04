@@ -41,7 +41,7 @@ If the card shows **Not set up**, click **Set up WhatsApp** and connect your num
 ### Use your own AI key
 
 1. On the **AI** card, click **Connect your own AI key**. The **AI Connectors** page opens.
-2. Pick your provider and paste your key. Follow the steps on that page [VERIFY: exact field labels on AI Connectors].
+2. Under **Provider**, pick **Gemini**, **OpenAI** or **Anthropic**. Under **Credentials**, paste the **API key** and pick a **Model**. Click **Test connection**, then **Connect**.
 3. Go back to **Connectors** and click **Refresh**. The card shows **Your key · connected**.
 
 To change it later, click **Manage AI provider**.
@@ -74,7 +74,3 @@ To change it later, click **Manage email providers**.
 - [Send a WhatsApp broadcast campaign](../whatsapp/send-broadcast-campaign.md)
 - [Email section](../email/index.md)
 
-!!! note "Screenshots to add"
-    - After step 3 of Open Connectors — the 3 cards: **WhatsApp (Meta)**, **AI** and **Email**
-    - After step 1 of Choose how WhatsApp is billed — the **Pay through Ohanvi** / **Pay Meta directly** choice
-    - After step 3 of Use your own AI key — the AI card showing **Your key · connected**

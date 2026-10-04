@@ -18,6 +18,9 @@ A contact group is a saved list of people that every module can target, such as 
 ### Open your groups
 
 1. Open **Contacts** in the left rail, then select **Contact groups**.
+
+    ![Contact groups with the list of groups on the left and the members of the selected group on the right (members blurred)](../assets/screenshots/crm-contacts-3-groups.png)
+
 2. The list on the left shows every group, from CRM and from WhatsApp. Type in **Search groups…** to find one.
 3. Click a group. Its members appear on the right, with a line saying which campaigns use it, for example **Not used by a campaign yet**.
 
@@ -64,7 +67,7 @@ Values match exactly but ignore upper and lower case. For example, `{"memberType
 
 Only groups filled by hand are offered. A rule group decides its own members.
 
-You can also add people while importing from **WhatsApp** → **Contact**, which lets you pick a list [VERIFY: Add to List on the WhatsApp import].
+You can also add people while importing from **WhatsApp** → **Contact**, where the **Add to List** field lets you pick a list.
 
 ### Remove people from a group
 
@@ -107,8 +110,3 @@ A rule group shows **Membership follows the rule** instead. Change the rule to c
 - [Import and sync contacts](import-and-sync-contacts.md)
 - [Work with leads](leads.md)
 - [CRM overview](../crm/index.md)
-
-!!! note "Screenshots to add"
-    - After step 3 of "Open your groups" — a group selected with its member list.
-    - After step 2 of "Fill a group from a rule" — the New group dialog with the rule switched on.
-    - After step 3 of "Add people to a group" — the Add to which group? list.

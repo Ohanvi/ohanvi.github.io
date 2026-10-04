@@ -30,6 +30,9 @@ The **Events** tab has a list of datasets on the left and the selected dataset o
 
 1. Open **WhatsApp** in the left rail, then select **Ads Manager**.
 2. Click **Events**.
+
+    ![The Events tab with the list of datasets on the left and the Overview, Setup and Offline sales tabs of the selected dataset](../../assets/screenshots/whatsapp-ads-events-1-datasets.png)
+
 3. Click **New Dataset**. The **Create Dataset** window opens.
 
     

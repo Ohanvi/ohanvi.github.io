@@ -50,30 +50,7 @@ To remove a link, click the delete icon next to it.
 
 ### Reply to Google reviews
 
-Reviews sync from Google in the background.
-
-1. Open **Social** in the left rail, then select **Home**.
-2. Under **NEEDS ATTENTION**, find **Google reviews** and click **Reply**. The reviews page opens.
-3. To narrow the list, pick a **Rating**, or switch on **Unreplied only**.
-4. On a review, click **Reply**. The **Reply to …** window opens.
-5. Type your answer in **Public reply**. To start from saved text, pick one in **Insert template**. To get a suggested answer, click **Suggest reply**.
-6. Click **Send Reply**. The message **Reply posted to Google** appears. The reply is public on Google.
-
-To change a reply, click **Edit** under it, then **Update Reply**.
-
-### Track reviews with your team
-
-1. On a review, click the flag icon (**Flag for follow-up**) to mark it.
-2. Click the person icon (**Assign / note**). The **Assign / internal note** window opens.
-3. Fill in **Assigned to** and **Internal note**. The note is not visible to the reviewer or on Google.
-
-### Delete a reply
-
-1. Under the reply, click **Delete**. The **Delete reply?** window opens.
-2. Click **Delete**. The message **Reply deleted** appears.
-
-!!! warning "This cannot be undone"
-    Deleting removes your public reply from Google.
+Reviews have their own page. See [Reply to Google reviews](reply-to-google-reviews.md). It covers filters, replies, flags and notes.
 
 ## Video walkthrough
 
@@ -96,7 +73,3 @@ To change a reply, click **Edit** under it, then **Update Reply**.
 - [Create and publish a social post](create-social-post.md)
 - [Read social insights](view-social-insights.md)
 
-!!! note "Screenshots to add"
-    - After "Edit your business info" step 2 — the **Business Info** page with the **Location** picker.
-    - After "Edit your business info" step 6 — the **Regular hours** section.
-    - After "Reply to Google reviews" step 4 — the **Reply to …** window.

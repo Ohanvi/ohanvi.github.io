@@ -47,6 +47,9 @@ The chips scroll sideways when the list is narrow.
 
 1. Open a chat with a shopper. The profile panel opens on the right.
 2. At the top of the panel, click your store's name, for example **Shopify**. The other choice is **Profile**.
+
+    ![The chat side panel with the Profile and Shopify tabs at the top](../assets/screenshots/whatsapp-inbox-4-profile-panel.png)
+
 3. Read the line at the top of the pane. It shows **Live from** your store with **Read from … just now**, or **From last sync** with **Showing our last synced copy of the store**.
 4. Click **Refresh from** your store to read the store again.
 5. Click **Open** your store **admin** to open the store in a new tab.
@@ -157,7 +160,7 @@ Do a partial refund in the store admin.
 
 1. On the order card, click **Cancel**. The window **Cancel …?** opens.
 2. Read the note. The store cancels, restocks and refunds the order as it would from the admin. It then tells the shopper on WhatsApp through the order-update message.
-3. Click **Cancel order**. The message **… cancelled.** appears. To back out, close the window. [VERIFY: label of the back-out button]
+3. Click **Cancel order**. The message **… cancelled.** appears. To back out, click **Cancel** in the window.
 
 !!! warning "Cancelling refunds the shopper"
     The shopper is refunded and told on WhatsApp. This cannot be undone from the inbox.

@@ -24,8 +24,8 @@ Change a scheduled item without leaving the **Schedule** section. You can move i
 ### Reschedule to a new time
 
 1. Click **Reschedule**. A date picker opens.
-2. Pick the new date and click **OK** [VERIFY: exact label]. A time picker opens.
-3. Pick the new time and click **OK** [VERIFY: exact label]. The message **Rescheduled.** appears and the item moves on the Schedule.
+2. Pick the new date and click **OK**. A time picker opens.
+3. Pick the new time and click **OK**. The message **Rescheduled.** appears and the item moves on the Schedule.
 
 The owning module re-checks the new time. For an appointment, the new time must be free and inside working hours, and reminders move with it. For a recurring WhatsApp schedule, this changes the time of the next send.
 
@@ -78,9 +78,3 @@ What cancel does in each module:
 - [Manage recurring schedules](manage-recurring-schedules.md)
 - [Appointments](../appointments/index.md)
 - [CRM](../crm/index.md)
-
-!!! note "Screenshots to add"
-    - After step 3 of Open the item — details pane with **Reschedule**, **Edit**, **Cancel** and **Delete**
-    - After step 1 of Reschedule to a new time — the date picker
-    - After step 1 of Cancel an item — the **Cancel schedule** dialog
-    - After step 1 of Delete an item — the **Delete schedule** dialog

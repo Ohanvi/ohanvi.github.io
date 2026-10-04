@@ -17,6 +17,9 @@ Custom fields let you store your own details on a contact, such as a birthday or
 ### See the built-in fields
 
 1. Open **Contacts** in the left rail, then select **Custom fields**.
+
+    ![Custom fields with the New field button and the Built-in fields table](../assets/screenshots/crm-contacts-5-custom-fields.png)
+
 2. The **Built-in fields** card shows how each contact record is laid out, grouped by the module that owns each part:
 
     | Group | Fields | Owner |
@@ -70,8 +73,3 @@ The **Filled on** column shows **—**. Ohanvi does not yet count how many conta
 - [Manage contacts](manage-contacts.md)
 - [Create a WhatsApp message template](../whatsapp/create-message-template.md)
 - [CRM overview](../crm/index.md)
-
-!!! note "Screenshots to add"
-    - After step 2 of "See the built-in fields" — the Built-in fields card.
-    - After step 4 of "Create a custom field" — the New field dialog filled in.
-    - After step 5 of "Create a custom field" — the new field listed under Your custom fields.

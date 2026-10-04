@@ -18,6 +18,9 @@ Add people to Ohanvi, find them fast, and keep each record correct. At the end y
 ### Open your contacts
 
 1. Open **Contacts** in the left rail, then select **All contacts**.
+
+    ![All contacts with the Import and Export buttons, the status chips, the Contacts and Groups tabs, the contact list and the details of the selected contact (names and emails blurred)](../assets/screenshots/crm-contacts-1-all-contacts.png)
+
 2. The screen shows 3 panes: the contact list on the left, the conversation in the middle, and the contact record on the right.
 3. To see saved lists instead of people, click the **Groups** tab above the list. See [Create and manage contact groups](contact-groups.md).
 
@@ -71,6 +74,7 @@ If you click another contact before saving, the **Unsaved changes** dialog asks 
 
 1. In the record header, click **Message** to send a WhatsApp message, or **Broadcast** to open the broadcast composer.
 2. Click **More actions** (the **…** button) for the other actions: **Call Now**, **Call on Mobile — send this number to your phone**, **Send Welcome Email**, **Send WhatsApp**, **WhatsApp Call** and **Notes & Activities**.
+3. For the steps of each action, see [Call contacts and review your calls](call-contacts-and-review-calls.md), [Call many contacts in a row with Auto Calling](auto-call-contacts.md) and [Send a welcome email to a contact](send-a-welcome-email.md).
 
 ### Merge duplicate contacts
 
@@ -94,7 +98,7 @@ If you click another contact before saving, the **Unsaved changes** dialog asks 
 2. Ohanvi downloads an Excel file named `CrmContacts.xlsx`.
 
 !!! note
-    **Export selected** in the selection bar downloads the same full contact list, not only the ticked contacts [VERIFY: confirm before publishing]. Filter the file in Excel if you need a subset.
+    **Export selected** in the selection bar downloads the same full contact list, not only the ticked contacts. Filter the file in Excel if you need a subset.
 
 ## Video walkthrough
 
@@ -113,14 +117,13 @@ If you click another contact before saving, the **Unsaved changes** dialog asks 
 
 ## Related
 
+- [Call contacts and review your calls](call-contacts-and-review-calls.md)
+- [Call many contacts in a row with Auto Calling](auto-call-contacts.md)
+- [Send a welcome email to a contact](send-a-welcome-email.md)
+- [Set up the welcome email and your brochures](set-up-the-welcome-email.md)
+- [Jump back to recent contacts](find-recent-contacts.md)
 - [Import and sync contacts](import-and-sync-contacts.md)
 - [Create and manage contact groups](contact-groups.md)
 - [Track contact consent](consent-and-compliance.md)
 - [Work with leads](leads.md)
 - [CRM overview](../crm/index.md)
-
-!!! note "Screenshots to add"
-    - After step 2 of "Open your contacts" — the 3-pane All contacts screen with one contact selected.
-    - After step 4 of "Add a contact" — the Add Contact form showing the duplicate warning.
-    - After step 1 of "Act on many contacts at once" — the selection bar with More bulk actions open.
-    - After step 1 of "Merge duplicate contacts" — the Merge dialog with a Surviving record picked.

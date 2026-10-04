@@ -14,7 +14,7 @@ Build a form that visitors fill in to join your email list: an embedded or hoste
 - You can edit your website, or you can send a code snippet to the person who does.
 
 !!! note "Where to find these screens"
-    **Signup Forms** and **Popup Forms** are not in the **Email** panel by default [VERIFY: how users reach Signup Forms and Popup Forms]. If you cannot find them, ask your admin.
+    **Signup Forms** and **Popup Forms** are not in the **Email** panel in this release. Open them from **Forms** in the left rail, or ask your admin for the direct link.
 
 ## Steps
 
@@ -75,7 +75,7 @@ To greet each new subscriber, build a journey with the **Signs up for email** st
 | **Enter a valid http(s) URL, or leave blank** | The redirect address does not start with `http://` or `https://`. | Type the full address, or leave it blank. |
 | New signups do not get campaigns | **Double Opt-in** is on and they have not confirmed. | Wait for them to click the confirmation email. |
 | **No impressions yet — add your site address below to get started.** | No site address is saved, or the snippet is not installed. | Fill in **YOUR SITE**, install the snippet, then publish. |
-| **You need an audience list before a popup can collect contacts.** | No list exists. | Create a list in **Lists**, then come back. |
+| **You need an audience list before a popup can collect contacts.** | No list exists. | Create a list in **Audience** → **Email Groups**, then come back. |
 
 ## Related
 
@@ -83,7 +83,4 @@ To greet each new subscriber, build a journey with the **Signs up for email** st
 - [Automate emails with journeys](create-email-automation.md)
 - [Email overview](../email/index.md)
 
-!!! note "Screenshots to add"
-    - After step 7 of "Build a signup form" — the **Double Opt-in** section
-    - After "Put the signup form on your site" — the preview with the 3 copy buttons
-    - After step 3 of "Publish the popup" — the **INSTALL SNIPPET** box
+<!-- Menu paths updated: Lists is now Audience > Email Groups. -->

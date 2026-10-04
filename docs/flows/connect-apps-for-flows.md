@@ -67,7 +67,7 @@ The consent link expires after 15 minutes. If it expires, click **Connect accoun
 1. On the connection's row, click **Test connection**.
 2. Read the message. **Looks good.** means the app accepted the credentials. The row shows **Last tested** with the time.
 
-To try one operation for real, open the **Operations** tab and click **Test run** [VERIFY: Test run is a button or an icon tooltip] on the operation. Choose a **Connection**, type the **Input (JSON)**, and click **Run**. The **Test result** window shows the HTTP status and the response.
+To try one operation for real, open the **Operations** tab and click the play icon, tooltip **Test run**, on the operation. Choose a **Connection**, type the **Input (JSON)**, and click **Run**. The **Test result** window shows the HTTP status and the response.
 
 !!! warning "A test run is a real call"
     Test runs call the app for real. An operation marked **Not retry-safe — a retry would duplicate its effect** creates a real record each time you run it.
@@ -119,9 +119,3 @@ Values in the mapping can use the trigger and earlier steps. See "Use data from 
 - [Test a flow and fix failed runs](test-and-monitor-flows.md)
 - [Understand flows and the Flows list](flows-overview-and-list.md)
 - [Choose your own or Ohanvi's managed services](../settings/choose-connectors.md)
-
-!!! note "Screenshots to add"
-    - After step 3 of "Open the connector catalog" — an app open with its tabs.
-    - After step 2 of "Add a connection" — the **Connect** window with **Label**, **Credentials (JSON)** and **Who can build on this**.
-    - After step 2 of "Test the connection" — a connection row with **Last tested**.
-    - After step 4 of "Use an operation in a flow step" — the **Step** panel with an operation and **Signs in as** chosen.

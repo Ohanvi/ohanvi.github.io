@@ -58,6 +58,9 @@ The **Ad objective** is what you buy from Meta. The **Performance goal** is the 
 
 1. Open **WhatsApp** in the left rail, then select **Ads Manager**.
 2. Click **Create Ad**. The **Create Click-to-WhatsApp Ad** form opens, with a preview beside it.
+
+    ![The Create Click-to-WhatsApp Ad form with section 1 open, the Ad type cards, the Ad objective and Performance goal lists and the preview](../../assets/screenshots/whatsapp-ads-create-ad-1-where-to-click.png)
+
 3. Open section 1, **Where should people go after clicking your ad?**.
 4. Under **Special ad category**, answer **Is this ad about credit, jobs, housing or politics?**. Choose **No — a regular ad** for most ads.
 5. If the ad is regulated, choose **Credit (loans, cards, finance)**, **Employment (jobs, hiring)**, **Housing (property, rentals)** or **Social issues, elections or politics**. The form clears age, gender, detailed and audience targeting.
@@ -69,8 +72,8 @@ Special category limits:
 - For **Social issues, elections or politics**, the Page needs Meta ad authorisation before the ad can run.
 - Pick the right category. Meta takes down regulated ads that do not declare one.
 
-!!! note "Website to WhatsApp"
-    [VERIFY: where the website address and button are entered for Website to WhatsApp ads]
+!!! note "Website ads"
+    For the **Website** type, a **Destination** block appears below the objective. Type the **Website URL** (it must start with `https://`) and pick the **Button**, for example **Learn more** or **Shop now**. The **Website to WhatsApp** type shows no such field yet, so **Next** asks for a website URL that you cannot enter.
 
 ### Pick the objective and goal
 
@@ -91,7 +94,7 @@ Do this when you chose **Sales**.
 
 1. Under **Pixel**, pick a pixel, or keep **Choose a pixel** if you use a catalogue only. A Sales ad does not launch without a pixel or a product catalogue.
 2. Under **Conversion event**, choose **Purchase**, **Add to cart**, **Checkout started**, **Lead** or **Registration**. On a new pixel, pick an event that happens often, such as **Add to cart**.
-3. Under **Product catalogue**, pick a catalogue. Leave it empty if you do not run catalogue ads. [VERIFY: label of the manual ID field]
+3. Under **Product catalogue**, pick a catalogue. Leave it on **No catalogue** if you do not run catalogue ads. With no catalogue, click **Create a catalogue and add products**.
 4. Optional: under **Product set (optional)**, pick one slice of the catalogue.
 
 Sales limits:
@@ -118,6 +121,9 @@ Do this when you chose **WhatsApp Status**.
 ### Choose locations
 
 1. Open section 2, **Ad targeting & audience**. **Estimated reach** beside the form updates as you choose.
+
+    ![Section 2 Ad targeting and audience with Select locations, gender, age group, Language and Advanced targeting, and Estimated reach beside the form](../../assets/screenshots/whatsapp-ads-create-ad-2-audience.png)
+
 2. Under **Select locations**, type in **Where the ad should run**. Search cities, regions, countries or pin codes, then pick from the list. Add as many as you need.
 3. Choose the radius in the list beside the box: **city +17 km**, **city +25 km**, **city +40 km**, **city +60 km** or **city +80 km**. It applies to the next city you add.
 4. Optional: click **Add exclusions**. Under **Where the ad must not run**, search and pick places to cut out. Click **Hide** to close it. People in these places do not see the ad.
@@ -148,7 +154,7 @@ Targeting limits:
 - Your locations, age and gender still apply when **Audience expansion** is on.
 
 !!! note "Special ad categories"
-    For credit, jobs and housing ads, the form clears age, gender, detailed targeting and audiences, and hides **Your audiences**. [VERIFY: gender field remains visible]
+    For credit, jobs and housing ads, the form clears age, gender, detailed targeting and audiences, and hides **Your audiences**. The age, gender and detailed targeting fields are hidden.
 
 ### Choose placements and brand safety
 
@@ -204,12 +210,12 @@ Date limits:
 
 1. Open section 4, **Ad creative**. The preview beside the form updates as you type.
 2. Optional: under **Write it for me**, type a brief, for example `monsoon sale on rain jackets, 30% off`. Click **Draft**. The text and headline fill in. Edit them. Nothing is launched.
-3. Optional: click **Load preset** to reuse saved creative fields. [VERIFY: what a preset stores]
+3. Optional: click **Load preset** to reuse a saved preset. A preset keeps the primary text, headline, description, button and images. Click **Save as preset** to save your own.
 4. Type the **Ad name**. It is required, and only you see it. For example `Monsoon sale — Indore`.
 5. Type the **Primary text**. Put the offer and place in the first line.
 6. Optional: type the **Headline (optional)**, for example `Chat on WhatsApp`.
 7. Optional: type the **Description (optional)**.
-8. Open **Competitor inspiration** to see ideas. [VERIFY: what this section does and how to use it]
+8. Open **Competitor inspiration** to see what is working in your own account over the last 30 days: placements, age and gender, regions and your best ads. It does not show other advertisers' data, because Meta does not publish it.
 9. Pick the **Facebook Page \***. If the list is empty, type the **Facebook Page ID \***.
 10. Optional: type a **WhatsApp number (optional)** with the country code and digits only, for example `919812345678`.
 11. After you finish, click **Save as preset** to reuse these fields.
@@ -225,13 +231,13 @@ Text limits:
 
 ### Add the picture or video
 
-1. Under **Media**, choose a tab: **Image**, **Carousel**, **Video** or **Existing post**. Upload from your media library, paste a URL, or generate with AI. [VERIFY: Carousel and Existing post tabs show for every ad type]
+1. Under **Media**, choose a tab: **Image**, **Carousel**, **Video** or **Existing post**. Upload from your media library, paste a URL, or generate with AI. **WhatsApp Status** ads show only **Image** and **Video**.
 2. For **Image**, upload one picture, or click **Choose from library**.
 3. Optional: under **Story & Reels image (optional)**, upload a 1080×1920 image. Click **Remove** to delete it.
 4. For **Carousel**, click **Add card** for each card. Add an image to each one. Click **Remove this card** to delete one.
-5. For each card, type the **Card headline**. Type the **Card description (optional)** and the **Card link (optional)** if you need them. [VERIFY: shown for website ads only]
+5. For each card, type the **Card headline**. Type the **Card description (optional)** and the **Card link (optional)** if you need them. **Card link (optional)** shows for website ads only; if left empty it uses the ad's URL.
 6. For **Video**, upload the video file. Then add the thumbnail image.
-7. For **Existing post**, pick the post from your Page. [VERIFY: how the post is picked]
+7. For **Existing post**, choose **Facebook** or **Instagram**, then pick a recent post from the list. The post keeps its likes and comments, and its own text and picture are used.
 8. Optional: under **Generate the picture with AI**, describe the picture. Add a **Product photo** and a **Logo**. Pick a tone: **General**, **Festive**, **Premium**, **Playful** or **Minimal**. Click **Generate image**.
 9. Click **History** to see earlier images. Pick one to use it.
 10. Optional: under **Test another version (optional)**, click **Add version**. Fill **Version 2 text** and **Version 2 headline (optional)**.

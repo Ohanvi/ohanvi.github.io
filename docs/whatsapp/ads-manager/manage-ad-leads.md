@@ -38,6 +38,9 @@ The last four columns show the message funnel: sent, then delivered, then read, 
 1. Open **WhatsApp** in the left rail, then select **Ads Manager**.
 2. Click **Leads**. The lead list opens, 25 rows at a time.
 
+    ![The Leads tab with the search box, the Export button and the message No leads yet before the first ad conversation](../../assets/screenshots/whatsapp-ads-leads-1-empty.png)
+
+
     
 
 3. Click **Refresh** to load the newest leads.
@@ -67,7 +70,7 @@ The last four columns show the message funnel: sent, then delivered, then read, 
 
 ### Download the list
 
-1. Click **Download Report**. [VERIFY: on the ribbon layout this button shows as an icon labelled **Export**]
+1. Click **Export** in the top bar. On a page without the top bar, the button reads **Download Report**.
 2. Open the file **ad_leads.xlsx** from your downloads folder.
 
 The button is greyed out when there are no leads to download.
@@ -83,7 +86,7 @@ The button is greyed out when there are no leads to download.
 ### Assign a lead to a team member
 
 1. Open the lead's chat in **Inbox**.
-2. Assign the chat to a team member. [VERIFY: assignment is set in the Inbox]
+2. Assign the chat to a team member.
 3. Return to **Leads** and click **Refresh**. **ASSIGNED TO** shows the name.
 
 The **ASSIGNED TO** column is read-only in this tab.
@@ -96,7 +99,7 @@ The **ASSIGNED TO** column is read-only in this tab.
 | **No leads yet** | Nobody has messaged you from an ad yet. | Check that your ad is **Active** in **Ads Manager**. Leads land here as soon as someone messages. |
 | **Could not load leads** | The list did not load. | Click **Retry**. If it keeps failing, reload the page. |
 | **Could not download the leads report.** | The Excel file could not be built. | Click **Download Report** again. If it fails twice, click **Refresh** first. |
-| **ASSIGNED TO** shows **—** | No team member is assigned to the lead. | Assign the chat from the **Inbox**. [VERIFY: assignment is set in the Inbox] |
+| **ASSIGNED TO** shows **—** | No team member is assigned to the lead. | Assign the chat from the **Inbox**. |
 | **READ** is 0 for many leads | Leads have not opened your messages, or have read receipts off. | Check the message in **Inbox** and send a short follow-up. |
 
 ## Related

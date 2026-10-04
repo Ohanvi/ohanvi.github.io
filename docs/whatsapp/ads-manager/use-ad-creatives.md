@@ -34,7 +34,7 @@ If **Creatives** shows **Setup** instead of data, finish the connection in **Set
 2. Select **Creatives** in the left column. The **Creatives** tab opens.
 3. Click **Sync from Meta** to pull the latest numbers now. The message **Ad data synced from Meta.** appears.
 
-    ![The Creatives tab with the toolbar, summary tiles and format cards](../../assets/screenshots/ads-manager-use-ad-creatives-01.png)
+    ![The Creatives tab with the Creatives, Ad copy, Library and Inspiration sub-tabs, the filter toolbar and the Sync from Meta button before the first sync](../../assets/screenshots/ads-manager-use-ad-creatives-01.png)
 
 4. Pick a date range. Choices are **Last 7 days**, **Last 14 days**, **Last 30 days** and **Last 90 days**.
 5. Set **Graded by**. Choices are **Cost per result**, **Results**, **ROAS**, **Revenue** and **CTR**. The grade decides how each creative is ranked.
@@ -56,9 +56,9 @@ If **Creatives** shows **Setup** instead of data, finish the connection in **Set
 
 | Group | How it appears |
 | --- | --- |
-| **Core performer** | Green dot. [VERIFY: rule used to place a creative in this group] |
-| **Scalable** | [VERIFY: rule used to place a creative in this group] |
-| **Overspend** | Red dot. [VERIFY: rule used to place a creative in this group] |
+| **Core performer** | Green dot. Spend is at or above the median, and results beat the average. |
+| **Scalable** | Spend is below the median, but results beat the average. |
+| **Overspend** | Red dot. Spend is at or above the median, but results do not beat the average. |
 | **Getting started** | The default group for creatives with little data. |
 
 ### Read the creative list
@@ -67,7 +67,7 @@ If **Creatives** shows **Setup** instead of data, finish the connection in **Set
 2. Read the **CREATIVE**, **FORMAT** and **ADS** columns. They show the picture, its type and how many ads used it.
 3. Read the **SPEND**, result, **COST / RESULT**, **CTR** and **ROAS** columns. Read **STATUS** last.
 4. Click a row to open the creative. The window shows the picture, headline, text, **Spend**, **Cost / result**, **CTR**, **Revenue** and **ROAS**.
-5. Read the line **Last 7 days vs the 7 before**. It shows the change in CTR and cost per result. [VERIFY: how Fatigued and Watch are decided]
+5. Read the line **Last 7 days vs the 7 before**. It shows the change in CTR and cost per result. **Fatigued** means CTR fell 20% or more and cost per result rose 25% or more. **Watch** means only one of the two moved that far. Each week needs at least 1,000 impressions.
 6. Read **Used in N ad(s)** at the bottom of the window. It lists each ad and its status.
 
 | Column | What it shows |
@@ -112,7 +112,7 @@ New creatives are tagged every two hours after they sync. If there are no tags y
 4. Type in **Name contains** to match a campaign, ad set or ad name.
 5. Type in **ID** to match a campaign, ad set or ad ID.
 6. Choose a **Status**: **Any**, **Active** or **Not active**.
-7. Choose a **Funnel stage** from the stage chips. [VERIFY: stage names shown]
+7. Choose a **Funnel stage** from the chips: **Prospecting**, **Re-engagement**, **Retargeting** or **Retention**.
 8. Under **Ad sets where**, pick a metric, a comparison and a value. Metrics are **Spend**, **Results**, **Cost per result**, **CTR %**, **CPM**, **CPC**, **ROAS** and **Frequency**.
 9. Click **Views** to open **Saved views**.
 10. Click **Save the current filter…** to name and keep it.
@@ -213,7 +213,7 @@ Upload limit: images must be under 30 MB.
 | **No creatives match these filters** | The format, spend or filter settings hide every creative. | Clear the format filter or pick a longer date range. |
 | **Pick image creatives — videos, carousels and catalogue ads cannot be reused in a new ad from here.** | Only video, carousel or catalogue creatives were ticked. | Tick at least 1 image creative. |
 | **Images must be under 30 MB — Meta refuses larger files.** | The upload is over the size limit. | Compress the image and upload it again. |
-| **AI tagging is not set up on this server.** | AI tagging is turned off for your account. [VERIFY: who enables it] | Ask your admin. |
+| **AI tagging is not set up on this server.** | The AI model is not set up on the Ohanvi server. | Contact Ohanvi support. |
 | **Meta did not return ads for this search.** | The search found nothing, or Meta's Ad Library did not respond. | Try another keyword or country. Or click **Open Meta Ad Library**. |
 
 ## Related

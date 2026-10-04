@@ -73,7 +73,3 @@ The **Role** box shows the role your workspace gave you, such as **Super Admin**
 - [Manage team members, roles and permissions](roles-and-permissions.md)
 - [Sign in to Ohanvi](../sign-in.md)
 
-!!! note "Screenshots to add"
-    - After step 2 of Open My Account — the **My Account** screen with **Your details** and **Role**
-    - After step 2 of Change your password — the password checklist with some rules met
-    - After step 3 of Change your password — the **Your account details were updated.** message

@@ -17,7 +17,7 @@ Add the address your emails come from and confirm it, then authenticate your who
 
 ### Add a sending address
 
-1. Open **Email** in the left rail, then select **Sender Identities**. The **Sender identities** screen opens on **Sender addresses**.
+1. Open **Email** in the left rail, then select **Manage**, then **Sender Identities**. The **Sender identities** screen opens on **Sender addresses**.
 2. Click **Add sending address**. The **Add Sender Address** dialog opens.
 3. In **Email Address**, type the address campaigns will be sent from, for example `marketing@company.com`.
 4. Optional: in **Reply To (Optional)**, type the address replies should go to.
@@ -96,8 +96,4 @@ The card copies the exact tokens for your domain. Each step shows **Done** or **
 - [Send an email campaign](send-email-campaign.md)
 - [Email overview](../email/index.md)
 
-!!! note "Screenshots to add"
-    - After step 5 of "Add a sending address" — the **Add Sender Address** dialog with the inbox preview
-    - After step 2 of "Confirm the address" — the row menu with **Recheck status with Amazon**
-    - After step 4 of "Verify your domain" — a domain card with all 3 steps and their records open
-    - After step 6 of "Verify your domain" — the card showing **Ready to send**
+<!-- Menu paths updated: Sender Identities is under Manage. -->

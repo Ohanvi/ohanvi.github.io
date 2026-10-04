@@ -75,9 +75,9 @@ Open **⋮** on a campaign row:
 
 ### See campaigns on the calendar
 
-1. Open **Email** in the left rail, then select **Calendar**. Campaigns show on the day they send.
+1. Open **Email** in the left rail, then select **Manage**, then **Scheduler**. Campaigns show on the day they send. See [Use the Email Scheduler](use-the-email-scheduler.md).
 2. Click a day, then click **Plan a campaign for this day** to start a campaign with that date filled in.
-3. Click **Holidays** to see the days your business does not send on.
+3. Click **Holidays** to see the days your business does not send on. See [Manage Business Holidays](manage-business-holidays.md).
 
 ## Campaign statuses
 
@@ -115,8 +115,4 @@ Open **⋮** on a campaign row:
 - [Track results and handle unsubscribes and bounces](track-email-results.md)
 - [Credits and billing](../credits-and-billing.md)
 
-!!! note "Screenshots to add"
-    - After step 2 of "Create the campaign" — the **Create Campaign** page with the 5 cards
-    - After step 2 of "Test the campaign" — the **Test Send** dialog
-    - After step 3 of "Send now or schedule" — the **Send this email?** dialog
-    - After step 1 of "Manage a campaign" — the row menu on a **Sent** campaign
+<!-- Menu paths updated: Calendar is now Manage > Scheduler. -->

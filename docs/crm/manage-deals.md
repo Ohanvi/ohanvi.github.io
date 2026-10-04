@@ -94,9 +94,3 @@ On the board, dragging a card into the **Lost** column asks for the same reason.
 - [Add and manage accounts](manage-accounts.md)
 - [Log activities and notes](log-activities-and-notes.md)
 - [Track sales performance](track-sales-performance.md)
-
-!!! note "Screenshots to add"
-    - After step 2 of "Add a deal" — the **Add Deal** form
-    - After step 3 of "Find deals in the list" — the list with a deal's summary on the right
-    - After step 3 of "Move deals on the board" — a card being dragged between stages
-    - After step 3 of "Close a deal as won or lost" — the **Mark "…" as Lost** window

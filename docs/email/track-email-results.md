@@ -10,13 +10,13 @@ See how your emails performed, down to each recipient, and keep your list clean.
 ## Before you start
 
 - You have sent at least 1 campaign. See [Send an email campaign](send-email-campaign.md).
-- You can see **Email** in the left rail with **Dashboard** and **Send Logs** in its panel. The **Dashboard** needs report access for your role. If you do not see it, ask your admin.
+- You can see **Email** in the left rail with **Manage** in its panel. Send Logs is inside it. If you do not see it, ask your admin.
 
 ## Steps
 
-### Read the dashboard
+### Read the campaign figures
 
-1. Open **Email** in the left rail, then select **Dashboard**. The **Email Marketing** dashboard opens.
+1. Open **Email** in the left rail, then select **Campaigns**. Open a campaign to see its figures. The overall dashboard is hidden in this release.
 2. On a new account, follow **Get set up to send**: **Confirm a sending address**, **Add your contacts**, **Put them in a list** and **Send your first campaign**.
 3. Read the totals: **Sent**, **Delivered**, **Opened** and **Clicked**.
 4. Scroll for **Campaign Funnel**, **Recent Campaigns**, **Engagement Trend**, **Subscriber Growth**, **Top Links Clicked**, **Device Analytics** and **Suppression Breakdown**.
@@ -25,7 +25,7 @@ Click **View Report** on a row in **Recent Campaigns** to open that campaign's f
 
 ### See each recipient in Send Logs
 
-1. Open **Email** in the left rail, then select **Send Logs**.
+1. Open **Email** in the left rail, then select **Manage**, then **Send Logs**. See [Read the send logs](read-send-logs.md).
 2. Choose a campaign in **Campaign**. The table lists every recipient with **Recipient**, **Status**, **Sent**, **Opened**, **Clicked**, **Unsubscribed** and **Error**.
 3. Click a filter to narrow the list: **All**, **Queued**, **Failed**, **Opened**, **Not Opened**, **Clicked**, **Bounced**, **Complained** or **Unsubscribed**.
 4. Type in **Search recipient email** to find 1 person.
@@ -59,7 +59,7 @@ Every campaign skips suppressed and unsubscribed people. They show as **Skipped 
 
 ### Unsubscribe or reactivate a contact by hand
 
-1. Open **Email** in the left rail, then select **Contacts**.
+1. Open **Email** in the left rail, then select **Audience**, then the **Emails** tab.
 2. Open the contact's row menu, then click **Unsubscribe**. In **Unsubscribe Contact**, click **Unsubscribe**.
 3. To undo a manual unsubscribe, click **Reactivate (mark Subscribed)**, then click **Reactivate**.
 
@@ -67,9 +67,9 @@ Only reactivate someone you unsubscribed yourself. If the contact unsubscribed t
 
 ### Block an address from all sends
 
-The **Suppression List** screen lists every blocked address with its **Reason**. It is not in the **Email** panel by default [VERIFY: how users reach Suppression List].
+The **Suppression List** screen lists every blocked address with its **Reason**. Open it from **Email** → **Manage** → **Suppression List**. See [Block addresses with the Suppression List](use-the-suppression-list.md).
 
-1. Open **Suppression List**, then open **Add to Suppression List** [VERIFY: button label].
+1. Open **Suppression List**, then click **Add**. The **Add to Suppression List** dialog opens.
 2. In **Email Addresses**, type 1 address per line. Add **Remarks (optional)**, for example the support ticket number.
 3. Click **Add to List**.
 
@@ -100,7 +100,4 @@ Each delivered email uses credits. Open the **Credits** box at the top right to 
 - [Add email contacts, lists and segments](manage-email-contacts.md)
 - [Credits and billing](../credits-and-billing.md)
 
-!!! note "Screenshots to add"
-    - After step 3 of "Read the dashboard" — the dashboard totals and **Campaign Funnel**
-    - After step 3 of "See each recipient in Send Logs" — Send Logs with a filter selected
-    - After step 5 — a recipient's **Activity Timeline**
+<!-- Menu paths updated: Dashboard hidden; Send Logs and Suppression List are under Manage; Contacts is in Audience. -->

@@ -33,6 +33,9 @@ Run ads on Facebook and Instagram that open a WhatsApp chat with your business. 
 
 1. Open **WhatsApp** in the left rail, then select **Ads Manager**.
 2. Click **Setup**. It shows **Setup · pending** until you finish. The **Set up Ads Manager** page opens.
+
+    ![The Set up Ads Manager page with Step 1, 2 and 3 DONE and the Connect your Facebook account card](../assets/screenshots/ads-manager-setup-01.png)
+
 3. Click **Continue with Facebook**.
 4. Log in with the Facebook account that manages your business.
 5. On Meta's screen, choose **Opt in to all current and future** for both Businesses and Pages. The message **Facebook connected!** appears.
@@ -65,6 +68,9 @@ To add credits, click **Buy Credits**. The **Add money to Ads Credits** window o
 ### Step 5: Create an ad
 
 1. Click **Create Ad**. The **Create Click-to-WhatsApp Ad** form opens, with a preview beside it.
+
+    ![The Create Click-to-WhatsApp Ad form with section 1 open and the preview beside it](../assets/screenshots/whatsapp-ads-create-ad-1-where-to-click.png)
+
 2. Under **Ad type**, choose **Click to WhatsApp**. Other types are **Website**, **WhatsApp Status**, **Lead form** and **Website to WhatsApp**.
 3. Under **Ad objective**, pick what Meta should optimise for, for example **Maximise number of conversations**.
 4. Under **Ad targeting & audience**, pick locations in **Select locations**, then gender, age and optional interests. **Estimated reach** updates as you choose.
@@ -111,8 +117,3 @@ Meta reviews the ad, usually within 24 hours. Until then it shows **In review**.
 - [Read Marketing Analytics](../analytics/read-marketing-analytics.md)
 - [Credits and billing](../credits-and-billing.md)
 - [CRM](../crm/index.md)
-
-!!! note "Screenshots to add"
-    - After step 2 of Step 1 — the **Set up Ads Manager** page with its 3 steps
-    - After step 3 of Step 3 — the linked WhatsApp number
-    - After step 1 of Step 5 — the **Create Click-to-WhatsApp Ad** form with preview

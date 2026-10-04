@@ -22,15 +22,18 @@ Each canned message has a **Shortcut**, a **Message** and a **Type**. The type i
 
 ### Variables
 
-A variable fills in a value for each customer. Insert one from the chips under **INSERT VARIABLE**.
+A variable is a placeholder such as `{{name}}`. Insert one from the chips under **INSERT VARIABLE**.
 
-| Variable | Fills in |
+!!! warning "Variables are not filled in yet"
+    When you insert a canned message in the inbox, the variable is sent as typed, for example `Hi {{name}}`. Replace each one by hand in the composer before you send.
+
+| Variable | Meant to show |
 | --- | --- |
 | `{{name}}` | The customer's name. |
 | `{{first_name}}` | The customer's first name. |
 | `{{phone}}` | The customer's phone number. |
 | `{{company}}` | The customer's company. |
-| `{{agent}}` | The name of the agent who sends the reply. [VERIFY: what each variable fills in] |
+| `{{agent}}` | The name of the agent who sends the reply. |
 
 ## Steps
 
@@ -39,7 +42,7 @@ A variable fills in a value for each customer. Insert one from the chips under *
 1. Open **WhatsApp** in the left rail, then select **Manage**.
 2. Select **Canned Messages**. The list opens with the line **Saved quick-replies your team inserts with "/" in the Live Chat composer.**
 
-    ![Canned Messages with the search box, the list of quick replies and the Edit, Copy message, Copy shortcut and Delete buttons](../assets/screenshots/whatsapp-canned-messages-1-list.png)
+    ![Canned Messages with the Refresh and New quick reply buttons, the search box, a saved quick reply in the list and its Edit, Copy message, Copy shortcut and Delete buttons](../assets/screenshots/whatsapp-canned-messages-1-list.png)
 
 3. Read the **Canned Messages** card. It counts your saved replies.
 
@@ -55,7 +58,7 @@ A variable fills in a value for each customer. Insert one from the chips under *
 5. Under **Type**, choose **Text**, **Image**, **Video** or **Document**.
 6. For **Image**, **Video** or **Document**, go to **Attachment** and add the file. The file is uploaded for you.
 7. Optional: turn on **Star this reply**. A starred reply shows first in the composer picker.
-8. Check the **Preview**. Sample values stand in for the variables.
+8. Check the **Preview**. It shows sample values, but the inbox does not fill them in.
 9. Click **Create**. The reply appears in the list.
 
 Both **Shortcut** and **Message** are required. A media type also needs its file.
@@ -96,7 +99,7 @@ Click **Cancel** to keep it.
 3. Type part of the shortcut to narrow the list.
 4. Filter by **All**, **Starred**, **Text**, **Image**, **Video** or **Doc**.
 5. Click a reply. It is inserted into the composer.
-6. Read the message, then send it. A variable shows the value for this customer. [VERIFY: variables are filled in the composer before sending]
+6. Read the message, then send it. A variable is not filled in, so replace it by hand before you send.
 
 For the 24-hour window and the rest of the composer, see [Use the WhatsApp inbox](use-whatsapp-inbox.md).
 

@@ -56,8 +56,3 @@ Chatbots and journeys are not listed here. Find them in **WhatsApp** and **Email
 - [Create and manage deals](manage-deals.md)
 - [Log activities and notes](log-activities-and-notes.md)
 - [CRM overview](../crm/index.md)
-
-!!! note "Screenshots to add"
-    - After step 2 of "Check your rules" — a rule card with When / And / Then
-    - After step 1 of "Pause or resume a rule" — the **Pause "…"?** window
-    - After step 1 of "Create or edit a rule" — the **Automation flows** screen

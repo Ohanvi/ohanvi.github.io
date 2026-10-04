@@ -17,7 +17,7 @@ Create a rule in **Automation** that checks your ads every 30 minutes and acts w
 
 A rule is one sentence: **If** some conditions are true, **then** do one action. For example: if an ad set spent more than a set amount today and got fewer than 1 result, then pause it.
 
-- The rule checks every 30 minutes. [VERIFY: shown as "Checked every N minutes" in the editor]
+- The rule checks every 30 minutes. A saved rule shows **Checked every 30 minutes.** at the bottom of the editor.
 - Every new rule starts in **Preview**. It logs what it would do and changes nothing on Meta.
 - When you go **live**, the rule really changes your ads on Meta. Every change is logged in the **Activity log**.
 
@@ -43,6 +43,9 @@ The top bar has **New rule**, **Run now** and **Refresh**.
 
 1. Open **WhatsApp** in the left rail, then select **Ads Manager**.
 2. Select **Automation** in the left column.
+
+    ![The Automation tab with Overview, Rules, AI Bidding and Activity log, the New rule and Run now buttons and the results chart](../../assets/screenshots/whatsapp-ads-automation-1-overview.png)
+
 3. Click **New rule**. The **New rule** window opens.
 4. Pick a card under **Tactics** or **Strategies**, or click **Start from scratch**.
 

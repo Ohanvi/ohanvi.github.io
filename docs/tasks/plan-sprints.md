@@ -76,12 +76,7 @@ Completed work items are the ones in the last column on the board. Open work ite
 
 ## Related
 
+- [Work with items in the Backlog](work-with-the-backlog.md)
 - [Find, filter and view tasks](find-and-filter-tasks.md)
 - [Move tasks across the board](move-tasks-on-board.md)
 - [Tasks overview](../tasks/index.md)
-
-!!! note "Screenshots to add"
-    - After step 3 of "Create a sprint" — the **Create sprint** dialog.
-    - After step 1 of "Add tasks to a sprint" — the **Backlog** view with a task being dragged into a sprint.
-    - After step 1 of "Start a sprint" — the **Start another sprint** dialog with **Duration**.
-    - After step 2 of "Complete a sprint" — the complete dialog with **Move open work items to**.

@@ -20,9 +20,9 @@ A provider is the person an appointment is booked with. Ohanvi works out free ti
 1. Open **Appts** in the left rail, then select **Providers**. The **Providers** page opens.
 2. Click **Add provider**. The **Add provider** dialog opens.
 3. In **Name**, type the name customers see when picking a provider, for example `Dr Mehta`.
-4. In **Username**, type the Ohanvi login this provider maps to.
-5. Under **Services performed**, click the services this person performs. Leave all unselected if they perform every service.
-6. Leave **Taking bookings** on.
+4. In **Username**, type the Ohanvi login this provider maps to. The help under the box reads **The login this provider maps to**.
+5. Under **Services performed**, click the services this person performs. The line under the heading reads **None selected means every service.** If the list says **No services set up yet.**, add your services first.
+6. Leave **Taking bookings** on. The help reads **Turn off to keep the record but stop offering their times.**
 7. Click **Add provider**. The message **Saved** appears and the provider is listed with their username and services, or **all services**.
 
 !!! note
@@ -59,8 +59,8 @@ Ohanvi offers only times inside these hours. The same hours also decide which Wh
 | **No providers yet** — **Until one exists, no appointment slots can be offered.** | No provider has been added. | Click **Add provider**. |
 | **Required** under **Name** or **Username** | The field is empty. | Fill in both fields. |
 | **Could not save the provider** | The server refused the save. | Check the username and try again. If it keeps failing, ask your admin. |
-| A service offers no times | No active provider performs it, or the day is **Closed** in **Working Hours**. | Add the service to a provider's **Services performed**, or open more days. |
-| Times are offered at night | No working hours were saved, so every hour counts as open [VERIFY: open-all-day behaviour]. | Set **Working Hours** and click **Save**. |
+| A service offers no times | No active provider performs it, or the day is **Closed** or has no hours saved in **Working Hours**. | Add the service to a provider's **Services performed**, or open more days. |
+| Times are offered at night | **Working Hours** has night hours open for that day. | Set the open hours for each day and click **Save**. |
 
 ## Related
 
@@ -68,8 +68,3 @@ Ohanvi offers only times inside these hours. The same hours also decide which Wh
 - [Set booking rules and reminders](set-booking-rules-and-reminders.md)
 - [Take bookings on WhatsApp](take-bookings-on-whatsapp.md)
 - [Settings](../settings/index.md)
-
-!!! note "Screenshots to add"
-    - After step 2 of Add a provider — the **Add provider** dialog with **Services performed** chips
-    - After step 7 of Add a provider — the **Providers** list
-    - After step 5 of Set working hours — **Working Hours** with **Timezone** and day rows

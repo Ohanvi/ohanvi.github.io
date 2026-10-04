@@ -13,7 +13,7 @@ Open the **Audiences** tab to choose who your ads reach and who they skip. At th
 - For a **Custom** audience, you have contacts with a phone number or email. See [Manage WhatsApp contacts](../manage-whatsapp-contacts.md).
 - For a **Website** audience, you have a dataset (pixel) that records visits. See [Track website events](track-website-events.md).
 - For a **Lookalike** audience, you have at least 1 custom or website audience to copy from.
-- Meta's **Custom Audience terms** are accepted for this ad account. [VERIFY: where the user accepts the terms]
+- Meta's **Custom Audience terms** are accepted for this ad account. If they are not, the error shows a Meta link. Open it while logged in to this ad account and accept the terms.
 
 ## Audience types and views
 

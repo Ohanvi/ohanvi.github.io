@@ -18,6 +18,9 @@ Add people to Ohanvi, find them fast, and keep each record correct. At the end y
 ### Open your contacts
 
 1. Open **Contacts** in the left rail, then select **All contacts**.
+
+    ![All contacts with the Import and Export buttons, the status chips, the Contacts and Groups tabs, the contact list and the details of the selected contact (names and emails blurred)](../assets/screenshots/crm-contacts-1-all-contacts.png)
+
 2. The screen shows 3 panes: the contact list on the left, the conversation in the middle, and the contact record on the right.
 3. To see saved lists instead of people, click the **Groups** tab above the list. See [Create and manage contact groups](contact-groups.md).
 
@@ -95,7 +98,7 @@ If you click another contact before saving, the **Unsaved changes** dialog asks 
 2. Ohanvi downloads an Excel file named `CrmContacts.xlsx`.
 
 !!! note
-    **Export selected** in the selection bar downloads the same full contact list, not only the ticked contacts [VERIFY: confirm before publishing]. Filter the file in Excel if you need a subset.
+    **Export selected** in the selection bar downloads the same full contact list, not only the ticked contacts. Filter the file in Excel if you need a subset.
 
 ## Video walkthrough
 

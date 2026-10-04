@@ -160,7 +160,7 @@ Do a partial refund in the store admin.
 
 1. On the order card, click **Cancel**. The window **Cancel …?** opens.
 2. Read the note. The store cancels, restocks and refunds the order as it would from the admin. It then tells the shopper on WhatsApp through the order-update message.
-3. Click **Cancel order**. The message **… cancelled.** appears. To back out, close the window. [VERIFY: label of the back-out button]
+3. Click **Cancel order**. The message **… cancelled.** appears. To back out, click **Cancel** in the window.
 
 !!! warning "Cancelling refunds the shopper"
     The shopper is refunded and told on WhatsApp. This cannot be undone from the inbox.

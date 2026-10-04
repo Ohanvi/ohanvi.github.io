@@ -59,7 +59,7 @@ The **List** view shows your tasks as a table, one row each. Add a task without 
 
 1. Drag the edge of a column header to change its width.
 2. Drag a column header sideways to move the column.
-3. Look for the columns icon at the end of the header row. [VERIFY: whether it opens a list of columns to show or hide]
+3. The columns icon at the end of the header row is only a marker. It does not open a list of columns to show or hide.
 
 ### Select rows
 

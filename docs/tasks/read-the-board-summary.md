@@ -37,7 +37,7 @@ The **Summary** view shows how your project is doing without opening every task.
 
 1. Look at the row of cards at the top of the page.
 2. Read **completed**, **updated** and **created**. Each card ends with **in the last 7 days**.
-3. Read **due soon**. It ends with **in the next 7 days**. [VERIFY: the **due soon** number may always read 0]
+3. Read **due soon**. It ends with **in the next 7 days**. The label is fixed text, so the **due soon** number always reads 0.
 4. Click a card. The **List** view opens already filtered to the tasks behind that number.
 
 ### Read the Status overview

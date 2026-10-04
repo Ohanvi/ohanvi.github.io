@@ -41,7 +41,7 @@ If the card shows **Not set up**, click **Set up WhatsApp** and connect your num
 ### Use your own AI key
 
 1. On the **AI** card, click **Connect your own AI key**. The **AI Connectors** page opens.
-2. Pick your provider and paste your key. Follow the steps on that page [VERIFY: exact field labels on AI Connectors].
+2. Under **Provider**, pick **Gemini**, **OpenAI** or **Anthropic**. Under **Credentials**, paste the **API key** and pick a **Model**. Click **Test connection**, then **Connect**.
 3. Go back to **Connectors** and click **Refresh**. The card shows **Your key · connected**.
 
 To change it later, click **Manage AI provider**.

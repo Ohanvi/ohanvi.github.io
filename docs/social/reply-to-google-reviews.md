@@ -30,7 +30,7 @@ Reviews on your Google listing sync into Ohanvi. You can reply in public, change
 
 If the filters hide everything, the page says **No reviews match these filters**. Click **Clear filters** to see all reviews again.
 
-If nothing has synced yet, it says **No reviews synced yet**. Click **Go to dashboard**, which opens **Insights**, and look for **Sync from Google**. [VERIFY: where Sync from Google sits on Insights]
+If nothing has synced yet, it says **No reviews synced yet**. Click **Go to dashboard**, which opens **Insights**, and click **Sync from Google** in the page header. The button is off when Google is not connected.
 
 ### Reply to a review
 

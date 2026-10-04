@@ -83,7 +83,7 @@ The types are **Short text**, **Long text**, **Number**, **Email**, **Phone numb
 2. Optional: type a **Header**. It can hold up to 20 characters.
 3. Type a **Body**. It can hold up to 4,096 characters.
 4. Optional: type a **Footer**, up to 60 characters.
-5. Click **+ Add Section** to add a choice. [VERIFY: the button reads Add Section but adds a list row]
+5. Click **+ Add Section** to add a choice. The button reads **+ Add Section**, but it adds a list row.
 6. In **Item**, type the choice name, up to 24 characters.
 7. In **Describe it**, type a short line under the name, up to 72 characters.
 8. Repeat steps 5 to 7 for each choice. You can add up to 10.

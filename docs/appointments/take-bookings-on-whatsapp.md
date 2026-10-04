@@ -42,7 +42,7 @@ Customers book appointments by chatting with your WhatsApp number. A booking cha
 
 ### Build your own booking flow
 
-If you build a flow from scratch, add these blocks in this order: **Pick a service**, **Pick a date**, **Pick a time slot**, then **Book appointment** [VERIFY: where these blocks sit in the step menu]. **Book appointment** has 4 outcomes you can route: `confirmed`, `requested`, `slot_taken` and `rejected_show_slots`.
+If you build a flow from scratch, add these blocks in this order: **Pick a service**, **Pick a date**, **Pick a time slot**, then **Book appointment**. Find the three pick blocks under **All steps** → **Advanced**, and **Book appointment** under **All steps** → **Store actions**. **Book appointment** has 4 outcomes you can route: `confirmed`, `requested`, `slot_taken` and `rejected_show_slots`.
 
 ## Video walkthrough
 
@@ -56,7 +56,7 @@ If you build a flow from scratch, add these blocks in this order: **Pick a servi
 | The bot offers no days or times | No active provider performs the service, the working hours are **Closed**, or the booking limits leave no free time. | Check **Providers**, **Working Hours**, and **Minimum booking notice (minutes)** and **Maximum advance booking (days)**. |
 | Bookings arrive as **Requested**, not **Confirmed** | A confirmation rule is set to **Manual approval**. | Approve them on the **Appointments** page, or switch to **Automatic confirmation**. |
 | The flow does not start | The flow is not published, or the customer's message does not contain a trigger keyword. | Publish the flow and check its keywords. |
-| The confirmation message tells customers to reply `CANCEL` | The library text mentions it, but the ready-made flow does not handle a cancel reply [VERIFY: customer self-cancel]. | Edit the message, or cancel on the customer's behalf. See [Manage appointments](manage-appointments.md). |
+| The confirmation message tells customers to reply `CANCEL` | The library text mentions it, but the ready-made flows do not handle a cancel reply. | Edit the message, or cancel on the customer's behalf. See [Manage appointments](manage-appointments.md). |
 
 ## Related
 

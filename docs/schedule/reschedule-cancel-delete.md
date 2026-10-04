@@ -24,8 +24,8 @@ Change a scheduled item without leaving the **Schedule** section. You can move i
 ### Reschedule to a new time
 
 1. Click **Reschedule**. A date picker opens.
-2. Pick the new date and click **OK** [VERIFY: exact label]. A time picker opens.
-3. Pick the new time and click **OK** [VERIFY: exact label]. The message **Rescheduled.** appears and the item moves on the Schedule.
+2. Pick the new date and click **OK**. A time picker opens.
+3. Pick the new time and click **OK**. The message **Rescheduled.** appears and the item moves on the Schedule.
 
 The owning module re-checks the new time. For an appointment, the new time must be free and inside working hours, and reminders move with it. For a recurring WhatsApp schedule, this changes the time of the next send.
 

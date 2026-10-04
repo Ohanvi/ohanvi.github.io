@@ -59,8 +59,8 @@ Ohanvi offers only times inside these hours. The same hours also decide which Wh
 | **No providers yet** — **Until one exists, no appointment slots can be offered.** | No provider has been added. | Click **Add provider**. |
 | **Required** under **Name** or **Username** | The field is empty. | Fill in both fields. |
 | **Could not save the provider** | The server refused the save. | Check the username and try again. If it keeps failing, ask your admin. |
-| A service offers no times | No active provider performs it, or the day is **Closed** in **Working Hours**. | Add the service to a provider's **Services performed**, or open more days. |
-| Times are offered at night | No working hours were saved, so every hour counts as open [VERIFY: open-all-day behaviour]. | Set **Working Hours** and click **Save**. |
+| A service offers no times | No active provider performs it, or the day is **Closed** or has no hours saved in **Working Hours**. | Add the service to a provider's **Services performed**, or open more days. |
+| Times are offered at night | **Working Hours** has night hours open for that day. | Set the open hours for each day and click **Save**. |
 
 ## Related
 

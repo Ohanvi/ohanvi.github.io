@@ -33,7 +33,7 @@ Pause your whole Ohanvi account. Everyone is signed out and nobody can sign in, 
 
 1. Click your initials in the bottom-left corner, then click **Settings**.
 2. In the left list, click your name. The settings for your account open.
-3. Find **Deactivate account** under **More**, and click it. The page title reads **Deactivate account**. [VERIFY: the **Settings** list may not show this row. On the **Account Settings** cards page it sits under **More**.]
+3. Find **Deactivate account** under **More**, and click it. The page title reads **Deactivate account**. Only the account owner sees this row.
 4. Read the line under the title. It names your account and says it asks for your password and a code sent to your email.
 
 ### Deactivate the account

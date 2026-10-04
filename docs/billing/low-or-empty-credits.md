@@ -27,7 +27,7 @@ Check these places:
 1. **Credits box, top right.** The amount turns red when your balance is under ₹100. Hover over it to see **Credits low — recharge**.
 2. **Credits page.** Under **Credit balance** you see **running low — recharge soon**, and the **This cycle** card shows a **Low** badge instead of **Healthy**.
 3. **Current usage page.** The **Cost this cycle** card shows **Short by** and a **Recharge credits** button. See [Read your current usage](read-current-usage.md).
-4. **Email.** Once you have recharged at least once, Ohanvi emails your billing address when your balance drops below ₹100 [VERIFY: threshold on live]. The subject reads **Your Ohanvi wallet is running low (₹[amount])**. You get 1 email per low spell, not one every day.
+4. **Email.** Once you have recharged at least once, Ohanvi emails your billing address when your balance drops below ₹100 by default. The subject reads **Your Ohanvi wallet is running low (₹[amount])**. You get 1 email per low spell, not one every day.
 
 !!! tip "Credits about to expire"
     If some credits expire soon, the **Credits** page shows **₹[amount] of credits expire on [date]**. Unused credits are removed on that date. Use them or plan your next recharge around it.

@@ -60,13 +60,13 @@ The **Timeline** shows your tasks as bars on a calendar, from start date to due 
 3. Click the type button, tooltip **Select issue type**, to pick the type. The default is a story.
 4. Type the title in **What needs to be done?**.
 5. Pick an assignee with the person button at the end of the row.
-6. [VERIFY: the row has no save button, and Enter may not create the task. Create child tasks from the board for now.]
+6. The row has no save button, and **Enter** does not create the task. Create child tasks from the board for now.
 
 ### Open the More actions menu
 
 1. Hover a row and click the **...** button. Its tooltip is **More actions**.
 2. Read the menu: **Create work item**, **Move work item**, **Change work item color**, **Edit dates** and **Edit dependencies**.
-3. [VERIFY: choosing an item currently does nothing. Change dates and parents from the task's details instead.]
+3. Choosing an item does nothing yet. Change dates and parents from the task's details instead.
 
 !!! note "The Timeline is for reading"
     You cannot drag a bar to change dates. Open the task and change **Start date** and **Due date** there.

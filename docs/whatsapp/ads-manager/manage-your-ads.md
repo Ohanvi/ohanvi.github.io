@@ -112,7 +112,8 @@ A card shows **₹0** or **0×** when there is no data yet.
 1. Switch to **Campaigns** or **Ad sets**.
 2. Click the three dots in the **ACTIONS** column of the row.
 3. Choose **Change daily budget**.
-4. Type the new amount and confirm. [VERIFY: exact field label and button in the Change daily budget window]
+4. In the **Change budget** window, pick **Set daily budget**, **Increase by %** or **Decrease by %**.
+5. Type the amount in **New daily budget** (or **Percent**), then click **Apply**.
 
 **Change daily budget** is available only on rows that have a daily budget of their own. Campaign and ad set rows also have **Show its ad sets** or **Show its ads**, **Storyline**, and **Pause** or **Activate**.
 

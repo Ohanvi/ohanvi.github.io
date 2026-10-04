@@ -47,14 +47,14 @@ The block arrives filled in. You can change any part of it.
 1. Add an **Ask phone** block.
 2. Check the **Question**. It reads `What is your phone number?`
 3. Check **Save the answer as**. It reads **Phone**. The answer is saved as `contact_number`.
-4. Check **The answer should be**. It reads **Phone number**. [VERIFY: how the bot reacts to an answer that is not a phone number]
+4. Check **The answer should be**. It reads **Phone number**. If the customer sends something that is not a phone number, the bot asks the question again. After the retry limit it follows the flow's fallback action.
 
 ### Ask for the email address
 
 1. Add an **Ask email** block.
 2. Check the **Question**. It reads `What is your email address?`
 3. Check **Save the answer as**. It reads **Email**. The answer is saved as `email`.
-4. Check **The answer should be**. It reads **Email**. [VERIFY: how the bot reacts to an answer that is not an email]
+4. Check **The answer should be**. It reads **Email**. If the customer sends something that is not an email, the bot asks the question again. After the retry limit it follows the flow's fallback action.
 
 ### Ask for the address
 

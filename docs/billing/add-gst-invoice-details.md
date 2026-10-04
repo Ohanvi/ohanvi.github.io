@@ -20,7 +20,7 @@ Save your business's legal name, GSTIN and billing address once, and Ohanvi prin
 1. Click the **Credits** box in the top-right corner. The **Credits** page opens.
 2. In the **This cycle** card, click **Invoice Details** in the line **Add your GSTIN in Invoice Details**. The **Invoice details** page opens.
 
-You can also open it from **Settings**: select **Organization**, then **Invoice Details** under **Billing & credits** [VERIFY: Settings → Organization → Invoice Details path]. While choosing a plan, the **Add GSTIN** button on **Plans & Pricing** opens the same page.
+You can also open it from **Settings**: select **Organization**, then **Invoice Details** under **Billing & credits**. While choosing a plan, the **Add GSTIN** button on **Plans & Pricing** opens the same page.
 
 ### Fill in your details
 

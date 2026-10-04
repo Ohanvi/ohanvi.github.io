@@ -117,7 +117,7 @@ Each ad that produced a lead has its own card.
 3. Read the message funnel from left to right. Use the chips in the table below.
 4. Read the money row when spend is available. It shows **Spent**, **Per lead**, and **Per chat** when Meta counted chats.
 5. Read **Read rate**. It is the share of sent messages that were read.
-6. In the lead list, read **Free to reply** with the time left, for example **· 3h left**. It shows while a lead's reply window is open. [VERIFY: whether replies in this window are free of charge]
+6. In the lead list, read **Free to reply** with the time left, for example **· 3h left**. It shows while a lead's 72-hour ad window is open. You can answer in this window without a paid template.
 
 | Chip | What it counts |
 |------|----------------|

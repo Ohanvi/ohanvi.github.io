@@ -56,7 +56,7 @@ The numbers are grouped as **Sales**, **Ads**, **Customers** and **Profit**. Eac
 
 4. For a custom range, pick the dates. The range can be up to 200 days. For longer ranges the message **Pick at most 200 days.** appears.
 5. Read the text next to the period, **vs the 7 days before**. It tells you what each number is compared with.
-6. Read the second line, for example **Updated 10 minutes ago**. It shows when the numbers were last built. They rebuild every 15 minutes. [VERIFY: exact "Updated" wording]
+6. Read the second line, for example **Updated 10 minutes ago**. It shows when the numbers were last built. They rebuild every 15 minutes. The wording is **Updated just now**, **Updated 10 min ago**, **Updated 3 h ago** or **Updated** with a date.
 
 ### Read the number cards
 
@@ -185,7 +185,7 @@ If it fails, the message **Could not build the PDF.** appears.
 |-------|-------|-----|
 | **No numbers yet. They build every 15 minutes from your store orders and Meta spend — or press "Rebuild numbers" now.** | The first build has not run. | Click **Rebuild numbers**. |
 | **No store orders in this period. Connect Shopify or WooCommerce to see revenue, MER and profit next to your ad spend.** | No store is connected, or the period has no orders. | Connect your store, or pick a longer period. |
-| A message that your store and ad account use different currencies | Store and ad account currencies differ, so MER, ROAS, cost per customer and profit are hidden. | Use the same currency on both, or set a **Report currency** in **Settings**. [VERIFY: whether the report currency lifts the hidden numbers] |
+| A message that your store and ad account use different currencies | Store and ad account currencies differ, so MER, ROAS, cost per customer and profit are hidden. | Use the same currency on both, or set **Report currency** in **Settings** to the ad account's currency. |
 | **Net profit after ads** shows **Set your margin** | No gross margin is saved. | Click **Settings** and fill **Gross margin**. |
 | **Could not load the business dashboard** | The dashboard did not load. | Click **Retry**. |
 | **Could not build the PDF.** | The PDF did not finish. | Click **PDF** again. |

@@ -17,6 +17,9 @@ Custom fields let you store your own details on a contact, such as a birthday or
 ### See the built-in fields
 
 1. Open **Contacts** in the left rail, then select **Custom fields**.
+
+    ![Custom fields with the New field button and the Built-in fields table](../assets/screenshots/crm-contacts-5-custom-fields.png)
+
 2. The **Built-in fields** card shows how each contact record is laid out, grouped by the module that owns each part:
 
     | Group | Fields | Owner |

@@ -68,7 +68,7 @@ Button limits:
 
 1. In the first row, replace **Item one** with the choice name, for example `Haircut`. It can hold up to 24 characters.
 2. In **Describe it**, type a line under the name, for example `30 minutes`. It can hold up to 72 characters.
-3. Click **+ Add Section** to add another row. [VERIFY: the button reads Add Section but adds a row]
+3. Click **+ Add Section** to add another row. The button reads **+ Add Section** in a list, but it adds a row named **New item**.
 4. Repeat for each choice. A list can hold up to 10 rows.
 5. To remove a row, click the small **x** beside its name.
 6. A new row starts with the name **New item** and the line **Describe it**. In a **Multi product** block the first row is **Section one**, and a new one is **New section**. In a **Buttons** block a new choice is **New button**. Replace each default name.

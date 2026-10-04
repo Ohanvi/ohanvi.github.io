@@ -147,7 +147,7 @@ The WordPress plugin adds the meta tag for you. Download it again after adding t
 10. Read **Failed**. These are events Meta refused.
 11. Read the table below them. It lists **Event**, **Received**, **Sent** and **Failed** for each event name.
 
-The counts cover the last 14 days, counted on our server. [VERIFY: the period can change if the server sends a different value]
+The counts cover the last 14 days, counted on our server. Pick **Last 7 days**, **Last 14 days** or **Last 30 days** above the counts to change it.
 
 ### Check the tracking audit
 

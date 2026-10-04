@@ -65,7 +65,7 @@ You can also use the right-click menu on the canvas: **Add a step here**, **Sele
 
 ### Join steps with wires
 
-1. Drag from the dot at the right edge of a step to the next step. [VERIFY: dragging from the dot to connect steps]
+1. Drag from the dot at the right edge of a step to the next step.
 2. Right-click a wire to **Insert a step in between**, **Disconnect this step** or **Delete this connection**.
 3. Blocks with choices, such as buttons, have one dot for each choice. Wire each choice to the step that should run next.
 

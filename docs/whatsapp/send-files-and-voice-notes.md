@@ -31,7 +31,7 @@ Add more than text to a reply in the WhatsApp inbox. At the end, you can send a 
 5. Wait while the file uploads. The button shows a spinner until it finishes.
 6. The file is sent to the chat. The reply box clears and the chat scrolls to the new message.
 
-You can also click **Attach file or image** in the inbox menu. [VERIFY: menu name]
+You can also click **Attach file or image** in the **Send Reply** menu of the inbox ribbon.
 
 File types you can attach:
 

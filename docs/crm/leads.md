@@ -18,6 +18,9 @@ A lead is a prospect you are still qualifying. This page shows how to add leads,
 ### Open your leads
 
 1. Open **Contacts** in the left rail, then select **Leads**.
+
+    ![The Leads screen with the Open, Closed and All tabs, the lead list and the lead details with the Convert button (names and contact details blurred)](../assets/screenshots/crm-contacts-2-leads.png)
+
 2. The list on the left has 3 tabs with counts: **Open**, **Closed** and **All**. **Open** shows leads that are **NEW**, **CONTACTED**, **QUALIFIED** or **WORKING** and not yet converted.
 3. Click a lead. Its details open on the right, with its status and score.
 

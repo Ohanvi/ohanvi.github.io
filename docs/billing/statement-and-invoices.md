@@ -32,7 +32,7 @@ Ohanvi raises an invoice for every recharge and every plan charge. Recharge invo
 2. Click **All invoices →**. The **Billing** page opens on the **Ohanvi** tab.
 3. Scroll to **Invoices**. The table shows **Date**, **Invoice**, **Total**, **Status** and **Actions** for every invoice.
 
-You can also open this page from **Settings**: select **Organization**, then **Billing** under **Billing & credits** [VERIFY: Settings → Organization → Billing path].
+You can also open this page from **Settings**: select **Organization**, then **Billing** under **Billing & credits**.
 
 ### Open an invoice
 

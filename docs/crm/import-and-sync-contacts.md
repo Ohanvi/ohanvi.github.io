@@ -19,6 +19,9 @@ Bring your existing contact list into Ohanvi from an Excel or CSV file, and conn
 ### See your contact sources
 
 1. Open **Contacts** in the left rail, then select **Import & sync**.
+
+    ![Import and sync with the Sample CSV and History buttons and the four sources: CSV upload, WhatsApp, Shopify and WooCommerce, and Zapier and Pabbly](../assets/screenshots/crm-contacts-4-import-and-sync.png)
+
 2. The **Import & sync** screen lists 4 sources, each with a live status line and a **Configure** button:
     - **CSV upload** — shows the last run, for example **Last run today · 250 rows, 3 rejected**, or **No file imported yet**.
     - **WhatsApp** — anyone who messages your business number becomes a contact. Shows **Always on · 1 number** or **No number connected**.
@@ -95,7 +98,7 @@ The summary counts skipped rows but does not list them. Find them in your file w
 | **Phone number must not exceed 20 characters** | Remove text or extra characters from the phone cell. |
 
 !!! note
-    The summary always says **(no phone number)**, even when the real reason is a wrong-length number or an over-long field [VERIFY: summary wording may change].
+    The summary always says **(no phone number)**, even when the real reason is a wrong-length number or an over-long field.
 
 ## Video walkthrough
 

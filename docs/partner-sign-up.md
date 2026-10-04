@@ -9,7 +9,7 @@ The partner programme is for people who help businesses use WhatsApp for their c
 
 ## Before you start
 
-- You have the partner sign-up link from Ohanvi. [VERIFY: the public partner sign-up address]
+- You have the partner sign-up link from Ohanvi. It opens `https://app.ohanvi.com/#/partner/signup`.
 - You have a work email and mobile number.
 
 ## Steps

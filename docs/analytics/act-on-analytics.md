@@ -54,7 +54,7 @@ Turn what **Analytics** shows into your next step. At the end, you have cleaned 
 
 1. In **When orders come in**, read the peak hour in the caption.
 2. Open **WhatsApp** in the left rail, then select **Campaign**.
-3. Schedule your next broadcast shortly before that hour [VERIFY: scheduling option label in Campaign].
+3. Schedule your next broadcast shortly before that hour. In the broadcast form, under **When**, choose **Schedule**.
 
 ## Video walkthrough
 

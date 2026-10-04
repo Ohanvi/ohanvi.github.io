@@ -19,12 +19,12 @@ Use the **Billing** page to see which plan your workspace is on and how many use
 ### See your current plan
 
 1. Click the **Credits** box in the top-right corner, then click **All invoices →** in the **Invoices** card. The **Billing** page opens on the **Ohanvi** tab.
-    - You can also open **Settings**, select **Organization**, then **Billing** under **Billing & credits** [VERIFY: Settings → Organization → Billing path].
+    - You can also open **Settings**, select **Organization**, then **Billing** under **Billing & credits**.
 2. Read the plan card at the top:
 
     | Field | What it tells you |
     | --- | --- |
-    | Plan name and status badge | Your plan, for example **Pay as you go** [VERIFY: plan name], and whether it is on trial, active or overdue. |
+    | Plan name and status badge | Your plan, for example **Pay as you go**, and whether it is on trial, active or overdue. |
     | **Billed monthly** | How often the plan is billed. |
     | **Users** | Active users against the plan's limit, for example **4 of 5**. |
     | **Cycle** | The billing period, for example **Monthly**. |

@@ -42,7 +42,7 @@ Connect Tally from **Accounting ERP** to keep your ledgers, parties, items and v
 2. On **Provider**, under **Which accounting system do you use?**, choose Tally. A provider marked **Coming soon** cannot be chosen yet. Click **Continue**.
 3. On **Transport**, type a **Connection name**, for example `Head office Tally`. It is shown on the hub.
 4. Under **How should we reach** Tally **?**, choose a chip, such as **HTTP** or **Bridge**.
-5. For a direct connection, fill in the fields shown. Fields marked with an asterisk are required. For example, the address and port of Tally's HTTP server. [VERIFY: the exact field names come from the server]
+5. For a direct connection, fill in the fields shown. Fields marked with an asterisk are required. For example, the address and port of Tally's HTTP server. The field names are supplied for each provider.
 6. For a bridge, follow **Add a bridge** below, then pick it in the list. The list shows each bridge's **Heartbeat**.
 7. Click **Continue**.
 

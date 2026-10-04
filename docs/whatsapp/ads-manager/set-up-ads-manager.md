@@ -93,12 +93,12 @@ Linking the number to your Page makes an ad open a chat with you. To change the 
 
 ### Pay for the ads
 
-The **Credits & billing** card shows how ad spend is paid. It lists **Credits balance (shared)**, **Old ads credits**, **Meta payment method**, **Total ad spend** and **Unbilled spend**. [VERIFY: the cards in this task sit on Setup or on the Performance report page]
+The **Credits & billing** card shows how ad spend is paid. It lists **Credits balance (shared)**, **Old ads credits**, **Meta payment method**, **Total ad spend** and **Unbilled spend**. The card sits on the **Performance report** page.
 
 Choose one way to pay:
 
 - **Add Meta payment method**: add a card or UPI on the ad account at Meta. Meta bills it directly. If a method is on file, the page shows **Billing ready**.
-- **Pay with Ohanvi**: Meta bills Ohanvi, and the spend comes off your Ohanvi credits. [VERIFY: exact wording for how the spend and any fee are charged]
+- **Pay with Ohanvi**: Meta bills Ohanvi, and the spend comes off your Ohanvi credits. Ohanvi adds a 2% fee on the ad spend, taken from your credits too.
 
 ### Add credits
 

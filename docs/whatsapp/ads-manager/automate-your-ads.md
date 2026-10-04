@@ -17,7 +17,7 @@ Create a rule in **Automation** that checks your ads every 30 minutes and acts w
 
 A rule is one sentence: **If** some conditions are true, **then** do one action. For example: if an ad set spent more than a set amount today and got fewer than 1 result, then pause it.
 
-- The rule checks every 30 minutes. [VERIFY: shown as "Checked every N minutes" in the editor]
+- The rule checks every 30 minutes. A saved rule shows **Checked every 30 minutes.** at the bottom of the editor.
 - Every new rule starts in **Preview**. It logs what it would do and changes nothing on Meta.
 - When you go **live**, the rule really changes your ads on Meta. Every change is logged in the **Activity log**.
 

@@ -78,7 +78,7 @@ A template you use is copied to your account. You can change it before you submi
 !!! warning "Check every AI draft"
     AI can get facts and offers wrong. You are responsible for what your template says. Meta can still reject it.
 
-Inside the template form, AI buttons are named **Generate with AI**, **Fix template name** and **Improve wording**. [VERIFY: where these buttons appear in the form]
+Inside the template form, one AI button sits in the form header, beside the close button. Its name changes with the form: **Generate with AI**, **Fix template name** or **Improve wording**.
 
 ### Filter your templates by tab
 

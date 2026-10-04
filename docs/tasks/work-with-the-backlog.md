@@ -68,13 +68,13 @@ The **Backlog** view lists the work that is not in a sprint yet, with each sprin
 1. Click the **...** button on a sprint header. Its tooltip is **More actions**.
 2. Click **Edit sprint** to change its name, goal or dates. See [Plan work in sprints](plan-sprints.md).
 3. Click **Delete sprint** to remove it. A window asks **Delete sprint?** to confirm.
-4. The menu also lists **Reorder work items**. [VERIFY: this item does nothing yet]
+4. The menu also lists **Reorder work items**. It does nothing yet.
 
 ### Use the row menu
 
 1. Hover a task row and click the **...** button. Its tooltip is **More actions**.
 2. Read the list: **Move work item**, **Copy link**, **Copy key**, **Add flag**, **Assignee**, **Story point estimate**, **Split Task** and **Delete**.
-3. [VERIFY: these items are shown but do not run an action yet.]
+3. These items are shown but do not run an action yet.
 4. To copy a task's link or key now, open the task and use the buttons in its header.
 
 ## Troubleshooting

@@ -24,8 +24,10 @@ Plans & Pricing shows every plan with what it includes. You can pick a ready pla
 ### Compare plans
 
 1. Read each plan card: its name, **Billed per user**, **Highlights** and **Everything in** the plan before it, **plus** what is new.
-2. Check **Add-ons** such as **Extra user seat** and **Extra automated message**.
-3. For custom needs, click **Contact us** or **Let's talk** on the Enterprise card. It opens an email to the sales team.
+2. Check **Contacts**, the most people your plan holds: **Pay as you go** 1,000, **Starter** 2,000, **Growth** 5,000, **Scale** 20,000 and **Pro** unlimited. Each contact past that limit is 5 paise, taken from your balance.
+3. Check what you pay per use on every plan: each **Automated message (bot reply)** costs 5 paise and each **Email** costs 5 paise. These come out of your credits.
+4. Check **Add-ons** such as **Extra user seat**.
+5. For custom needs, click **Contact us** or **Let's talk** on the Enterprise card. It opens an email to the sales team.
 
 ### Build your own plan
 
@@ -51,6 +53,7 @@ Plans & Pricing shows every plan with what it includes. You can pick a ready pla
 | --- | --- | --- |
 | **Enter a valid billing email first.** | The billing email is empty or wrong. | Retype it. |
 | **No plans are available for this account right now.** | No plan is published for you. | Click **Contact us**. |
+| **Your plan holds … contacts. Each extra one is 5 paise from your balance, and your balance is too low.** | You are past your plan's contact limit and the balance cannot pay for another contact. A person who messages you first is not refused. | Top up your balance, move to a bigger plan, or delete contacts you no longer need. |
 
 ## Related
 

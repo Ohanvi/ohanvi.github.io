@@ -138,3 +138,38 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+/* A narrow screenshot (the left rail) with its notes beside it, so the
+   column next to a tall, thin image is not left empty. */
+.rail-figure {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 1.2rem 0;
+}
+
+.rail-figure > p:first-child {
+  flex: none;
+  margin: 0;
+}
+
+.rail-figure .rail-notes {
+  flex: 1;
+  min-width: 0;
+}
+
+.rail-figure .rail-notes ul {
+  margin: 0;
+}
+
+.rail-figure .rail-notes li + li {
+  margin-top: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  .rail-figure {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}

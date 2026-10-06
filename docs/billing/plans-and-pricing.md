@@ -25,7 +25,7 @@ Plans & Pricing shows every plan with what it includes. You can pick a ready pla
 
 1. Read each plan card: its name, **Billed per user**, **Highlights** and **Everything in** the plan before it, **plus** what is new.
 2. Check **Contacts**, the most people your plan holds: **Pay as you go** 1,000, **Starter** 2,000, **Growth** 5,000, **Scale** 20,000 and **Pro** unlimited. Each contact past that limit is 5 paise, taken from your balance.
-3. Check what you pay per use on every plan: each **Automated message (bot reply)** costs 5 paise and each **Email** costs 5 paise. These come out of your credits.
+3. Check **Automated messages a month** and **Extra automated message**: the monthly allowance and the rate per message past it. Each **Email** costs 5 paise on every plan. These come out of your credits.
 4. Check **Add-ons** such as **Extra user seat**.
 5. For custom needs, click **Contact us** or **Let's talk** on the Enterprise card. It opens an email to the sales team.
 

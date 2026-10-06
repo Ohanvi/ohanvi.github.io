@@ -15,6 +15,19 @@ Ohanvi runs on prepaid credits. You add money to your account, it becomes credit
 - Credits stay valid for **one year** from the date they are added.
 - **18% GST** is charged when you recharge, not when you spend. See [Add funds to your account](add-funds.md).
 
+## Messages inside a customer chat
+
+When a customer messages you, WhatsApp opens a 24-hour window. From **1 October 2026**, Meta charges for some messages sent inside it:
+
+| Message | What is charged |
+| --- | --- |
+| **Replies inside the window**, typed by your team or sent by a bot | The **first 1,000 each calendar month are free**. After that, Meta's rate for each one, which is **11.5 paise** in India. |
+| **Utility templates sent inside the window** | Meta's rate from the first message, **11.5 paise** in India. |
+| **Conversations started from a Click-to-WhatsApp ad** | Still free for the whole 72-hour window. |
+
+!!! note "This is Meta's charge, not ours"
+    These charges are Meta's. We add **no markup** on them: the amount taken from your credits is Meta's rate and nothing more. If a bot sends the message, your plan's **automated message** allowance and rate still apply as they do today.
+
 ## Before you start
 
 - You are signed in to Ohanvi. See [Sign in to Ohanvi](sign-in.md).

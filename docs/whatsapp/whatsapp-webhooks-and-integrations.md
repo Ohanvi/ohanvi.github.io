@@ -15,9 +15,9 @@ Set up the 3 WhatsApp connections that link Ohanvi to other systems: the Meta we
 
 ## Where to find these screens
 
-Click your initials bottom-left, then **Settings**. Under **WhatsApp**, choose **Webhooks**, **Developer API** or **BUSY**.
+Click your initials bottom-left, then **Settings**. Under **WhatsApp**, choose **Webhooks** or **BUSY**. The Developer API is under **Settings** → your name → **Developer** → **Developer APIs**.
 
-You can also open any WhatsApp setup screen and use the tabs across the top: **Configuration**, **Webhooks**, **Business Profile**, **Website Button**, **Developer API**, **BUSY** and **Migrate to Ohanvi**. BUSY is also listed as **BUSY (Accounting)** under **Connect** in the left rail.
+You can also open any WhatsApp setup screen and use the tabs across the top: **Configuration**, **Webhooks**, **Business Profile**, **Website Button**, **BUSY** and **Migrate to Ohanvi**. BUSY is also listed as **BUSY (Accounting)** under **Connect** in the left rail.
 
 | Screen | What it is for |
 | --- | --- |
@@ -43,7 +43,7 @@ You can also open any WhatsApp setup screen and use the tabs across the top: **C
 
 ### Send messages from your own software (Developer API)
 
-1. In **Settings** → **WhatsApp**, open **Developer API**. It has 3 tabs: **API Keys**, **Usage Log** and **Docs**. With no keys yet, it shows **No API keys yet** and **Create your first key**.
+1. In **Settings**, click your name, then under **Developer** open **Developer APIs**. It has 3 tabs: **API Keys**, **Usage Log** and **Docs**. With no keys yet, it shows **No API keys yet** and **Create your first key**.
 
     ![Developer API with the API Keys, Usage Log and Docs tabs and the Create key button](../assets/screenshots/whatsapp-developer-api-1-keys.png)
 

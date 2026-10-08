@@ -1,16 +1,16 @@
 ---
 title: Send WhatsApp messages with the Developer APIs
-description: Find the base URL, sign-in step and ready-to-copy request bodies you need to send WhatsApp messages from your own systems through Ohanvi.
+description: Create an API key, copy ready request bodies and download the Postman files to send WhatsApp messages from your own systems through Ohanvi.
 ---
 
 # Send WhatsApp messages with the Developer APIs
 
-Use the **Developer APIs** page to send WhatsApp messages from your own software. You will have the base URL, a way to get a sign-in token, and a ready request body for each message type.
+Use the **Developer APIs** page to send WhatsApp messages from your own software with an API key. You create the key on this page, and the same page has the request bodies and the Postman files. There is no sign-in or token step.
 
 ## Before you start
 
 - Your WhatsApp number is connected to Ohanvi. You can check this on **Settings** → **WhatsApp** → **Configuration**.
-- Your role has WhatsApp access. Anyone on your team with WhatsApp access can call these APIs.
+- Your role has WhatsApp access.
 - A developer on your team can send HTTP requests from your system.
 
 ## Steps
@@ -19,25 +19,33 @@ Use the **Developer APIs** page to send WhatsApp messages from your own software
 
 1. Click your initials in the bottom-left corner, then click **Settings**.
 2. Click your name at the top of the Settings list.
-3. Under **Developer**, click **Developer APIs**. The **Developer APIs** page opens.
+3. Under **Developer**, click **Developer APIs**. The page opens with 3 tabs: **API Keys**, **Usage Log** and **Docs**.
 
-### Authenticate
+### Create an API key
 
-The **AUTHENTICATION** section shows the **Base URL** (`https://app.ohanvi.com`) and 3 steps:
+1. On the **API Keys** tab, click **Create key** (or **Create your first key**).
+2. Give the key a name, choose when it expires, and click **Create key**.
+3. Copy the key now. It is shown only once. It looks like `wak_…`.
 
-1. **Sign in for a token** — send `POST /login/signin` with your `username` and `password`. The bearer token is valid for 7 days.
-2. **Send the token on every call** — add the header `Authorization: Bearer <token>` to each request.
-3. **Post a message** — call `POST /api/v1/save?apiName=…` with the JSON body for the message type.
+The key can only send messages for your workspace. It cannot read your contacts or campaigns.
 
-Use your own Ohanvi login. For a dedicated machine integration, ask an admin to create a separate user for it. See [Manage team members, roles and permissions](roles-and-permissions.md).
+### Send with the key
+
+Add the key to every request in the `X-Api-Key` header, and call `POST /api/v1/save?apiName=…` with the JSON body for the message type. The base URL is `https://app.ohanvi.com`.
+
+A login token does not work on these APIs. Only an API key does.
 
 ### Copy a request body
 
-1. Under **MESSAGE ENDPOINTS**, click a message type: **Text**, **Template**, **Media**, **Contact**, **Location**, **Interactive**, **Reaction** or **Reply**. The row opens and shows its **REQUEST BODY**.
-2. Click **Copy**. The message **Payload copied** appears.
+1. Open the **Docs** tab. It lists one ready request for each message type: **Text**, **Template**, **Media**, **Contact**, **Location**, **Interactive**, **Reaction** and **Reply**.
+2. Click **Copy** on the one you need.
 3. Replace the sample values with yours, then send it from your system.
 
 A successful call returns `{ "status": "success", "whatsappMessageId": "wamid…" }`.
+
+### Use Postman
+
+On the **Docs** tab, click **Postman collection** and **Environment** to download the two files. Import both into Postman, open the environment, paste your key into `apiKey`, and run any request under **Send Messages**. The key is added to every request for you.
 
 ### Rules to keep in mind
 
@@ -45,6 +53,8 @@ A successful call returns `{ "status": "success", "whatsappMessageId": "wamid…
 - **Charged on delivery**
 - **Recipients in E.164 (8–15 digits)** — include the country code, for example +919876543210.
 - **Templates open conversations outside the 24-hour window** — use **Text** only within 24 hours of the customer's last message. See [Create a WhatsApp message template](../whatsapp/create-message-template.md).
+- **Pay as you go includes 100 API messages a month.** From the 101st you need one of our plans, and a plan has no cap.
+- **A utility template sent through the API costs Meta's rate plus 8 paise** from your credits.
 
 ## Video walkthrough
 
@@ -54,10 +64,11 @@ A successful call returns `{ "status": "success", "whatsappMessageId": "wamid…
 
 | Issue | Cause | Fix |
 | --- | --- | --- |
-| Calls fail after about a week | The bearer token expired after 7 days. | Sign in again with `POST /login/signin` and use the new token. |
+| Calls fail with 401 | The key is missing, wrong, revoked or expired, or a login token was sent instead of a key. | Send the key in the `X-Api-Key` header. If it was revoked, create a new key. |
+| Calls fail with 402 | Pay as you go has used its 100 API messages this month. | Choose a plan to send more. |
 | A text message is not delivered | The customer has not messaged you in the last 24 hours. | Send an approved **Template** instead. |
 | Calls are rejected when you send many at once | You passed 60 requests per minute for this user. | Slow down, or spread the load across time. |
-| Clicking **Postman** does not download a file | The Postman collection is not on this page yet. | Use the request bodies under **MESSAGE ENDPOINTS** instead. |
+| **Postman collection** does not download a file | Downloads work in the web app only. | Open Ohanvi in a browser, or copy the request bodies from the **Docs** tab. |
 | **Developer APIs** is missing under your name | Your role cannot see it. | Ask your workspace owner. |
 
 ## Related

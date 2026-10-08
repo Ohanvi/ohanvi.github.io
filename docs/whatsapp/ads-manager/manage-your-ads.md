@@ -66,7 +66,7 @@ A card shows **₹0** or **0×** when there is no data yet.
 
 | Card | What it counts |
 |------|----------------|
-| **Number of Leads** | Leads captured from your ads in the date range. |
+| **Number of Leads** | Leads from your ads in the date range: the larger of the contacts Ohanvi saw arrive from an ad and the conversations Meta says the ads started. |
 | **Click-Through Rate** | Clicks divided by impressions on the ad account. |
 | **Cost Per Lead** | Total spend divided by the number of leads. |
 | **Cost Per Order** | Ad spend divided by purchases reported back to Meta. |
@@ -91,7 +91,7 @@ A card shows **₹0** or **0×** when there is no data yet.
 | **Daily Budget** | The ad set's daily budget. A lifetime budget shows the total with the word **total**. |
 | **Impressions** | How many times the ad was shown. |
 | **Spend** | Money spent in the date range. |
-| **Leads** | People who messaged you from the ad. |
+| **Leads** | People who messaged you from the ad. It is the larger of two counts: contacts Ohanvi saw arrive from the ad, and conversations Meta says the ad started. **Number of Leads** and **Cost Per Lead** use the same rule. |
 | **Performance overtime** | A small chart of the last 7 days. Bars show spend and the green line shows results. Hover for each day. |
 | **Latest actions** | The last change to the ad, who made it and when. A bolt icon means an automation rule made it. |
 | **Active optimization** | The automation rules watching this row. Green means the rule is live. Amber means preview only. Click it to open **Automation**. |

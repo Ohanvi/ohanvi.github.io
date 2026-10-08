@@ -75,7 +75,7 @@ To add credits, click **Buy Credits**. The **Add money to Ads Credits** window o
 3. Under **Ad objective**, pick what Meta should optimise for, for example **Maximise number of conversations**.
 4. Under **Ad targeting & audience**, pick locations in **Select locations**, then gender, age and optional interests. **Estimated reach** updates as you choose.
 5. Under **Special ad category**, choose **No — a regular ad**, or the category if the ad is about credit, jobs, housing or politics.
-6. Under **Ad budget**, choose **Daily budget** or **Lifetime budget**, type the amount, and set a **Start date** and an optional **End date**. The form shows Meta's minimum.
+6. Under **Ad budget**, choose **Daily budget** or **Lifetime budget**, type the amount, and set a **Start date** and an optional **End date**. The form shows Meta's minimum: per day for a daily budget, and per day times the number of days for a lifetime budget. A later **Start date** is kept for both.
 7. Under **Ad creative**, write the ad text and headline, and add an image, video or carousel.
 8. Optional: under **Greeting & icebreakers (optional)**, write the first message of the chat and the tappable questions under it.
 9. Choose **Goes live after Meta approves**, or **Create paused — activate later**.
@@ -90,7 +90,7 @@ Meta reviews the ad, usually within 24 hours. Until then it shows **In review**.
 
 ### Track your ads and leads
 
-1. Open **Ads Manager** to see each ad's status, **Total Spend**, **Number of Leads**, **Cost Per Lead** and **Click-Through Rate**. Filter the ads by **All**, **Active**, **In review**, **Paused** or **Not approved**, and pick the date range at the top.
+1. Open **Ads Manager** to see each ad's status, **Total Spend**, **Number of Leads**, **Cost Per Lead** and **Click-Through Rate**. Filter the ads by **All**, **Active**, **Completed**, **In review**, **Paused** or **Not approved**, and pick the date range at the top.
 
     ![Ads Manager with the date range, the status filters and the Number of Leads, Click-Through Rate, Cost Per Lead and Total Spend tiles](../assets/screenshots/whatsapp-ads-1-manager.png)
 2. Open **Leads** to see who messaged you from an ad. Search by name, phone or ad, or click **Download Report**.

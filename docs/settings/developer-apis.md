@@ -27,7 +27,7 @@ Use the **Developer APIs** page to send WhatsApp messages from your own software
 2. Give the key a name, choose when it expires, and click **Create key**.
 3. Copy the key now. It is shown only once. It looks like `wak_…`.
 
-The key can only send messages for your workspace. It cannot read your contacts or campaigns.
+The key can send messages and read your approved templates, delivery status, contacts and segments, for your workspace only. It cannot reach anything else.
 
 ### Send with the key
 
@@ -45,7 +45,7 @@ A successful call returns `{ "status": "success", "whatsappMessageId": "wamid…
 
 ### Use Postman
 
-On the **Docs** tab, click **Postman collection** and **Environment** to download the two files. Import both into Postman, open the environment, paste your key into `apiKey`, and run any request under **Send Messages**. The key is added to every request for you.
+On the **Docs** tab, click **Postman collection** and **Environment** to download the two files. Import both into Postman, open the environment, paste your key into `apiKey`, and run any request under **1. Send Messages** or **2. Find / Read**. The key is added to every request for you.
 
 ### Rules to keep in mind
 

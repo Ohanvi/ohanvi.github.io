@@ -59,6 +59,9 @@ This page covers **Start WhatsApp flow**. For the other starts, see [Build an au
 
 If the lists are empty, the panel says **No approved templates yet.** or **No Meta ads found. Connect an ad account and run an ad that opens a WhatsApp chat.**
 
+!!! tip "Make an ad's chats go to the bot"
+    A new chat from an ad waits in **Requesting** in the inbox when no **active** flow matches it, and a chat an agent has taken over (**Intervened**) is never answered by the bot. To have the bot answer every lead from your ads, publish a flow and add the ads under **Add upto 20 Meta Ads to begin flow**. To start a flow from an ad's icebreaker, add the icebreaker's exact text as a keyword: when someone taps it, that text arrives as their message.
+
 ### Set the trigger panel
 
 The trigger panel holds the full set of start options. Click the **Flow trigger** start tile to open it.

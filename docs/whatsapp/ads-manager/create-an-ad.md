@@ -187,13 +187,13 @@ Placement notes:
 
 Budget notes:
 
-- **Daily budget** spends about the amount each day.
-- **Lifetime budget** is a fixed total spread over your dates.
-- Below Meta's minimum, the ad does not deliver.
+- **Daily budget** spends about the amount each day. The minimum is Meta's minimum **per day**, for example `Meta minimum: ₹89/day`.
+- **Lifetime budget** is a fixed total spread over your dates. Its minimum is Meta's daily minimum for **every day** it runs, so it grows with the number of days. Pick the **End date** first, then read the box: for example `Meta minimum: ₹623 for 7 days (₹89/day)`. Before you pick an end date it says `Pick an end date to see the total`.
+- Below Meta's minimum, the ad does not deliver, and the form refuses it with the number you need.
 
 ### Set the dates
 
-1. Under **Start date**, keep **Today**, or pick a date. The ad starts after Meta approves it, usually within a few hours.
+1. Under **Start date**, keep **Today**, or pick a later date. With **Today**, the ad starts after Meta approves it, usually within a few hours. With a later date, the ad waits and starts that day. This works for a **Daily budget** and a **Lifetime budget**.
 2. Tick **Set an end date**, then pick the **End date**.
 3. Optional: on a **Lifetime budget**, turn on **Run ads on a custom schedule**. Tap or drag on the hour grid.
 4. Choose **Viewer's time zone** or **Ad account's time zone**. Use the ad account's clock for your opening hours.
@@ -203,6 +203,7 @@ Budget notes:
 Date limits:
 
 - A **Lifetime budget** needs an end date at least a day after the start. A past date is refused.
+- Dates use your own time zone. A start of 5 October means the start of 5 October where you are, not where the ad account is.
 - The custom schedule works only on a **Lifetime budget**. With a daily budget the switch is off and shows **Ad scheduling is only available on a lifetime budget**.
 - Nothing selected on the grid means any hour.
 
@@ -336,7 +337,9 @@ Meta reviews the ad, usually within 24 hours. Until then it shows **In review**.
 |-------|-------|-----|
 | **Select a Facebook Page for the ad.** | No Page is picked in section 4. | Pick a Page under **Facebook Page \***. |
 | **Pick an end date for a run-once ad.** | A **Lifetime budget** has no end date. | Pick an **End date** at least a day after the start. |
-| **Meta's minimum on this account is ₹…** | The budget is below Meta's minimum. | Raise the amount to the minimum shown under the box. |
+| **Meta's minimum on this account is ₹…** | A daily budget is below Meta's minimum per day. | Raise the amount to the minimum shown under the box. |
+| **Meta's minimum for a … day run on this account is …** | A lifetime budget is below the daily minimum times the number of days. | Raise the total, or shorten the run by moving the **End date** closer. |
+| The ad started before the **Start date** you picked. | You used an older version of the form, which ignored the start date on a daily budget. | Update Ohanvi. A picked start date now holds for both budget types. Pause the ad if it started too early. |
 | **The URL must start with https://** | The **Website URL \*** uses http://. | Change it to an https:// address. |
 | The launch stops on a video ad. | The video has no thumbnail. | Add the thumbnail image under the video. |
 | **Connections are no longer available** when you launch. | An old form skipped Page followers, and Meta no longer accepts that. | Update Ohanvi. The setting is gone. Exclude a customer list under **Your audiences** instead. |

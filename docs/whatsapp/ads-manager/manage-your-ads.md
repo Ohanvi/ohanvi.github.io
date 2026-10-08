@@ -20,7 +20,7 @@ The **Ads Manager** tab has 5 parts, from top to bottom.
 | Part | What it holds |
 |------|---------------|
 | Command bar | **Create Ad**, **Sync**, **Export**, **Metrics**, **Columns**, **Presets** and the date range. |
-| Status filters | **All**, **Active**, **In review**, **Paused** and **Not approved**. |
+| Status filters | **All**, **Active**, **Completed**, **In review**, **Paused** and **Not approved**. |
 | Metric cards | Totals for the date range, such as **Total Spend** and **Number of Leads**. |
 | Level chips | **Campaigns**, **Ad sets**, **Ads** and **All assets**. |
 | Table | One row per campaign, ad set or ad, with a checkbox and an **ACTIONS** menu. Ad rows also show quick actions when you hover them. |
@@ -38,11 +38,13 @@ The **Ads Manager** tab has 5 parts, from top to bottom.
 
 2. Click the date range, for example **7 Aug – 6 Sep**.
 3. Pick a start and end date, up to 2 years back. The default is the last 30 days. The cards and table reload.
-4. Click a status filter: **All**, **Active**, **In review**, **Paused** or **Not approved**.
+4. Click a status filter: **All**, **Active**, **Completed**, **In review**, **Paused** or **Not approved**.
 5. Type in **Search by Ad name** to find an ad by name or ID.
 6. Click **Sync** to pull the latest ads and numbers from Meta. The button reads **Syncing…** until it finishes.
 
-Each status filter uses Meta's real delivery state. An ad that is in review or rejected never appears under **Active**. **In review** also covers ads waiting on billing information. **Not approved** covers ads Meta rejected or flagged with issues.
+Each status filter uses Meta's real delivery state, worded the way Meta's own Ads Manager words it. An ad that is in review or rejected never appears under **Active**. **In review** also covers ads waiting on billing information. **Not approved** covers ads Meta rejected or flagged with issues.
+
+An ad, ad set or campaign whose end date has passed shows **Completed** with a grey dot, as it does in Meta. It is not listed under **Active** any more.
 
 ### Switch between campaigns, ad sets and ads
 
@@ -84,7 +86,7 @@ A card shows **₹0** or **0×** when there is no data yet.
 |--------|---------------|
 | **Ad Name** | The ad name, its ID and a thumbnail. Reads **Name** on campaign and ad set views. |
 | **Start Date** | The date the ad started. |
-| **Status** | Meta's delivery state. A red circle beside it holds Meta's rejection reasons. Tap it to read them. |
+| **Status** | Meta's delivery state: **Active**, **Completed**, **In review**, **Rejected**, **Preparing**, **Campaign off** or **Ad set off**. A red circle beside it holds Meta's rejection reasons. Tap it to read them. |
 | **Ad Type** | The ad type. On campaign rows it shows the objective. On ad set rows it shows the optimisation goal. |
 | **Daily Budget** | The ad set's daily budget. A lifetime budget shows the total with the word **total**. |
 | **Impressions** | How many times the ad was shown. |
@@ -119,12 +121,24 @@ Meta needs a minute or so to draw a new ad. If nothing shows, try again shortly.
 
 ### Edit an ad
 
-1. Click **Edit** on the ad row.
-2. On the **Edit** tab, change the **Ad name**, **Primary text**, **Headline**, **Daily budget** or **Ends**.
-3. Click **Save changes**.
-4. Click the **Review** tab to see Meta's preview of the ad.
+1. Click **Edit** on the ad row. The ad opens with everything that was entered when it was made.
+2. On the **Edit** tab, read the five parts from top to bottom:
+    - **Ad**: the **Ad name** and ID, with **Open in Meta Ads Manager** for anything you cannot change here.
+    - **What people see**: every **Primary text**, **Headline** and **Description**, the button, the **Greeting message** and the **Ice breakers**.
+    - **Budget and schedule**: the budget, **Starts** and **Ends**.
+    - **Delivery**: the objective, what the ad is optimised for, the bid strategy and, on a capped bid, the **Bid / cost cap**.
+    - **Who sees it**: countries, age, gender, interests, audiences and placements.
+3. Change what you need. You can change the name, the texts, the greeting, up to 4 ice breakers, the budget, the **Ends** date, the **Starts** date until the ad has started, and the bid cap.
+4. Click **Save changes**. If you changed any words, the ad asks you to confirm because Meta reviews it again.
+5. Click the **Review** tab to see Meta's preview of the ad.
 
-The budget and end date belong to the ad set, so they change for every ad in it. Meta may restart delivery when you edit a running ad.
+What stays read-only here: the pictures and video, the button, the audience and the objective. Change pictures under [Use ad creatives](use-ad-creatives.md) or in Meta Ads Manager.
+
+An ad with several texts or pictures keeps all of them. Changing one headline keeps the other headlines, the pictures and the other settings of the ad. A carousel or catalogue ad is edited in Meta Ads Manager, and the page says so.
+
+The budget and dates belong to the ad set, so they change for every ad in it. Meta sends an ad back for review when its words, greeting or ice breakers change, and may restart delivery when you edit a running ad.
+
+If the page shows **Showing what the list already knows**, the full ad could not be loaded. You can still change the budget and dates, and the words are read-only until you open it again.
 
 ### Change the budget or end date of an ad set
 
@@ -212,6 +226,8 @@ The button is off while the table is empty.
 | **This ad has no ad set id yet. Sync and try again.** | The ad was just created and its ad set is not loaded. | Click **Sync**, then change the budget or end date again. |
 | **Could not duplicate the ad.** | Meta refused the copy. | Read the message from Meta and fix what it names. |
 | **Could not update the ad.** | Meta refused the change, for example a budget below the account minimum. | Read the message from Meta that appears with it and adjust the value. |
+| An ad past its end date still reads **Active**. | You are on an older version of the table. | Update Ohanvi. It now shows **Completed**, like Meta. |
+| **Ice breakers** are empty on an ad you made. | The ad was made without ice breakers, so Meta uses its default greeting. | Click **Edit**, add up to 4 under **Ice breakers**, and save. |
 | **Could not download the report.** | The export did not finish. | Click **Export** again. |
 
 ## Related

@@ -23,10 +23,11 @@ Your own email provider is connected under **Connect** → **Email Provider** in
 
 ## Guides
 
-Follow these in order the first time.
+New here? Start with [Get started with email marketing](get-started-with-email.md). It walks through everything below in order.
 
 | Guide | Use it when |
 | --- | --- |
+| [Get started with email marketing](get-started-with-email.md) | You are new to Email. It takes you from setup to your first campaign and a welcome email, end to end. |
 | [Set up a sender address and verify your domain](set-up-sender-identity.md) | You are sending email from Ohanvi for the first time. |
 | [Connect your own email provider](connect-email-provider.md) | You want to send through your own SMTP, SendGrid, Mailgun or Postmark account. |
 | [Add email contacts, lists and segments](manage-email-contacts.md) | You need people to send to. |

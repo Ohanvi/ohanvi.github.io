@@ -10,12 +10,14 @@ Google steps let a flow work with your Google apps. A flow can add a row to a sh
 ## Before you start
 
 - You opened a flow in the builder. See [Understand the flow builder](understand-the-flow-builder.md).
-- The Google app is connected. See [Connect an app and use it in a flow](../flows/connect-apps-for-flows.md).
+- The Google app is connected. See [Connect Google Workspace](../settings/connect-google-workspace.md).
 - You know how to use data from earlier steps in a field. See [Build an automation flow](../flows/build-automation-flow.md).
 
 ## How Google steps work
 
 Each Google step runs as one connected Google account. The account's access is checked again every time the flow runs.
+
+Ohanvi can open only the spreadsheets and forms you choose for it with **Choose from Google Drive**, and the spreadsheets it creates. You choose a file once, and the flow keeps using it until you remove Ohanvi from your Google account. See [Which files Ohanvi can open](../settings/connect-google-workspace.md#which-files-ohanvi-can-open).
 
 | Group | Steps | What it is for |
 | --- | --- | --- |
@@ -49,8 +51,8 @@ The panel reads **Runs as this account. Access is checked again every time the f
 **Add a row** appends one row after the last row.
 
 1. Add **Add a row**. The step is titled **Add a row to Google Sheets**.
-2. In **Spreadsheet**, paste the link, for example `docs.google.com/spreadsheets/d/…`. The sheet must be one the account can open.
-3. Click **Load sheet tabs**. The button reads **Opening…** while it works.
+2. Choose the spreadsheet with **Choose from Google Drive**. See [Set the spreadsheet and its tab](#set-the-spreadsheet-and-its-tab).
+3. Click a tab name to fill the range, or keep the default.
 4. In **Sheet**, keep `Sheet1!A1` or type your tab, for example `Leads!A1`.
 5. Under **Row to add**, fill **Column A**, **Column B** and so on. Type a value, or use data from an earlier step, for example `{{trigger.form.name}}`.
 6. Click **Add a column** for more columns. Click **Remove column** to delete one.
@@ -61,7 +63,7 @@ The step returns `{{N.updatedRange}}` and `{{N.spreadsheetUrl}}`. A retried step
 ### Read rows from a spreadsheet
 
 1. Add **Read rows**. The step is titled **Read rows from Google Sheets**.
-2. In **Spreadsheet**, paste the link and click **Load sheet tabs**.
+2. Choose the spreadsheet with **Choose from Google Drive**. See [Set the spreadsheet and its tab](#set-the-spreadsheet-and-its-tab).
 3. In **Range**, type the cells to read, for example `Sheet1!A1:D100`. It is required.
 4. In a later step, use `{{N.data.values}}`. It is a list of rows. Loop over it with a **For each** step.
 
@@ -72,6 +74,8 @@ Reading changes nothing, so a retry is safe.
 1. Add **Create spreadsheet**. The step is titled **Create a Google spreadsheet**.
 2. In **Title**, type the name, for example `Leads {{trigger.form.name}}`. It is required.
 3. Use `{{N.spreadsheetId}}` and `{{N.spreadsheetUrl}}` in later steps.
+
+Ohanvi can use a spreadsheet it created straight away. A later step can put `{{N.spreadsheetId}}` in **Spreadsheet** without choosing it from Google Drive.
 
 A retried step never creates a second spreadsheet.
 
@@ -151,19 +155,27 @@ An update never erases what is in Google. A new email or phone is added next to 
 
 ### Set the spreadsheet and its tab
 
-1. In **Spreadsheet**, paste the link of the sheet. The box shows `Paste the link — docs.google.com/spreadsheets/d/…`.
-2. Click **Load sheet tabs**. The button reads **Opening…** while it works. If the sheet cannot be opened, the message reads **Could not open that spreadsheet.**
-3. Click a tab name to fill the range, for example `Sheet1!A1`.
-4. Read the note. The spreadsheet must be one the chosen Google account can open. Ohanvi does not ask for Drive access, so you paste the link and do not browse for the file.
+1. Under **Spreadsheet**, click **Choose from Google Drive**. The button reads **Opening Google Drive…** while it works.
+2. If Google asks, choose the account the step runs as and allow access. The pop-up closes by itself.
+3. In the Google window, select the spreadsheet and click **Select**. Ohanvi fills **Spreadsheet** and loads the tabs.
+4. Click a tab name to fill the range, for example `Sheet1!A1`.
+
+To jump straight to a sheet, paste its link in **Spreadsheet** first, for example `https://docs.google.com/spreadsheets/d/…/edit`. The button then reads **Confirm in Google Drive**, and the picker opens on that sheet, so you only click **Select**.
+
+To read the tabs again, click **Load sheet tabs**. It reads **Opening…** while it works.
+
+Read the note under the box. Ohanvi can only use spreadsheets you choose for it, or ones it created. You choose a sheet once, and the flow keeps access until you remove Ohanvi from your Google account.
 
 ### Start a flow when a Google Form gets an answer
 
 1. Open the flow's **Flow trigger** card and choose the Google Form response start.
 2. Under **Google account that can open the form**, choose an account. The box shows `Choose an account`. The list also shows **Default account**, or **Default account (none set)** if your admin did not set one.
-3. In **Which Google Form**, paste the form's edit link. The box shows `Paste the edit link — docs.google.com/forms/d/…/edit`.
-4. Click **Use this form**. The button reads **Checking…** while it works. This also switches the form's watch on, so the flow can start.
+3. Click **Choose from Google Drive**, select the form in the Google window and click **Select**. Ohanvi fills **Which Google Form** and uses it. To jump straight to a form, paste its edit link in **Which Google Form** first, for example `https://docs.google.com/forms/d/…/edit`. Use the link from the address bar while you edit the form, not the **Send** link.
+4. If you pasted a form Ohanvi can already open, you can click **Use this form** instead. The button reads **Checking…** while it works. Either way the form's watch is switched on, so the flow can start.
 5. Read the line under it. The flow starts on each new response. It checks every 5 minutes. Responses from before you connected the form are not replayed, and an edited response does not start a second run.
 6. Under **Answers later steps can use**, click a chip such as `{{trigger.answers.<question key>}}` to copy it. Paste it into a later step to use that answer.
+
+Ohanvi can only read forms you choose for it. You choose a form once, and new responses keep starting the flow until you remove Ohanvi from your Google account.
 
 If the form cannot be reached, the message reads **Google Forms could not be reached.**
 
@@ -187,13 +199,16 @@ If Google cannot be reached, the message reads **Google Contacts could not be re
 | Issue | Cause | Fix |
 | --- | --- | --- |
 | The panel says the service is not ready | The Google app is not connected or not granted. | Click **Open Google Workspace**, connect it, then click **Check again**. |
-| **Could not open that spreadsheet.** | The account cannot open the sheet, or the link is wrong. | Share the sheet with the account, and paste the full link. |
+| **Ohanvi can't open this spreadsheet yet.** or **Ohanvi can't open this form yet.** | The file was never chosen for Ohanvi. This includes sheets and forms linked to a flow before October 2026. | Click **Choose from Google Drive** and select the file while signed in as the step's account. |
+| **Could not open that spreadsheet.** | The account cannot open the sheet, or the link is wrong. | Share the sheet with the account, then choose it again with **Choose from Google Drive**. |
+| **Google sign-in was blocked. Allow pop-ups for this site and try again.** | The browser blocked the Google pop-up. | Allow pop-ups for Ohanvi, then click **Choose from Google Drive** again. |
 | A required field shows an error | **Range**, **Title**, **From**, **To**, **Starts**, **Ends** or **Which event** is empty. | Fill the field. |
 | The calendar step books at the wrong hour | The time has a different offset from your zone. | Use the same offset as **Time zone**, for example `+05:30` with `Asia/Kolkata`. |
 
 ## Related
 
 - [Understand the flow builder](understand-the-flow-builder.md)
+- [Connect Google Workspace](../settings/connect-google-workspace.md)
 - [Connect an app and use it in a flow](../flows/connect-apps-for-flows.md)
 - [Build an automation flow](../flows/build-automation-flow.md)
 - [Test a flow and fix failed runs](../flows/test-and-monitor-flows.md)

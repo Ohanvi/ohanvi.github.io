@@ -294,6 +294,7 @@ nav:
           - settings/integrations/index.md
           - Store connections: settings/connect-your-store.md
           - Accounting ERP (Tally): settings/connect-tally-accounting.md
+          - Google Workspace: settings/connect-google-workspace.md
           - Zapier: settings/connect-zapier.md
           - Pabbly: settings/connect-pabbly.md
           - Own vs managed services: settings/choose-connectors.md

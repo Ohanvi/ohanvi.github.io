@@ -89,7 +89,7 @@ The library can hold more templates than this list. Your screen shows the ones a
 2. Click **Use**. The button reads **Creating…** while the flow is made.
 3. The flow opens in the builder. It is a draft named **Untitled** followed by a number, for example **Untitled 1**.
 4. Click the name at the top to rename it. The tooltip is **Rename flow**.
-5. Click each step and fill in what is empty. Google starters arrive without a spreadsheet link, meeting window or Google account. Publishing is refused until you fill them in.
+5. Click each step and fill in what is empty. Google starters arrive without a spreadsheet, meeting window or Google account. Publishing is refused until you fill them in. Choose the spreadsheet with **Choose from Google Drive** in the step. See [Set the spreadsheet and its tab](../whatsapp/flow-google-workspace-steps.md#set-the-spreadsheet-and-its-tab).
 6. Click **Save**, then **Publish**. See [Build an automation flow](build-automation-flow.md).
 
 ### Preview a chatbot template
@@ -121,7 +121,7 @@ If the preview cannot load, the message **Could not load "…".** appears with t
 | **No chatbot templates are available yet.** | Your workspace has no library templates. | Start from a starter, or build a chatbot from scratch. See [Create a WhatsApp chatbot flow](../create-whatsapp-flow.md). |
 | **The flow could not be created.** | The copy failed on the server. | Try again. If it fails again, contact support. |
 | **Could not load "…".** | The preview of that template failed. | Close the preview and try again. |
-| Publishing a Google starter is refused | A spreadsheet link, meeting window or Google account is empty. | Open the step and fill it in. See [Connect an app and use it in a flow](connect-apps-for-flows.md). |
+| Publishing a Google starter is refused | A spreadsheet, meeting window or Google account is empty. | Open the step and fill it in. See [Connect Google Workspace](../settings/connect-google-workspace.md). |
 
 ## Related
 

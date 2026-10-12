@@ -37,6 +37,8 @@ Google Sheets, Google Calendar, Google Meet, Google Forms and Google Contacts ar
 
 The connected account then shows under **Google accounts**. To grant several apps at once, use **Connect Google**.
 
+Ohanvi opens only the spreadsheets and forms you choose for it with **Choose from Google Drive**, and the spreadsheets it creates. For every option, including disconnecting, see [Connect Google Workspace](../settings/connect-google-workspace.md).
+
 ### Open the connector catalog
 
 1. Open **Connect** in the left rail, then select **Connectors** under **Connectors**. The **Connectors** screen opens.

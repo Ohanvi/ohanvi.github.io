@@ -1,6 +1,6 @@
 ---
 title: Integrations
-description: Connect your online store, Zapier, Pabbly and Tally accounting, and choose your own or Ohanvi's managed services.
+description: Connect your online store, Google Workspace, Zapier, Pabbly and Tally accounting, and choose your own or Ohanvi's managed services.
 ---
 
 # Integrations
@@ -17,6 +17,7 @@ Click your initials in the bottom-left corner, then click **Settings**. Under **
 | --- | --- |
 | [Connect your online store](../connect-your-store.md) | You use Shopify, WooCommerce, Wix or Zoho Commerce. |
 | [Connect Tally accounting](../connect-tally-accounting.md) | You want ledgers, parties, items and vouchers in sync with Tally. |
+| [Connect Google Workspace](../connect-google-workspace.md) | You want flows to use Google Sheets, Calendar, Meet, Forms or Contacts. |
 | [Connect Zapier](../connect-zapier.md) | You want Ohanvi to talk to other apps without code. |
 | [Connect Pabbly](../connect-pabbly.md) | You use Pabbly Connect workflows. |
 | [Choose your own or Ohanvi's managed services](../choose-connectors.md) | You want your own WhatsApp, AI or email provider. |

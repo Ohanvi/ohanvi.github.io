@@ -16,6 +16,7 @@ Campaigns send one approved template message to many people at once. You can sen
 | Guide | Use it when |
 | --- | --- |
 | [Send a broadcast campaign](../send-broadcast-campaign.md) | You want to message a group of contacts. |
+| [Run several WhatsApp numbers](../run-multiple-whatsapp-numbers.md) | You want a campaign to go out from a number other than your Default. |
 | [Read a campaign report](../read-campaign-report.md) | You want to see delivered, read and failed messages. |
 
 ## Before you start

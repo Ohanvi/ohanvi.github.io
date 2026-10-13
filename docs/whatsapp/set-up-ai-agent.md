@@ -13,6 +13,9 @@ Set up an AI agent that answers customers on WhatsApp from your own business inf
 - You can see **AI Agent** in the **WhatsApp** panel. It uses the same access as **Flows**. If you cannot see it, ask your admin. See [Manage team members, roles and permissions](../settings/roles-and-permissions.md).
 - You have credits. Each AI reply delivered to a customer is charged to your credits. See [Credits and billing](../credits-and-billing.md).
 
+!!! note "AI is managed here, not in Configuration"
+    The AI reply agent and auto-reply are no longer set in a number's configuration. Manage AI replies from the AI Assistant hub and this page.
+
 ## Steps
 
 ### Know who answers first

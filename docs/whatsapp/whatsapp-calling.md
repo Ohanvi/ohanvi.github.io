@@ -10,7 +10,7 @@ Let customers call your WhatsApp number, and call them back from the inbox. At t
 ## Before you start
 
 - Your WhatsApp number is connected to Ohanvi. See [Connect your WhatsApp number](connect-whatsapp-number.md).
-- You can open **Settings** → **WhatsApp** → **Configuration**. See [Edit a WhatsApp configuration](whatsapp-configuration-settings.md).
+- You can open **Settings** → **WhatsApp** → **Configuration**. See [Edit a WhatsApp number](whatsapp-configuration-settings.md).
 - Your team is added as WhatsApp agents, if you want only some people to ring. See [Add WhatsApp agents](add-whatsapp-agents.md).
 - Your business has Meta Business Verification. See [Complete the Meta checklist](#complete-the-meta-checklist) below.
 
@@ -21,7 +21,7 @@ Let customers call your WhatsApp number, and call them back from the inbox. At t
 - **Permission:** a customer allows calls when they tap **Allow** on a call permission request.
 - **Hours:** you can accept calls only during business hours, and ring only chosen team members.
 
-Switching **Voice Calling** on in Ohanvi does not change anything at Meta. Complete Meta's side first, or calls fail.
+Switching voice calling on in Ohanvi does not change anything at Meta. Complete Meta's side first, or calls fail.
 
 ## Steps
 
@@ -42,11 +42,14 @@ Do these steps at Meta. Ohanvi shows the same list under **Before this works: Me
 
 1. Click your initials in the bottom-left corner, then click **Settings**.
 2. Select **WhatsApp**, then **Configuration**.
-3. On your number's card, click **Edit**. **Edit Configuration** opens.
-4. Scroll to **Voice Calling** and turn on the switch.
+3. Click your number in the list. Its details open on the right.
+4. Scroll to **Call settings** and turn on **WhatsApp voice calling**. Do this for each number that should take calls.
 5. Read the **Before this works: Meta setup checklist** card that opens below it. Click its title to collapse it.
-6. Set **Call Availability** in the next two tasks. The **Call Availability** section appears only while **Voice Calling** is on.
-7. Click **Save Configuration**. The message **Configuration saved successfully.** appears.
+6. Set **Call Availability** in the next two tasks. The **Call Availability** section appears only while calling is on.
+7. Click **Save**.
+
+!!! note "Several numbers"
+    The voice calling switch is set for each number. The call schedule and the team members who ring apply to all your numbers. See [Run several WhatsApp numbers](run-multiple-whatsapp-numbers.md).
 
 ### Choose when calls ring
 
@@ -92,7 +95,7 @@ If the list is empty, add your team first. The screen shows **No WhatsApp execut
 5. To stop before the customer answers, click the red phone button.
 6. When the customer answers, a timer starts. Use the same buttons as for an incoming call.
 
-The phone button shows only when **Voice Calling** is on and the contact has a phone number. If another call is open, the message **Finish the current call first.** appears.
+The phone button shows only when **WhatsApp voice calling** is on and the contact has a phone number. If another call is open, the message **Finish the current call first.** appears.
 
 ### Ask a customer to allow calls
 
@@ -143,11 +146,11 @@ If a reminder cannot be set, the box shows **Reminders need a project — open t
 
 | Issue | Cause | Fix |
 | --- | --- | --- |
-| Calls fail although **Voice Calling** is on. | Calling is not approved or switched on at Meta. | Finish every step in [Complete the Meta checklist](#complete-the-meta-checklist). |
-| The phone button is missing in the inbox. | **Voice Calling** is off, or the contact has no phone number. | Turn on **Voice Calling** and save. Check the contact's number. |
+| Calls fail although **WhatsApp voice calling** is on. | Calling is not approved or switched on at Meta. | Finish every step in [Complete the Meta checklist](#complete-the-meta-checklist). |
+| The phone button is missing in the inbox. | **WhatsApp voice calling** is off, or the contact has no phone number. | Turn on **WhatsApp voice calling** and save. Check the contact's number. |
 | The phone button is grey. | The customer has not allowed calls. | Click **Request Call Permission** and ask the customer to tap **Allow**. |
 | **Finish the current call first.** | Another call screen is open. | End or close the open call, then try again. |
-| **Could not load calling settings.** | **Call Availability** did not load. | Close **Edit Configuration**, open it again and check your connection. |
+| **Could not load calling settings.** | **Call Availability** did not load. | Open **Configuration** again and check your connection. |
 | **Could not save calling settings — try again.** | The save did not reach Ohanvi. | Click **Save calling settings** again. |
 | **Could not send the call permission request** | The request did not go through. | Try again. Check that your number is connected. |
 | Nobody rings for a call. | **Only ring specific team members** is on with nobody selected. | Select at least one person and click **Save calling settings**. |
@@ -156,7 +159,8 @@ If a reminder cannot be set, the box shows **Reminders need a project — open t
 ## Related
 
 - [Connect your WhatsApp number](connect-whatsapp-number.md)
-- [Edit a WhatsApp configuration](whatsapp-configuration-settings.md)
+- [Edit a WhatsApp number](whatsapp-configuration-settings.md)
+- [Run several WhatsApp numbers](run-multiple-whatsapp-numbers.md)
 - [Add WhatsApp agents](add-whatsapp-agents.md)
 - [Use the WhatsApp inbox](use-whatsapp-inbox.md)
 - [Create a WhatsApp message template](create-message-template.md)

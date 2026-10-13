@@ -22,7 +22,7 @@ Live Chat Settings control the automatic replies and timers around your team inb
 | **Off Hours Message** | An automatic reply to the first message of a new conversation, sent outside working hours. |
 | **Waiting for an Agent** | Tells a customer who writes again that your team has the chat. |
 | **Escalate Unanswered Handoffs** | Sends a handed-off chat with no reply to another available agent, and alerts your team. |
-| **Working Hours** | The days and times that decide between the Welcome and Off Hours replies. |
+| **Working Hours** | The days and times that decide between the Welcome and Off Hours replies. Each number can also have its own hours under **Configuration**. See [Run several WhatsApp numbers](run-multiple-whatsapp-numbers.md). |
 
 !!! note "Chatbot flows come first"
     A chatbot flow with a Welcome trigger takes priority over the **Welcome Message**. See [Create a WhatsApp chatbot flow](../create-whatsapp-flow.md).

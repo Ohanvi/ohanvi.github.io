@@ -38,6 +38,7 @@ Follow these in order the first time.
 | Guide | Use it when |
 | --- | --- |
 | [Connect your WhatsApp number](connect-whatsapp-number.md) | You are setting up WhatsApp for the first time. |
+| [Run several WhatsApp numbers](run-multiple-whatsapp-numbers.md) | You want more than one number, each with its own label and badge. |
 | [Move your WhatsApp number to Ohanvi](migrate-to-ohanvi.md) | Your number is with another provider today. |
 | [Set up your WhatsApp business profile](whatsapp-business-profile.md) | You want customers to see your logo, description and address. |
 | [Add WhatsApp agents](add-whatsapp-agents.md) | Your team will answer chats. |

@@ -16,6 +16,8 @@ The Inbox is where your team chats with customers. You can reply, assign chats, 
 | Guide | Use it when |
 | --- | --- |
 | [Use the inbox](../use-whatsapp-inbox.md) | You reply to customers, assign chats or add notes. |
+| [Run several WhatsApp numbers](../run-multiple-whatsapp-numbers.md) | You have more than one number and want to see which one a chat is on. |
+| [Fix the 24-hour window error](../fix-24-hour-window-error.md) | A reply is refused although the chat shows time left. |
 | [Use the Board and List views](../inbox-board-and-list-views.md) | You want to see all chats sorted into lanes. |
 | [Handle store orders](../handle-orders-in-the-inbox.md) | A customer asks about an order and you want to act on it. |
 | [Send files and voice notes](../send-files-and-voice-notes.md) | You want to send a photo, a file, a voice note or an AI-written reply. |

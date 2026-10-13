@@ -5,7 +5,7 @@ description: Link your WhatsApp Business number to Ohanvi through Facebook, a ve
 
 # Connect your WhatsApp number
 
-Link your WhatsApp Business number to Ohanvi so you can message customers from the app. At the end, your number shows as connected, the WhatsApp **Dashboard** opens, and you can switch between numbers from **Configuration**.
+Link your WhatsApp Business number to Ohanvi so you can message customers from the app. At the end, your number shows as connected, the WhatsApp **Dashboard** opens, and you can run more than one number from **Configuration**.
 
 ## Before you start
 
@@ -25,7 +25,10 @@ Link your WhatsApp Business number to Ohanvi so you can message customers from t
     | --- | --- |
     | **New number** | You want to create and verify a new number through the Meta popup. |
     | **Verified number** | Your number is already verified on Meta. The access token is fetched for you. |
+    | **WhatsApp Business app** | You want to keep chatting from your phone. Ohanvi uses the same number for campaigns, bots and the shared inbox. |
     | **Cloud API credentials** | You already have a permanent access token and IDs from Meta. |
+
+To add a second or third number later, click **Add number** in **Configuration**. The same page and options open. See [Run several WhatsApp numbers](run-multiple-whatsapp-numbers.md).
 
 You can also start from your profile menu: click your initials, then **Settings** → **Connectors**, and click **Set up WhatsApp** on the **WhatsApp (Meta)** card.
 
@@ -93,19 +96,20 @@ Meta bills conversation charges separately. The Ohanvi platform fee applies to b
 ### Manage your numbers
 
 1. Click your initials in the bottom-left corner, then click **Settings**.
-2. Select **WhatsApp**, then **Configuration**. The top shows how many **Configurations**, **Connected numbers** and **Active now** you have. Each card shows the number, its **Phone ID** and **WABA**, and **Connected** or **Incomplete**. The number in use says **Currently active**.
+2. Select **WhatsApp**, then **Configuration**. The page title reads **WhatsApp numbers**. Each number is a row with a badge, its label, a **Default** tag on one number, the phone number and its quality rating.
 
-    ![Configuration with the counts, the search box and a connected number marked Currently active](../assets/screenshots/whatsapp-connect-1-configuration.png)
+    ![WhatsApp numbers with the list of numbers and the detail pane of the selected number](../assets/screenshots/whatsapp-numbers-1-list.png)
 
-3. Use the buttons on a card:
-    - **Switch to this** — make this number the active one. The active card shows **Currently active**.
-    - **Edit** — open **Edit Configuration** to change the name, token or IDs. Click **Save Configuration**.
-    - **Clone** — copy the configuration as a starting point.
-4. To add another number, click **Add Configuration** at the top right. The **Add Configuration** form opens for Cloud API details: **Configuration Name**, **Business Name**, **Display Phone Number**, **Access Token**, **Phone Number ID**, **WABA ID**, **Business ID** and **API Version**.
+3. Click a number to see its details on the right. Use the buttons at the top of the pane:
+    - **Make default** — send campaigns, broadcasts and first messages from this number. The default number shows **Default**.
+    - **Edit** — change the label, the badge colour, the name, the IDs or the token. Click **Save**.
+    - **Disconnect** — stop using this number in Ohanvi. Its chats stay in the inbox.
+4. To add another number, click **Add number** at the top right. The **Connect WhatsApp** page opens with the options above.
+5. If a number is in your WhatsApp Business Account and customers are writing to it but it is not connected, it shows under **In your WhatsApp account, not connected**. Click **Connect**, type a **Label** and click **Connect**. No codes or tokens are needed.
 
-    ![Add Configuration form with the Cloud API fields](../assets/screenshots/whatsapp-connect-2-add-configuration.png)
+The **Call settings** section of a number lets customers call it. It needs Calling API access approved by Meta first. See [Use WhatsApp Calling](whatsapp-calling.md).
 
-The **Voice Calling** section in **Edit Configuration** lets customers call your number. It needs Calling API access approved by Meta first. The screen lists the Meta steps under **Before this works: Meta setup checklist**.
+To run more than one number, see [Run several WhatsApp numbers](run-multiple-whatsapp-numbers.md).
 
 ## Video walkthrough
 
@@ -117,13 +121,14 @@ The **Voice Calling** section in **Edit Configuration** lets customers call your
 | --- | --- | --- |
 | **Facebook sign-up did not complete. Please try again.** | The Meta popup closed early or permissions were not granted. | Click **Continue with Facebook** again and finish every step in the popup. Allow popups for app.ohanvi.com. |
 | **Access token is required. Connect with Facebook or paste your Meta token.** | No token came back from Facebook, and none was pasted. | Finish the Facebook popup, or paste a permanent token. |
-| **Access token expired or revoked** on a Configuration card | The token was temporary or was removed in Meta. Messages and calls fail. | Click **Fix now**, then paste a fresh permanent token or reconnect with Facebook. |
+| **Access token expired or revoked** on a number | The token was temporary or was removed in Meta. Messages and calls fail. | Click **Fix now**, then paste a fresh permanent token or reconnect with Facebook. |
 | **Meta keeps rejecting this request** | The saved phone number is not in that WhatsApp Business account, or the wrong ID was saved. | Click **Edit phone number** and check the number and IDs. |
 | **WhatsApp broadcasting is restricted** | Meta has restricted the number. | Resolve it in Meta WhatsApp Manager, then click **Check status again**. |
 | **Connecting via Facebook is available on the web app.** | You are on mobile. | Use the web app, or enter your API credentials manually. |
 
 ## Related
 
+- [Run several WhatsApp numbers](run-multiple-whatsapp-numbers.md)
 - [Set up your WhatsApp business profile](whatsapp-business-profile.md)
 - [Move your number to Ohanvi](migrate-to-ohanvi.md)
 - [Read the WhatsApp dashboard](whatsapp-dashboard.md)

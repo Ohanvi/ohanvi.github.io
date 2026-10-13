@@ -98,7 +98,7 @@ Meta bills conversation charges separately. The Ohanvi platform fee applies to b
 1. Click your initials in the bottom-left corner, then click **Settings**.
 2. Select **WhatsApp**, then **Configuration**. The page title reads **WhatsApp numbers**. Each number is a row with a badge, its label, a **Default** tag on one number, the phone number and its quality rating.
 
-    ![WhatsApp numbers with the list of numbers and the detail pane of the selected number](../assets/screenshots/whatsapp-numbers-1-list.png)
+    <!-- SCREENSHOT TODO: add the image, then restore this line: ![WhatsApp numbers with the list of numbers and the detail pane of the selected number](../assets/screenshots/whatsapp-numbers-1-list.png) -->
 
 3. Click a number to see its details on the right. Use the buttons at the top of the pane:
     - **Make default** — send campaigns, broadcasts and first messages from this number. The default number shows **Default**.

@@ -49,7 +49,7 @@ On the **Docs** tab, click **Postman collection** and **Environment** to downloa
 
 ### Download the Tally scripts
 
-On the **Docs** tab, click **Tally scripts** to download 2 Windows scripts that send invoice PDFs from a folder. See [Send TallyPrime invoices on WhatsApp](../whatsapp/send-tally-invoices-on-whatsapp.md).
+On the **Docs** tab, click **Tally scripts** to download a zip with 2 Windows scripts that send invoice PDFs from a folder, and a TallyPrime add-on (`.tdl`) that fills in the PDF file name. See [Send TallyPrime invoices on WhatsApp](../whatsapp/send-tally-invoices-on-whatsapp.md).
 
 ### Rules to keep in mind
 

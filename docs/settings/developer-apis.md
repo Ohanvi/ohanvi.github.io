@@ -47,6 +47,12 @@ A successful call returns `{ "status": "success", "whatsappMessageId": "wamid…
 
 On the **Docs** tab, click **Postman collection** and **Environment** to download the two files. Import both into Postman, open the environment, paste your key into `apiKey`, and run any request under **1. Send Messages** or **2. Find / Read**. The key is added to every request for you.
 
+The collection also has a **3. Queued sends** folder. **Send PDF (template)** sends a PDF in the header of an approved template with a **Document** header: choose the file in the `file` field, set `pdfTemplateName` to your template and fill `v1`, `v2` for the template's body variables. **Message status** shows whether it was sent.
+
+### Download the Tally scripts
+
+On the **Docs** tab, click **Tally scripts** to download 2 Windows scripts that send invoice PDFs from a folder. See [Send TallyPrime invoices on WhatsApp](../whatsapp/send-tally-invoices-on-whatsapp.md).
+
 ### Rules to keep in mind
 
 - **Rate limit 60 req/min per user**
@@ -73,6 +79,7 @@ On the **Docs** tab, click **Postman collection** and **Environment** to downloa
 
 ## Related
 
+- [Send TallyPrime invoices on WhatsApp](../whatsapp/send-tally-invoices-on-whatsapp.md)
 - [Send a WhatsApp broadcast campaign](../whatsapp/send-broadcast-campaign.md)
 - [Create a WhatsApp message template](../whatsapp/create-message-template.md)
 - [Choose your own or Ohanvi's managed services](choose-connectors.md)

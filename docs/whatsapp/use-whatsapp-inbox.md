@@ -57,6 +57,20 @@ WhatsApp lets you send free-text messages for 24 hours after the customer's last
 2. To add more, click **Add to this message** and pick **Document**, **Photo or video**, **Template**, **Emoji**, **Bold**, **Italic** or **Schedule this reply**.
 3. Press Enter or click **Send Reply**.
 
+### Know which number you reply from
+
+If you run several WhatsApp numbers, every reply leaves from the number the customer last wrote to. You do not pick it. WhatsApp's 24-hour window belongs to one customer and one of your numbers, so a reply from any other number would be refused.
+
+1. Look at the chat header. It says which number the customer wrote to.
+2. Look at the small letter badge under each message. It shows the number the message came in on, or went out from. Hover it to read the label and the phone number, for example `Sales · +91 98100 45210`.
+3. Look above the composer. It reads **Replying from**, then the badge, the label and the number.
+
+    ![A chat with a letter badge under every message, the header naming the number the customer wrote to and Replying from above the composer](../assets/screenshots/whatsapp-numbers-4-inbox.png)
+
+The top of the inbox lists your numbers with their badges. A grey badge with `?` is a number that is not connected in Ohanvi.
+
+If the customer wrote to a number that is not connected, the composer is turned off and reads **This customer wrote to a number that isn't connected**. Click **Connect**, type a **Label** and click **Connect**. Then reply. See [Run several WhatsApp numbers](run-multiple-whatsapp-numbers.md).
+
 ### Reply after the 24-hour window closes
 
 When the window is closed, the composer shows **24-hour window closed**, how long ago the customer last replied, and **Only approved templates deliver now — a reply reopens the chat for 24 hours.**
@@ -118,7 +132,7 @@ To give the chat back to the queue without resolving it, click **Release this ch
     | **Off Hours Message** | Replies to the first message of a new conversation outside working hours. |
     | **Waiting for an Agent** | Tells a customer who writes again that the team has the chat. Sent at most once every 30 minutes, and never after an agent replies. |
     | **Escalate Unanswered Handoffs** | Routes a handed-off chat with no reply to another available agent, and alerts admins, managers and the assignee. Pick **Escalate after** 5 to 60 minutes. The default is 15 minutes. |
-    | **Working Hours** | Pick a **Timezone** and set hours per day, or mark a day **Closed**. |
+    | **Working Hours** | Pick a **Timezone** and set hours per day, or mark a day **Closed**. Each number can also have its own hours. See [Run several WhatsApp numbers](run-multiple-whatsapp-numbers.md). |
 
 4. Click **Save**. The message **Live chat settings saved.** appears.
 
@@ -160,6 +174,8 @@ From then on, a handed-off chat with no reply goes to an available agent again. 
 | Issue | Cause | Fix |
 | --- | --- | --- |
 | **This person has not messaged you in the last 24 hours, so WhatsApp only allows an approved template here — a normal message will not go through. Send a template instead.** | The 24-hour window is closed. | Click **Send Template** and send an approved template. |
+| The red message above appears but the chat header shows time left. | The customer wrote to a number that is not connected, so a reply cannot leave from it. | Connect that number. See [Reply says the 24-hour window is closed but the chat shows time left](fix-24-hour-window-error.md). |
+| **This customer wrote to a number that isn't connected** | The number the customer wrote to is not connected in Ohanvi. | Click **Connect** and name the number. |
 | **No approved templates found.** | You have no approved templates yet. | Create a template and wait for Meta's approval. See the [WhatsApp overview](index.md). |
 | You cannot type in a **Requesting** chat | These chats need an explicit takeover. | Click **Intervene** first. |
 | **No one to assign to yet — add agents under Manage → Team.** | No agents exist yet. | Add agents. See [Add WhatsApp agents](add-whatsapp-agents.md). |
@@ -168,6 +184,7 @@ From then on, a handed-off chat with no reply goes to an available agent again. 
 
 ## Related
 
+- [Run several WhatsApp numbers](run-multiple-whatsapp-numbers.md)
 - [Add WhatsApp agents](add-whatsapp-agents.md)
 - [Set up the WhatsApp AI agent](set-up-ai-agent.md)
 - [Manage WhatsApp contacts](manage-whatsapp-contacts.md)

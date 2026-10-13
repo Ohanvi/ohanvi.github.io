@@ -74,8 +74,8 @@ The card then reads **Request pending — our team will reach out**.
 
 8. Click **Save as Configuration**. The message **Configuration saved. Activate it from WhatsApp → Configuration.** appears.
 
-!!! warning "Activate the number after saving"
-    A saved configuration is not in use yet. Open **Settings** → **WhatsApp** → **Configuration** and click **Switch to this**. See [Connect your WhatsApp number](connect-whatsapp-number.md).
+!!! note "Check the number after saving"
+    A saved number appears in **Settings** → **WhatsApp** → **Configuration**. Your first number becomes the **Default**. Another number is connected as well, and replies to its chats leave from it. Click **Make default** on it only if campaigns should send from it. See [Run several WhatsApp numbers](run-multiple-whatsapp-numbers.md).
 
 ### Check your onboarding requests
 
@@ -90,11 +90,11 @@ The card then reads **Request pending — our team will reach out**.
 | **Could not submit the request. Please try again.** | The request did not reach Ohanvi. | Click **Submit Request** again. |
 | **Verification failed** | Meta rejected the token or the IDs. | Check the token, the WABA ID and the Phone Number ID. Then click **Verify with Meta** again. |
 | **Could not save the configuration. Please check the details.** | A field is wrong or empty. | Check every field and click **Save as Configuration** again. |
-| Messages still do not send after saving | The new configuration is not active. | Click **Switch to this** in **Configuration**. |
+| Campaigns still send from your old number after saving | Campaigns send from the Default number unless you pick another. | Click **Make default** on the new number in **Configuration**, or pick it under **Send from** in your campaign. |
 
 ## Related
 
 - [Connect your WhatsApp number](connect-whatsapp-number.md)
 - [Check connection health](check-connection-health.md)
-- [Edit a WhatsApp configuration](whatsapp-configuration-settings.md)
+- [Edit a WhatsApp number](whatsapp-configuration-settings.md)
 - [Webhooks and integrations](whatsapp-webhooks-and-integrations.md)

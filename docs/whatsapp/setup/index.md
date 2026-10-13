@@ -16,7 +16,8 @@ These screens are not in the WhatsApp panel. Click your initials at the bottom l
 | Guide | Use it when |
 | --- | --- |
 | [Connect your number](../connect-whatsapp-number.md) | You are setting up WhatsApp for the first time. |
-| [Edit a configuration](../whatsapp-configuration-settings.md) | You want to change a connected number's settings. |
+| [Run several WhatsApp numbers](../run-multiple-whatsapp-numbers.md) | You want more than one number, each with its own label and badge. |
+| [Edit a number](../whatsapp-configuration-settings.md) | You want to change a connected number's label, badge, IDs or token. |
 | [Business profile](../whatsapp-business-profile.md) | You want to change your picture, description or hours. |
 | [Move your number to Ohanvi](../migrate-to-ohanvi.md) | You are moving from another WhatsApp provider. |
 | [Add a chat button to your website](../add-website-chat-button.md) | You want a WhatsApp button on your site. |

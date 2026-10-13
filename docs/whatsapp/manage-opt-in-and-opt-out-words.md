@@ -5,7 +5,7 @@ description: Add your own words that opt customers out of or back into WhatsApp 
 
 # Manage opt-in and opt-out words
 
-Opt-in Management decides which words stop your messages and which words start them again. At the end, customers can opt out in their own language, and they get a clear reply when they do. Opt-outs are always handled for you. This page only lets you add more words.
+Opt-in Management decides which words stop your messages and which words start them again. At the end, customers can opt out in their own language, and they get a clear reply when they do. Opt-outs are always handled for you. This page only lets you add more words. Opt-out words used to be set in the number's configuration. They now live only here.
 
 ## Before you start
 

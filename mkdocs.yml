@@ -94,7 +94,8 @@ nav:
       - Set up:
           - whatsapp/setup/index.md
           - Connect your number: whatsapp/connect-whatsapp-number.md
-          - Edit a configuration: whatsapp/whatsapp-configuration-settings.md
+          - Run several WhatsApp numbers: whatsapp/run-multiple-whatsapp-numbers.md
+          - Edit a number: whatsapp/whatsapp-configuration-settings.md
           - Business profile: whatsapp/whatsapp-business-profile.md
           - Move your number to Ohanvi: whatsapp/migrate-to-ohanvi.md
           - Add a chat button to your website: whatsapp/add-website-chat-button.md
@@ -108,6 +109,7 @@ nav:
           - Handle store orders: whatsapp/handle-orders-in-the-inbox.md
           - Send files and voice notes: whatsapp/send-files-and-voice-notes.md
           - Use WhatsApp Calling: whatsapp/whatsapp-calling.md
+          - Fix the 24-hour window error: whatsapp/fix-24-hour-window-error.md
       - Campaign:
           - whatsapp/campaign/index.md
           - Send a broadcast campaign: whatsapp/send-broadcast-campaign.md

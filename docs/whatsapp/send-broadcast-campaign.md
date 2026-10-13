@@ -14,6 +14,13 @@ Send an approved template to one or more contact groups, or to a list you upload
 - You have credits. Every WhatsApp message is charged to your credits. See [Credits and billing](../credits-and-billing.md).
 - You can see **Campaign** in the **WhatsApp** panel. If not, ask your admin. See [Roles and permissions](../settings/roles-and-permissions.md).
 
+## How several numbers affect a campaign
+
+- The campaign sends from the number you pick under **Send from**. It starts on your **Default** number.
+- Templates belong to the WhatsApp Business Account, so every number in it can use the same approved templates.
+- When a customer replies, the chat stays on the campaign's number. Your team replies from that number automatically.
+- Each number has its own messaging limit. A number with a low limit shows a note. Larger audiences are spread over several days, or should use another number.
+
 ## How credits are charged
 
 - Each message is charged when WhatsApp confirms it was sent or delivered. The rate depends on the template's category and the recipient's country.
@@ -34,8 +41,9 @@ See [Low or empty credits](../billing/low-or-empty-credits.md) for what else sto
 
     ![New Campaign page on the Audience step, with Broadcast name, Contact groups and the Live preview](../assets/screenshots/whatsapp-broadcast-1-audience.png)
 3. Type a **Broadcast name**, for example `Diwali offer 2026`. Only your team sees it.
-4. Under **Contact groups**, tick 1 or more groups. Everyone opted in to those groups gets the message once, even if they are in 2 groups. Hover a group to see who is in it.
-5. Click **Continue**. The **Message** step opens.
+4. Under **Send from**, pick the number the campaign goes out from. It starts on your **Default** number. Each choice shows the badge, the label, the phone number and its messaging limit. See [Run several WhatsApp numbers](run-multiple-whatsapp-numbers.md).
+5. Under **Contact groups**, tick 1 or more groups. Everyone opted in to those groups gets the message once, even if they are in 2 groups. Hover a group to see who is in it.
+6. Click **Continue**. The **Message** step opens.
 
 !!! tip "Send to contacts you picked by hand"
     On the **Contact** page, select contacts and click **Send broadcast**. The composer opens with those contacts as the audience, and no contact group is needed.
@@ -152,6 +160,7 @@ A campaign marked **Automatic** sends itself to 1 customer at a time when an eve
 
 ## Related
 
+- [Run several WhatsApp numbers](run-multiple-whatsapp-numbers.md)
 - [Read a campaign report](read-campaign-report.md)
 - [Create a WhatsApp message template](create-message-template.md)
 - [Read Marketing Analytics](../analytics/read-marketing-analytics.md)

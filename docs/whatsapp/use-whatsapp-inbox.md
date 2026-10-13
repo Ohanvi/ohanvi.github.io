@@ -65,7 +65,7 @@ If you run several WhatsApp numbers, every reply leaves from the number the cust
 2. Look at the small letter badge under each message. It shows the number the message came in on, or went out from. Hover it to read the label and the phone number, for example `Sales · +91 98100 45210`.
 3. Look above the composer. It reads **Replying from**, then the badge, the label and the number.
 
-    ![A chat with a letter badge under every message, the header naming the number the customer wrote to and Replying from above the composer](../assets/screenshots/whatsapp-numbers-4-inbox.png)
+    <!-- SCREENSHOT TODO: add the image, then restore this line: ![A chat with a letter badge under every message, the header naming the number the customer wrote to and Replying from above the composer](../assets/screenshots/whatsapp-numbers-4-inbox.png) -->
 
 The top of the inbox lists your numbers with their badges. A grey badge with `?` is a number that is not connected in Ohanvi.
 

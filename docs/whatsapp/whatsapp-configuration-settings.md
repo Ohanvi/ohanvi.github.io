@@ -30,7 +30,7 @@ These settings used to sit in the configuration form. They now live in their own
 1. Click your initials in the bottom-left corner, then click **Settings**.
 2. Select **WhatsApp**, then **Configuration**. The page title reads **WhatsApp numbers**.
 
-    ![WhatsApp numbers with the list of numbers on the left and the detail pane on the right](../assets/screenshots/whatsapp-numbers-1-list.png)
+    <!-- SCREENSHOT TODO: add the image, then restore this line: ![WhatsApp numbers with the list of numbers on the left and the detail pane on the right](../assets/screenshots/whatsapp-numbers-1-list.png) -->
 
 3. Click the number in the list. Its details open on the right, with **Make default**, **Edit** and **Disconnect** at the top.
 
@@ -42,7 +42,7 @@ To add another number instead, click **Add number**. See [Connect your WhatsApp 
 2. In **Label**, type a name only your team sees, for example `Sales`. The first letter is the badge shown on every message in the inbox. It holds up to 30 characters.
 3. Under **Badge colour**, pick **blue**, **purple**, **teal**, **orange** or **gold**.
 
-    ![Edit window with the label, the badge preview, the badge colour choices and the number's IDs](../assets/screenshots/whatsapp-numbers-6-edit.png)
+    <!-- SCREENSHOT TODO: add the image, then restore this line: ![Edit window with the label, the badge preview, the badge colour choices and the number's IDs](../assets/screenshots/whatsapp-numbers-6-edit.png) -->
 
 Each number in your business needs its own label.
 

@@ -33,7 +33,7 @@ So Ohanvi always replies from the number the customer last wrote to. If the same
 1. Click your initials in the bottom-left corner, then click **Settings**.
 2. Select **WhatsApp**, then **Configuration**. The page title reads **WhatsApp numbers**.
 
-    ![WhatsApp numbers with the list of numbers on the left, the Default tag, quality rating and the detail pane on the right](../assets/screenshots/whatsapp-numbers-1-list.png)
+    <!-- SCREENSHOT TODO: add the image, then restore this line: ![WhatsApp numbers with the list of numbers on the left, the Default tag, quality rating and the detail pane on the right](../assets/screenshots/whatsapp-numbers-1-list.png) -->
 
 3. Read the list on the left. Each row shows the badge, the label, a **Default** tag on one number, the phone number and the number's quality rating.
 4. To find a number, type in **Search label or number**.
@@ -57,7 +57,7 @@ Sometimes a number is in your WhatsApp Business Account on Meta and customers ar
 2. Look for **In your WhatsApp account, not connected** in the list. The number has a **Receiving messages** tag.
 3. To see only these numbers, click **Not connected** above the list.
 
-    ![The list with a not connected number marked Receiving messages and a Connect button](../assets/screenshots/whatsapp-numbers-2-not-connected.png)
+    <!-- SCREENSHOT TODO: add the image, then restore this line: ![The list with a not connected number marked Receiving messages and a Connect button](../assets/screenshots/whatsapp-numbers-2-not-connected.png) -->
 
 4. Click **Connect** on the number. **Name this number** opens.
 5. In **Label**, type a name, for example `Sales`. The first letter becomes this number's badge on every message in the inbox.
@@ -77,7 +77,7 @@ Click a number in the list. The pane on the right has these parts.
 | **Working hours** | The opening hours of this number. |
 | **Call settings** | Whether customers can call this number. |
 
-![The detail pane of a number with Number details, IDs and connection, Working hours and Call settings](../assets/screenshots/whatsapp-numbers-3-details.png)
+<!-- SCREENSHOT TODO: add the image, then restore this line: ![The detail pane of a number with Number details, IDs and connection, Working hours and Call settings](../assets/screenshots/whatsapp-numbers-3-details.png) -->
 
 To refresh the facts from Meta, click the refresh button above the list. Its tooltip reads **Sync from Meta**.
 
@@ -143,7 +143,7 @@ In **Inbox**, every message carries a small badge with the first letter of a num
 5. Look at the chat header. It says which number the customer wrote to.
 6. Look above the composer. It reads **Replying from**, then the badge, the label and the number.
 
-![A chat with a letter badge under every message, the header naming the number the customer wrote to and Replying from above the composer](../assets/screenshots/whatsapp-numbers-4-inbox.png)
+<!-- SCREENSHOT TODO: add the image, then restore this line: ![A chat with a letter badge under every message, the header naming the number the customer wrote to and Replying from above the composer](../assets/screenshots/whatsapp-numbers-4-inbox.png) -->
 
 A grey badge with `?` means the number is not connected in Ohanvi. Its tooltip reads **Not connected in Ohanvi**.
 
@@ -165,7 +165,7 @@ WhatsApp delivers a reply only from the number the customer wrote to. If that nu
 3. Under **Send from**, pick the number. It starts on your **Default** number. Each choice shows the badge, the label, the phone number and the messaging limit.
 4. Check the note on the right. It names the number the campaign goes out from.
 
-    ![Send from with a list of numbers, the Default tag and each number's messaging limit](../assets/screenshots/whatsapp-numbers-5-send-from.png)
+    <!-- SCREENSHOT TODO: add the image, then restore this line: ![Send from with a list of numbers, the Default tag and each number's messaging limit](../assets/screenshots/whatsapp-numbers-5-send-from.png) -->
 
 5. Finish the campaign as usual. See [Send a WhatsApp broadcast campaign](send-broadcast-campaign.md).
 

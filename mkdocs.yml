@@ -99,6 +99,7 @@ nav:
           - Move your number to Ohanvi: whatsapp/migrate-to-ohanvi.md
           - Add a chat button to your website: whatsapp/add-website-chat-button.md
           - Webhooks, Developer API and BUSY: whatsapp/whatsapp-webhooks-and-integrations.md
+          - Send TallyPrime invoices on WhatsApp: whatsapp/send-tally-invoices-on-whatsapp.md
       - Dashboard: whatsapp/whatsapp-dashboard.md
       - Inbox:
           - whatsapp/inbox/index.md

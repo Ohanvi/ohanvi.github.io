@@ -33,6 +33,7 @@ Each product card shows its **Source**:
 1. Open **WhatsApp** in the left rail, then select **Catalog**. The **Catalog** page opens. The counts at the top show **Products**, **Ready to send**, **On Meta**, **Pending review**, **Rejected** and **Out of stock**.
 
     ![Catalog page with Sync from Meta, the search box, the product counts and the filter chips](../assets/screenshots/whatsapp-catalog-1-counts.png)
+
 2. Click **Sync from Meta**. The button shows **Syncing…** while it works.
 3. When it finishes, **Synced N product(s) from "…"** appears and the products fill the grid.
 

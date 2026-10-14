@@ -1,6 +1,6 @@
 ---
 title: Send TallyPrime invoices on WhatsApp
-description: Download two Windows scripts and a TallyPrime add-on that send each invoice PDF from a folder to your customer on WhatsApp through the Developer API, once on demand or every 2 minutes.
+description: Download two Windows scripts that send each invoice PDF from a folder to your customer on WhatsApp through the Developer API, once on demand or every 2 minutes.
 ---
 
 # Send TallyPrime invoices on WhatsApp
@@ -30,10 +30,10 @@ The template carries the PDF, so it reaches customers who have not messaged you 
 
 ### Name the PDF
 
-1. In TallyPrime, open the saved invoice and press **Ctrl+E**.
-2. Press **C** to open **Configure**. Set **File Format** to **PDF** and set the export folder to your **Incoming** folder.
-3. Type the file name as `ClientName_Mobile_InvoiceNo_DD-MM-YYYY.pdf`, for example `RameshTraders_9876543210_INV-186_12-10-2026.pdf`.
-4. Press **E** to export.
+1. In TallyPrime, open the saved invoice.
+2. Press **Ctrl+P** (Print) and choose **Save as PDF** [VERIFY: exact label in your TallyPrime version].
+3. Type the file name as `ClientName_Mobile_InvoiceNo_DD-MM-YYYY.pdf`, for example `Sanjay_9416388827_2026-27-045_13-10-2026.pdf`.
+4. Choose your **Incoming** folder and save.
 
 Follow these rules for the name:
 
@@ -42,7 +42,7 @@ Follow these rules for the name:
 - Write the invoice number with `-` instead of `/`, for example `INV-186`.
 - Write the date as `DD-MM-YYYY`.
 
-TallyPrime does not build this name by itself. Load the TDL add-on from the zip so TallyPrime fills the name for you. See [Let TallyPrime fill in the file name](#let-tallyprime-fill-in-the-file-name).
+TallyPrime does not build this name by itself. Type it when you save the PDF, and fill in the mobile number from the party's ledger.
 
 ### Download the scripts
 
@@ -50,34 +50,14 @@ TallyPrime does not build this name by itself. Load the TDL add-on from the zip 
 2. Open the **Docs** tab and click **Tally scripts**. A file named `Ohanvi-Tally-WhatsApp-Scripts.zip` downloads.
 3. Extract it into a folder on the Windows computer, for example `C:\TallyWhatsApp\`.
 
-The zip has 3 files:
+The zip has 2 files:
 
 | File | Use |
 | --- | --- |
 | `tally_run_now.bat` | Double-click to send everything in **Incoming** now. The window stays open and shows the result. |
 | `tally_send_invoices.bat` | Runs on a schedule, every 2 minutes. |
-| `OhanviWhatsAppInvoice.tdl` | A TallyPrime add-on that suggests the file name and saves the PDF with **Alt+W**. |
 
 Downloads work in the web app only.
-
-### Let TallyPrime fill in the file name
-
-The TDL add-on builds `ClientName_Mobile_InvoiceNo_DD-MM-YYYY.pdf` from the invoice, so you do not type it. It reads the party name, the **Mobile No.** in the party ledger, the voucher number and the date.
-
-1. Copy `OhanviWhatsAppInvoice.tdl` to the TallyPrime computer, for example `D:\TallyInvoices\TDL\`.
-2. In TallyPrime, press **F1** (Help), then open **Settings** and **Product & Features** [VERIFY: exact menu label].
-3. Open **Manage Local TDL**, set **Load TDL files on startup** to **Yes**, and enter the full path of the `.tdl` file.
-4. Restart TallyPrime. In **F1 → TDL & Add-On**, check that the file shows as loaded.
-
-Then, for each invoice, use one of these:
-
-- Press **Alt+W** on the invoice screen. TallyPrime saves the PDF in `D:\TallyInvoices\Incoming` with the correct name.
-- Press **Ctrl+P** and choose **Save as PDF**. The file name is already filled in. Check it, then save it in the **Incoming** folder.
-
-The add-on stops with a message if the party ledger has no 10-digit **Mobile No.** Add the number to the ledger and try again. To use another folder, change the `OhanviOutFolder` default at the top of the `.tdl` file.
-
-!!! note "Tested on your TallyPrime first"
-    The add-on depends on the TallyPrime version. [VERIFY: tested versions] If the key or the file name does not appear, send a screenshot of **F1 → TDL & Add-On** to Ohanvi support.
 
 ### Fill in the settings
 
@@ -136,7 +116,6 @@ The reply Ohanvi gave for each file is saved in `Logs\responses`.
 | The log says HTTP 402 | Pay as you go has used its monthly API messages. | Choose a plan to send more. |
 | The log says WhatsApp refused it | WhatsApp rejected the message, for example because the number is not on WhatsApp. | Read the reason in the log line and fix the number. |
 | The log says the API is not reachable | The computer is offline or `API_BASE_URL` is wrong. | Check the internet connection. The files stay in **Incoming** and are retried. |
-| The file name is not filled in, or **Alt+W** does nothing | The `.tdl` file is not loaded, or the TallyPrime version needs a change. | Check **F1 → TDL & Add-On**, then send a screenshot to support. |
 | **Tally scripts** does not download a file | Downloads work in the web app only. | Open Ohanvi in a browser. |
 
 ## Related

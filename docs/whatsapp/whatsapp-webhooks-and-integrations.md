@@ -77,25 +77,30 @@ BUSY → WhatsApp is one way. When BUSY sends an invoice message, Ohanvi deliver
 3. Set **Country code for 10-digit numbers**, for example `91`, and click **Save**.
 4. In **2. BUSY URL**, click **Generate URL**. **Your BUSY URL — copy it now** opens.
 5. Click **Copy URL**. Tick **I have pasted this URL into BUSY or stored it safely.** and click **Done**.
-6. In BUSY, go to **Administration** → **Configuration** → **WhatsApp/SMS Configuration** → **Add New Format**.
+6. In BUSY, open your company, then go to **Administration** → **Configuration** → **WhatsApp/SMS Configuration** → **Add New Format**. Use the main BUSY window, the one whose title starts with **Busy 21**, not the **BusyAgent** window.
 7. Enter the values from **3. Enter these in BUSY** exactly as shown:
 
     | BUSY field | Value |
     | --- | --- |
     | **Format Name** | `OHANVI_WA` (any name) |
-    | **Server** | **Service Provider Server** |
-    | **WhatsApp/SMS API** | The URL from step 5 |
+    | **Server** | **Service Provider Server**. Some BUSY versions do not show this field. Skip it then. |
+    | **WhatsApp/SMS API** | The URL from step 5, followed by `&receiverMobileNo=&message=` |
     | **User Name, Password, Senders ID** | Leave empty |
-    | **Mobile** | The parameter name Ohanvi shows, by default `receiverMobileNo` |
-    | **Message** | The parameter name Ohanvi shows, by default `message` |
+    | **Mobile** | Under **Parameter Name**, the name Ohanvi shows, by default `receiverMobileNo`. Leave **Parameter Value** empty. |
+    | **Message** | Under **Parameter Name**, the name Ohanvi shows, by default `message`. Leave **Parameter Value** empty. |
     | **No. of Other Parameters** | `0` |
     | **Treatment of Mobile Number** | Leave as it is |
-    | **Upload PDF** | Leave off until PDF is set up |
+    | **Upload PDF** or **Send PDF link for Invoice** | Leave off until PDF is set up |
+    | **Separate Internet Call for Each Number During Bulk SMS** | Ticked |
+    | **Number of Character Allowed per SMS** | `1000`, if BUSY lets you change it. The default `160` can cut an invoice message short. |
 
-    For payment confirmations, also turn on **Send SMS after saving** for Receipt vouchers. For bulk payment reminders, tick **Separate Internet Call for Each Number During Bulk SMS**. Parameter names are case-sensitive.
+    Parameter names are case-sensitive. BUSY checks that each parameter name is in the URL, which is why the URL ends with `&receiverMobileNo=&message=`. Click **Save**. BUSY clears the form and lists your format by name.
 
-8. In **4. Test**, type a number in **Send a test to** and click **Send test**. **Test message queued. Its status appears under Recent activity.** appears.
-9. Send a real invoice from BUSY. Check that it appears under **Recent activity**.
+8. Tell BUSY to send after each invoice. Go to **Administration** → **Configuration** → **Voucher Series Configuration**. Expand **Sales**, select your series, for example **Main**, and click **Voucher Configuration**.
+9. Set **Send SMS After Saving** to **Y**. In **SMS Details**, keep **Send to Party** at **Y** and click **Save**. Click **Save** again on **Voucher Series Configuration**. For payment confirmations, do the same for **Receipt**.
+10. Check that each party who should get the message has a mobile number in its account master. In **Mobile No.**, type the 10-digit number. In **WhatsApp No.**, type it with the country code and no `+`, for example `919876543210`.
+11. In **4. Test**, type a number in **Send a test to** and click **Send test**. **Test message queued. Its status appears under Recent activity.** appears.
+12. Send a real invoice from BUSY to a test party with your own number. Check that it appears under **Recent activity**. Delete the test invoice and party afterwards so they do not stay in your books.
 
 The test from Ohanvi only checks Ohanvi's side. Only a real send from BUSY proves BUSY is set up.
 
@@ -123,6 +128,10 @@ To replace the URL, click **Create new URL**, then **Create new URL** again in t
 | **No approved template qualifies yet. Create one under WhatsApp → Templates.** | No approved template has exactly 1 `{{1}}` variable. | Create one, for example `Message from Sharma Traders: {{1}} Thank you.`, and wait for **Approved**. |
 | **Connect a WhatsApp number first (WhatsApp → Configuration).** | No WhatsApp number is connected. | Connect your number, then open **BUSY** again. |
 | **BUSY has not called this URL yet.** | BUSY is not using the URL yet. | Check the values in BUSY's WhatsApp/SMS Configuration, then send an invoice from BUSY. |
+| BUSY says **Mobile Parameter name not found in specified API.** when you save the format | The URL does not contain the parameter names. | Add `&receiverMobileNo=&message=` to the end of the URL, with no spaces, then save. |
+| Nothing reaches **Recent activity** after an invoice | The URL was changed while pasting, or **Send SMS After Saving** is off for the series. | Paste the URL again instead of typing it. It must start with `https://app-server.ohanvi.com` and contain `/send?apiKey=`. Then check the series in **Voucher Series Configuration**. |
+| BUSY shows **Service Not Running** or **Error starting SameSeries service** when it opens | A BUSY background service for its mobile app is not running. | Click **OK**. It does not affect WhatsApp messages. |
+| BUSY's **WhatsApp/SMS Configuration** screen says the feature needs an active subscription | Your BUSY License Subscription has ended. | Renew it in BUSY. The date shows in BUSY's title bar as **BLS upto**. |
 
 ## Related
 

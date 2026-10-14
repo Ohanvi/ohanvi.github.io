@@ -40,6 +40,7 @@ See [Low or empty credits](../billing/low-or-empty-credits.md) for what else sto
 2. Click **New Campaign**. The **New Campaign** page opens on the **Audience** step, with a **Live preview** beside it.
 
     ![New Campaign page on the Audience step, with Broadcast name, Contact groups and the Live preview](../assets/screenshots/whatsapp-broadcast-1-audience.png)
+
 3. Type a **Broadcast name**, for example `Diwali offer 2026`. Only your team sees it.
 4. Under **Send from**, pick the number the campaign goes out from. It starts on your **Default** number. Each choice shows the badge, the label, the phone number and its messaging limit. See [Run several WhatsApp numbers](run-multiple-whatsapp-numbers.md).
 5. Under **Contact groups**, tick 1 or more groups. Everyone opted in to those groups gets the message once, even if they are in 2 groups. Hover a group to see who is in it.

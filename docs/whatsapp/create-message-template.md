@@ -52,6 +52,7 @@ Some **Template type** choices fix the category for you. **Carousel**, **Catalog
 2. Click **New template**. The **Add Template** form opens, with a **Template Preview** beside it.
 
     ![Add Template form filled in for demo_booking_confirmation, with the Template Preview on the right](../assets/screenshots/whatsapp-template-1-add-template.png)
+
 3. Choose your **Organization**, if you have more than 1.
 4. Choose a **Template type**. The hint under the field says what each type does.
 5. Choose a **Template Category**: **UTILITY**, **MARKETING** or **AUTHENTICATION**.
@@ -161,6 +162,7 @@ Approved templates can also show a quality rating: **High quality**, **Medium qu
 1. Open the **Action Required** tab and click the template. The **Rejection reason** shows under the preview, in Meta's own words, for example `INVALID_FORMAT`.
 
     ![Action Required tab with a rejected template and its Rejection reason under the preview](../assets/screenshots/whatsapp-template-6-rejection-reason.png)
+
 2. Match the reason to the table below and change the template.
 3. Click **Edit**, make the change, then click **Save Changes**. The template is submitted to Meta again.
 

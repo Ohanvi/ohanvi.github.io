@@ -49,7 +49,7 @@ On the **Docs** tab, click **Postman collection** and **Environment** to downloa
 
 ### Download the Tally scripts
 
-On the **Docs** tab, click **Tally scripts** to download a zip with 2 Windows scripts that send invoice PDFs from a folder, and a TallyPrime add-on (`.tdl`) that fills in the PDF file name. See [Send TallyPrime invoices on WhatsApp](../whatsapp/send-tally-invoices-on-whatsapp.md).
+On the **Docs** tab, click **Tally scripts** to download 2 Windows scripts that send invoice PDFs from a folder. See [Send TallyPrime invoices on WhatsApp](../whatsapp/send-tally-invoices-on-whatsapp.md).
 
 ### Rules to keep in mind
 
@@ -57,7 +57,6 @@ On the **Docs** tab, click **Tally scripts** to download a zip with 2 Windows sc
 - **Charged on delivery**
 - **Recipients in E.164 (8–15 digits)** — include the country code, for example +919876543210.
 - **Templates open conversations outside the 24-hour window** — use **Text** only within 24 hours of the customer's last message. See [Create a WhatsApp message template](../whatsapp/create-message-template.md).
-- **Pay as you go includes 100 API messages a month.** From the 101st you need one of our plans, and a plan has no cap.
 - **A utility template sent through the API costs Meta's rate plus 8 paise** from your credits.
 
 ## Video walkthrough
@@ -69,7 +68,6 @@ On the **Docs** tab, click **Tally scripts** to download a zip with 2 Windows sc
 | Issue | Cause | Fix |
 | --- | --- | --- |
 | Calls fail with 401 | The key is missing, wrong, revoked or expired, or a login token was sent instead of a key. | Send the key in the `X-Api-Key` header. If it was revoked, create a new key. |
-| Calls fail with 402 | Pay as you go has used its 100 API messages this month. | Choose a plan to send more. |
 | A text message is not delivered | The customer has not messaged you in the last 24 hours. | Send an approved **Template** instead. |
 | Calls are rejected when you send many at once | You passed 60 requests per minute for this user. | Slow down, or spread the load across time. |
 | **Postman collection** does not download a file | Downloads work in the web app only. | Open Ohanvi in a browser, or copy the request bodies from the **Docs** tab. |

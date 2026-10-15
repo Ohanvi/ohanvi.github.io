@@ -11,7 +11,7 @@ Email lets you send campaigns and automated emails to your contacts. Verify a se
 
 Open **Email** in the left rail (hover title **Email Marketing**). The panel lists:
 
-**Campaigns**, **Flows**, **Audience**, **Email Templates** and **Manage**. **Manage** holds **Scheduler**, **Business Holidays**, **Sender Identities**, **Email Sending Server**, **Send Logs**, **Suppression List** and **Topics**. Build forms under **Forms** in the left rail.
+**Campaigns**, **Flows**, **Audience**, **Email Templates** and **Manage**. **Manage** holds **Scheduler**, **Business Holidays**, **Sender Identities**, **Email Sending Server**, **Send Logs**, **Suppression List**, **Email Whitelist** and **Topics**. Build forms under **Forms** in the left rail.
 
 Your own email provider is connected under **Connect** → **Email Provider** in the left rail.
 

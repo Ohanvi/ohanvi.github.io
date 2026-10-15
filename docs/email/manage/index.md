@@ -21,6 +21,7 @@ Open **Email** in the left rail, then select **Manage**.
 | [Email Sending Server](../connect-email-provider.md) | You connect your own provider. |
 | [Send Logs](../read-send-logs.md) | You check each recipient. |
 | [Suppression List](../use-the-suppression-list.md) | You block addresses. |
+| [Email Whitelist](../use-the-email-whitelist.md) | You check which addresses are confirmed deliverable. |
 | [Topics](../manage-email-topics.md) | You group email by subject. |
 
 ## Before you start

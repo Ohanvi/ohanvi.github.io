@@ -5,7 +5,7 @@ description: Keep every customer, lead, company and deal in one place, and track
 
 # CRM and contacts
 
-The CRM holds everyone you talk to and every deal you work on. **Contacts** stores the people. **CRM** tracks the companies, deals, activities and sales numbers built on them.
+The CRM holds everyone you talk to and every deal you work on. **Contacts** stores the people. **CRM** follows each sale from lead to deal to won or lost, on stages you name yourself.
 
 ![CRM Deals in Board view, with deals in the New, Paid / Fulfilled and Cancelled / Refunded stages and the quick filters](../assets/screenshots/crm-deals-1-board.png)
 
@@ -16,14 +16,16 @@ CRM spans two icons in the left rail:
 | Rail icon | Panel items |
 | --- | --- |
 | **Contacts** | **All contacts**, **Leads**, **Contact groups** · under **Data**: **Import & sync**, **Custom fields** · under **Governance**: **Consent & compliance** |
-| **CRM** | **Dashboard** · **Deals**, **Accounts** · **Campaigns**, **Automations** · **Funnel**, **Forecast** |
+| **CRM** | **Leads**, **Deals** · **Campaigns** · **Funnel** |
 
 Some CRM screens are not in the panel:
 
-- **Deal Board** — the **List | Board** toggle on **Deals**.
+- **Boards** — the **List | Board** toggle on **Leads**, **Deals** and **Campaigns**.
+- **Stages & fields** — the **Stages & fields** button on each board.
+- **Import** — the **Import** button on **Leads** and **Deals**.
 - **Campaign Templates** — the **Templates** button on **Campaigns**.
 - **Sales Quotas** — **Manage quotas** on **Forecast**.
-- **Activities**, **Activity Calendar**, **Notes** and **Sales reports** — type the name in the search box at the top, or press **Ctrl+K** (**⌘K** on Mac) and pick it from **Go to…**.
+- **Dashboard**, **Accounts**, **Automations**, **Forecast**, **Activities**, **Activity Calendar**, **Notes** and **Sales reports** — type the name in the search box at the top, or press **Ctrl+K** (**⌘K** on Mac) and pick it from **Go to…**.
 - **Pipelines**, **Lead Sources** and **Products** — click your initials bottom-left, then **Settings** → **CRM**.
 
 ## Before you start
@@ -57,8 +59,11 @@ See [CRM](sales/index.md) for every guide in this part.
 
 | Guide | Use it when |
 | --- | --- |
-| [Read the CRM dashboard](track-sales-performance.md) | You want your open pipeline, wins and the deals going cold. |
+| [Move leads through your stages](move-leads-through-stages.md) | You want to work leads stage by stage and convert the ready ones into deals. |
 | [Create and manage deals](manage-deals.md) | You want to add a deal, move it through stages and close it. |
+| [Set up stages and fields](set-up-stages-and-fields.md) | You want your own stages and the extra fields your team fills in. |
+| [Import leads and deals](import-leads-and-deals.md) | You have leads or deals in an Excel or CSV file. |
+| [Read the CRM dashboard](track-sales-performance.md) | You want your open pipeline, wins and the deals going cold. |
 | [Add and manage accounts](manage-accounts.md) | You want to track the companies you sell to. |
 | [Log activities and notes](log-activities-and-notes.md) | You want to plan calls and meetings and keep notes on a contact or deal. |
 | [Track campaigns and campaign templates](track-campaigns.md) | You want to record a campaign, its audience and its results. |

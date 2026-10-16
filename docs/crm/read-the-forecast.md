@@ -9,7 +9,7 @@ See how much your open deals are likely to bring in, and how that compares with 
 
 ## Before you start
 
-- You can see **CRM** in the left rail with **Forecast** in its panel. It needs access to the CRM reports. If you do not see it, ask your admin.
+- Your role can open **Forecast** in **CRM**. Find it with **Ctrl + K**. It needs access to the CRM reports. If you do not see it, ask your admin.
 - Your deals have stages, amounts and expected close dates. The figures come from them. See [Create and manage deals](manage-deals.md).
 - For the quota figures, set quotas first. See [Set sales quotas](set-sales-quotas.md).
 
@@ -17,7 +17,7 @@ See how much your open deals are likely to bring in, and how that compares with 
 
 ### Open the forecast
 
-1. Open **CRM** in the left rail, then select **Forecast**.
+1. Press **Ctrl + K**, type `Forecast` and press **Enter**. **Forecast** is not in the CRM panel.
 
 ### Read the three figures
 

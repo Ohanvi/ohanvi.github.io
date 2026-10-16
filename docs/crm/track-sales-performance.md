@@ -9,14 +9,14 @@ Read how your pipeline is doing today. At the end, you can read the open pipelin
 
 ## Before you start
 
-- You can see **CRM** in the left rail with **Dashboard** in its panel. It needs access to the CRM reports. If you do not see it, ask your admin.
+- Your role can open **Dashboard** in **CRM**. Find it with **Ctrl + K**. It needs access to the CRM reports. If you do not see it, ask your admin.
 - Your deals have stages, amounts and expected close dates. The figures are worked out from them. See [Create and manage deals](manage-deals.md).
 
 ## Steps
 
 ### Read the Dashboard
 
-1. Open **CRM** in the left rail, then select **Dashboard**.
+1. Press **Ctrl + K**, type `Dashboard` and press **Enter**. **Dashboard** is not in the CRM panel.
 2. Read the figures across the top:
     - **Open pipeline** — the value of all open deals.
     - **Closing this week** — open deals with an expected close date in the next 7 days.

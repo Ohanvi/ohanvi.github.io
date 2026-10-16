@@ -12,12 +12,14 @@ Add the sales you are working on as deals, move each one through your pipeline s
 - You can see **CRM** in the left rail, with **Deals** in its panel. If not, ask your admin for CRM access.
 - Optional: a pipeline with stages exists. If none does, Ohanvi creates a default **Sales Pipeline** with your first deal. See [Set up pipelines, lead sources and products](set-up-pipelines.md).
 - Optional: the company is saved as an account. See [Add and manage accounts](manage-accounts.md).
+- Optional: your deal stages match how you sell. See [Set up stages and fields](set-up-stages-and-fields.md).
+- Optional: you have many deals in a file. See [Import leads and deals](import-leads-and-deals.md).
 
 ## Steps
 
 ### Add a deal
 
-1. Open **CRM** in the left rail, then select **Deals**.
+1. Open **CRM** in the left rail, then select **Deals**. The screen opens on **List**.
 2. Click **Add deal** at the top right. The **Add Deal** form opens.
 3. In **Deal Name**, type a name, for example `Acme ERP rollout`.
 4. Pick the **Account** and the **Contact** the deal is with. Both are optional.
@@ -33,6 +35,10 @@ Add the sales you are working on as deals, move each one through your pipeline s
 
 The deal's probability comes from its stage. Its expected revenue is the amount multiplied by that probability.
 
+A new deal gets a follow-up task for its owner, due in 2 days. You do not need to add it yourself.
+
+To add a deal straight into a stage, click **Board**, point at an open stage's column and click **Add deal** at its foot.
+
 ### Find deals in the list
 
 1. On **Deals**, keep **List** selected at the top.
@@ -45,10 +51,16 @@ The deal's probability comes from its stage. Its expected revenue is the amount 
 
 ### Move deals on the board
 
-1. On **Deals**, click **Board**. Each stage is a column of deal cards.
+1. On **Deals**, click **Board**. Each stage is a column of deal cards, with the stage's deal count and total value at the top.
 2. If you have more than 1 pipeline, pick one from the **Pipeline** menu.
-3. Press and hold a card, then drag it to another stage. The deal moves and its probability changes to the new stage's.
-4. Click a card to open the deal's full record.
+3. Drag a card to another stage. The deal moves and its probability changes to the new stage's.
+4. To move without dragging, right-click a card and pick a stage under **Move to**.
+5. To find a deal, type in **Search deals**. The search looks through every deal in the pipeline, not only the cards on screen.
+6. Click a card to open the deal's full record.
+
+A column shows 20 cards at a time. Scroll down the column and the next 20 load by themselves.
+
+When a deal moves into an open stage with nothing planned, it gets a next-step task. To rename stages or add columns, click **Stages & fields** on the board. See [Set up stages and fields](set-up-stages-and-fields.md).
 
 **Priority** lists deals that are **Overdue** or **Closing Soon**. **Follow-ups** lists follow-ups that are due.
 
@@ -70,6 +82,8 @@ The full record has the tabs **Overview**, **Stage History**, **Notes & Activiti
 
 On the board, dragging a card into the **Lost** column asks for the same reason.
 
+A won deal turns its account from **Prospect** into **Customer**, and its contact into a customer.
+
 !!! warning "Loss reason is required"
     A deal cannot be closed as lost without a loss reason. Ohanvi uses it to show where deals die on the **Dashboard**.
 
@@ -85,11 +99,14 @@ On the board, dragging a card into the **Lost** column asks for the same reason.
 | **Loss reason is required when a deal is lost.** | You moved a deal to a lost stage without a reason. | Pick a **Loss Reason** in the window that opens. |
 | **No LOST stage configured for this deal's pipeline** | The pipeline has no stage with the **LOST** category (or no **WON** stage for a win). | Add one. See [Set up pipelines, lead sources and products](set-up-pipelines.md). |
 | **No pipeline configured** on **Deal Board** | No pipeline exists yet. | Create one, or add a deal and let Ohanvi create the default pipeline. |
-| A card does not move when you drag it | The drag starts only after a short press. | Press and hold the card for a moment, then drag. |
+| A card does not move when you drag it on a phone or tablet | On touch screens the drag starts only after a short press. | Press and hold the card for a moment, then drag. Or right-click it and use **Move to**. |
+| A column shows fewer cards than its count | A column loads 20 cards at a time. | Scroll down the column. The next cards load as you reach the end. |
 | **Probability must be between 0 and 100.** | A probability outside 0–100 was entered. | Enter a number from 0 to 100. |
 
 ## Related
 
+- [Move leads through your stages](move-leads-through-stages.md)
+- [Import leads and deals](import-leads-and-deals.md)
 - [Set up pipelines, lead sources and products](set-up-pipelines.md)
 - [Add and manage accounts](manage-accounts.md)
 - [Log activities and notes](log-activities-and-notes.md)

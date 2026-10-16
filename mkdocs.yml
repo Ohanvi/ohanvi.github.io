@@ -74,15 +74,19 @@ nav:
           - Consent and compliance: crm/consent-and-compliance.md
       - CRM:
           - crm/sales/index.md
-          - Dashboard: crm/track-sales-performance.md
+          - Leads: crm/move-leads-through-stages.md
           - Deals: crm/manage-deals.md
-          - Accounts: crm/manage-accounts.md
-          - Activities and notes: crm/log-activities-and-notes.md
           - Campaigns: crm/track-campaigns.md
-          - Automations: crm/manage-automations.md
           - Funnel: crm/read-the-funnel.md
-          - Forecast: crm/read-the-forecast.md
-          - Sales reports: crm/run-sales-reports.md
+          - Stages and fields: crm/set-up-stages-and-fields.md
+          - Import leads and deals: crm/import-leads-and-deals.md
+          - More screens:
+              - Dashboard: crm/track-sales-performance.md
+              - Accounts: crm/manage-accounts.md
+              - Activities and notes: crm/log-activities-and-notes.md
+              - Automations: crm/manage-automations.md
+              - Forecast: crm/read-the-forecast.md
+              - Sales reports: crm/run-sales-reports.md
           - Configure:
               - crm/configure/index.md
               - Pipelines: crm/set-up-pipelines.md

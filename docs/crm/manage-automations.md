@@ -9,13 +9,13 @@ See every background rule that acts on your leads and deals, such as nudging a l
 
 ## Before you start
 
-- You can see **CRM** in the left rail, with **Automations** in its panel. This item needs access to automation flows. If you do not see it, ask your admin.
+- Your role can open **Automations** in **CRM**. Find it with **Ctrl + K**. This item needs access to automation flows. If you do not see it, ask your admin.
 
 ## Steps
 
 ### Check your rules
 
-1. Open **CRM** in the left rail, then select **Automations**.
+1. Press **Ctrl + K**, type `Automations` and press **Enter**. **Automations** is not in the CRM panel.
 2. Read each rule's card. It shows what starts the rule (**When**), any conditions (**And**) and what it does (**Then**).
 3. Read the status line under the name:
     - **Draft — not running yet** — the rule is not published.

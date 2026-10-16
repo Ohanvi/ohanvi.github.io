@@ -9,13 +9,13 @@ Save the companies you sell to as accounts, so their contacts and deals hang tog
 
 ## Before you start
 
-- You can see **CRM** in the left rail, with **Accounts** in its panel. If not, ask your admin for CRM access.
+- Your role can open **Accounts** in **CRM**. Find it with **Ctrl + K**. If not, ask your admin for CRM access.
 
 ## Steps
 
 ### Add an account
 
-1. Open **CRM** in the left rail, then select **Accounts**.
+1. Press **Ctrl + K**, type `Accounts` and press **Enter**. **Accounts** is not in the CRM panel.
 2. Click **Add account** at the top right. The **Add Account** form opens.
 3. Under **Basic Information**, type the **Account Name**. It is the only required field.
 4. Pick an **Account Type**: **PROSPECT**, **CUSTOMER**, **PARTNER**, **VENDOR** or **OTHER**. It defaults to **PROSPECT**.

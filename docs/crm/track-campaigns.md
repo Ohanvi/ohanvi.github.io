@@ -19,7 +19,7 @@ Record a marketing campaign in the CRM, with its dates, costs and expected reven
 
 ### Create a campaign
 
-1. Open **CRM** in the left rail, then select **Campaigns**.
+1. Open **CRM** in the left rail, then select **Campaigns**. The screen opens on **List**.
 2. Click **New Campaign** at the top right. The **New Campaign** window opens on **Campaign Details**.
 3. In **Campaign Name \***, type a name, for example `Diwali offer 2026`.
 4. Pick a **Type**, for example **WHATSAPP**, **EMAIL** or **EVENT**.
@@ -42,6 +42,21 @@ Optional: under **Mode**, pick **Broadcast** or **Reply**, and click **Attach Fi
 1. On **Campaigns**, click a campaign in the list.
 2. Read the tabs **Overview**, **Recipients** and **Diagnostics**.
 3. Use the toolbar: **Recipients** to change members, **Edit** to change details, **Message** to preview the linked template.
+
+### Move campaigns on the board
+
+1. On **Campaigns**, click **Board**. Each of your campaign statuses is a column, with its campaign count at the top.
+2. Drag a card to another status, or right-click it and pick a status under **Move to**.
+3. A column that will not take the card says why while you hold the card over it. A campaign moves only forward through its life:
+    - **Draft** → **Scheduled**, **Active** or **Cancelled**
+    - **Scheduled** → **Active**, **Draft** or **Cancelled**
+    - **Active** → **Completed** or **Cancelled**
+4. Moving a campaign to **Active** asks **Start "…"?** first. Click **Start campaign** to go on.
+5. Click a card to open its report on **List**.
+
+A column shows 20 cards at a time. Scroll down the column and the next 20 load by themselves. **Completed** and **Cancelled** campaigns cannot be moved.
+
+A scheduled campaign goes **Active** on its start date by itself. An active campaign is marked **Completed** the day after its end date. To rename statuses or add your own fields, click **Stages & fields** on the board. See [Set up stages and fields](set-up-stages-and-fields.md).
 
 !!! warning "Deleting a campaign"
     **Delete** removes the campaign and its member list. This cannot be undone. An **ACTIVE** campaign cannot be deleted. Complete or cancel it first.
@@ -78,6 +93,7 @@ Use **Preview**, **Duplicate**, **Edit** and **Delete** on each template. Filter
 ## Related
 
 - [Create and manage deals](manage-deals.md)
+- [Set up stages and fields](set-up-stages-and-fields.md)
 - [Track sales performance](track-sales-performance.md)
 - [Email overview](../email/index.md)
 - [CRM overview](../crm/index.md)

@@ -9,14 +9,14 @@ Give each salesperson a monthly sales target, then check how close they are. At 
 
 ## Before you start
 
-- You can see **CRM** in the left rail with **Forecast** in its panel.
+- Your role can open **Forecast** in **CRM**. Find it with **Ctrl + K**.
 - You know the owner's username, the month and the target amount.
 
 ## Steps
 
 ### Open Sales Quotas
 
-1. Open **CRM** in the left rail, then select **Forecast**.
+1. Press **Ctrl + K**, type `Forecast` and press **Enter**. **Forecast** is not in the CRM panel.
 2. Click **Manage quotas**. The **Sales Quotas** list opens.
 
 You can also press **Ctrl K** (**⌘K** on a Mac), type **Sales Quotas**, and select it.

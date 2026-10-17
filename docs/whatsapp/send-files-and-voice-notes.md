@@ -17,7 +17,7 @@ Add more than text to a reply in the WhatsApp inbox. At the end, you can send a 
 
 | Layout | Where you find them |
 | --- | --- |
-| Computer | The toolbar above the reply box has **Saved replies**, **Emoji**, **Voice note**, **Rephrase with AI** and **Help me write**. Click **Add to this message** for **Document**, **Photo or video**, **Template**, **Emoji**, **Bold**, **Italic**, **Strikethrough** and **Schedule this reply**. |
+| Computer | The toolbar above the reply box has **Saved replies**, **Emoji**, **Speak and translate** (the microphone), **Rephrase with AI** and **Help me write**. Click **Add to this message** for **Document**, **Photo or video**, **Template**, **Emoji**, **Bold**, **Italic**, **Strikethrough** and **Schedule this reply**. |
 | Phone | The toolbar scrolls sideways. It has **Attach a document**, **Record a voice message**, **Attach an image**, **Emoji**, **Quick replies ("/")**, **Send a template**, **Bold**, **Rephrase with AI** and **Help me write**. The **More** menu holds **Strikethrough**, **Voice to text** and **Schedule this reply**. |
 
 ## Steps
@@ -57,16 +57,13 @@ The voice message goes to the customer as a WhatsApp audio message.
 
 ### Speak a reply instead of typing it
 
-1. On a computer, click the microphone in the toolbar. Its tooltip is **Voice note**. On a phone, tap **More**, then **Voice to text**.
+1. On a computer, click the microphone in the toolbar. Its tooltip is **Speak and translate**. On a phone, tap **More**, then **Voice to text**.
 2. Allow the microphone if your browser asks.
-3. Speak. The words appear in the reply box at the cursor.
-4. Click the microphone again, or **Stop listening** in **More**, to stop.
+3. Speak, then click **Stop**. On a phone, tap **More**, then **Stop and translate**.
+4. Read the text in the reply box. It is written in the language set under **Write in**, and can be translated for the customer.
 5. Edit the text, then click **Send Reply**.
 
-This types your words. It does not send audio.
-
-!!! note "Browser support"
-    Speaking a reply works in browsers that support speech input. Others show **Voice input is not supported in this browser.**
+This types your words. To send them as a voice note in the customer's language, or to change the languages, see [Speak and translate in the inbox](speak-and-translate-in-the-inbox.md).
 
 ### Draft a reply with AI
 
@@ -103,7 +100,6 @@ With an empty reply box, **Rephrase with AI** does nothing.
 | **Recording failed.** | The recording stopped with an error. | Record again. |
 | **Upload failed — the voice message wasn't sent.** | The clip did not upload. | Check your connection, then record again. |
 | **The voice message could not be sent. Please try again.** | WhatsApp refused the audio message. | Try again. |
-| **Voice input is not supported in this browser.** | Your browser has no speech input. | Use another browser, or type the reply. |
 | **Rephrase with AI** or **Help me write** shows an error | The AI provider did not answer. | Try again. If it keeps failing, ask your admin. |
 
 ## Related
@@ -111,4 +107,5 @@ With an empty reply box, **Rephrase with AI** does nothing.
 - [Use the WhatsApp inbox](use-whatsapp-inbox.md)
 - [Use the inbox Board and List views](inbox-board-and-list-views.md)
 - [Create canned messages](create-canned-messages.md)
+- [Speak and translate in the inbox](speak-and-translate-in-the-inbox.md)
 - [Set up the WhatsApp AI agent](set-up-ai-agent.md)

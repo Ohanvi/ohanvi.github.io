@@ -28,6 +28,18 @@ When a customer messages you, WhatsApp opens a 24-hour window. From **1 October 
 !!! note "This is Meta's charge, not ours"
     These charges are Meta's. We add **no markup** on them: the amount taken from your credits is Meta's rate and nothing more. If a bot sends the message, your plan's **automated message** allowance and rate still apply as they do today.
 
+## AI in the inbox
+
+**Speak and translate** in the WhatsApp inbox takes these amounts from your credits:
+
+| Action | What is charged |
+| --- | --- |
+| **Speech** (speaking a reply) | **₹1.50** per started minute of recording. |
+| **Voice note** (your reply spoken back in the customer's language) | **1.5 paise** per character, charged when the voice note is made, even if you discard the preview. |
+| **Text translation** | **20 paise** each: a draft, or a message into one language. A message is charged the first time only; reopening it is free for your whole team. |
+
+Nothing is charged when no speech is heard, when the AI fails, or when the text is already in that language. Rates can differ on custom plans. See [Speak and translate in the inbox](whatsapp/speak-and-translate-in-the-inbox.md).
+
 ## Before you start
 
 - You are signed in to Ohanvi. See [Sign in to Ohanvi](sign-in.md).

@@ -232,6 +232,7 @@ nav:
           - Email Sending Server: email/connect-email-provider.md
           - Send Logs: email/read-send-logs.md
           - Suppression List: email/use-the-suppression-list.md
+          - Email Whitelist: email/use-the-email-whitelist.md
           - Topics: email/manage-email-topics.md
       - Forms:
           - email/forms/index.md

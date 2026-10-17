@@ -98,6 +98,7 @@ Each delivered email uses credits. Open the **Credits** box at the top right to 
 
 - [Send an email campaign](send-email-campaign.md)
 - [Add email contacts, lists and segments](manage-email-contacts.md)
+- [Check which email addresses actually exist](use-the-email-whitelist.md)
 - [Credits and billing](../credits-and-billing.md)
 
 <!-- Menu paths updated: Dashboard hidden; Send Logs and Suppression List are under Manage; Contacts is in Audience. -->

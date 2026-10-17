@@ -66,4 +66,5 @@ These addresses never receive campaigns, journeys or digests from this account.
 
 - [Read the send logs](read-send-logs.md)
 - [Track results and handle unsubscribes and bounces](track-email-results.md)
+- [Check which email addresses actually exist](use-the-email-whitelist.md)
 - [Send an email campaign](send-email-campaign.md)

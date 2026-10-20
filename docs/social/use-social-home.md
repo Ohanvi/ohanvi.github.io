@@ -67,7 +67,8 @@ If there is nothing to answer, the window says **No comments waiting on a reply.
 
 1. Under **Performance**, pick **This Week**, **Last 30 Days** or **Last 90 Days**.
 2. Read **Reach**, **Engagement**, **Followers** and **Posts**.
-3. For charts and a post-by-post table, open **Insights**. See [Read social insights](view-social-insights.md).
+3. With Instagram picked, **Followers** shows the latest follower count, with the change against the period before, and a **Views** figure is added.
+4. For charts and a post-by-post table, open **Insights**. See [Read social insights](view-social-insights.md).
 
 ### Review recent activity and posts
 

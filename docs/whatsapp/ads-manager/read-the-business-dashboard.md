@@ -99,6 +99,14 @@ Click-to-WhatsApp sales are also sent to Meta as purchases. In **By ad platform*
 | **Google ad click** | The order came from a Google ad click. |
 | **Paid UTM link** | The store link carried paid campaign tags. |
 
+### Compare organic and paid
+
+1. Scroll to **Organic vs paid**, under **By ad platform**. It shows what your unpaid posts reached next to what Meta ads delivered, for the same period.
+2. Read the **Organic** side: **Views**, **Reach** and **Followers** for Instagram, with the change against the period before.
+3. Read the **Paid** side: **Impressions**, **Link clicks** and **Spend** from Meta ads.
+4. Read the bar under them. It shows the share of times seen: organic views against paid impressions.
+5. If Instagram is not connected with **Direct Instagram login**, the card says why in a short note. See [Read Instagram insights](../../social/read-instagram-insights.md).
+
 ### Set your margin and report settings
 
 1. Click **Settings**. If a margin is saved, it reads **Settings · margin 40%**.

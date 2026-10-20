@@ -25,6 +25,7 @@ Ohanvi can open only the spreadsheets and forms you choose for it with **Choose 
 | **Google Calendar** | **Create event**, **Find events**, **Check availability**, **Update event**, **Cancel event** | Book, find, move and cancel events. |
 | **Google Meet** | **Instant Meet link** | Get a meeting link to share now. |
 | **Google Contacts** | **Find contact**, **Save contact** | Look up or save a person. |
+| **Google Search Console** | **Search summary** | Get a site's search numbers to send as a report. |
 
 In the fields below, `{{N...}}` means the step number. For example, `{{2.eventId}}` is a value from step 2. Type `{{` or copy a value from the previous step's output.
 
@@ -43,7 +44,7 @@ The panel reads **Runs as this account. Access is checked again every time the f
 
 1. Click the **+** after the step where it should run.
 2. Click **All steps**, or type the app name, for example `sheets`, in **Search**.
-3. Under **Google Sheets**, **Google Calendar**, **Google Meet** or **Google Contacts**, click the step.
+3. Under **Google Sheets**, **Google Calendar**, **Google Meet**, **Google Contacts** or **Google Search Console**, click the step.
 4. Click the step on the canvas to fill its fields.
 
 ### Add a row to a spreadsheet
@@ -187,6 +188,26 @@ If the form cannot be reached, the message reads **Google Forms could not be rea
 4. The first check only remembers the address book and starts nothing. If it shows that note, add a test contact afterwards.
 
 If Google cannot be reached, the message reads **Google Contacts could not be reached.**
+
+### Send a weekly Search Console summary
+
+1. Create a flow and choose **On a schedule** as its trigger. Click the time beside **Runs every day at**, or type a **Cron expression (advanced)** with 6 fields, for example `0 0 9 * * MON` for Mondays at 09:00.
+2. Add **Search summary** from **Google Search Console**. The step is titled **Write a Search Console summary**. See [Add a Google step](#add-a-google-step).
+3. Leave **Site (property id)** blank to use your default site, or type the id of another linked site.
+4. Open **Period** and choose **Last 7 days** or **Last 28 days**. The default is **Last 7 days**.
+5. Add a WhatsApp or email step after it and put `{{N.summaryText}}` in the message. The summary lists clicks, impressions, CTR and average position against the period before, the top searches, the top pages and any sitemap errors.
+
+The step also gives `{{N.clicks}}`, `{{N.impressions}}`, `{{N.ctr}}`, `{{N.position}}` and `{{N.siteUrl}}`, so a **Condition** can act on the numbers. Search Console must be connected and a site linked. See [Connect Google Search Console](../settings/connect-google-search-console.md).
+
+### Start a flow when search traffic drops or a sitemap gets errors
+
+1. Open the flow's **Flow trigger** card and choose **When something happens here**.
+2. In **Which event**, choose one of the Google events:
+    - **Search traffic drops on a site**: the last 7 days of clicks or impressions fell at least 10% below the 7 days before. Sites with fewer than 50 clicks in the earlier week are skipped. It starts at most once per site per week.
+    - **A sitemap gets errors in Search Console**: Google reports errors on a sitemap that had none.
+3. Use the event's values in later steps, for example `{{trigger.property.siteUrl}}`, `{{trigger.metric}}`, `{{trigger.dropPct}}` or `{{trigger.sitemap.path}}`.
+
+Ohanvi checks once a day, right after it saves each site's daily numbers, so an alert comes a day or so after Google publishes the data. A traffic drop needs 7 saved days in each week, so a newly linked site can alert only after its history has loaded. The flow runs for every linked site. To demand a steeper drop, add a **Condition** on `{{trigger.dropPct}}`, for example greater than `25`.
 
 ### Test the step
 

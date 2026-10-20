@@ -78,6 +78,30 @@ To include the last two days, turn on **Include fresh data**. Google still updat
 
 Inspection shows the version Google has indexed. It is not a live test of the page.
 
+### Compare organic, paid and local
+
+1. Open the **Overview** tab. It uses the date range you chose above.
+2. Read the three cards:
+    - **Organic search**: clicks, impressions, CTR and average position from Search Console.
+    - **Paid search**: clicks, spend, conversions and impressions from your Google Ads account.
+    - **Local (Business Profile)**: profile views, calls, direction requests and website clicks from your Google Business Profile.
+3. Read **Organic vs paid clicks**. It draws both lines day by day and says what share of your search clicks were organic.
+
+A card that reads **Not connected** says why:
+
+- **Organic search**: click **Go to Google Workspace** and connect Search Console.
+- **Local (Business Profile)**: click **Connect Business Profile** and connect your Google Business Profile.
+- **Paid search**: there is no button. Your Google Ads account is not connected from a screen in Ohanvi, so contact Ohanvi support to compare paid clicks.
+
+The other cards keep working either way.
+
+!!! note "Each source keeps its own days"
+    Search Console counts days in Pacific Time. Google Ads counts them in your ad account's time zone. Numbers for the same date can come from slightly different hours.
+
+### Link a site to your online store
+
+If you connected a Shopify, Wix or WooCommerce store, **Store SEO** under **Store connections** suggests the site that covers it and links it in one click. See [See your store in Google Search](connect-your-store.md#see-your-store-in-google-search).
+
 ### Unlink a site
 
 1. On the **Search Console** card, click **Open**.
@@ -90,6 +114,17 @@ The dashboard stops showing the site. Daily totals Ohanvi already saved are kept
 
 1. On the **Search Console** card, click **Disconnect**.
 2. In **Disconnect Google Search Console?**, click **Disconnect**. The account's other Google services keep working.
+
+## Ask the AI assistant about your search traffic
+
+Ohanvi's AI agents can read your linked sites too. When you set up an agent, the Search Console tools are listed under **SEO**: **Search Console properties**, **Search performance**, **Top searches and pages** and **Why search traffic changed**. Turn them on, then ask in plain words, for example:
+
+- "What were my top searches last month?"
+- "Which pages lost the most clicks this month?"
+- "Where can I get more clicks quickly?" The agent looks for searches at positions 4 to 20 that many people see but few click.
+- "Why did my clicks drop?" The agent compares two periods and tells you whether fewer people saw your site, fewer clicked, or your rankings moved, and which searches and pages changed most.
+
+The agent only reads. It cannot link sites or change anything in Search Console. It also sees only what your role may see: if your role cannot open Search Console in Ohanvi, the agent cannot either.
 
 ## Troubleshooting
 
@@ -110,5 +145,6 @@ The dashboard stops showing the site. Daily totals Ohanvi already saved are kept
 ## Related
 
 - [Connect Google Workspace](connect-google-workspace.md)
+- [Send a weekly Search Console summary or start a flow on a traffic drop](../whatsapp/flow-google-workspace-steps.md#send-a-weekly-search-console-summary)
 - [Connect your online store](connect-your-store.md)
 - [Integrations](integrations/index.md)

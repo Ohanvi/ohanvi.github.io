@@ -33,7 +33,7 @@ The composer also shows YouTube, Vimeo, TikTok, Mastodon and Bluesky chips. You 
 1. Open **Connect** in the left rail, then select **Social Connections**. The **Social Connections** page opens with one card per network.
 2. On the network's card, click **Connect** followed by the network name, for example **Connect Facebook**.
 3. If the network offers more than one way to connect, the **How would you like to connect …?** window opens. Pick one:
-    - **Instagram**: **Professional** (**Direct Instagram login**, no Facebook Page needed) or **Via linked Facebook Page** (for an Instagram account managed through a Meta Business Portfolio).
+    - **Instagram**: **Professional** (**Direct Instagram login**, no Facebook Page needed) or **Via linked Facebook Page** (for an Instagram account managed through a Meta Business Portfolio). Only **Direct Instagram login** gives you Instagram insights. See [Read Instagram insights](read-instagram-insights.md).
     - **LinkedIn**: **Company Page** (posts appear from the company) or **Personal Profile** (posts appear from you).
 4. Read the permissions listed under **Permissions requested**, then click **Open** followed by the network name. The network's sign-in opens in a new window.
 5. Sign in to the network and allow access. Close the network's window if it stays open, and return to Ohanvi.
@@ -74,6 +74,8 @@ Facebook, Instagram and LinkedIn access expires after a period set by the networ
 - When access expires in 14 days or less, the card shows **…'s access token expires in N days. Reconnect before then to avoid interrupted publishing.**
 - When the network revokes access, for example after a password change, the card shows **… has revoked access. Reconnect to resume publishing — data already synced is unaffected.**
 
+Instagram connected with **Direct Instagram login** before insights were added needs one reconnect to allow them. Until then, the Instagram view of **Insights** says **Reconnect Instagram and allow insights**.
+
 To reconnect, click **Reconnect** on the card and repeat the connect steps. If you sign in as a different account, Ohanvi disconnects the old one and says so in a message.
 
 ### Disconnect a network
@@ -92,6 +94,7 @@ To reconnect, click **Reconnect** on the card and repeat the connect steps. If y
 | The card shows **Unavailable** and **This network is not enabled on this server yet.** | The network is not turned on for your workspace. | Ask your admin to enable it, then click **Refresh**. |
 | **This Facebook user administers no Pages.** | You are not an admin of any Facebook Page. | Ask a current Page admin to give you admin access, then reconnect. |
 | **No Instagram professional account is linked to that Page.** | The Instagram account is not linked to the Page you picked. | Link it in Meta, or go back and connect with **Direct Instagram login**. |
+| Instagram is connected, but **Insights** says **Reconnect Instagram and allow insights** | The connection was made before insights were added, or insights were not allowed. | Click **Reconnect** on the Instagram card and keep insights allowed. |
 | **This Google user does not manage any Business Profile accounts.** | You signed in with a Google account that does not manage the listing. | Sign in with the Google account that manages your Business Profile. |
 | **Connecting … was cancelled — access was not granted.** | You declined access on the network's page. | Click **Connect** again and allow access. |
 | **Could not start the … sign-in.** | Sign-in is not set up for this network on your workspace. | Click **Use credentials**, or ask your admin. |

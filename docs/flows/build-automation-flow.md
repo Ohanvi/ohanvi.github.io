@@ -34,6 +34,9 @@ Events in **Which event** include:
 - **A contact joins an email list**, **A contact is tagged**
 - **Someone becomes a customer of the store**, **A new store order is placed**, **A shopper leaves a checkout unfinished**, **An order payment fails**, **An order ships**, **A parcel is out for delivery**, **A parcel is delivered**, **A shopper looks at a product on the storefront**, **An order is cancelled**, **A refund is issued**
 - **A post is ready to publish**, **A post is created as a draft**, **A post finished publishing**, **A new comment arrives on a published post**
+- **Yesterday's Instagram numbers are in** (once a day, with yesterday's views, reach, interactions and follower change against the 7-day average), **An Instagram post is taking off** (a post or reel from the last 48 hours reaches 3 times the account's usual views; once per post)
+
+A ready-made draft, **Weekly Instagram summary**, sends last week's Instagram numbers on WhatsApp every Monday. It appears in your flows list when Instagram is connected with **Direct Instagram login**. Fill in the recipient and the WhatsApp template, then publish it.
 
 ## Steps
 

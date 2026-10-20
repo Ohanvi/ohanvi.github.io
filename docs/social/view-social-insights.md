@@ -21,10 +21,10 @@ Social Home has its own page. See [Use Social Home](use-social-home.md).
 ### Compare performance on Insights
 
 1. Open **Social** in the left rail, then select **Insights**.
-2. To narrow to one network, click **All Channels** and pick a channel.
+2. To narrow to one network, click **All Channels** and pick a channel. Instagram opens its own view. See [Read Instagram insights](read-instagram-insights.md).
 3. Pick a date range: **7 days**, **30 days** or **Month to date**. Each figure is compared with the period before.
-4. Read the **Summary**: **Posts**, **Reactions**, **Comments**, **Eng. Rate**, **Impressions** and **Shares**. Hover over a figure to see what it counts.
-5. Under **Performance**, compare each channel's **Posts**, **Reactions**, **Comments** and **Eng. Rate**.
+4. Read the **Summary**: **Posts**, **Total Followers**, **Reactions**, **Comments**, **Eng. Rate**, **Impressions** and **Shares**. Hover over a figure to see what it counts.
+5. Under **Performance**, compare each channel's **Posts**, **Reactions**, **Comments**, **Eng. Rate**, **Followers**, **Views** and **Reach**. Followers, views and reach show the change against the period before.
 6. Under **Top 5 Posts**, switch between **Reactions** and **Comments** to rank your best posts.
 7. Under **Performance per Post**, see the numbers for every post published in the period.
 
@@ -36,7 +36,7 @@ Social Home has its own page. See [Use Social Home](use-social-home.md).
 4. Click **Close** when you are done.
 
 !!! note "What the networks report"
-    Not every network shares every number. Follower counts, impressions and reach are not reported by the connected networks yet, so **Total Followers** and the **Followers** chart can stay empty. **Shares** come from Facebook only. **Eng. Rate** needs impressions, so it is often blank.
+    Not every network shares every number. Followers, views and reach come from Instagram when it is connected with **Direct Instagram login**; other networks leave them blank. **Total Followers** adds up the channels that report a count. **Shares** come from Facebook only. **Eng. Rate** needs impressions, so it is often blank.
 
 ## Video walkthrough
 
@@ -55,6 +55,7 @@ Social Home has its own page. See [Use Social Home](use-social-home.md).
 ## Related
 
 - [Explore Insights charts and one channel](explore-insights-charts.md)
+- [Read Instagram insights](read-instagram-insights.md)
 - [Use Social Home](use-social-home.md)
 - [Schedule posts and manage the queue](schedule-social-posts.md)
 - [Manage your Google Business Profile](manage-google-business-profile.md)

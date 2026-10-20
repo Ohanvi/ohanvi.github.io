@@ -35,7 +35,7 @@ Insights shows all your channels together. Click one channel to see its posts, w
 ### Read the Performance table for all channels
 
 1. With **All Channels** selected, scroll to **Performance**.
-2. Read each channel's **Posts**, **Reactions**, **Comments** and **Eng. Rate**.
+2. Read each channel's **Posts**, **Reactions**, **Comments**, **Eng. Rate**, **Followers**, **Views** and **Reach**. A channel that does not report followers, views or reach shows a dash. On a narrow screen, scroll the table sideways.
 3. Click a channel's row. Insights switches to that channel.
 4. If a channel had no posts, the table says **No channel activity in this period.**
 
@@ -43,7 +43,8 @@ Insights shows all your channels together. Click one channel to see its posts, w
 
 1. Scroll to **Followers**.
 2. Click **Bar**, **Line** or **Growth** at the top right of the chart.
-3. **Bar** compares channels. **Line** shows the trend. **Growth** shows how much followers changed.
+3. **Bar** compares channels. **Line** shows the trend. **Growth** shows how much followers changed, in percent, against the period before.
+4. Only channels that report followers appear. Today that is Instagram connected with **Direct Instagram login**.
 
 ### Read the Posts chart
 
@@ -53,7 +54,7 @@ Insights shows all your channels together. Click one channel to see its posts, w
 
 ### Look at one channel
 
-1. Pick one channel in **Channels**, or click its row in **Performance**.
+1. Pick one channel in **Channels**, or click its row in **Performance**. Instagram opens its own view instead of the sections below. See [Read Instagram insights](read-instagram-insights.md).
 2. Read **WEEKLY TAKEAWAYS** at the top. Click the arrow beside it to fold it.
 3. Read the two cards:
     - **Start Building Your Posting Habit** shows how many posts you published in the period. Click **Create a Post** to open **Publish**.

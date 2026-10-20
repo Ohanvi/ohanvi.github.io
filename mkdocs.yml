@@ -313,6 +313,7 @@ nav:
           - Credits and billing: credits-and-billing.md
           - Add funds: add-funds.md
           - When credits run low or run out: billing/low-or-empty-credits.md
+      - Add-on packs and usage limits: billing/packs-and-usage-limits.md
       - Read your current usage: billing/read-current-usage.md
       - Statement and invoices: billing/statement-and-invoices.md
       - Refer and earn: billing/refer-and-earn.md

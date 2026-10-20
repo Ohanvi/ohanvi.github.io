@@ -25,6 +25,8 @@ When a customer messages you, WhatsApp opens a 24-hour window. From **1 October 
 | **Utility templates sent inside the window** | Meta's rate from the first message, **11.5 paise** in India. |
 | **Conversations started from a Click-to-WhatsApp ad** | Still free for the whole 72-hour window. |
 
+While a chat's window is open, its header shows how many of those free messages are left this month on that WhatsApp number, for example **844 of 1,000 free left**. It goes down as messages are sent.
+
 !!! note "This is Meta's charge, not ours"
     These charges are Meta's. We add **no markup** on them: the amount taken from your credits is Meta's rate and nothing more. If a bot sends the message, your plan's **automated message** allowance and rate still apply as they do today.
 
@@ -49,6 +51,7 @@ When a customer messages you, WhatsApp opens a 24-hour window. From **1 October 
 | **Projected to [date]** | What you will have spent by the end of the cycle at the current daily rate. |
 | **Spend by product** | This cycle's spend split by what it was spent on. |
 | **Biggest charges** | Charges grouped by rate. Every line shows the rate it was charged at. |
+| **Usage and limits** | One bar for each pack and plan limit, such as messages, contacts, team members and storage, with numbers like **250 of 1,000 used**. See [Add-on packs and usage limits](billing/packs-and-usage-limits.md). |
 | **Invoice history** / **Invoices** | Invoices raised on your account: one for each recharge, plus any plan invoices. **Invoice history** charts the total billed in each cycle, and **Invoices** lists the latest ones. Click **All invoices** to see the full list. |
 | **This cycle — Where the balance moved** | **Opening balance**, **Added**, **Used** and **Balance now** for the cycle. |
 | **Statement** | Every movement of money, newest first: recharges, WhatsApp charges, extra-message fees and referral rewards. |
@@ -78,4 +81,5 @@ The buttons at the top of the page:
 ## Related
 
 - [Add funds to your account](add-funds.md)
+- [Add-on packs and usage limits](billing/packs-and-usage-limits.md)
 - [Sign in to Ohanvi](sign-in.md)

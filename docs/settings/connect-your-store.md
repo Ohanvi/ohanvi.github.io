@@ -109,6 +109,17 @@ If you have not connected the store yet, the window says to connect the store fi
 3. Click **Disconnect**. The message **Shopify disconnected.** (or your store's name) appears.
 4. Your saved keys stay, so you can reconnect later in one step.
 
+### See your store in Google Search
+
+When a store is connected, **Store SEO** appears below your store cards. It lists each connected Shopify, Wix or WooCommerce store with the Search Console site that covers it. If it reads **Connect Google Search Console to match your stores**, connect Search Console first. See [Connect Google Search Console](connect-google-search-console.md).
+
+1. Read each store's badge: **Linked**, **Suggested** or **No property**.
+2. For a **Suggested** store, click **Link**. Ohanvi links that Search Console site to the store and starts fetching its history.
+3. For a **Linked** store, read its clicks in the last 28 days. Click **Check health** to also see its sitemap status and **Home page indexed** or **Home page not indexed**.
+4. Click **Open dashboard** to see the store's full search performance.
+
+A store reads **No property** when no site in Search Console covers its address. Click **Add in Search Console**, add and verify the site there, then come back. For Shopify, Ohanvi matches your store's own domain, not the myshopify.com address. A Shopify store connected before October 2026 is matched on its myshopify.com address until you connect it again.
+
 ## Troubleshooting
 
 | Issue | Cause | Fix |

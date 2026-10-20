@@ -1,6 +1,6 @@
 ---
 title: Connect Google Workspace
-description: Connect Google Sheets, Calendar, Meet, Forms and Contacts, choose the spreadsheets and forms Ohanvi may open from Google Drive, and disconnect a service or an account.
+description: Connect Google Sheets, Calendar, Meet, Forms, Contacts and Search Console, choose the spreadsheets and forms Ohanvi may open from Google Drive, and disconnect a service or an account.
 ---
 
 # Connect Google Workspace
@@ -24,6 +24,7 @@ Each service has its own card and its own permission, so you can turn on Calenda
 | **Google Calendar** | View and edit events on your calendars, see your list of calendars, and see when people are free | Checking who is free, then creating, moving or cancelling an event. |
 | **Google Meet** | Create Google Meet meetings, and see only the meetings Ohanvi created | Sending an instant meeting link. |
 | **Google Contacts** | See and edit your contacts | Importing the contacts you choose, finding a contact from a flow, and the **Save to Google Contacts** step. |
+| **Google Search Console** | View Search Console data for your verified sites | Reading clicks, rankings, sitemaps and index status. See [Connect Google Search Console](connect-google-search-console.md). |
 
 ## Which files Ohanvi can open
 
@@ -123,6 +124,7 @@ Data already in Ohanvi, such as imported contacts and finished flow runs, stays 
 
 ## Related
 
+- [Connect Google Search Console](connect-google-search-console.md)
 - [Add Google Sheets, Calendar, Meet and Contacts steps to a flow](../whatsapp/flow-google-workspace-steps.md)
 - [Connect an app and use it in a flow](../flows/connect-apps-for-flows.md)
 - [Use flow templates](../flows/use-flow-templates.md)

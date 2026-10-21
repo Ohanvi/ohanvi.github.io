@@ -26,7 +26,7 @@ Plans & Pricing shows every plan with what it includes. You can pick a ready pla
 1. Read each plan card: its name, **Billed per user**, **Highlights** and **Everything in** the plan before it, **plus** what is new.
 2. Check **Contacts**, the most people your plan holds: **Pay as you go** 10,000, **Starter** 20,000, **Growth** 30,000, **Scale** 75,000 and **Pro** unlimited. Each contact past that limit is 5 paise, taken from your balance.
 3. Check **Automated + service messages a month**: 1,000 on every paid plan, and pay per message on **Pay as you go**. The 1,000 covers automated (bot) and service messages together. Past it, bot messages are charged at the **Extra automated message** rate of your plan and service messages at Meta's rate (Meta pricing, effective 1 October 2026). Each **Email** costs 5 paise on every plan. These come out of your credits.
-4. Check **Add-ons** such as **Extra user seat**.
+4. Check **Add-ons** such as **Extra user seat**. You can also buy Bot, AI and Marketing packs from your credits on any plan. See [Add-on packs and usage limits](packs-and-usage-limits.md).
 5. For custom needs, click **Contact us** or **Let's talk** on the Enterprise card. It opens an email to the sales team.
 
 ### Build your own plan

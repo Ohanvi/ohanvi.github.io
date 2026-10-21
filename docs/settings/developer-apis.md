@@ -58,6 +58,7 @@ On the **Docs** tab, click **Tally scripts** to download 2 Windows scripts that 
 - **Recipients in E.164 (8–15 digits)** — include the country code, for example +919876543210.
 - **Templates open conversations outside the 24-hour window** — use **Text** only within 24 hours of the customer's last message. See [Create a WhatsApp message template](../whatsapp/create-message-template.md).
 - **A utility template sent through the API costs Meta's rate plus 8 paise** from your credits.
+- **Pay as you go includes 10,000 API messages a month.** Paid plans have no limit. Past 10,000 on **Pay as you go**, calls are refused with a message to choose a plan.
 
 ## Video walkthrough
 

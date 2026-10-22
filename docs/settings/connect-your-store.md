@@ -122,17 +122,19 @@ A store reads **No property** when no site in Search Console covers its address.
 
 ### See your store in Google Analytics
 
-Ohanvi matches each connected Shopify, Wix or WooCommerce store to a Google Analytics property. It compares the store's address with the address of each property's web stream. Connect Google Analytics first. See [Connect Google Analytics](connect-google-analytics.md).
+When a store is connected, **Store analytics** appears below **Store SEO**. It lists each connected Shopify, Wix or WooCommerce store with the Google Analytics property whose web stream has the store's address. If it reads **Connect Google Analytics to match your stores**, click **Open Google Workspace** and connect Google Analytics first. See [Connect Google Analytics](connect-google-analytics.md).
 
-Each store is in one of three states:
+1. Read each store's badge: **Linked**, **Property found** or **No property**.
+2. For a **Property found** store, click **Link**. Ohanvi shows that the store is linked to the property and starts fetching its history.
+3. For a **Linked** store, read the line under it for the last 28 days: **Analytics** revenue and purchases, then **Store** revenue and orders.
+4. Read **Tracking gap** beside the badge. It is the share of the store's revenue that Google Analytics did not record. Under 5% shows green, under 20% amber, and 20% or more red.
+5. Click **Open dashboard** to see the store's full Google Analytics dashboard.
 
-- Linked: the store matches a property you linked.
-- Available: a property your Google account can see has a web stream with the store's address, but you have not linked it yet. Link it to see the store's analytics.
-- No match: no web stream has the store's address. Add a web stream for the store in Google Analytics, then come back. A property with no web stream, such as an app-only property, is never matched.
+To read the list again, click **Refresh** on **Store analytics**.
 
-For a linked store, **Store analytics** compares the revenue and purchases Google Analytics recorded with the store's own revenue and orders for the same days. It draws both day by day and shows the gap as a percentage.
+A store reads **No property** when no web stream has the store's address. Click **Set up in Analytics**, add a web stream for the store in Google Analytics, then come back. A property with no web stream, such as an app-only property, is never matched.
 
-Google Analytics usually records less revenue than your store, because ad blockers and cookie consent stop some purchases from reaching it. **Store analytics** shows the gap rather than hiding it. If Ohanvi cannot read the store's own order totals, it says why instead of showing a comparison.
+Google Analytics usually records less revenue than your store, because ad blockers and cookie consent stop some purchases from reaching it. **Store analytics** shows the gap rather than hiding it. If Ohanvi cannot read the store's own order totals, the line says why instead of showing a comparison.
 
 ## Troubleshooting
 

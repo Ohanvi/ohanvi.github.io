@@ -55,7 +55,7 @@ After you choose a file, flows and imports can use it at any hour, even when nob
 
 To connect a second Google account, click **Add Google account** at the top.
 
-Google Analytics is not part of **Connect Google** or **Add Google account**. Google asks for it only when you click **Connect Google Analytics** on its card. See [Connect Google Analytics](connect-google-analytics.md).
+Google Analytics is not part of **Connect Google** or **Add Google account**. Google asks for it only from the **Google Analytics** card: click **Connect Google Analytics**, or **Grant Analytics access** when the account is already connected. See [Connect Google Analytics](connect-google-analytics.md).
 
 ### Choose a spreadsheet from Google Drive
 

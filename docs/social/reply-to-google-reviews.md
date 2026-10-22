@@ -43,6 +43,14 @@ If nothing has synced yet, it says **No reviews synced yet**. Click **Go to dash
 
 If the box is empty, it says **Reply text is required**.
 
+### Suggest a reply with AI
+
+**Suggest reply** writes a draft for you. It is never sent until you click **Send Reply**.
+
+- The draft is in the same language as the review, and thanks the reviewer by first name.
+- For a 1, 2 or 3 star review, it says sorry and offers to make it right. It does not admit fault, and it offers no discounts or freebies.
+- It is 2 to 4 sentences long. Read it, and change anything that is not right before you send.
+
 ### Change a reply
 
 1. Under your reply, click **Edit**.
@@ -78,5 +86,6 @@ If the box is empty, it says **Reply text is required**.
 ## Related
 
 - [Manage your Google Business Profile](manage-google-business-profile.md)
+- [Get more Google reviews with Review Booster](google-review-booster.md)
 - [Use Social Home](use-social-home.md)
 - [Connect social accounts](connect-social-accounts.md)

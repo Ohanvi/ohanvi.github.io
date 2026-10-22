@@ -1,6 +1,6 @@
 ---
 title: Integrations
-description: Connect your online store, Google Workspace, Google Search Console, Zapier, Pabbly and Tally accounting, and choose your own or Ohanvi's managed services.
+description: Connect your online store, Google Workspace, Google Search Console, Google Analytics, Zapier, Pabbly and Tally accounting, and choose your own or Ohanvi's managed services.
 ---
 
 # Integrations
@@ -19,6 +19,7 @@ Click your initials in the bottom-left corner, then click **Settings**. Under **
 | [Connect Tally accounting](../connect-tally-accounting.md) | You want ledgers, parties, items and vouchers in sync with Tally. |
 | [Connect Google Workspace](../connect-google-workspace.md) | You want flows to use Google Sheets, Calendar, Meet, Forms or Contacts. |
 | [Connect Google Search Console](../connect-google-search-console.md) | You want to see how your sites perform in Google Search. |
+| [Connect Google Analytics](../connect-google-analytics.md) | You want to see your website's visitors, traffic sources, top pages and conversions. |
 | [Connect Zapier](../connect-zapier.md) | You want Ohanvi to talk to other apps without code. |
 | [Connect Pabbly](../connect-pabbly.md) | You use Pabbly Connect workflows. |
 | [Choose your own or Ohanvi's managed services](../choose-connectors.md) | You want your own WhatsApp, AI or email provider. |

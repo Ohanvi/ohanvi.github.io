@@ -60,7 +60,12 @@ A property is linked through one Google account. If you link the same property t
 
 ### Read the Overview tab
 
-1. Under **Linked properties**, click **Open dashboard**. The **Google Analytics** dashboard opens on the **Overview** tab. Under the title, it names the property and the Google account it reads through.
+1. Open **Analytics** in the left rail, or under **More** if it is not on the rail, and click **Website Analytics**. The **Google Analytics** dashboard opens on the **Overview** tab. Under the title, it names the property and the Google account it reads through.
+
+    You can also open it from Google Workspace: on the **Google Analytics** card, click **Open**, then click **Open dashboard** under **Linked properties**.
+
+    If Google Analytics is not connected yet, the page shows **Connect Google Analytics**. If it is connected but no property is linked, it shows **Link a property**. Both open Google Workspace.
+
 2. If you linked more than one property, choose one in the list at the top.
 3. Choose a date range: **7d**, **28d**, **3m**, **6m** or **12m**. The range ends yesterday.
 4. Under **Compare**, choose **Off**, **Prev** for the period just before, or **YoY** for the same dates a year earlier.

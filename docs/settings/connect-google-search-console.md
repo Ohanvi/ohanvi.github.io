@@ -48,7 +48,10 @@ A site that reads **Verify in Search Console** is not verified for this Google a
 
 ### Read your search performance
 
-1. Under **Linked properties**, click **Open dashboard**. The **Search Console** dashboard opens on the **Performance** tab.
+1. Open **Analytics** in the left rail, or under **More** if it is not on the rail, and click **Search Analytics**. The **Search Console** dashboard opens on the **Performance** tab. You can also open it from Google Workspace: on the **Search Console** card, click **Open**, then click **Open dashboard** under **Linked properties**.
+
+    If Search Console is not connected yet, the page shows **Connect Search Console**. If no site is linked, it shows **Link a property**. Both open Google Workspace.
+
 2. Choose a date range: **7d**, **28d**, **3m**, **6m**, **12m** or **16m**.
 3. Under **Compare**, choose **Off**, **Prev** for the period just before, or **YoY** for the same dates a year earlier.
 4. Read the four tiles: **Clicks**, **Impr.** (impressions), **CTR** and **Avg position**. Each shows the change against the comparison period. For **Avg position**, a lower number is better, so moving from 15 to 12 shows as an improvement.

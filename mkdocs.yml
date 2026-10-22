@@ -308,6 +308,7 @@ nav:
           - Accounting ERP (Tally): settings/connect-tally-accounting.md
           - Google Workspace: settings/connect-google-workspace.md
           - Google Search Console: settings/connect-google-search-console.md
+          - Google Analytics: settings/connect-google-analytics.md
           - Zapier: settings/connect-zapier.md
           - Pabbly: settings/connect-pabbly.md
           - Own vs managed services: settings/choose-connectors.md

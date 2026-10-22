@@ -48,7 +48,10 @@ A site that reads **Verify in Search Console** is not verified for this Google a
 
 ### Read your search performance
 
-1. Under **Linked properties**, click **Open dashboard**. The **Search Console** dashboard opens on the **Performance** tab.
+1. Open **Analytics** in the left rail, or under **More** if it is not on the rail, and click **Search Analytics**. The **Search Console** dashboard opens on the **Performance** tab. You can also open it from Google Workspace: on the **Search Console** card, click **Open**, then click **Open dashboard** under **Linked properties**.
+
+    If Search Console is not connected yet, the page shows **Connect Search Console**. If no site is linked, it shows **Link a property**. Both open Google Workspace.
+
 2. Choose a date range: **7d**, **28d**, **3m**, **6m**, **12m** or **16m**.
 3. Under **Compare**, choose **Off**, **Prev** for the period just before, or **YoY** for the same dates a year earlier.
 4. Read the four tiles: **Clicks**, **Impr.** (impressions), **CTR** and **Avg position**. Each shows the change against the comparison period. For **Avg position**, a lower number is better, so moving from 15 to 12 shows as an improvement.
@@ -81,22 +84,25 @@ Inspection shows the version Google has indexed. It is not a live test of the pa
 ### Compare organic, paid and local
 
 1. Open the **Overview** tab. It uses the date range you chose above.
-2. Read the three cards:
+2. Read the cards:
     - **Organic search**: clicks, impressions, CTR and average position from Search Console.
     - **Paid search**: clicks, spend, conversions and impressions from your Google Ads account.
     - **Local (Business Profile)**: profile views, calls, direction requests and website clicks from your Google Business Profile.
+    - **On your site**: the organic sessions, key events and revenue that Google Analytics counts from organic search, each with its change **vs before**. Click **Open Analytics** to open the property's dashboard.
 3. Read **Organic vs paid clicks**. It draws both lines day by day and says what share of your search clicks were organic.
+4. Read **From search to your site**. It follows people from Google Search to your site: **Impressions** (seen on Google), **Clicks**, **Organic sessions** (visited the site) and **Key events** (converted). Without Google Analytics, it reads **Sessions and key events need Google Analytics.**
 
 A card that reads **Not connected** says why:
 
 - **Organic search**: click **Go to Google Workspace** and connect Search Console.
 - **Local (Business Profile)**: click **Connect Business Profile** and connect your Google Business Profile.
+- **On your site**: click **Connect Google Analytics** to open Google Workspace, then connect Google Analytics and link the property of your site. See [Connect Google Analytics](connect-google-analytics.md).
 - **Paid search**: there is no button. Your Google Ads account is not connected from a screen in Ohanvi, so contact Ohanvi support to compare paid clicks.
 
 The other cards keep working either way.
 
 !!! note "Each source keeps its own days"
-    Search Console counts days in Pacific Time. Google Ads counts them in your ad account's time zone. Numbers for the same date can come from slightly different hours.
+    Search Console counts days in Pacific Time. Google Ads counts them in your ad account's time zone, and Google Analytics in your property's time zone. Numbers for the same date can come from slightly different hours.
 
 ### Link a site to your online store
 
@@ -145,6 +151,7 @@ The agent only reads. It cannot link sites or change anything in Search Console.
 ## Related
 
 - [Connect Google Workspace](connect-google-workspace.md)
+- [Connect Google Analytics](connect-google-analytics.md)
 - [Send a weekly Search Console summary or start a flow on a traffic drop](../whatsapp/flow-google-workspace-steps.md#send-a-weekly-search-console-summary)
 - [Connect your online store](connect-your-store.md)
 - [Integrations](integrations/index.md)

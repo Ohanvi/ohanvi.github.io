@@ -1,6 +1,6 @@
 ---
 title: Connect Google Workspace
-description: Connect Google Sheets, Calendar, Meet, Forms, Contacts and Search Console, choose the spreadsheets and forms Ohanvi may open from Google Drive, and disconnect a service or an account.
+description: Connect Google Sheets, Calendar, Meet, Forms, Contacts, Search Console and Analytics, choose the spreadsheets and forms Ohanvi may open from Google Drive, and disconnect a service or an account.
 ---
 
 # Connect Google Workspace
@@ -25,6 +25,7 @@ Each service has its own card and its own permission, so you can turn on Calenda
 | **Google Meet** | Create Google Meet meetings, and see only the meetings Ohanvi created | Sending an instant meeting link. |
 | **Google Contacts** | See and edit your contacts | Importing the contacts you choose, finding a contact from a flow, and the **Save to Google Contacts** step. |
 | **Google Search Console** | View Search Console data for your verified sites | Reading clicks, rankings, sitemaps and index status. See [Connect Google Search Console](connect-google-search-console.md). |
+| **Google Analytics** | See and download your Google Analytics data | Reading visitors, traffic sources, pages, key events and revenue for the properties you link. See [Connect Google Analytics](connect-google-analytics.md). |
 
 ## Which files Ohanvi can open
 
@@ -53,6 +54,8 @@ After you choose a file, flows and imports can use it at any hour, even when nob
 4. Back in Ohanvi, the card reads **Ready** and the account is listed under **Google accounts**.
 
 To connect a second Google account, click **Add Google account** at the top.
+
+Google Analytics is not part of **Connect Google** or **Add Google account**. Google asks for it only from the **Google Analytics** card: click **Connect Google Analytics**, or **Grant Analytics access** when the account is already connected. See [Connect Google Analytics](connect-google-analytics.md).
 
 ### Choose a spreadsheet from Google Drive
 
@@ -125,6 +128,7 @@ Data already in Ohanvi, such as imported contacts and finished flow runs, stays 
 ## Related
 
 - [Connect Google Search Console](connect-google-search-console.md)
+- [Connect Google Analytics](connect-google-analytics.md)
 - [Add Google Sheets, Calendar, Meet and Contacts steps to a flow](../whatsapp/flow-google-workspace-steps.md)
 - [Connect an app and use it in a flow](../flows/connect-apps-for-flows.md)
 - [Use flow templates](../flows/use-flow-templates.md)

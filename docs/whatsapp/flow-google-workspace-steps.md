@@ -26,6 +26,7 @@ Ohanvi can open only the spreadsheets and forms you choose for it with **Choose 
 | **Google Meet** | **Instant Meet link** | Get a meeting link to share now. |
 | **Google Contacts** | **Find contact**, **Save contact** | Look up or save a person. |
 | **Google Search Console** | **Search summary** | Get a site's search numbers to send as a report. |
+| **Google Analytics** | **Analytics summary** | Get a website's visitor numbers to send as a report. |
 
 In the fields below, `{{N...}}` means the step number. For example, `{{2.eventId}}` is a value from step 2. Type `{{` or copy a value from the previous step's output.
 
@@ -44,7 +45,7 @@ The panel reads **Runs as this account. Access is checked again every time the f
 
 1. Click the **+** after the step where it should run.
 2. Click **All steps**, or type the app name, for example `sheets`, in **Search**.
-3. Under **Google Sheets**, **Google Calendar**, **Google Meet**, **Google Contacts** or **Google Search Console**, click the step.
+3. Under **Google Sheets**, **Google Calendar**, **Google Meet**, **Google Contacts**, **Google Search Console** or **Google Analytics**, click the step.
 4. Click the step on the canvas to fill its fields.
 
 ### Add a row to a spreadsheet
@@ -208,6 +209,28 @@ The step also gives `{{N.clicks}}`, `{{N.impressions}}`, `{{N.ctr}}`, `{{N.posit
 3. Use the event's values in later steps, for example `{{trigger.property.siteUrl}}`, `{{trigger.metric}}`, `{{trigger.dropPct}}` or `{{trigger.sitemap.path}}`.
 
 Ohanvi checks once a day, right after it saves each site's daily numbers, so an alert comes a day or so after Google publishes the data. A traffic drop needs 7 saved days in each week, so a newly linked site can alert only after its history has loaded. The flow runs for every linked site. To demand a steeper drop, add a **Condition** on `{{trigger.dropPct}}`, for example greater than `25`.
+
+### Send a weekly Analytics summary
+
+1. Create a flow and choose **On a schedule** as its trigger. Click the time beside **Runs every day at**, or type a **Cron expression (advanced)** with 6 fields, for example `0 0 9 * * MON` for Mondays at 09:00.
+2. Add **Analytics summary** from **Google Analytics**. The step is titled **Write an Analytics summary**. See [Add a Google step](#add-a-google-step).
+3. Leave **Property (property id)** blank to use your default property, or type the id of another linked property.
+4. Open **Period** and choose **Last 7 days** or **Last 28 days**. The default is **Last 7 days**.
+5. Open **Compare with** and choose **The period before** or **Same period last year**. The default is **The period before**.
+6. Add a WhatsApp or email step after it and put `{{N.text}}` in the message. The text is ready to send on WhatsApp. It covers users, sessions, key events and revenue against the comparison period, the top channels and the top pages.
+
+The step also gives the totals and their changes, for example `{{N.totals.sessions}}`, `{{N.totals.keyEvents}}` and `{{N.deltas.sessions}}`, so a **Condition** can act on the numbers. A change is a fraction: `0.12` means 12% more than the period before. Google Analytics must be connected and a property linked. See [Connect Google Analytics](../settings/connect-google-analytics.md).
+
+### Start a flow when visitors or conversions drop
+
+1. Open the flow's **Flow trigger** card and choose **When something happens here**.
+2. In **Which event**, choose one of the Google Analytics events:
+    - **Website visits drop in Google Analytics**: the last 7 days of sessions fell at least 20% below the 7 days before. Properties with fewer than 100 sessions in the earlier week are skipped. It starts at most once per property per week.
+    - **Conversions drop in Google Analytics**: the same check on key events.
+    - **Website tracking goes silent**: a whole day with no sessions, on a property that averaged 20 or more sessions a day over the 28 days before. This usually means the Analytics tag on your site broke.
+3. Use the event's values in later steps, for example `{{trigger.property.displayName}}`, `{{trigger.dropPct}}`, `{{trigger.date}}` or `{{trigger.analyticsUrl}}`.
+
+The alerts use the daily totals Ohanvi saves for each linked property, and only days Google has finished. A day's numbers take about 12 hours to reach Google Analytics, so an alert comes the day after. A newly linked property can alert once its history has loaded. The flow runs for every linked property.
 
 ### Test the step
 

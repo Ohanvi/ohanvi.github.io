@@ -120,6 +120,22 @@ When a store is connected, **Store SEO** appears below your store cards. It list
 
 A store reads **No property** when no site in Search Console covers its address. Click **Add in Search Console**, add and verify the site there, then come back. For Shopify, Ohanvi matches your store's own domain, not the myshopify.com address. A Shopify store connected before October 2026 is matched on its myshopify.com address until you connect it again.
 
+### See your store in Google Analytics
+
+When a store is connected, **Store analytics** appears below **Store SEO**. It lists each connected Shopify, Wix or WooCommerce store with the Google Analytics property whose web stream has the store's address. If it reads **Connect Google Analytics to match your stores**, click **Open Google Workspace** and connect Google Analytics first. See [Connect Google Analytics](connect-google-analytics.md).
+
+1. Read each store's badge: **Linked**, **Property found** or **No property**.
+2. For a **Property found** store, click **Link**. Ohanvi shows that the store is linked to the property and starts fetching its history.
+3. For a **Linked** store, read the line under it for the last 28 days: **Analytics** revenue and purchases, then **Store** revenue and orders.
+4. Read **Tracking gap** beside the badge. It is the share of the store's revenue that Google Analytics did not record. Under 5% shows green, under 20% amber, and 20% or more red.
+5. Click **Open dashboard** to see the store's full Google Analytics dashboard.
+
+To read the list again, click **Refresh** on **Store analytics**.
+
+A store reads **No property** when no web stream has the store's address. Click **Set up in Analytics**, add a web stream for the store in Google Analytics, then come back. A property with no web stream, such as an app-only property, is never matched.
+
+Google Analytics usually records less revenue than your store, because ad blockers and cookie consent stop some purchases from reaching it. **Store analytics** shows the gap rather than hiding it. If Ohanvi cannot read the store's own order totals, the line says why instead of showing a comparison.
+
 ## Troubleshooting
 
 | Issue | Cause | Fix |
@@ -135,6 +151,7 @@ A store reads **No property** when no site in Search Console covers its address.
 
 ## Related
 
+- [Connect Google Analytics](connect-google-analytics.md)
 - [Own vs managed services](choose-connectors.md)
 - [Connect Zapier](connect-zapier.md)
 - [Connect Pabbly](connect-pabbly.md)

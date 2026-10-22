@@ -120,6 +120,20 @@ When a store is connected, **Store SEO** appears below your store cards. It list
 
 A store reads **No property** when no site in Search Console covers its address. Click **Add in Search Console**, add and verify the site there, then come back. For Shopify, Ohanvi matches your store's own domain, not the myshopify.com address. A Shopify store connected before October 2026 is matched on its myshopify.com address until you connect it again.
 
+### See your store in Google Analytics
+
+Ohanvi matches each connected Shopify, Wix or WooCommerce store to a Google Analytics property. It compares the store's address with the address of each property's web stream. Connect Google Analytics first. See [Connect Google Analytics](connect-google-analytics.md).
+
+Each store is in one of three states:
+
+- Linked: the store matches a property you linked.
+- Available: a property your Google account can see has a web stream with the store's address, but you have not linked it yet. Link it to see the store's analytics.
+- No match: no web stream has the store's address. Add a web stream for the store in Google Analytics, then come back. A property with no web stream, such as an app-only property, is never matched.
+
+For a linked store, **Store analytics** compares the revenue and purchases Google Analytics recorded with the store's own revenue and orders for the same days. It draws both day by day and shows the gap as a percentage.
+
+Google Analytics usually records less revenue than your store, because ad blockers and cookie consent stop some purchases from reaching it. **Store analytics** shows the gap rather than hiding it. If Ohanvi cannot read the store's own order totals, it says why instead of showing a comparison.
+
 ## Troubleshooting
 
 | Issue | Cause | Fix |
@@ -135,6 +149,7 @@ A store reads **No property** when no site in Search Console covers its address.
 
 ## Related
 
+- [Connect Google Analytics](connect-google-analytics.md)
 - [Own vs managed services](choose-connectors.md)
 - [Connect Zapier](connect-zapier.md)
 - [Connect Pabbly](connect-pabbly.md)

@@ -81,22 +81,25 @@ Inspection shows the version Google has indexed. It is not a live test of the pa
 ### Compare organic, paid and local
 
 1. Open the **Overview** tab. It uses the date range you chose above.
-2. Read the three cards:
+2. Read the cards:
     - **Organic search**: clicks, impressions, CTR and average position from Search Console.
     - **Paid search**: clicks, spend, conversions and impressions from your Google Ads account.
     - **Local (Business Profile)**: profile views, calls, direction requests and website clicks from your Google Business Profile.
+    - **On your site**: the sessions, key events and revenue that Google Analytics counts from organic search, with the change against the period before.
 3. Read **Organic vs paid clicks**. It draws both lines day by day and says what share of your search clicks were organic.
+4. Read the funnel under **On your site**. It follows people from Google Search to your site: impressions (seen on Google), clicks, organic sessions (visited the site) and key events (converted).
 
 A card that reads **Not connected** says why:
 
 - **Organic search**: click **Go to Google Workspace** and connect Search Console.
 - **Local (Business Profile)**: click **Connect Business Profile** and connect your Google Business Profile.
+- **On your site**: connect Google Analytics and link the property of your site. See [Connect Google Analytics](connect-google-analytics.md).
 - **Paid search**: there is no button. Your Google Ads account is not connected from a screen in Ohanvi, so contact Ohanvi support to compare paid clicks.
 
 The other cards keep working either way.
 
 !!! note "Each source keeps its own days"
-    Search Console counts days in Pacific Time. Google Ads counts them in your ad account's time zone. Numbers for the same date can come from slightly different hours.
+    Search Console counts days in Pacific Time. Google Ads counts them in your ad account's time zone, and Google Analytics in your property's time zone. Numbers for the same date can come from slightly different hours.
 
 ### Link a site to your online store
 
@@ -145,6 +148,7 @@ The agent only reads. It cannot link sites or change anything in Search Console.
 ## Related
 
 - [Connect Google Workspace](connect-google-workspace.md)
+- [Connect Google Analytics](connect-google-analytics.md)
 - [Send a weekly Search Console summary or start a flow on a traffic drop](../whatsapp/flow-google-workspace-steps.md#send-a-weekly-search-console-summary)
 - [Connect your online store](connect-your-store.md)
 - [Integrations](integrations/index.md)

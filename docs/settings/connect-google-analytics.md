@@ -108,6 +108,29 @@ The dashboard stops showing the property. If you keep the daily totals, they com
 1. On the **Analytics** card, click **Disconnect**.
 2. Confirm in the window that opens. The account's other Google services keep working.
 
+## Ask the AI assistant about your website
+
+Ohanvi's AI agents can read your linked properties too. When you set up an agent, turn on the Google Analytics tools. They read performance, top lists and the reason numbers changed. Then ask in plain words, for example:
+
+- "Why did my visitors drop last week?" The agent compares two periods. It finds the channels, landing pages and devices that moved most, and tells you whether you lost visitors or the visitors you had converted less.
+- "Which channel brings the most sales?"
+- "Which pages convert best?"
+- "Is my tracking working?" The agent looks for a sudden day with no visitors, or a property with no web stream.
+
+The agent only reads. It cannot link properties or change anything in Google Analytics.
+
+## Get a weekly summary or an alert
+
+A flow can send you a weekly website report on WhatsApp or email, or start when visitors drop, conversions drop or tracking goes silent. See [Send a weekly Analytics summary](../whatsapp/flow-google-workspace-steps.md#send-a-weekly-analytics-summary) and [Start a flow when visitors or conversions drop](../whatsapp/flow-google-workspace-steps.md#start-a-flow-when-visitors-or-conversions-drop).
+
+## Compare Analytics revenue with your store
+
+If you connected a Shopify, Wix or WooCommerce store, Ohanvi matches it to the property whose web stream has the store's address. **Store analytics** then compares the revenue Google Analytics recorded with your store's own orders. See [See your store in Google Analytics](connect-your-store.md#see-your-store-in-google-analytics).
+
+## See search visitors on your site
+
+The **Overview** tab of the Search Console dashboard has an **On your site** card. Once a property is linked, it follows people from Google Search to your site: seen on Google, clicked, visited the site and converted. See [Compare organic, paid and local](connect-google-search-console.md#compare-organic-paid-and-local).
+
 ## Troubleshooting
 
 | Issue | Cause | Fix |
@@ -119,7 +142,7 @@ The dashboard stops showing the property. If you keep the daily totals, they com
 | **Numbers are estimated** | Google estimated the report from part of the data. Totals still show. | Choose a shorter range for exact numbers. |
 | **No key events set up. Mark an event as a key event in Google Analytics** | The property has no key events. | Mark an event as a key event in Google Analytics. |
 | The **Revenue** tile is missing | The site does not send e-commerce data to Google Analytics. | Set up e-commerce tracking on your site. |
-| Analytics revenue does not match your store | Ad blockers and cookie consent stop some purchases from reaching Google Analytics. | A small gap is normal. |
+| Analytics revenue does not match your store | Ad blockers and cookie consent stop some purchases from reaching Google Analytics. | Compare both in **Store analytics**. A small gap is normal. |
 | Yesterday's numbers look low, or changed | Google is still adding that day's data. | Check again tomorrow. See [Recent days can still change](#read-the-overview-tab). |
 | Numbers differ from Google Analytics | The dates differ, or Google updated recent days. | Compare the same dates in the property's time zone. |
 | Google shows a warning that it has not verified the app | Google is still reviewing Ohanvi's access to Analytics. | Open the advanced option on the warning and continue to Ohanvi. |
@@ -130,5 +153,6 @@ The dashboard stops showing the property. If you keep the daily totals, they com
 
 - [Connect Google Workspace](connect-google-workspace.md)
 - [Connect Google Search Console](connect-google-search-console.md)
+- [Send a weekly Analytics summary or start a flow when visitors drop](../whatsapp/flow-google-workspace-steps.md#send-a-weekly-analytics-summary)
 - [Connect your online store](connect-your-store.md)
 - [Integrations](integrations/index.md)

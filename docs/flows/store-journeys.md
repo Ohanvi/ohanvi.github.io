@@ -60,7 +60,7 @@ If your store or WhatsApp is not connected yet, the row's status reads **Inactiv
 
 1. Click the automation's row, then click **Open builder**.
 2. Click each step and read its **Setup** tab. Check the template name and the values it sends.
-3. Fill in any field that is empty. For example, **Review request** needs your review link, and **Welcome new customer** needs your store name.
+3. Fill in any field that is empty. For example, **Review request** needs your review link, and **Welcome new customer** needs your store name. Copy the review link with **Copy link** on **Google Reviews** → **Review page**. See [Get more Google reviews](../google-reviews/get-more-google-reviews.md#share-the-qr-code-or-link).
 4. For **COD verification**, check that the condition matches how your checkout names cash on delivery. The draft looks for `Cash on Delivery`.
 5. Click **Save**.
 
@@ -115,3 +115,4 @@ Each one has an outcome for each result, such as found or not found, that you wi
 - [Test a flow and fix failed runs](test-and-monitor-flows.md)
 - [Understand flows and the Flows list](flows-overview-and-list.md)
 - [Read store analytics](../analytics/read-store-analytics.md)
+- [Get more Google reviews](../google-reviews/get-more-google-reviews.md)

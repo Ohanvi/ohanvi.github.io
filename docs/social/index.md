@@ -17,12 +17,13 @@ Open **Social** in the left rail. The panel lists:
 - **Insights** — how your posts perform.
 - **Publish** — the post queue, with the tabs **Queue**, **Drafts**, **Approvals** and **Sent**, and a **List** / **Calendar** switch.
 - **Templates** — ready-made and saved post templates.
-- **Review Booster** — a QR code and link that help customers post Google reviews.
 - **Business Info** — your Google Business Profile details.
 
 The panel also has a **New** button (**Post**, **Connect a new channel**) and a **Channels** list of your connected accounts.
 
 Accounts are connected under **Connect** → **Social Connections** in the left rail.
+
+Review Booster moved out of Social. The review page, QR code and flyer are now in **Google Reviews** under **More**. See [Google Reviews](../google-reviews/index.md).
 
 ## Before you start
 
@@ -47,7 +48,7 @@ Accounts are connected under **Connect** → **Social Connections** in the left 
 | [Use post templates](use-post-templates.md) | You want to start from a ready-made post. |
 | [Manage your Google Business Profile](manage-google-business-profile.md) | You want to update your listing details, hours or links. |
 | [Reply to Google reviews](reply-to-google-reviews.md) | You want to answer or track Google reviews. |
-| [Get more Google reviews with Review Booster](google-review-booster.md) | You want customers to post more Google reviews. |
+| [Get more Google reviews](../google-reviews/get-more-google-reviews.md) | You want customers to post more Google reviews. |
 
 ## Related
 

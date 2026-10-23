@@ -33,6 +33,7 @@ Add a ready-made flow to your workspace instead of building it card by card. At 
 | **Publish everywhere** | When a post is ready, sends it to every channel selected on it, then records how it went. |
 | **Only promote big posts** | When a post is ready, checks a condition first and stops quietly if it does not apply. |
 | **Give drafts a breather** | When a draft is created, waits a while before doing anything with it. |
+| **Ask for a Google review after an appointment** | When an appointment is marked completed, waits 2 hours, then sends the customer your Google review link on WhatsApp. Skipped when your review page is not set up. See [Ask for a Google review after an appointment](../google-reviews/ask-for-a-review-after-an-appointment.md). |
 
 ### Chatbot templates
 

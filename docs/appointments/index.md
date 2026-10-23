@@ -35,3 +35,4 @@ Booking rules and reminders are not in the panel: click your initials bottom-lef
 - [Schedule](../schedule/index.md) — see appointments next to everything else.
 - [Create a WhatsApp chatbot flow](../create-whatsapp-flow.md)
 - [Settings](../settings/index.md)
+- [Ask for a Google review after an appointment](../google-reviews/ask-for-a-review-after-an-appointment.md)

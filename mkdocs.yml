@@ -212,7 +212,6 @@ nav:
           - social/business-info/index.md
           - Google Business Profile: social/manage-google-business-profile.md
           - Reply to Google reviews: social/reply-to-google-reviews.md
-          - Get more Google reviews: social/google-review-booster.md
   - Email:
       - email/index.md
       - Get started (end to end): email/get-started-with-email.md
@@ -292,6 +291,16 @@ nav:
       - Board: tasks/move-tasks-on-board.md
       - List: tasks/use-the-list-view.md
       - Notifications: tasks/read-task-notifications.md
+  - Google Reviews:
+      - google-reviews/index.md
+      - Review page: google-reviews/get-more-google-reviews.md
+      - Flyer: google-reviews/design-a-review-flyer.md
+      - Stats: google-reviews/read-google-review-stats.md
+      - Private notes: google-reviews/read-private-notes.md
+      - Ask for a review after an appointment: google-reviews/ask-for-a-review-after-an-appointment.md
+      - Branches: google-reviews/manage-branches.md
+      - Profile check: google-reviews/run-a-profile-check.md
+      - Auto-reply: google-reviews/set-up-auto-reply.md
   - Settings:
       - settings/index.md
       - Open Settings: settings/open-settings.md

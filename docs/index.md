@@ -25,6 +25,7 @@ The modules are listed in the same order as the left rail in the app.
   <a class="doc-card" href="schedule/"><strong>Schedule</strong><span>Everything scheduled across modules, in one calendar.</span></a>
   <a class="doc-card" href="analytics/"><strong>Analytics</strong><span>Broadcast and store performance, with suggested next steps.</span></a>
   <a class="doc-card" href="tasks/"><strong>Tasks</strong><span>Task projects, boards, assignees, comments and sprints.</span></a>
+  <a class="doc-card" href="google-reviews/"><strong>Google Reviews</strong><span>Review page, QR code, flyer, stats, branches and auto-reply.</span></a>
   <a class="doc-card" href="settings/"><strong>Settings</strong><span>Your profile, team, roles, notifications and developer access.</span></a>
   <a class="doc-card" href="billing/"><strong>Billing and Credits</strong><span>Credits, recharges, usage, invoices, GST details and your plan.</span></a>
 </div>

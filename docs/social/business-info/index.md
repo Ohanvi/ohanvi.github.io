@@ -15,7 +15,7 @@ Business Info edits your Google Business Profile details. You can also answer an
 | --- | --- |
 | [Manage your Google Business Profile](../manage-google-business-profile.md) | You edit details, hours, links or verification. |
 | [Reply to Google reviews](../reply-to-google-reviews.md) | You answer or track reviews. |
-| [Get more Google reviews with Review Booster](../google-review-booster.md) | You want a QR code or link that helps customers post reviews. |
+| [Get more Google reviews](../../google-reviews/get-more-google-reviews.md) | You want a QR code or link that helps customers post reviews. It is in **Google Reviews** under **More**. |
 
 ## Before you start
 

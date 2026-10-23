@@ -52,7 +52,7 @@ To remove a link, click the delete icon next to it.
 
 Reviews have their own page. See [Reply to Google reviews](reply-to-google-reviews.md). It covers filters, replies, flags and notes.
 
-To get more reviews, see [Get more Google reviews with Review Booster](google-review-booster.md).
+To get more reviews, see [Get more Google reviews](../google-reviews/get-more-google-reviews.md).
 
 ## Video walkthrough
 

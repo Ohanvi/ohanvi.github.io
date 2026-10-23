@@ -12,6 +12,9 @@ Reviews on your Google listing sync into Ohanvi. You can reply in public, change
 - Google Business is connected. See [Connect social accounts](connect-social-accounts.md).
 - You can see **Social** in the left rail. Reviews sync from Google in the background, so a new review may take a little while to show.
 
+!!! tip "Collect more reviews without Google Business Profile"
+    Replying needs Google Business Profile. Asking customers for reviews does not: the review page, QR code and flyer are in **Google Reviews** under **More**. See [Get more Google reviews](../google-reviews/get-more-google-reviews.md).
+
 ## Steps
 
 ### Open the reviews
@@ -86,6 +89,6 @@ If the box is empty, it says **Reply text is required**.
 ## Related
 
 - [Manage your Google Business Profile](manage-google-business-profile.md)
-- [Get more Google reviews with Review Booster](google-review-booster.md)
+- [Get more Google reviews](../google-reviews/get-more-google-reviews.md)
 - [Use Social Home](use-social-home.md)
 - [Connect social accounts](connect-social-accounts.md)

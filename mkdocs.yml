@@ -301,6 +301,16 @@ nav:
       - Branches: google-reviews/manage-branches.md
       - Profile check: google-reviews/run-a-profile-check.md
       - Auto-reply: google-reviews/set-up-auto-reply.md
+  - Event Photos:
+      - event-photos/index.md
+      - Create an event: event-photos/create-an-event.md
+      - Photos: event-photos/upload-and-organise-photos.md
+      - Beam: event-photos/set-up-beam.md
+      - Share: event-photos/share-the-gallery.md
+      - Guests and selection: event-photos/guests-and-album-selection.md
+      - Settings: event-photos/event-settings.md
+      - What guests see: event-photos/what-guests-see.md
+      - Troubleshooting: event-photos/troubleshooting.md
   - Settings:
       - settings/index.md
       - Open Settings: settings/open-settings.md

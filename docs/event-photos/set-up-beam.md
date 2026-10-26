@@ -28,7 +28,7 @@ Use these values on every camera.
 | Setting | Value |
 | --- | --- |
 | Server (host) | `beam.ohanvi.com` |
-| Port | `21` for FTPS (Sony, Canon). `22` for SFTP (Nikon Z8 and Z9). |
+| Port | `21` for FTPS, on every brand. `22` for SFTP, on cameras that offer it, such as the Nikon Z8 and Z9. |
 | Secure protocol | On (FTPS) |
 | Passive mode | On (FTP and FTPS only) |
 | Username and password | The camera's own login from Ohanvi |
@@ -107,9 +107,21 @@ Canon menu names vary by model and firmware. Look for the FTP transfer settings 
 - **Auto transfer**: Enable
 - **Transfer type**: JPEG only
 
-### Set up a Nikon Z8 or Z9
+### Set up a Nikon camera
 
-Nikon menu names vary by firmware. Look for **Connect to FTP server** in the **Network** menu, and create a new profile. Then enter these values:
+Nikon menu names vary by model and firmware. Look for **Connect to FTP server** in the **Network** menu, then **Network settings** → **Create profile**. Both options below work. The **Setup card** in Ohanvi shows FTPS.
+
+**FTPS on port 21** (the Setup card's values):
+
+- **Server type**: FTPS
+- **Address**: `beam.ohanvi.com`
+- **Port**: `21`
+- **PASV mode**: On
+- **Login**: the camera's username and password
+- **Auto send**: On
+- **Send file as**: JPEG only
+
+**SFTP on port 22** (Nikon Z8 and Z9):
 
 - **Server type**: SFTP
 - **Address**: `beam.ohanvi.com`
@@ -153,6 +165,7 @@ Open the camera's menu on the **Beam** tab or on **Cameras**.
 | --- | --- | --- |
 | The camera doesn't connect | The Wi-Fi is weak or crowded. | Join your phone's hotspot and keep the phone near the camera. |
 | The camera connects but no photos arrive | Passive mode is off. | Turn passive mode on in the camera's FTP settings. |
+| A Nikon doesn't connect | The server type and port don't match. | Use FTPS with port `21` and PASV mode on, or SFTP with port `22`. |
 | The camera shows a certificate error | **Secure Protocol** is off, or the host is typed wrong. | Set **Secure Protocol** to **On**, and type the host exactly as `beam.ohanvi.com`, not an IP address. |
 | The login is refused | The password is mistyped, or the camera is unlinked or locked. 10 wrong passwords in a row lock it for 15 minutes. | Check the login with **Show login**. Link the camera to the event. If it is locked, click **Reset password** and type the new one. |
 | Photos go to the wrong folder | The camera's folder is from an earlier moment. | Pick the folder on the **Beam** tab. New frames go there. |

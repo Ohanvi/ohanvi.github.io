@@ -21,7 +21,7 @@ Find the problem below, read the cause, and follow the fix. Most problems come f
 | The login is refused | The username or password is mistyped. | Open the camera's menu and click **Show login**. Type the password again: 8 characters, letters and digits. |
 | The login is refused after many tries | 10 wrong passwords in a row lock the camera for 15 minutes. | Click **Reset password** on the camera, and type the new password into the camera. |
 | The login is refused for a camera that worked before | The camera is unlinked, or is linked to another event. | On the event's **Beam** tab, click **Link a camera** and pick it. |
-| A Nikon Z8 or Z9 doesn't connect | The server type or port is wrong. | Set the server type to SFTP and the port to `22`. |
+| A Nikon doesn't connect | The server type and port don't match. | Use FTPS with port `21` and PASV mode on, or SFTP with port `22` (Z8 and Z9). See [Set up Beam](set-up-beam.md#set-up-a-nikon-camera). |
 | A Sony or Canon doesn't connect on port 22 | Port 22 is for SFTP. | Set the port to `21` with FTPS. |
 | An older camera can't use FTPS | Beam needs FTPS by default. | Open the camera's menu and click **Allow plain FTP**. Photos from it travel unencrypted. |
 | RAW files don't arrive | Beam takes JPEG only. | Set the camera to send JPEG. |

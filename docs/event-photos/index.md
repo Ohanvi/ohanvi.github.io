@@ -24,7 +24,7 @@ If you moved it under **More**, click **More**, then open the **Event Photos** s
 4. A guest scans the QR code, verifies their WhatsApp number and takes a selfie.
 5. The guest sees the photos they are in, sorted by folder. While the event is live, new photos of them appear, and WhatsApp tells them.
 
-Guests need no app. The page opens in the phone's browser.
+Guests need no app. The page opens in the phone's browser, at an address such as `app.ohanvi.com/e/aarav-diya-wedding`.
 
 ## The event workspace
 
@@ -72,7 +72,7 @@ Follow them in this order the first time.
 ## FAQ
 
 **Can guests see each other's photos?**
-Not on the guest link. Each guest sees only the photos they are in. The full gallery and VIP links show more. See [Share the gallery](share-the-gallery.md).
+Not on the guest link. Each guest sees only the photos they are in, and so does a VIP. Only the full gallery and album selection links show every photo. See [Share the gallery](share-the-gallery.md).
 
 **Do guests see anything before I publish?**
 No. Guests see no photos until you publish the event. They can still register on a draft event.

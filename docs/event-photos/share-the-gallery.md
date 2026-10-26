@@ -18,9 +18,9 @@ Each event has 4 links: one for guests, one for the full gallery, one for the co
 | Link | Who it's for | What they see |
 | --- | --- | --- |
 | **Guest link** | Every guest. Put its QR code up at the venue. | Only the photos they are in, after they verify on WhatsApp and take a selfie. |
-| **Full gallery** | The hosts. | Every published photo. Optional: **Require registration**. |
-| **Album selection** | The couple. | The event's photos. They heart the photos they want in the album. Their picks appear on the **Selection** tab. |
-| **VIP** | Parents and elders who don't want to type a number. | Their photos after a selfie. No WhatsApp number is asked. |
+| **Full gallery** | The hosts. | Every published photo, by folder. Optional: **Require registration**. |
+| **Album selection** | The couple. | The event's photos. They heart the photos they want in the album, add a note to any pick, and send the picks to the studio. Sent picks are locked. They appear on the **Selection** tab. |
+| **VIP** | Parents and elders who don't want to type a number. | Only the photos they are in, after a selfie. No WhatsApp number is asked, and no WhatsApp messages are sent. |
 
 !!! warning "Never print the VIP link"
     The VIP link skips WhatsApp verification. Send it only to the people it is for. Don't print its QR code or post it anywhere public.
@@ -30,7 +30,7 @@ Each event has 4 links: one for guests, one for the full gallery, one for the co
 ### Share the guest QR code
 
 1. Click **Photos** on the left rail, select **Events**, and open the event.
-2. Go to the **Share** tab. Each link has its own card with its QR code and address.
+2. Go to the **Share** tab. Each link has its own card with its QR code and address. The guest link's address looks like `app.ohanvi.com/e/aarav-diya-wedding`. The other links add a part and a key, for example `app.ohanvi.com/e/aarav-diya-wedding/all?t=…`.
 3. On the **Guest link** card, check the badge reads **On**. If it reads **Off**, turn on the switch.
 4. Click **Copy link** to copy the address. The message **Link copied** appears.
 5. Put the QR code up at the venue: on the welcome board, a table stand or a screen.

@@ -5,7 +5,7 @@ description: See every guest who verified for an event, how many photos they wer
 
 # Work with guests and album selection
 
-The **Guests** tab lists everyone who verified their WhatsApp number for the event, with how many photos they were found in. The **Selection** tab shows the photos the couple hearted for the album, ready to export for Lightroom or as a CSV.
+The **Guests** tab lists everyone who verified their WhatsApp number for the event, with how many photos they were found in. The **Selection** tab shows the photos the couple hearted for the album, with their notes, ready to export as a Lightroom filter or a CSV file.
 
 ## Before you start
 
@@ -44,11 +44,14 @@ Each guest who verifies becomes a CRM contact, tagged with the event. Use the ta
 
 ### Read the couple's album picks
 
-The couple opens the **Album selection** link and hearts the photos they want in the album. Their picks appear on the **Selection** tab.
+The couple opens the **Album selection** link and hearts the photos they want in the album, up to 300. They can add a note to any pick, for example "crop closer". When they are done, they tap **Send picks to the studio**. From then on their picks are locked: they can't add, remove or change a pick or a note.
 
 1. Open the event and go to the **Selection** tab.
-2. Read the photos the couple hearted.
-3. Export the picks for Lightroom, or as a CSV file.
+2. Check the badge. **Submitted** means the couple sent their picks and they are locked. **Not submitted yet** means they are still choosing, and picks can still change.
+3. Read the photos the couple hearted, with their folder and note.
+4. Click **Export**, and pick **Lightroom filter** or **CSV**.
+5. For **Lightroom filter**, click **Copy**. In Lightroom Classic, open **Library Filter** → **Text** → **Filename** → **Contains**, and paste.
+6. For **CSV**, click **Download CSV**, or **Copy** to paste it into a spreadsheet. It has one row per pick: file name, folder, note, and when it was picked and submitted.
 
 Send the couple the **Album selection** link from the **Share** tab. See [Share the gallery](share-the-gallery.md#send-a-link-on-whatsapp).
 
@@ -60,7 +63,8 @@ Send the couple the **Album selection** link from the **Share** tab. See [Share 
 | A guest shows **Pending** | They gave a number but didn't finish verifying. | Ask them to tap **Verify with WhatsApp** and send the ready-made message. |
 | A guest shows **Photos found** as 0 | No photo matches their selfie yet, or the matching photos are held. | Check the photos are uploaded and released. If the selfie was dark or blurred, ask them to take a new one. See [Fix Event Photos problems](troubleshooting.md). |
 | A guest shows **Stopped** | They replied STOP. | No fix needed. They get no more WhatsApp messages about this event. |
-| The **Selection** tab is empty | The couple hasn't hearted any photos yet. | Send them the **Album selection** link. |
+| The tab reads **No picks yet — send the Album selection link to the couple** | The couple hasn't hearted any photos yet. | Send them the **Album selection** link. |
+| The couple wants to change their picks after sending them | Sent picks are locked. | Ask them for the changes, for example on WhatsApp, and apply them yourself. |
 
 ## Related
 
@@ -70,4 +74,4 @@ Send the couple the **Album selection** link from the **Share** tab. See [Share 
 - [Manage contacts](../crm/manage-contacts.md)
 
 !!! note "Screenshots to add"
-    After **See who verified** step 2 — the **Guests** table with **Photos found** and **Last message**; after **Read the couple's album picks** step 2 — the **Selection** tab with hearted photos.
+    After **See who verified** step 2 — the **Guests** table with **Photos found** and **Last message**; after **Read the couple's album picks** step 3 — the **Selection** tab with hearted photos, notes and the **Submitted** badge; after step 4 — the **Export the selection** window.

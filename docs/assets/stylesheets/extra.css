@@ -173,3 +173,53 @@ body {
     gap: 1rem;
   }
 }
+
+/* Language dropdown (overrides/partials/alternate.html): icon, current language, caret. */
+.lang-dd__button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  height: 2rem;
+  margin: 0 0.3rem;
+  padding: 0 0.6rem;
+  font: inherit;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #25211d;
+  background: #fff;
+  border: 1px solid #dfd2c1;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.lang-dd__button:hover,
+.lang-dd__button:focus-visible {
+  border-color: #6f45d8;
+}
+.lang-dd__icon {
+  display: inline-flex;
+}
+.lang-dd__icon svg {
+  width: 1rem;
+  height: 1rem;
+  fill: currentColor;
+}
+.lang-dd__caret {
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid currentColor;
+}
+.lang-dd .md-select__inner {
+  top: 100%;
+  right: 0.3rem;
+  left: auto;
+  margin-top: 0.1rem;
+}
+.lang-dd .md-select__link {
+  font-size: 0.75rem;
+}
+.lang-dd .lang-dd__link--on {
+  font-weight: 700;
+  color: #5632b7;
+}

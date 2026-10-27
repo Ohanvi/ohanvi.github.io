@@ -1,74 +1,74 @@
 ---
 title: कनेक्शन की सेहत जाँचें
-description: कनेक्शन हेल्थ चेक चलाकर पता करें कि व्हाट्सऐप मैसेज क्यों नहीं जा रहे या नहीं आ रहे, और जो समस्या वह बताए उसे ठीक करें।
+description: कनेक्शन हेल्थ चेक चलाकर पता करें कि WhatsApp मैसेज क्यों नहीं जा रहे या नहीं आ रहे, और जो समस्या दिखे उसे ठीक करें।
 ---
 
 # कनेक्शन की सेहत जाँचें { #check-connection-health }
 
-Connection Health आपके व्हाट्सऐप कनेक्शन को सीधे Meta के सामने परखता है। अंत में आप जान जाएँगे कि मैसेज जा सकते हैं और आ सकते हैं या नहीं, और जो भी फ़ेल हुआ उसका साफ़ समाधान आपके पास होगा। एक जाँच में कुछ सेकंड लगते हैं।
+Connection Health आपके WhatsApp कनेक्शन को सीधे Meta से चेक करता है। इसके बाद आपको पता चल जाएगा कि मैसेज जा सकते हैं या नहीं और आ सकते हैं या नहीं। जो भी चेक फ़ेल हुआ, उसका साफ़ हल भी मिलेगा। एक चेक में कुछ सेकंड ही लगते हैं।
 
 ## शुरू करने से पहले { #before-you-start }
 
-- आप **WhatsApp** पैनल में **Manage** खोल सकते हों। न खुले तो अपने एडमिन से पूछें।
-- आपने Ohanvi में व्हाट्सऐप नंबर जोड़ा हो। देखें [अपना व्हाट्सऐप नंबर कनेक्ट करें](connect-whatsapp-number.md)।
+- आप **WhatsApp** पैनल में **Manage** खोल पाते हों। न खुले, तो अपने एडमिन से पूछें।
+- आपने Ohanvi में WhatsApp नंबर जोड़ा हो। देखें [अपना WhatsApp नंबर कनेक्ट करें](connect-whatsapp-number.md)।
 
-## चारों जाँचों का मतलब { #what-the-four-checks-mean }
+## चारों चेक का मतलब { #what-the-four-checks-mean }
 
-| जाँच | यह क्या परखती है | फ़ेल होने का आम मतलब |
+| चेक | यह क्या देखता है | फ़ेल होने का आम मतलब |
 | --- | --- | --- |
-| **Configuration** | कि आपके व्हाट्सऐप सेटअप में एक एक्सेस टोकन, एक WABA ID और एक Phone Number ID है। | कोई फ़ील्ड खाली है, या अभी कोई कॉन्फ़िगरेशन है ही नहीं। |
-| **Access token & number** | कि Meta आपका टोकन मानता है और नंबर **CONNECTED** है। यह नंबर की क्वालिटी भी पढ़ती है। | टोकन खत्म हो गया या रद्द हो गया, Phone Number ID गलत है, या नंबर पर पाबंदी है। |
-| **Webhook subscription** | कि आपका WhatsApp Business Account किसी ऐप से सब्सक्राइब है, और **messages** फ़ील्ड चालू है। | ग्राहकों के जवाब Ohanvi तक नहीं पहुँचते। |
-| **Callback verify token** | कि वेबहुक का वेरिफ़ाई टोकन सेव है। | Meta आपके वेबहुक की पुष्टि नहीं कर पाता। |
+| **Configuration** | क्या आपके WhatsApp सेटअप में एक्सेस टोकन, WABA ID और Phone Number ID मौजूद हैं। | कोई फ़ील्ड खाली है, या अभी तक कोई कॉन्फ़िगरेशन बना ही नहीं है। |
+| **Access token & number** | क्या Meta आपका टोकन मान रहा है और नंबर **CONNECTED** है। यह नंबर की क्वालिटी भी देखता है। | टोकन की मियाद खत्म हो गई या वह कैंसिल हो गया, Phone Number ID गलत है, या नंबर पर रोक लगी है। |
+| **Webhook subscription** | क्या आपका WhatsApp Business Account किसी ऐप से सब्सक्राइब है, और **messages** फ़ील्ड चालू है। | ग्राहकों के जवाब Ohanvi तक नहीं पहुँचते। |
+| **Callback verify token** | क्या वेबहुक का वेरिफ़ाई टोकन सेव है। | Meta आपके वेबहुक को वेरिफ़ाई नहीं कर पाता। |
 
 !!! note "क्वालिटी रेटिंग"
-    जब किसी नंबर की क्वालिटी **RED** पर पहुँच जाती है, तो Meta मैसेज भेजना सीमित या बंद कर देता है। अगर जाँच क्वालिटी के बारे में चेतावनी दे, तो कम मैसेज भेजें और अपनी भाषा नरम रखें।
+    जब किसी नंबर की क्वालिटी **RED** हो जाती है, तब Meta उस नंबर से मैसेज भेजना सीमित या बंद कर देता है। अगर चेक क्वालिटी को लेकर चेतावनी दे, तो कम मैसेज भेजें और अपने मैसेज की भाषा नरम रखें।
 
-## चरण { #steps }
+## स्टेप { #steps }
 
 ### हेल्थ चेक चलाएँ { #run-the-health-check }
 
-1. बाएँ रेल में **WhatsApp** खोलें, फिर **Manage** चुनें।
-2. **Connection Health** चुनें। पेज का शीर्षक **Connection health** होता है, और यह जाँच शुरू कर देता है।
+1. लेफ़्ट रेल में **WhatsApp** खोलें, फिर **Manage** चुनें।
+2. **Connection Health** चुनें। पेज का टाइटल **Connection health** होता है, और चेक अपने आप शुरू हो जाता है।
 
-    ![Connection health, जिसमें Everything checks out और चार जाँचें दिख रही हैं: Configuration, Access token and number, Webhook subscription और Callback verify token](../assets/screenshots/whatsapp-connection-health-1-checks.png)
+    ![Connection health पेज, जिसमें Everything checks out और चार चेक दिख रहे हैं: Configuration, Access token and number, Webhook subscription और Callback verify token](../assets/screenshots/whatsapp-connection-health-1-checks.png)
 
-3. ऊपर की पंक्ति पढ़ें। **Everything checks out — messages should be sending normally.** का मतलब है कि सब ठीक है।
-4. चारों जाँचें एक-एक करके पढ़ें। फ़ेल हुई जाँच बताती है कि क्या गड़बड़ हुई और उसे कैसे ठीक करना है।
+3. सबसे ऊपर की लाइन पढ़ें। अगर **Everything checks out — messages should be sending normally.** लिखा है, तो सब ठीक है।
+4. चारों चेक एक-एक करके पढ़ें। जो चेक फ़ेल हुआ है, वह बताएगा कि क्या गड़बड़ है और उसे कैसे ठीक करना है।
 
-### फ़ेल हुई जाँच ठीक करें { #fix-a-failed-check }
+### फ़ेल हुआ चेक ठीक करें { #fix-a-failed-check }
 
-1. सूची में फ़ेल हुई जाँच ढूँढें।
-2. उसकी ब्योरे वाली पंक्ति और समाधान वाली पंक्ति पढ़ें।
-3. बदलाव करें। आम समाधान अगले हिस्सों में समझाए गए हैं।
-4. **Re-check** पर क्लिक करें। पेज चारों जाँचें दोबारा चलाता है।
+1. लिस्ट में फ़ेल हुआ चेक ढूँढें।
+2. उसकी डिटेल वाली लाइन और उसे ठीक करने वाली लाइन पढ़ें।
+3. ज़रूरी बदलाव करें। आम तरीके नीचे बताए हैं।
+4. **Re-check** पर क्लिक करें। पेज चारों चेक दोबारा चलाएगा।
 
-आम समाधान:
+आम तरीके:
 
-- **Configuration:** **Settings** → **WhatsApp** → **Configuration** खोलें। जो टोकन या ID छूटा है उसे भरें, फिर सेव करें। देखें [अपना व्हाट्सऐप नंबर कनेक्ट करें](connect-whatsapp-number.md)।
-- **Access token & number:** नया परमानेंट एक्सेस टोकन पेस्ट करें, और Phone Number ID जाँचें।
+- **Configuration:** **Settings** → **WhatsApp** → **Configuration** खोलें। जो टोकन या ID खाली है, उसे भरें और सेव करें। देखें [अपना WhatsApp नंबर कनेक्ट करें](connect-whatsapp-number.md)।
+- **Access token & number:** नया परमानेंट एक्सेस टोकन पेस्ट करें, और Phone Number ID दोबारा देख लें।
 - **Webhook subscription:** वेबहुक दोबारा कनेक्ट करें। देखें [वेबहुक और इंटीग्रेशन](whatsapp-webhooks-and-integrations.md)।
-- **Callback verify token:** यहाँ वही वेरिफ़ाई टोकन सेव करें जो आपने अपने Meta ऐप में डाला था।
+- **Callback verify token:** आपने अपने Meta ऐप में जो वेरिफ़ाई टोकन डाला था, वही यहाँ सेव करें।
 
-### जाँच दोबारा चलाएँ { #run-the-check-again }
+### चेक दोबारा चलाएँ { #run-the-check-again }
 
-1. किसी भी समय **Re-check** पर क्लिक करें।
-2. अगर जाँच चल नहीं सकी, तो **Retry** पर क्लिक करें।
+1. जब चाहें, **Re-check** पर क्लिक करें।
+2. अगर चेक चल ही नहीं पाया, तो **Retry** पर क्लिक करें।
 
 ## समस्या का समाधान { #troubleshooting }
 
 | समस्या | कारण | समाधान |
 | --- | --- | --- |
-| **No WhatsApp configuration found for this organisation.** | अभी कोई नंबर जोड़ा नहीं गया है। | **Settings** → **WhatsApp** → **Configuration** में अपने Cloud API क्रेडेंशियल जोड़ें। |
-| **Could not run the health check.** | Ohanvi सेवा तक नहीं पहुँच सका। | **Retry** पर क्लिक करें। |
-| **The health check did not return a result.** | जाँच ने कुछ नहीं लौटाया। | **Re-check** पर क्लिक करें। |
-| Meta ने अनुरोध ठुकरा दिया | एक्सेस टोकन खत्म हो गया है या रद्द हो गया है। | नया परमानेंट टोकन बनाएँ और उसे **Configuration** में सेव करें। |
-| This WABA is not subscribed to any app | Meta आने वाले मैसेज Ohanvi को नहीं भेजता। | अकाउंट को दोबारा सब्सक्राइब करें। देखें [वेबहुक और इंटीग्रेशन](whatsapp-webhooks-and-integrations.md)। |
-| **messages** फ़ील्ड नहीं है | वेबहुक सब्सक्राइब है, पर messages के लिए नहीं। | अपने Meta ऐप में **messages** फ़ील्ड चालू करें। |
+| **No WhatsApp configuration found for this organisation.** | अभी तक कोई नंबर जोड़ा नहीं गया है। | **Settings** → **WhatsApp** → **Configuration** में अपने Cloud API क्रेडेंशियल जोड़ें। |
+| **Could not run the health check.** | Ohanvi सर्विस तक नहीं पहुँच पाया। | **Retry** पर क्लिक करें। |
+| **The health check did not return a result.** | चेक से कोई नतीजा नहीं आया। | **Re-check** पर क्लिक करें। |
+| Meta ने रिक्वेस्ट रिजेक्ट कर दी | एक्सेस टोकन की मियाद खत्म हो गई है या वह कैंसिल हो गया है। | नया परमानेंट टोकन बनाएँ और उसे **Configuration** में सेव करें। |
+| This WABA is not subscribed to any app | Meta आने वाले मैसेज Ohanvi को नहीं भेज रहा। | अकाउंट को दोबारा सब्सक्राइब करें। देखें [वेबहुक और इंटीग्रेशन](whatsapp-webhooks-and-integrations.md)। |
+| **messages** फ़ील्ड नहीं मिल रही | वेबहुक सब्सक्राइब है, लेकिन messages के लिए नहीं। | अपने Meta ऐप में **messages** फ़ील्ड चालू करें। |
 
 ## संबंधित गाइड { #related }
 
-- [कनेक्शन की सेहत, अलर्ट और व्हाट्सऐप बिलिंग देखें](health-notifications-and-billing.md)
-- [अपना व्हाट्सऐप नंबर कनेक्ट करें](connect-whatsapp-number.md)
+- [कनेक्शन की सेहत, अलर्ट और WhatsApp बिलिंग देखें](health-notifications-and-billing.md)
+- [अपना WhatsApp नंबर कनेक्ट करें](connect-whatsapp-number.md)
 - [नोटिफ़िकेशन की पसंद सेट करें](set-notification-preferences.md)
 - [वेबहुक और इंटीग्रेशन](whatsapp-webhooks-and-integrations.md)

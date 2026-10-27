@@ -1,0 +1,30 @@
+{#-
+  Language dropdown for the header. Replaces Material's icon-only switcher with a visible
+  control that names the current language, like a "language dropdown" on a CMS site.
+  Each link points at the same page in the other language (set by mkdocs-static-i18n).
+-#}
+<div class="md-header__option">
+  <div class="md-select lang-dd">
+    {% set icon = config.theme.icon.alternate or "material/translate" %}
+    <button class="lang-dd__button" aria-haspopup="listbox" aria-label="{{ lang.t('select.language') }}">
+      <span class="lang-dd__icon md-icon">{% include ".icons/" ~ icon ~ ".svg" %}</span>
+      {% for alt in config.extra.alternate %}
+        {% if alt.lang == config.theme.language %}<span class="lang-dd__current">{{ alt.name }}</span>{% endif %}
+      {% endfor %}
+      <span class="lang-dd__caret" aria-hidden="true"></span>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list" role="listbox">
+        {% for alt in config.extra.alternate %}
+          <li class="md-select__item">
+            <a href="{{ alt.link | url }}" hreflang="{{ alt.lang }}" lang="{{ alt.lang }}"
+               class="md-select__link{% if alt.lang == config.theme.language %} lang-dd__link--on{% endif %}"
+               {% if alt.lang == config.theme.language %}aria-current="true"{% endif %}>
+              {{ alt.name }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

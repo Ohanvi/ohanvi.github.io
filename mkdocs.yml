@@ -63,6 +63,8 @@ plugins:
             'Recent contacts': 'हाल के कॉन्टैक्ट'
             'Leads': 'लीड्स'
             'Work with leads': 'लीड्स के साथ काम करें'
+            'Lead phases': 'लीड फ़ेज़'
+            'Leads by stage': 'स्टेज के हिसाब से लीड्स'
             'Recover abandoned carts': 'छोड़ी गई कार्ट वापस पाएँ'
             'Contact groups': 'कॉन्टैक्ट समूह'
             'Import and sync': 'इम्पोर्ट और सिंक'
@@ -311,16 +313,17 @@ nav:
               - Send a welcome email: crm/send-a-welcome-email.md
               - Set up the welcome email: crm/set-up-the-welcome-email.md
               - Recent contacts: crm/find-recent-contacts.md
-          - Leads:
-              - Work with leads: crm/leads.md
-              - Recover abandoned carts: crm/recover-abandoned-carts.md
+          - Recover abandoned carts: crm/recover-abandoned-carts.md
           - Contact groups: crm/contact-groups.md
           - Import and sync: crm/import-and-sync-contacts.md
           - Custom fields: crm/custom-fields.md
           - Consent and compliance: crm/consent-and-compliance.md
       - CRM:
           - crm/sales/index.md
-          - Leads: crm/move-leads-through-stages.md
+          - Leads:
+              - Work with leads: crm/leads.md
+              - Lead phases: crm/lead-phases.md
+              - Leads by stage: crm/move-leads-through-stages.md
           - Deals: crm/manage-deals.md
           - Campaigns: crm/track-campaigns.md
           - Funnel: crm/read-the-funnel.md

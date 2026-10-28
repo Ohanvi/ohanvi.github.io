@@ -61,7 +61,7 @@ If the cart has no phone number, the message **No phone number on this cart to n
 ### Work a cart like any other lead
 
 1. Open the cart's **Notes & Activities** tab to log a call or a note.
-2. In the grid view, use **Move Status** and **Convert** on the row, the same as for other leads. See [Work with leads](leads.md).
+2. In the grid view, use **Move Status** and **Convert** on the row. **Commerce Leads** keeps its own grid and these actions. They do not use the phase plan described in [Work with leads](leads.md).
 
 ## Troubleshooting
 

@@ -62,6 +62,12 @@ To import the rows you fixed, upload the fixed file again. Rows already imported
 - A lead whose email or phone is already on file is left as it is. So is a deal with the same name for the same account.
 - Imported leads and deals follow the same rules as ones added by hand. A new deal gets its follow-up task.
 
+!!! note "Imported leads start the plan"
+    Imported leads start Phase 1, with a first call planned for each. They have no contact until you choose **In** after that call. A lead whose phone or email already belongs to a contact is not imported as a lead. Ohanvi adds a note to that contact. [VERIFY: whether the **Stage** column is still used]. See [Work with leads](leads.md).
+
+    !!! warning "Import only people who agreed to WhatsApp messages"
+        A lead with no contact is never messaged on WhatsApp. Once **In** makes them a contact, they count as opted in. Import only people who agreed to hear from you on WhatsApp.
+
 ## Video walkthrough
 
 [VIDEO]
@@ -80,6 +86,7 @@ To import the rows you fixed, upload the fixed file again. Rows already imported
 
 ## Related
 
+- [Work with leads](leads.md)
 - [Move leads through your stages](move-leads-through-stages.md)
 - [Create and manage deals](manage-deals.md)
 - [Set up stages and fields](set-up-stages-and-fields.md)

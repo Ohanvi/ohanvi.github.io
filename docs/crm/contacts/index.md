@@ -19,12 +19,15 @@ description: The people you talk to, with a guide for every task. Contacts, lead
 | **All contacts** | [Send a welcome email to a contact](../send-a-welcome-email.md) | You want to email one contact with brochures. |
 | **All contacts** | [Set up the welcome email and your brochures](../set-up-the-welcome-email.md) | You want a default message and a brochure library. |
 | **All contacts** | [Jump back to recent contacts](../find-recent-contacts.md) | You want the contacts you worked with lately. |
-| **Leads** | [Work with leads](../leads.md) | You qualify, score and convert new enquiries. |
-| **Leads** | [Recover abandoned carts with Commerce leads](../recover-abandoned-carts.md) | Shoppers left your store without paying. |
+| **All contacts** | [Recover abandoned carts with Commerce leads](../recover-abandoned-carts.md) | Shoppers left your store without paying. |
 | **Contact groups** | [Create and manage contact groups](../contact-groups.md) | You want a saved list to message together. |
 | **Import & sync** | [Import and sync contacts](../import-and-sync-contacts.md) | You have contacts in a file or another system. |
 | **Custom fields** | [Add custom contact fields](../custom-fields.md) | You need to store something extra on a contact. |
 | **Consent & compliance** | [Track contact consent](../consent-and-compliance.md) | You check or change who agreed to hear from you. |
+
+## Leads
+
+Leads are not in **Contacts**. They are on **CRM** → **Leads**. When you add a person in **Contacts**, they are added as a contact and their follow-ups start. An import adds contacts and starts no follow-ups. WhatsApp and Email marketing are not affected. See [Manage contacts](../manage-contacts.md#what-add-contact-does-with-follow-ups) and [Work with leads](../leads.md).
 
 ## Before you start
 

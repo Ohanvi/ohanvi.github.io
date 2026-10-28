@@ -20,7 +20,7 @@ Each branch is a separate review page. It has its own:
 - Google listing, so its customers' reviews go to that branch on Google.
 - QR code and link.
 - Flyer.
-- Settings, tags and names customers can pick.
+- Settings, questions and names customers can pick.
 - Stats, private notes, profile check and auto-reply.
 
 Your first review page is your default branch. Until you name it, it shows as **Main branch**.
@@ -36,7 +36,7 @@ Your first review page is your default branch. Until you name it, it shows as **
 5. Confirm the branch's Google listing. See [Confirm your business on Google](get-more-google-reviews.md#confirm-your-business-on-google).
 6. Download the new branch's QR code, or design its flyer. See [Share the QR code or link](get-more-google-reviews.md#share-the-qr-code-or-link).
 
-A new branch starts with the language, tags and flyer of your default branch. Change them on its **Review page** and **Flyer**.
+A new branch starts with the language, questions and flyer of your default branch. Change them on its **Review page** and **Flyer**.
 
 !!! warning "Confirm a listing for every branch"
     A new branch has no Google listing yet. Its QR code and link stay closed until you confirm one. Check the address, so that reviews go to the right branch on Google.

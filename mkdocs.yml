@@ -547,6 +547,7 @@ nav:
       - Branches: google-reviews/manage-branches.md
       - Profile check: google-reviews/run-a-profile-check.md
       - Auto-reply: google-reviews/set-up-auto-reply.md
+      - Settings: google-reviews/settings.md
   - Event Photos:
       - event-photos/index.md
       - Create an event: event-photos/create-an-event.md

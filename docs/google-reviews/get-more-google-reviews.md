@@ -1,11 +1,11 @@
 ---
 title: Get more Google reviews
-description: Confirm your business on Google, choose the tags and names customers tap, set the page language, and share a QR code, link or website widget.
+description: Confirm your business on Google, choose the questions customers answer, set the page language, and share a QR code, link or website widget.
 ---
 
 # Get more Google reviews
 
-Set up a review page that is linked to your Google listing, then share its QR code and link. Customers pick stars, tags and names, or speak a few words, get 3 drafts, and post on Google themselves. Setup takes about 10 minutes.
+Set up a review page that is linked to your Google listing, then share its QR code and link. Customers pick stars, answer a few questions about your business, tap names, or speak a few words, get 3 drafts, and post on Google themselves. Setup takes about 10 minutes.
 
 ## Before you start
 
@@ -29,6 +29,8 @@ Ohanvi searches Google Maps for your organisation's name near its address, and s
 
 !!! warning "Check it is your listing"
     Customers who scan your QR code are sent to this listing to post their review. A wrong match sends their reviews to another business. Compare the address before you confirm.
+
+Ohanvi also reads your business type from Google and uses it to pick your **Industry**, which sets the questions customers answer. See [Choose the questions customers answer](#choose-the-questions-customers-answer).
 
 After you confirm, the **Your Google listing** card shows the business with the badge **Confirmed** and a line such as **Confirmed by Asha on 23 Oct 2026. Customers' reviews go to this listing.** Listing details are marked **Data from Google Maps**.
 
@@ -58,20 +60,50 @@ The listing card then reads **Customers go to the review link you pasted, not to
 
 You do not need to connect Google Business Profile to collect reviews.
 
-### Choose the tags customers tap
+### Choose the questions customers answer
 
-Tags are the short phrases a customer taps to say what stood out. The drafts use only the tags the customer taps.
+Customers answer 3 or 4 short questions about your kind of business by tapping one answer each, for example **Excellent**, **Good**, **Average** or **Poor**. They don't have to type. The drafts use only the answers they tap.
 
-1. On **Review page**, find **Tags customers can tap**.
-2. Click **Add tag** to add one, or remove a tag you don't want. Use up to 8 tags, each 2 to 30 characters.
-3. Click **Save tags**. The message **Tags saved** appears.
+1. On **Review page**, find **Questions customers answer**. The line under it reads **Customers tap one answer per question, and can add a few words of their own. The AI drafts use only what they pick.**
+2. Check **Industry**. Ohanvi picks it from your Google listing when you confirm your business, and shows the type Google gave it, such as **Google lists you as "Software company".** If it is wrong, pick your industry from the list. If none fits, pick **Other business**.
+3. Read the questions. Each card shows its number, the question and its answers.
+4. To change a question, edit its text right on the card. To change an answer, tap it (**Tap to edit**), change the text, then click **Update answer**. To add an answer, type it and click **Add answer**. To drop an answer, click the **x** on it (**Remove answer**). To drop a question, click the trash icon (**Remove question**).
+5. To add your own question, click **Add question**, type the question and add its answers.
+6. Click **Save questions**.
 
-To drop unsaved changes, click **Undo changes**. To go back to the default list, click **Use default tags**. The message **Default tags restored** appears.
+Each industry, such as **IT / Software**, **Travel agency**, **Salon / Spa**, **Clinic / Doctor**, **Restaurant / Cafe** or **Retail shop**, comes with its own 3 or 4 default questions. Until you edit them, your page shows your industry's defaults. If you change **Industry** later, the defaults change with it. Questions you edited stay until you reset them.
 
-The default tags are **Great service**, **Friendly staff**, **Quick response**, **Good value**, **Clean place** and **Would recommend**. On a Hindi or Hinglish page they are **Badhiya service**, **Friendly staff**, **Jaldi kaam**, **Sahi daam**, **Saaf jagah** and **Zaroor recommend**. Pages in the other languages show the English default tags, so add your own tags in your customers' language.
+| Item | Limit |
+| --- | --- |
+| Questions | 1 to 5. |
+| Question text | 3 to 120 characters. |
+| Answers per question | 2 to 5. |
+| Each answer | 1 to 30 characters. |
+
+Questions and answers show exactly as you write them, in every page language. Write them in the language most of your customers read.
+
+#### Suggest questions with AI
+
+1. Under **Questions customers answer**, click **Suggest with AI**.
+2. Read the 3 or 4 questions it suggests for your industry, each with 4 answers.
+3. Edit or remove any you don't want.
+4. Click **Save questions**. The suggestions are not used until you save them.
+
+Suggestions use the AI model set in **Google Reviews** → **Settings**. See [Choose the AI model for Google Reviews](settings.md).
+
+#### Go back to the industry questions
+
+Click **Reset to industry defaults**. Your own questions are replaced with your industry's default questions.
+
+#### The "Other" box
+
+Under the questions, customers also see a short box for anything the questions missed. It reads **Anything else? e.g. the service you used**. They can type up to 120 characters, such as the service they came for. The box is optional, and you don't set it up.
 
 !!! tip
-    Write tags in your customers' words, about what you do well. Leave out offers and prices.
+    Ask about what customers can judge in a tap: speed, care, cleanliness, value. Keep every answer honest, with a poor option as well as a good one. Leave out offers and prices.
+
+!!! note "Tags are replaced by questions"
+    The page no longer shows tags such as **Great service**. Questions give the drafts more to work with, in the customer's own choice of answer.
 
 ### Add names customers can pick
 
@@ -96,7 +128,7 @@ Leave a group empty to hide its question. To drop unsaved changes, click **Undo 
 
 1. On **Review page**, go to **Settings**.
 2. Make sure **Page is live** is on. Turn it off to stop the QR code and link from opening.
-3. Turn **AI review drafts** on or off. When it is on, customers get 3 drafts written only from their stars, tags and words.
+3. Turn **AI review drafts** on or off. When it is on, customers get 3 drafts written only from their stars, answers and words.
 4. Turn **Emoji in drafts** on or off. When it is on, drafts may add one fitting emoji. When it is off, drafts use emoji only if the customer did.
 5. Turn **Voice input** on or off. When it is on, customers can tap **Speak instead** and say their review. The recording is never stored.
 6. Turn **Private note for 1–3 stars** on or off. It is on by default. See [Read private notes](read-private-notes.md).
@@ -158,14 +190,15 @@ Open your page link on your phone and try it. The labels below are the English p
 
 1. Optional: pick another language in **Language** at the top. The page reloads in that language, and the drafts are written in it.
 2. The page asks **How was your experience?** Pick stars under **Your rating**.
-3. Under **What stood out? Tap any that apply.**, tap one or more tags.
-4. If you added names, tap them under **Who helped you?**, **What did you come for?** or **What did you buy?**
-5. Optional: type in **In your own words (optional)**, up to 300 characters. Or tap **Speak instead** and say it. See [Voice input](#voice-input).
-6. Tap **Write my review**. It reads **Writing…** while the drafts are made.
-7. Under **Pick one to post**, read the 3 cards, **Short**, **Detailed** and **Warm**. The line above them says **Each draft uses only what you told us. Edit anything before you post.**
-8. Tap **Edit** to change a draft, or **Write my own instead** to write from scratch.
-9. Tap **Copy & post on Google** on a draft. The page shows **Copied. Paste it on Google.** and Google's review form opens.
-10. On Google, choose your stars, paste the text and tap **Post**.
+3. Answer the numbered question cards, **01**, **02** and so on. Tap one answer on each card.
+4. Optional: type in the box **Anything else? e.g. the service you used**, up to 120 characters.
+5. If you added names, tap them under **Who helped you?**, **What did you come for?** or **What did you buy?**
+6. Optional: type in **In your own words (optional)**, up to 300 characters. Or tap **Speak instead** and say it. See [Voice input](#voice-input).
+7. Tap **Write my review**. It reads **Writing…** while the drafts are made.
+8. Under **Pick one to post**, read the 3 cards, **Short**, **Detailed** and **Warm**. The line above them says **Each draft uses only what you told us. Edit anything before you post.** Below the drafts, the page says **These are suggestions. Please edit them to reflect your genuine experience.**
+9. Tap **Edit** to change a draft, or **Write my own instead** to write from scratch.
+10. Tap **Copy & post on Google** on a draft. The page shows **Copied. Paste it on Google.** and Google's review form opens.
+11. On Google, choose your stars, paste the text and tap **Post**.
 
 | Draft | How it reads |
 | --- | --- |
@@ -178,6 +211,24 @@ If copying doesn't work on the customer's phone, the page shows **Opening Google
 If the customer taps **Write it myself**, or **Write my own instead**, the page shows **Post it on Google** with their text in **Your review**. It lists the steps **Choose your stars on Google · Paste · Post** and the button **Open Google review form**, with the line **You post it yourself; nothing is posted for you.**
 
 A draft never states a star count. The customer chooses their stars on Google.
+
+### How drafts differ by stars
+
+The stars the customer picks on your page decide how the drafts are written. Every customer sees the same **Copy & post on Google** button, whatever they pick.
+
+| Stars | How the drafts read | Example |
+| --- | --- | --- |
+| 4 or 5 | 2 to 4 sentences. Each mentions your business name, the service or product the customer picked or typed, and your city or area once, in a natural way. It uses the customer's answers. The 3 drafts are worded differently. | "Got our WhatsApp API setup done by Ohanvi IT Solutions in Gurugram. Onboarding was smooth and the support team replied within an hour." |
+| 1, 2 or 3 | 1 or 2 plain sentences, only from the customer's answers and words. No location, no service keywords and nothing that promotes the business. | "Setup took longer than expected and support replies were slow. Hope it improves." |
+
+For every rating:
+
+- The customer edits the draft as they like, and posts it on Google themselves. Ohanvi never posts a review.
+- A draft uses only what the customer tapped, typed or said. It never adds details, keyword lists, hashtags or phrases such as "best salon in town".
+- The line **These are suggestions. Please edit them to reflect your genuine experience.** shows under the drafts, in the page's language.
+
+!!! warning "Why drafts don't stuff keywords"
+    Google removes reviews that look alike or repeat the same phrases, and can put a warning on your profile. Drafts mention your name, service and area once, the way a customer would, and each draft is worded differently. Don't edit your own page or flyer to push keywords into reviews.
 
 When drafts are not available, the page offers only **Write it myself**. That happens when **AI review drafts** is off, the **Daily AI limit** is reached, or your wallet is empty.
 
@@ -244,7 +295,9 @@ Make a new code if your link was shared somewhere you don't want it.
 | **Couldn't confirm this business with Google. Try again.** | Google did not answer when Ohanvi read the listing. | Try again in a minute. If it keeps failing, paste your review link. |
 | **Type 2 to 120 characters to search.** | The search text is too short or too long. | Type the business name and area. |
 | **Use your Google review link (it starts with https://g.page/ or https://search.google.com/)** | The pasted link is not a Google link, or starts with `http://`. | Copy the link again from **Ask for reviews** in Google Business Profile. |
-| **Use up to 8 tags.**, **Each tag must be 2 to 30 characters.** or **You already have this tag.** | Too many tags, a tag is too short or too long, or it is a repeat. | Remove or shorten tags, then click **Save tags**. |
+| **Check the questions** or **Couldn't save the questions** appears | There are more than 5 questions, a question is shorter than 3 or longer than 120 characters, or a question has fewer than 2 or more than 5 answers, or an answer longer than 30 characters. | Remove or shorten questions or answers, then click **Save questions**. |
+| The questions don't fit your business | **Industry** is wrong, or Google lists your business under another type. | Pick your industry under **Industry**. If you edited the questions, click **Reset to industry defaults** to load the new industry's questions. |
+| **Suggest with AI** gives no questions | The AI model didn't answer. | Try again in a minute, or check the model in **Google Reviews** → **Settings**. |
 | **Use up to 12 names.**, **Each name must be 2 to 40 characters.** or **You already have this name.** | A group has too many names, a name is too short or too long, or it is a repeat. | Remove or shorten names, then click **Save names**. |
 | **The daily voice limit must be between 1 and 1000.** | The **Daily voice limit** is outside 1 to 1000. | Enter a number from 1 to 1000. |
 | **Choose one of the listed languages.** | The page language isn't one of the 11 languages. | Pick a language from **Page language**. |
@@ -262,9 +315,10 @@ Make a new code if your link was shared somewhere you don't want it.
 ## Related
 
 - [Design a review flyer](design-a-review-flyer.md)
+- [Choose the AI model for Google Reviews](settings.md)
 - [Read Google review stats](read-google-review-stats.md)
 - [Manage branches](manage-branches.md)
 - [Read private notes](read-private-notes.md)
 
 !!! note "Screenshots to add"
-    After **Confirm your business** step 3 — the **Best match** card with name, address and rating; after **Choose the tags** step 2 — **Tags customers can tap**; after **Add names customers can pick** step 2 — the **Staff**, **Services** and **Products** groups; after **Show reviews on your website** step 3 — the code box with **Copy code**; after **Check what customers see** step 7 — the customer page with the **Short**, **Detailed** and **Warm** drafts; after **What a 1 to 3 star customer also sees** step 1 — **Also tell the owner privately** below the Google button.
+    After **Confirm your business** step 3 — the **Best match** card with name, address and rating; after **Choose the questions** step 3 — **Questions customers answer** with the **Industry** picker and two question cards; after **Add names customers can pick** step 2 — the **Staff**, **Services** and **Products** groups; after **Show reviews on your website** step 3 — the code box with **Copy code**; after **Check what customers see** step 3 — the numbered question cards and the **Anything else?** box; after step 8 — the **Short**, **Detailed** and **Warm** drafts with the line **These are suggestions.**; after **What a 1 to 3 star customer also sees** step 1 — **Also tell the owner privately** below the Google button.

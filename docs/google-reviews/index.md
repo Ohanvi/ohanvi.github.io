@@ -20,6 +20,7 @@ The section lists:
 - **Profile check** — what your Google listing is missing, and how it compares with businesses nearby.
 - **Auto-reply** — draft replies to new Google reviews, and approve them or let them post. This needs Google Business Profile.
 - **Branches** — a review page, QR code and numbers for each branch.
+- **Settings** — the AI model that writes drafts and replies. It is your organisation's default AI model.
 
 **Private notes** needs its own permission, so a teammate may see the other items but not this one.
 
@@ -32,10 +33,10 @@ With several branches, every screen shows **Branch:** at the top. Pick the branc
 
 1. The customer scans your QR code, or taps the link you shared.
 2. Your review page opens on their phone, in the language you picked. They can switch to another of the 11 page languages.
-3. They pick 1 to 5 stars and tap the tags that fit, such as **Great service**.
+3. They pick 1 to 5 stars and answer 3 or 4 short questions about your kind of business by tapping an answer, such as **Excellent**. They can add a few words in the box **Anything else? e.g. the service you used**.
 4. If you added names, they can tap who helped them and what they came for or bought.
 5. They can add a few words of their own, typed or spoken with **Speak instead**.
-6. They tap **Write my review**. Ohanvi's AI offers 3 drafts, **Short**, **Detailed** and **Warm**, made only from what they picked and said.
+6. They tap **Write my review**. Ohanvi's AI offers 3 drafts, **Short**, **Detailed** and **Warm**, made only from what they picked and said. For 4 or 5 stars, the drafts mention your business, the service and your area once, naturally. For 1 to 3 stars, they are short and plain.
 7. They tap **Copy & post on Google** on a draft. The text is copied and Google's review form opens.
 8. They choose their stars on Google, paste the text and tap **Post**.
 
@@ -56,6 +57,7 @@ They can edit a draft, or tap **Write it myself** and write their own. Customers
 | [Manage branches](manage-branches.md) | You have more than one branch, each with its own Google listing. |
 | [Run a profile check](run-a-profile-check.md) | You want to see what your listing is missing and how you rank nearby. |
 | [Set up auto-reply](set-up-auto-reply.md) | You want a reply drafted for every new Google review. This needs Google Business Profile. |
+| [Choose the AI model for Google Reviews](settings.md) | You want to see or change the AI that writes drafts and replies. |
 | [Reply to Google reviews](../social/reply-to-google-reviews.md) | You want to answer reviews inside Ohanvi. This needs Google Business Profile. |
 
 ## Before you start
@@ -73,7 +75,8 @@ Google removes reviews, and can restrict your listing, when you break its review
 - **Ask every customer.** Don't ask only happy customers. Every customer sees the same **Copy & post on Google** button, whatever rating they pick.
 - **Don't hide Google from unhappy customers.** The private note sits below the Google button. It never replaces it.
 - **The customer's own words.** Don't write reviews for customers, and don't post from staff or family accounts. Drafts use only what the customer picked, typed or said, and the customer can edit them.
-- **Names only when the customer picks them.** A draft mentions a staff name, service or product only when the customer tapped it. Don't use names to stuff keywords into reviews.
+- **Names only when the customer picks them.** A draft mentions a staff name, service or product only when the customer tapped or typed it. Don't use names to stuff keywords into reviews.
+- **No keyword stuffing.** Google removes reviews that look alike. Drafts mention your name, service and area once at most, word each draft differently, and say **These are suggestions. Please edit them to reflect your genuine experience.**
 
 ## FAQ
 
@@ -85,6 +88,9 @@ No. A draft never states a star count. The customer chooses their stars on Googl
 
 **Does Ohanvi know which customer posted a review?**
 No. Google does not tell Ohanvi who posted. The page asks for no name or number, except an optional name and phone in a private note.
+
+**Which AI writes the drafts?**
+Your organisation's default AI model. See or change it in **Google Reviews** → **Settings**. See [Choose the AI model for Google Reviews](settings.md).
 
 **Who pays for the AI drafts?**
 Each tap of **Write my review** is one AI request, charged to your wallet like other AI features. The daily AI limit caps how many run in a day. When the wallet is empty or the limit is reached, customers see only **Write it myself**.
@@ -101,6 +107,7 @@ No. Each branch has its own review page, Google listing, QR code and flyer. See 
 ## Related
 
 - [Get more Google reviews](get-more-google-reviews.md)
+- [Choose the AI model for Google Reviews](settings.md)
 - [Manage branches](manage-branches.md)
 - [Reply to Google reviews](../social/reply-to-google-reviews.md)
 - [Automate store messages](../flows/store-journeys.md)

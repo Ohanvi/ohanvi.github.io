@@ -83,6 +83,15 @@ The **CSV upload** line on **Import & sync** now shows this run. To see every pa
 
 Because nothing is added twice, you can safely import the same file again after fixing it.
 
+### Imports and follow-ups
+
+An import adds contacts, as described above. It does not start follow-ups for them. An import can be 100,000 people, and follow-ups may send messages, so they never start by surprise.
+
+To start follow-ups for a person, add them one at a time with **Add contact**. See [Manage contacts](manage-contacts.md#what-add-contact-does-with-follow-ups). To bring in people as leads with a first call, use **Import** on **CRM** → **Leads**. See [Import leads and deals](import-leads-and-deals.md).
+
+!!! warning "Import only people who agreed to WhatsApp messages"
+    A contact added by a team member counts as opted in for automatic WhatsApp. Import only people who agreed to hear from you on WhatsApp.
+
 ### Fix skipped rows
 
 The summary counts skipped rows but does not list them. Find them in your file with the rules below, fix them, and import the file again. Rows that already imported merge with no change.

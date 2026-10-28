@@ -5,7 +5,7 @@ description: Leads, deals and campaigns on your own stages, with bulk import and
 
 # CRM
 
-**CRM** follows a sale from the first enquiry to the close: a lead is worked through your stages, converted into a deal, and the deal is worked to won or lost. Use these guides to set it up the way your business sells and to work it every day.
+**CRM** follows a sale from the first enquiry to the close: a lead is called first, followed through phases, converted into a deal, and the deal is worked to won or lost. Use these guides to set it up the way your business sells and to work it every day.
 
 **Where to find it:** open **CRM** in the left rail. The panel shows **Leads**, **Deals**, **Campaigns** and **Funnel**, in the order the work happens.
 
@@ -13,14 +13,15 @@ description: Leads, deals and campaigns on your own stages, with bulk import and
 
 | Tab | Guide | Use it when |
 | --- | --- | --- |
-| **Leads** | [Move leads through your stages](../move-leads-through-stages.md) | You work enquiries and convert the ready ones into deals. |
+| **Leads** | [Work with leads](../leads.md) | You call new leads, decide who is the right customer and convert them. |
+| **Leads** | [Build lead phases and steps](../lead-phases.md) | You set the steps every lead and customer follows, and see how calls are timed. |
 | **Deals** | [Create and manage deals](../manage-deals.md) | You add a deal, move it through stages and close it. |
 | **Campaigns** | [Track campaigns and campaign templates](../track-campaigns.md) | You record a campaign and move it through its statuses. |
 | **Funnel** | [Read the funnel and move leads on the board](../read-the-funnel.md) | You want to see where leads drop off. |
 | **Stages & fields** | [Set up stages and fields](../set-up-stages-and-fields.md) | You name your own stages and add the fields your team fills in. |
 | **Import** | [Import leads and deals](../import-leads-and-deals.md) | You bring many leads or deals in from a file. |
 
-**Leads**, **Deals** and **Campaigns** open on **List**. Click **Board** to see the same records as columns, one per stage. **Stages & fields** is a button on each board.
+**Deals** and **Campaigns** open on **List**. Click **Board** to see the same records as columns, one per stage. **Stages & fields** is a button on each board. **Leads** shows each lead's phase track instead of a board.
 
 ## More screens
 

@@ -84,6 +84,16 @@ On the board, dragging a card into the **Lost** column asks for the same reason.
 
 A won deal turns its account from **Prospect** into **Customer**, and its contact into a customer.
 
+!!! note "Deals that come from Leads"
+    Deals follow your leads.
+
+    - **In** on a lead opens one deal in your default pipeline and its first open stage. Its value is 0 until you set one.
+    - **Mark converted** moves it to the won stage. The window asks for an optional **Deal value (optional)**.
+    - **Lost: not interested** moves it to the lost stage. The window asks for a reason: **Price**, **Chose a competitor**, **No budget**, **No decision**, **Bad timing** or **Other**.
+    - A person added in **Contacts** gets no deal until you mark them converted. Then a won deal is created.
+
+    You do not need to close these deals by hand. See [What happens to the deal](leads.md#what-happens-to-the-deal).
+
 !!! warning "Loss reason is required"
     A deal cannot be closed as lost without a loss reason. Ohanvi uses it to show where deals die on the **Dashboard**.
 
@@ -105,6 +115,7 @@ A won deal turns its account from **Prospect** into **Customer**, and its contac
 
 ## Related
 
+- [Work with leads](leads.md)
 - [Move leads through your stages](move-leads-through-stages.md)
 - [Import leads and deals](import-leads-and-deals.md)
 - [Set up pipelines, lead sources and products](set-up-pipelines.md)

@@ -15,12 +15,12 @@ CRM spans two icons in the left rail:
 
 | Rail icon | Panel items |
 | --- | --- |
-| **Contacts** | **All contacts**, **Leads**, **Contact groups** · under **Data**: **Import & sync**, **Custom fields** · under **Governance**: **Consent & compliance** |
+| **Contacts** | **All contacts**, **Contact groups** · under **Data**: **Import & sync**, **Custom fields** · under **Governance**: **Consent & compliance** |
 | **CRM** | **Leads**, **Deals** · **Campaigns** · **Funnel** |
 
 Some CRM screens are not in the panel:
 
-- **Boards** — the **List | Board** toggle on **Leads**, **Deals** and **Campaigns**.
+- **Boards** — the **List | Board** toggle on **Deals** and **Campaigns**.
 - **Stages & fields** — the **Stages & fields** button on each board.
 - **Import** — the **Import** button on **Leads** and **Deals**.
 - **Campaign Templates** — the **Templates** button on **Campaigns**.
@@ -46,7 +46,6 @@ See [Contacts](contacts/index.md) for every guide in this part.
 | [Send a welcome email to a contact](send-a-welcome-email.md) | You want to email one contact with your brochures attached. |
 | [Set up the welcome email and your brochures](set-up-the-welcome-email.md) | You want a default welcome message and a shared brochure library. |
 | [Jump back to recent contacts](find-recent-contacts.md) | You want the contacts you opened or called lately. |
-| [Work with leads](leads.md) | You want to qualify, score and convert new enquiries. |
 | [Recover abandoned carts with Commerce leads](recover-abandoned-carts.md) | Shoppers left your online store without paying. |
 | [Create and manage contact groups](contact-groups.md) | You want a saved list of contacts to message together. |
 | [Import and sync contacts](import-and-sync-contacts.md) | You have contacts in a file, or want them to flow in from WhatsApp, a store or Zapier. |
@@ -59,7 +58,9 @@ See [CRM](sales/index.md) for every guide in this part.
 
 | Guide | Use it when |
 | --- | --- |
-| [Move leads through your stages](move-leads-through-stages.md) | You want to work leads stage by stage and convert the ready ones into deals. |
+| [Work with leads](leads.md) | You want to call new leads, decide who is the right customer and convert them. |
+| [Build lead phases and steps](lead-phases.md) | You want to set the steps every lead and customer follows, and how calls are timed. |
+| [Move leads through your stages](move-leads-through-stages.md) | You look for the old Leads list and board, and which status each choice sets. |
 | [Create and manage deals](manage-deals.md) | You want to add a deal, move it through stages and close it. |
 | [Set up stages and fields](set-up-stages-and-fields.md) | You want your own stages and the extra fields your team fills in. |
 | [Import leads and deals](import-leads-and-deals.md) | You have leads or deals in an Excel or CSV file. |

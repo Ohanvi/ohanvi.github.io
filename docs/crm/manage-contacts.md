@@ -24,9 +24,12 @@ Add people to Ohanvi, find them fast, and keep each record correct. At the end y
 2. The screen shows 3 panes: the contact list on the left, the conversation in the middle, and the contact record on the right.
 3. To see saved lists instead of people, click the **Groups** tab above the list. See [Create and manage contact groups](contact-groups.md).
 
-If you have no contacts yet, you see **No contacts yet** with **Import contacts** and **Connect WhatsApp**. Anyone who messages your connected WhatsApp number becomes a contact on their own.
+If you have no contacts yet, you see **No contacts yet** with **Import contacts** and **Connect WhatsApp**. Anyone who messages your connected WhatsApp number becomes a contact on their own. A number new to you also appears on **CRM** → **Leads**. See [Work with leads](leads.md).
 
 ### Add a contact
+
+!!! note "Adding a contact also starts follow-ups"
+    When you add a person here, Ohanvi creates the contact and starts their follow-ups. See [What Add contact does with follow-ups](#what-add-contact-does-with-follow-ups).
 
 1. Click **Add contact** in the top bar. The **Add Contact** form opens.
 2. Under **Basic Information**, type the **First Name**. It is the only required field.
@@ -39,6 +42,22 @@ If you have no contacts yet, you see **No contacts yet** with **Import contacts*
 
 !!! note
     The duplicate warning does not block saving. Two people can share an office phone. If you did create a duplicate by mistake, merge the two records (see below).
+
+### What Add contact does with follow-ups
+
+When you click **Submit** on **Add Contact**, the person is a contact straight away, and their follow-ups start. The message **Contact created. Follow-ups started.** appears.
+
+- A linked lead appears on **CRM** → **Leads**, with the source **Contacts list**, the status **Qualified** and you as owner.
+- Step 1, **First call**, is already done. If your admin added more steps to Phase 1, they are planned from today.
+- If Phase 1 has only **First call**, nothing else runs. The person shows **Waiting for you** until you mark them converted or lost.
+- If the person is already in the flow, nothing is added twice.
+- If the follow-ups cannot be started, the contact is still created.
+
+An import into Contacts adds contacts but starts no follow-ups. See [Import and sync contacts](import-and-sync-contacts.md#imports-and-follow-ups).
+
+Adding a contact from the **WhatsApp** or **Email** areas is not affected. Nothing starts there.
+
+To read what the follow-ups do, see [Work with leads](leads.md).
 
 ### Find a contact
 

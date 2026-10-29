@@ -21,7 +21,7 @@ Packs are blocks of messages you pay for once from your credits. The **Usage and
 | **AI Pack** | 1,000 AI replies from the AI agent. | ₹999 |
 | **Automation Pack** | Both together: 1,000 bot messages and 1,000 AI replies. | ₹1,399 |
 | **Review Pack** | 1,000 AI review drafts on your Google review page. | ₹1,000 |
-| **Review + Voice Pack** | 1,000 AI review drafts, and customers can speak their review instead of typing it. | ₹1,500 |
+| **Review + Voice Pack** | 1,000 AI review drafts, and free voice input: customers speak their review instead of typing it. | ₹1,500 |
 | **Marketing packs** | 10,000 marketing messages | ₹1,299 |
 | | 25,000 marketing messages | ₹2,599 |
 | | 50,000 marketing messages | ₹3,499 |
@@ -34,7 +34,7 @@ A pack works on any plan, **Pay as you go** included.
 - Packs are used **before** your credits are. A bot message takes a Bot credit once your plan's 1,000 automated and service messages for the month are used. On **Pay as you go** it takes a credit from the first message.
 - AI replies take an AI credit.
 - Each time a customer gets AI drafts on your Google review page, it takes a Review credit. With no Review credit left, ₹5 plus GST comes off your credits instead.
-- Voice input on your Google review page works only while you have a **Review + Voice Pack**.
+- Voice input on your Google review page is free with a **Review + Voice Pack**. Without it, each voice input costs ₹1 plus GST from your credits, and voice is hidden when your credits can't pay for it.
 
 !!! note "A pack runs out after about a month"
     A pack ends a month after you buy it: **31 days** if you buy it in a 31-day month, otherwise **30 days**. This is the same on every plan and does not follow your billing cycle. What is left is not refunded.

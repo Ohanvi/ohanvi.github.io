@@ -67,6 +67,8 @@ Ohanvi never replies to a review that already has a reply, and never posts a rep
 | A reply is under **Failed** with **Couldn't post the reply to Google.** | Google didn't accept the reply. | Click **Edit** to check the text, then click **Approve**. |
 | **Write the reply in 2 to 4000 characters.** | The edited reply is empty or too long. | Shorten or finish the reply, then click **Save reply**. |
 | **This reply was already posted.** or **This reply was skipped.** | Someone else acted on it first, or it posted while you edited. | Refresh the queue. |
+| **Please remove the word "…" and try again.** | The reply has a swear word or slur. Replies are public on Google under your business name. | Click **Edit**, remove or replace the word shown, then click **Save reply** and **Approve**. |
+| A reply is under **Failed** with **Please remove the word "…" and try again.** | The drafted reply had a swear word or slur, so it was not posted. | Click **Edit**, fix the reply, then click **Approve**. |
 
 ## Related
 

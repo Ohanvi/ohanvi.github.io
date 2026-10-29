@@ -42,6 +42,17 @@ While a chat's window is open, its header shows how many of those free messages 
 
 Nothing is charged when no speech is heard, when the AI fails, or when the text is already in that language. Rates can differ on custom plans. See [Speak and translate in the inbox](whatsapp/speak-and-translate-in-the-inbox.md).
 
+## Google Reviews
+
+Your Google review page takes these amounts from your credits:
+
+| Action | What is charged |
+| --- | --- |
+| **AI review drafts** (a customer taps **Write my review**) | **₹5** per request that returns drafts, or 1 credit from a **Review Pack**. |
+| **Voice input** (a customer speaks their review) | **₹1** per recording turned into text. Free with a **Review + Voice Pack**. |
+
+Nothing is charged when the AI returns nothing or hears nothing. **Suggest with AI** questions and AI flyer backgrounds are free. See [Add-on packs and usage limits](billing/packs-and-usage-limits.md).
+
 ## Before you start
 
 - You are signed in to Ohanvi. See [Sign in to Ohanvi](sign-in.md).

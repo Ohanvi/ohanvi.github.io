@@ -12,7 +12,7 @@ Set up a review page that is linked to your Google listing, then share its QR co
 - You can see **Google Reviews** under **More** on the left rail. If not, ask your admin to give your role access. See [Team, roles and permissions](../settings/roles-and-permissions.md).
 - Your organisation's name and address are filled in on your Ohanvi account. Ohanvi uses them to find your business on Google.
 - Your business has a listing on Google Maps.
-- For AI drafts, your wallet has funds. See [Add funds](../add-funds.md).
+- For AI drafts, you have **Review Pack** credits or your wallet covers ₹5 a request. See [Add funds](../add-funds.md) and [Add-on packs](../billing/packs-and-usage-limits.md).
 - If you have several branches, each branch has its own review page. Pick the branch in **Branch:** at the top of the screen. See [Manage branches](manage-branches.md).
 
 ## Steps
@@ -97,7 +97,7 @@ Click **Reset to industry defaults**. Your own questions are replaced with your 
 
 #### The "Other" box
 
-Under the questions, customers also see a short box for anything the questions missed. It reads **Anything else? e.g. the service you used**. They can type up to 120 characters, such as the service they came for. The box is optional, and you don't set it up.
+Inside **Want to add more?**, under the questions, customers also see a short box for anything the questions missed. It reads **Anything else? e.g. the service you used**. They can type up to 120 characters, such as the service they came for. The box is optional, and you don't set it up.
 
 !!! tip
     Ask about what customers can judge in a tap: speed, care, cleanliness, value. Keep every answer honest, with a poor option as well as a good one. Leave out offers and prices.
@@ -107,7 +107,7 @@ Under the questions, customers also see a short box for anything the questions m
 
 ### Add names customers can pick
 
-Customers can also tap who helped them and what they came for. Each group you fill shows on the page as its own question.
+Customers can also tap who helped them and what they came for. Each group you fill shows on the page as its own question, in a card under your questions, so customers always see the names you added.
 
 | Group | Customers see | Example |
 | --- | --- | --- |
@@ -120,6 +120,8 @@ Customers can also tap who helped them and what they came for. Each group you fi
 3. Click **Save names**. The message **Names saved** appears.
 
 Leave a group empty to hide its question. To drop unsaved changes, click **Undo changes**.
+
+Names, questions and answers show on your public page, so a swear word or slur in any of them stops the save with **Please remove the word "…" and try again.** See [Keep the page polite](#keep-the-page-polite).
 
 !!! note "Names appear only when the customer picks them"
     A draft mentions a name only when the customer picked it. A staff name, service or product the customer didn't tap never appears in a draft. Don't add names to push keywords into reviews.
@@ -136,17 +138,17 @@ Leave a group empty to hide its question. To drop unsaved changes, click **Undo 
 8. Pick the **Page language**. The customer page and its drafts use it. Customers can switch to another language on the page.
 9. Set the **Daily AI limit**: the most draft requests a day. After that, customers write their own words.
 10. Set the **Daily voice limit**: the most voice recordings turned into text in a day.
-11. Optional: pick an **Accent colour** and enter a **Logo URL**.
+11. Optional: pick an **Accent colour** and enter a **Logo URL**. The accent colour is used for the page's buttons, chips and header.
 12. Click **Save settings**. The message **Settings saved** appears.
 
 | Setting | What it allows |
 | --- | --- |
 | Emoji in drafts | Off by default. When on, at most one emoji per draft. |
-| Voice input | On by default. Voice input is not charged to your wallet. |
+| Voice input | On by default. Free with a **Review + Voice Pack**. Without it, each voice input costs ₹1 + GST, paid from your wallet. |
 | Business name | Up to 120 characters. |
 | Page language | 11 languages: English, हिन्दी (Hindi), Hinglish (Hindi in English letters), मराठी (Marathi), ગુજરાતી (Gujarati), বাংলা (Bengali), தமிழ் (Tamil), తెలుగు (Telugu), ಕನ್ನಡ (Kannada), മലയാളം (Malayalam) and ਪੰਜਾਬੀ (Punjabi). |
-| Daily AI limit | 1 to 1000 draft requests a day. The default is 200. One tap of **Write my review** is 1 request. |
-| Daily voice limit | 1 to 1000 recordings a day. The default is 100. Phones that type speech themselves don't count. |
+| Daily AI limit | 1 to 1000 draft requests a day. The default is 200. One tap of **Write my review** is 1 request: 1 **Review Pack** credit, or ₹5 + GST paid from your wallet. |
+| Daily voice limit | 1 to 1000 recordings a day. The default is 100. With a **Review + Voice Pack**, phones that type speech themselves don't count. |
 | Accent colour | A colour code like `#1A73E8`. |
 | Logo URL | An image link that starts with `https://`. |
 
@@ -188,17 +190,27 @@ Put it on the counter or the bill, or send it on WhatsApp after the visit.
 
 Open your page link on your phone and try it. The labels below are the English page. Pages in other languages show the same steps in that language.
 
-1. Optional: pick another language in **Language** at the top. The page reloads in that language, and the drafts are written in it.
-2. The page asks **How was your experience?** Pick stars under **Your rating**.
-3. Answer the numbered question cards, **01**, **02** and so on. Tap one answer on each card.
-4. Optional: type in the box **Anything else? e.g. the service you used**, up to 120 characters.
-5. If you added names, tap them under **Who helped you?**, **What did you come for?** or **What did you buy?**
-6. Optional: type in **In your own words (optional)**, up to 300 characters. Or tap **Speak instead** and say it. See [Voice input](#voice-input).
-7. Tap **Write my review**. It reads **Writing…** while the drafts are made.
-8. Under **Pick one to post**, read the 3 cards, **Short**, **Detailed** and **Warm**. The line above them says **Each draft uses only what you told us. Edit anything before you post.** Below the drafts, the page says **These are suggestions. Please edit them to reflect your genuine experience.**
-9. Tap **Edit** to change a draft, or **Write my own instead** to write from scratch.
-10. Tap **Copy & post on Google** on a draft. The page shows **Copied. Paste it on Google.** and Google's review form opens.
-11. On Google, choose your stars, paste the text and tap **Post**.
+The page uses your **Accent colour** for its buttons, chips and header, or indigo when none is set. It turns dark when the customer's phone is in dark mode. A small **Powered by Ohanvi** line sits at the bottom.
+
+1. Optional: pick another language in the 🌐 menu at the top. The page reloads in that language, and the drafts are written in it.
+2. Read the top of the page: your logo or initials, your business name, your area, and the line **Tap a few answers and we'll write a review you can post on Google.**
+3. Under **How was your experience?**, tap the stars. A word under them names the rating: **Very poor**, **Poor**, **Okay**, **Good** or **Excellent!**
+4. Answer the numbered question cards, **01**, **02** and so on. Tap one answer on each card. Tap it again to clear it. If you added names, tap them under **Who helped you?**, **What did you come for?** or **What did you buy?**, in the card below the questions.
+5. Optional: tap **Want to add more?** (**Optional**). The card opens with:
+    - **Other (optional)**, a short box that reads **Anything else? e.g. the service you used**, up to 120 characters.
+    - **In your own words (optional)**, up to 300 characters, with **Speak instead** next to it. See [Voice input](#voice-input).
+6. Tap **Write my review** at the bottom of the screen. On a phone it stays in reach while you scroll. It reads **Writing…** while the drafts are made.
+7. Under **Pick one to post**, read the cards **Short**, **Detailed** and **Warm**. The line above them says **Each draft uses only what you told us. Edit anything before you post.** Below the drafts, the page says **These are suggestions. Please edit them to reflect your genuine experience.**
+8. Tap **Edit** to change a draft, or **Write my own instead** to write from scratch.
+9. Tap **Copy & post on Google** on a draft. The review is copied, and a sheet opens from the bottom.
+10. Read the sheet. It shows **✓ Review copied** and **Google opens in 3s**, counting down, with 3 steps:
+    1. **Tap the stars on Google**
+    2. **Long-press the text box**
+    3. **Tap Paste, then Post**
+11. Wait 3 seconds, or tap **Open Google now**. Google's review form opens.
+12. On Google, tap your stars, long-press the text box, tap **Paste**, then tap **Post**.
+
+Back on the page, the sheet has **Copy again** if the text didn't paste. Tap **Close** to go back to the drafts.
 
 | Draft | How it reads |
 | --- | --- |
@@ -206,11 +218,14 @@ Open your page link on your phone and try it. The labels below are the English p
 | **Detailed** | 3 to 4 sentences. |
 | **Warm** | Friendly and personal, 2 to 3 sentences. |
 
-If copying doesn't work on the customer's phone, the page shows **Opening Google… if paste doesn't work, copy your review from this page.**
+If the phone doesn't let the page copy, the sheet shows **Couldn't copy it. Select the text below and copy it, then open Google.** with the review in a box, and Google doesn't open on its own. The customer copies the text, then taps **Open Google now**.
 
-If the customer taps **Write it myself**, or **Write my own instead**, the page shows **Post it on Google** with their text in **Your review**. It lists the steps **Choose your stars on Google · Paste · Post** and the button **Open Google review form**, with the line **You post it yourself; nothing is posted for you.**
+If the customer taps **Write it myself**, or **Write my own instead**, the page shows **Post it on Google** with their text in **Your review**. It lists the steps **Choose your stars on Google · Paste · Post** and the button **Open Google review form**, with the line **You post it yourself; nothing is posted for you.** **Open Google review form** copies their text and shows the same sheet.
 
 A draft never states a star count. The customer chooses their stars on Google.
+
+!!! note "When 'Want to add more?' is open from the start"
+    With no questions on the page, **Other** and own words show open, without the **Want to add more?** button. The card also opens on its own when the customer taps **Write my review** with nothing picked, or when their words need a change.
 
 ### How drafts differ by stars
 
@@ -230,14 +245,15 @@ For every rating:
 !!! warning "Why drafts don't stuff keywords"
     Google removes reviews that look alike or repeat the same phrases, and can put a warning on your profile. Drafts mention your name, service and area once, the way a customer would, and each draft is worded differently. Don't edit your own page or flyer to push keywords into reviews.
 
-When drafts are not available, the page offers only **Write it myself**. That happens when **AI review drafts** is off, the **Daily AI limit** is reached, or your wallet is empty.
+When drafts are not available, the page offers only **Write it myself**. That happens when **AI review drafts** is off, the **Daily AI limit** is reached, or you have no **Review Pack** credit and your wallet can't cover ₹5.
 
 ### Voice input
 
 When **Voice input** is on, customers see **Speak instead** next to **In your own words (optional)**. Their words are added to the text box, where they can change them.
 
-- On phones that type speech themselves, the button reads **Listening… tap to stop** while the customer speaks. These don't count toward the **Daily voice limit**.
+- With a **Review + Voice Pack**, on phones that type speech themselves, the button reads **Listening… tap to stop** while the customer speaks. These don't count toward the **Daily voice limit**.
 - On other phones, the page records up to 1 minute. It shows **Recording** with a timer and a **Stop** button, then **Turning your voice into text…**. Each recording counts toward the **Daily voice limit**.
+- Without a **Review + Voice Pack**, every phone records this way, and each recording turned into text costs ₹1 + GST, paid from your wallet.
 
 The recording is never stored. It is turned into text and dropped.
 
@@ -250,18 +266,40 @@ The customer may see:
 | **Voice input isn't available right now. Please type instead.** | The **Daily voice limit** is reached, or voice input is off. |
 | **Too many tries. Please wait a few minutes, or type instead.** | Many recordings came from one network in a few minutes. |
 
-**Speak instead** is hidden when **Voice input** is off, or when the phone can neither type speech nor record.
+**Speak instead** is hidden when **Voice input** is off, or when the phone can neither type speech nor record. Without a **Review + Voice Pack**, it is also hidden when your wallet can't cover ₹1, when the **Daily voice limit** is reached, or when the phone can't record.
 
 ### What a 1 to 3 star customer also sees
 
-When the customer picks 1, 2 or 3 stars and **Private note for 1–3 stars** is on, the link **Also tell the owner privately** appears below the Google button.
+When the customer picks 1, 2 or 3 stars, the drafts read **Thanks for being honest** with the line **Your review helps others, and helps the business improve.** in place of **Pick one to post**. The drafts are short and plain, and **Copy & post on Google** works the same as for 5 stars.
 
-1. The customer taps **Also tell the owner privately**. A short form opens with the line **Only the owner sees this. It doesn't replace your Google review.**
+When **Private note for 1–3 stars** is on, a card **Also tell the owner privately** also shows below the Google buttons.
+
+1. The customer reads the line **Only the owner sees this. It doesn't replace your Google review.**
 2. They type in **Message to the owner**, 3 to 1000 characters.
 3. Optional: they fill **Your name (optional)** and **Phone (optional)**.
 4. They tap **Send to the owner**. The page shows **Sent to the owner. You can still post on Google.**
 
+If drafts aren't available (**AI review drafts** is off, the **Daily AI limit** is reached or the AI didn't answer), the same card shows under **Write it myself** instead, so a 1 to 3 star customer can still tell you privately.
+
 The Google button stays on the screen the whole time. The note goes to **Private notes**, and **Review page** shows an alert such as **2 unread private notes** with **Read notes**. See [Read private notes](read-private-notes.md).
+
+### Keep the page polite
+
+Swear words and slurs are blocked on the review page, on both sides. Honest criticism is not: "the service was slow" or "the food was cold" goes through, and the drafts keep it, in polite words. Google doesn't allow a business to hold back negative reviews, and Ohanvi never does.
+
+What customers see:
+
+- Words with a swear word or slur in **In your own words** or **Other** are not sent. The **Want to add more?** card opens and shows **Please keep it polite. You can still share honest feedback.** The customer changes the word and taps **Write my review** again.
+- A private note with a swear word or slur is not sent, and shows the same line.
+- Words spoken with **Speak instead** come back with any swear word taken out.
+- Drafts never contain a swear word or slur, even when the customer used one. A draft that has one is dropped. If no clean draft is left, the customer sees **Write it myself** and writes their own words.
+
+What you see:
+
+- A swear word or slur in your questions, answers, names, flyer headline, tagline or icon labels stops the save with **Please remove the word "…" and try again.**, naming the word.
+- A Google reply, typed by you or drafted for auto-reply, with a swear word or slur is not posted. See [Set up auto-reply](set-up-auto-reply.md).
+
+Ohanvi catches common tricks too, such as `f.u.c.k`, `sh1t` or long repeated letters. It checks whole words only, so words such as "class" or "assistant" are fine. The word list covers English, Hindi and Hinglish.
 
 ### Make a new QR code
 
@@ -301,16 +339,18 @@ Make a new code if your link was shared somewhere you don't want it.
 | **Use up to 12 names.**, **Each name must be 2 to 40 characters.** or **You already have this name.** | A group has too many names, a name is too short or too long, or it is a repeat. | Remove or shorten names, then click **Save names**. |
 | **The daily voice limit must be between 1 and 1000.** | The **Daily voice limit** is outside 1 to 1000. | Enter a number from 1 to 1000. |
 | **Choose one of the listed languages.** | The page language isn't one of the 11 languages. | Pick a language from **Page language**. |
-| Customers don't see **Speak instead** | **Voice input** is off, or their phone can't type speech or record. | Turn on **Voice input**. Customers can still type. |
+| Customers don't see **Speak instead** | **Voice input** is off, or their phone can't record. Without a **Review + Voice Pack**, also when your wallet can't pay ₹1 or the **Daily voice limit** is reached. | Turn on **Voice input**, [add funds](../add-funds.md), or buy a **Review + Voice Pack** from [Add-on packs](../billing/packs-and-usage-limits.md). Customers can still type. |
 | Customers see **Voice input isn't available right now. Please type instead.** | The **Daily voice limit** is reached. | Raise the **Daily voice limit**. |
 | The website widget reads **These reviews are not available.** | **Website widget** or **Page is live** is off, or the page has no review link. | Turn on **Website widget** and **Page is live**, click **Save settings**, and finish setup. |
 | The website widget reads **No Google reviews to show yet.** | Google returned no reviews for your listing. | No fix needed. Reviews show once Google has them, within a day. |
 | The website widget reads **Please try again in a few minutes.** | The widget was loaded many times from one network in a few minutes. | Wait 5 minutes and reload the page. |
 | **No review link yet** | No listing is confirmed and no link is pasted. The page stays closed. | Click **Find my business**, or paste your review link. |
 | Customers see **This review link is not active** | **Page is live** is off, a new QR code was made, or no review link is set. | Turn on **Page is live**, share the current link, or finish setup. |
-| Customers see **Drafts aren't available right now. Tap Write it myself; a few words are enough.** | **AI review drafts** is off, the **Daily AI limit** is reached, or your wallet is empty. | Turn on **AI review drafts**, raise the **Daily AI limit**, or [add funds](../add-funds.md). Customers can still post their own words. |
+| Customers see **Drafts aren't available right now. Tap Write it myself; a few words are enough.** | **AI review drafts** is off, the **Daily AI limit** is reached, or you have no **Review Pack** credit and your wallet can't cover ₹5. | Turn on **AI review drafts**, raise the **Daily AI limit**, [add funds](../add-funds.md), or buy a **Review Pack** from [Add-on packs](../billing/packs-and-usage-limits.md). Customers can still post their own words. |
 | Customers see **Too many tries. Please wait a few minutes, or write it yourself.** | Many draft requests came from one network in a few minutes. | Wait 5 minutes. Customers on their own mobile data are not affected. |
 | A printed QR code stopped working | A new QR code was made. | Print the current QR code or flyer. |
+| **Please remove the word "…" and try again.** | A question, an answer or a name has a swear word or slur. They show on your public page. | Remove or replace the word shown, then save again. Honest words such as "slow" or "poor" are fine. |
+| Customers see **Please keep it polite. You can still share honest feedback.** | Their own words, **Other** box or private note has a swear word or slur. | No fix needed. The customer changes the word and tries again. Criticism without swear words goes through. |
 
 ## Related
 
@@ -321,4 +361,4 @@ Make a new code if your link was shared somewhere you don't want it.
 - [Read private notes](read-private-notes.md)
 
 !!! note "Screenshots to add"
-    After **Confirm your business** step 3 — the **Best match** card with name, address and rating; after **Choose the questions** step 3 — **Questions customers answer** with the **Industry** picker and two question cards; after **Add names customers can pick** step 2 — the **Staff**, **Services** and **Products** groups; after **Show reviews on your website** step 3 — the code box with **Copy code**; after **Check what customers see** step 3 — the numbered question cards and the **Anything else?** box; after step 8 — the **Short**, **Detailed** and **Warm** drafts with the line **These are suggestions.**; after **What a 1 to 3 star customer also sees** step 1 — **Also tell the owner privately** below the Google button.
+    After **Confirm your business** step 3 — the **Best match** card with name, address and rating; after **Choose the questions** step 3 — **Questions customers answer** with the **Industry** picker and two question cards; after **Add names customers can pick** step 2 — the **Staff**, **Services** and **Products** groups; after **Show reviews on your website** step 3 — the code box with **Copy code**; after **Check what customers see** step 4 — the stars with the word **Excellent!** and the numbered question cards; after step 5 — the open **Want to add more?** card; after step 7 — the **Short**, **Detailed** and **Warm** drafts with the line **These are suggestions.**; after step 10 — the **Review copied** sheet with the 3 steps and the countdown; after **What a 1 to 3 star customer also sees** step 1 — the **Also tell the owner privately** card below the Google buttons.

@@ -147,7 +147,7 @@ Names, questions and answers show on your public page, so a swear word or slur i
 | Voice input | On by default. Voice input is not charged to your wallet. |
 | Business name | Up to 120 characters. |
 | Page language | 11 languages: English, हिन्दी (Hindi), Hinglish (Hindi in English letters), मराठी (Marathi), ગુજરાતી (Gujarati), বাংলা (Bengali), தமிழ் (Tamil), తెలుగు (Telugu), ಕನ್ನಡ (Kannada), മലയാളം (Malayalam) and ਪੰਜਾਬੀ (Punjabi). |
-| Daily AI limit | 1 to 1000 draft requests a day. The default is 200. One tap of **Write my review** is 1 request. |
+| Daily AI limit | 1 to 1000 draft requests a day. The default is 200. One tap of **Write my review** is 1 request, ₹5 plus GST from your wallet. |
 | Daily voice limit | 1 to 1000 recordings a day. The default is 100. Phones that type speech themselves don't count. |
 | Accent colour | A colour code like `#1A73E8`. |
 | Logo URL | An image link that starts with `https://`. |

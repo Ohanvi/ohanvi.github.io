@@ -142,10 +142,10 @@ Leave a group empty to hide its question. To drop unsaved changes, click **Undo 
 | Setting | What it allows |
 | --- | --- |
 | Emoji in drafts | Off by default. When on, at most one emoji per draft. |
-| Voice input | On by default. Voice input is not charged to your wallet. |
+| Voice input | On by default. Customers see it only while you have a **Review + Voice Pack**. It is not charged per use. |
 | Business name | Up to 120 characters. |
 | Page language | 11 languages: English, हिन्दी (Hindi), Hinglish (Hindi in English letters), मराठी (Marathi), ગુજરાતી (Gujarati), বাংলা (Bengali), தமிழ் (Tamil), తెలుగు (Telugu), ಕನ್ನಡ (Kannada), മലയാളം (Malayalam) and ਪੰਜਾਬੀ (Punjabi). |
-| Daily AI limit | 1 to 1000 draft requests a day. The default is 200. One tap of **Write my review** is 1 request, ₹5 plus GST from your wallet. |
+| Daily AI limit | 1 to 1000 draft requests a day. The default is 200. One tap of **Write my review** is 1 request: 1 **Review Pack** credit, or ₹5 plus GST from your wallet. |
 | Daily voice limit | 1 to 1000 recordings a day. The default is 100. Phones that type speech themselves don't count. |
 | Accent colour | A colour code like `#1A73E8`. |
 | Logo URL | An image link that starts with `https://`. |
@@ -230,11 +230,11 @@ For every rating:
 !!! warning "Why drafts don't stuff keywords"
     Google removes reviews that look alike or repeat the same phrases, and can put a warning on your profile. Drafts mention your name, service and area once, the way a customer would, and each draft is worded differently. Don't edit your own page or flyer to push keywords into reviews.
 
-When drafts are not available, the page offers only **Write it myself**. That happens when **AI review drafts** is off, the **Daily AI limit** is reached, or your wallet is empty.
+When drafts are not available, the page offers only **Write it myself**. That happens when **AI review drafts** is off, the **Daily AI limit** is reached, or you have no **Review Pack** credit and your wallet is empty.
 
 ### Voice input
 
-When **Voice input** is on, customers see **Speak instead** next to **In your own words (optional)**. Their words are added to the text box, where they can change them.
+When **Voice input** is on and you have a **Review + Voice Pack**, customers see **Speak instead** next to **In your own words (optional)**. Their words are added to the text box, where they can change them.
 
 - On phones that type speech themselves, the button reads **Listening… tap to stop** while the customer speaks. These don't count toward the **Daily voice limit**.
 - On other phones, the page records up to 1 minute. It shows **Recording** with a timer and a **Stop** button, then **Turning your voice into text…**. Each recording counts toward the **Daily voice limit**.
@@ -301,7 +301,7 @@ Make a new code if your link was shared somewhere you don't want it.
 | **Use up to 12 names.**, **Each name must be 2 to 40 characters.** or **You already have this name.** | A group has too many names, a name is too short or too long, or it is a repeat. | Remove or shorten names, then click **Save names**. |
 | **The daily voice limit must be between 1 and 1000.** | The **Daily voice limit** is outside 1 to 1000. | Enter a number from 1 to 1000. |
 | **Choose one of the listed languages.** | The page language isn't one of the 11 languages. | Pick a language from **Page language**. |
-| Customers don't see **Speak instead** | **Voice input** is off, or their phone can't type speech or record. | Turn on **Voice input**. Customers can still type. |
+| Customers don't see **Speak instead** | **Voice input** is off, you have no **Review + Voice Pack**, or their phone can't type speech or record. | Turn on **Voice input**, or buy a **Review + Voice Pack** from [Add-on packs](../billing/packs-and-usage-limits.md). Customers can still type. |
 | Customers see **Voice input isn't available right now. Please type instead.** | The **Daily voice limit** is reached. | Raise the **Daily voice limit**. |
 | The website widget reads **These reviews are not available.** | **Website widget** or **Page is live** is off, or the page has no review link. | Turn on **Website widget** and **Page is live**, click **Save settings**, and finish setup. |
 | The website widget reads **No Google reviews to show yet.** | Google returned no reviews for your listing. | No fix needed. Reviews show once Google has them, within a day. |

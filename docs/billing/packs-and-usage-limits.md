@@ -20,6 +20,8 @@ Packs are blocks of messages you pay for once from your credits. The **Usage and
 | **Bot Pack** | 1,000 bot messages: chatbot flow replies, order updates and reminders that your system sends on its own. | ₹499 |
 | **AI Pack** | 1,000 AI replies from the AI agent. | ₹999 |
 | **Automation Pack** | Both together: 1,000 bot messages and 1,000 AI replies. | ₹1,399 |
+| **Review Pack** | 1,000 AI review drafts on your Google review page. | ₹1,000 |
+| **Review + Voice Pack** | 1,000 AI review drafts, and customers can speak their review instead of typing it. | ₹1,500 |
 | **Marketing packs** | 10,000 marketing messages | ₹1,299 |
 | | 25,000 marketing messages | ₹2,599 |
 | | 50,000 marketing messages | ₹3,499 |
@@ -31,9 +33,13 @@ A pack works on any plan, **Pay as you go** included.
 - A marketing pack pays **our fee** on each marketing message. Meta bills its own charge as usual. A message to a country where Meta charges more uses more than one credit.
 - Packs are used **before** your credits are. A bot message takes a Bot credit once your plan's 1,000 automated and service messages for the month are used. On **Pay as you go** it takes a credit from the first message.
 - AI replies take an AI credit.
+- Each time a customer gets AI drafts on your Google review page, it takes a Review credit. With no Review credit left, ₹5 plus GST comes off your credits instead.
+- Voice input on your Google review page works only while you have a **Review + Voice Pack**.
 
 !!! note "A pack runs out after about a month"
     A pack ends a month after you buy it: **31 days** if you buy it in a 31-day month, otherwise **30 days**. This is the same on every plan and does not follow your billing cycle. What is left is not refunded.
+
+    **Review Pack** and **Review + Voice Pack** last **1 year** from the day you buy them.
 
 ## Buy a pack
 
@@ -51,7 +57,7 @@ The **Usage and limits** card on the **Credits** page shows one bar for each thi
 | Group | What you see |
 | --- | --- |
 | **Messages** | Automated messages in your plan, the shared 1,000 automated and service messages, free WhatsApp messages on paid plans, inbound messages handled by the bot, and Developer API messages (10,000 a month on **Pay as you go**, no limit on paid plans). |
-| **Packs** | **Bot Pack**, **AI Pack** and **Marketing Pack**: how many credits you used and the date they are gone. A pack you have not bought shows **None active**. |
+| **Packs** | **Bot Pack**, **AI Pack**, **Marketing Pack** and **Review Pack**: how many credits you used and the date they are gone. A pack you have not bought shows **None active**. |
 | **Limits** | **Contacts**, **Team members**, **Storage** and **Active workflows**. |
 
 Messages reset on the 1st of each month.

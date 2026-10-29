@@ -75,7 +75,7 @@ The tiles, funnel and charts above it are for the branch picked in **Branch:**. 
 | **Google rating over time** shows no chart | The rating has been checked fewer than 2 times, or no listing is confirmed. | Confirm your listing and check back in 2 weeks. |
 | The numbers look low with several branches | The tiles show only the branch picked in **Branch:**. | Read the **All** branches card at the bottom, or pick another branch. |
 | **Google opens** is high, but few new reviews | Some customers open Google and don't post. | No fix needed. Keep asking every customer. |
-| **Drafts made** is 0 while scans go up | **AI review drafts** is off, the **Daily AI limit** is reached, or your wallet is empty. | Check **Settings** on **Review page**, or [add funds](../add-funds.md). |
+| **Drafts made** is 0 while scans go up | **AI review drafts** is off, the **Daily AI limit** is reached, or you have no **Review Pack** credit and your wallet can't cover ₹5. | Check **Settings** on **Review page**, [add funds](../add-funds.md), or buy a **Review Pack** from [Add-on packs](../billing/packs-and-usage-limits.md). |
 | **Scans** is 0 | The QR code or link is not shared, or the page is off. | Check that **Page is live** is on and share the current link. |
 
 ## Related

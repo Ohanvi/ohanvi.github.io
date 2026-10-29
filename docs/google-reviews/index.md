@@ -93,7 +93,7 @@ No. Google does not tell Ohanvi who posted. The page asks for no name or number,
 Your organisation's default AI model. See or change it in **Google Reviews** → **Settings**. See [Choose the AI model for Google Reviews](settings.md).
 
 **Who pays for the AI drafts?**
-You do. Each tap of **Write my review** that returns drafts uses 1 credit from a **Review Pack** (₹1,000 for 1,000, valid 1 year). With no pack credit left, it costs ₹5 plus GST from your wallet, on every plan. See [Add-on packs](../billing/packs-and-usage-limits.md). A tap that returns no drafts costs nothing. **Suggest with AI** questions and AI flyer backgrounds are free. The daily AI limit caps how many run in a day. When the wallet is empty or the limit is reached, customers see only **Write it myself**.
+You do. Each tap of **Write my review** that returns drafts uses 1 credit from a **Review Pack** (₹1,000 for 1,000, valid 1 year). With no pack credit left, it costs ₹5 + GST, paid from your wallet, on every plan. See [Add-on packs](../billing/packs-and-usage-limits.md). A tap that returns no drafts costs nothing. **Suggest with AI** questions and AI flyer backgrounds are free. The daily AI limit caps how many run in a day. When you have no pack credit and your wallet can't cover ₹5, or the limit is reached, customers see only **Write it myself**.
 
 **Do I need Google Business Profile?**
 No. Ohanvi finds your listing on Google Maps. Google Business Profile is needed only to read and reply to reviews inside Ohanvi, and for auto-reply.

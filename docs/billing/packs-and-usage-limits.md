@@ -1,6 +1,6 @@
 ---
 title: Add-on packs and usage limits
-description: Buy Bot, AI and Marketing packs from your credits, see how many messages, contacts and other limits you have used, and read the free-message counter in a chat.
+description: Buy Bot, AI, Marketing and Review packs from your credits, see how many messages, contacts and other limits you have used, and read the free-message counter in a chat.
 ---
 
 # Add-on packs and usage limits
@@ -20,8 +20,8 @@ Packs are blocks of messages you pay for once from your credits. The **Usage and
 | **Bot Pack** | 1,000 bot messages: chatbot flow replies, order updates and reminders that your system sends on its own. | ₹499 |
 | **AI Pack** | 1,000 AI replies from the AI agent. | ₹999 |
 | **Automation Pack** | Both together: 1,000 bot messages and 1,000 AI replies. | ₹1,399 |
-| **Review Pack** | 1,000 AI review drafts on your Google review page. | ₹1,000 |
-| **Review + Voice Pack** | 1,000 AI review drafts, and free voice input: customers speak their review instead of typing it. | ₹1,500 |
+| **Review Pack** | 1,000 AI review draft requests on your Google review page. Each request gives up to 3 drafts. | ₹1,000 |
+| **Review + Voice Pack** | 1,000 AI review draft requests, and free voice input: customers speak their review instead of typing it. | ₹1,500 |
 | **Marketing packs** | 10,000 marketing messages | ₹1,299 |
 | | 25,000 marketing messages | ₹2,599 |
 | | 50,000 marketing messages | ₹3,499 |
@@ -33,10 +33,10 @@ A pack works on any plan, **Pay as you go** included.
 - A marketing pack pays **our fee** on each marketing message. Meta bills its own charge as usual. A message to a country where Meta charges more uses more than one credit.
 - Packs are used **before** your credits are. A bot message takes a Bot credit once your plan's 1,000 automated and service messages for the month are used. On **Pay as you go** it takes a credit from the first message.
 - AI replies take an AI credit.
-- Each time a customer gets AI drafts on your Google review page, it takes a Review credit. With no Review credit left, ₹5 plus GST comes off your credits instead.
-- Voice input on your Google review page is free with a **Review + Voice Pack**. Without it, each voice input costs ₹1 plus GST from your credits, and voice is hidden when your credits can't pay for it.
+- Each time a customer gets AI drafts on your Google review page, it takes a Review credit. With no Review credit left, it costs ₹5 + GST, paid from your credits.
+- Voice input on your Google review page is free with a **Review + Voice Pack**. Without it, each voice input costs ₹1 + GST, paid from your credits, and voice is hidden when your credits can't pay for it.
 
-!!! note "A pack runs out after about a month"
+!!! note "When a pack runs out"
     A pack ends a month after you buy it: **31 days** if you buy it in a 31-day month, otherwise **30 days**. This is the same on every plan and does not follow your billing cycle. What is left is not refunded.
 
     **Review Pack** and **Review + Voice Pack** last **1 year** from the day you buy them.

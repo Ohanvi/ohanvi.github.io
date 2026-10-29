@@ -12,7 +12,7 @@ Set up a review page that is linked to your Google listing, then share its QR co
 - You can see **Google Reviews** under **More** on the left rail. If not, ask your admin to give your role access. See [Team, roles and permissions](../settings/roles-and-permissions.md).
 - Your organisation's name and address are filled in on your Ohanvi account. Ohanvi uses them to find your business on Google.
 - Your business has a listing on Google Maps.
-- For AI drafts, your wallet has funds. See [Add funds](../add-funds.md).
+- For AI drafts, you have **Review Pack** credits or your wallet covers ₹5 a request. See [Add funds](../add-funds.md) and [Add-on packs](../billing/packs-and-usage-limits.md).
 - If you have several branches, each branch has its own review page. Pick the branch in **Branch:** at the top of the screen. See [Manage branches](manage-branches.md).
 
 ## Steps
@@ -144,11 +144,11 @@ Names, questions and answers show on your public page, so a swear word or slur i
 | Setting | What it allows |
 | --- | --- |
 | Emoji in drafts | Off by default. When on, at most one emoji per draft. |
-| Voice input | On by default. Free with a **Review + Voice Pack**. Without it, each voice input costs ₹1 plus GST from your wallet. |
+| Voice input | On by default. Free with a **Review + Voice Pack**. Without it, each voice input costs ₹1 + GST, paid from your wallet. |
 | Business name | Up to 120 characters. |
 | Page language | 11 languages: English, हिन्दी (Hindi), Hinglish (Hindi in English letters), मराठी (Marathi), ગુજરાતી (Gujarati), বাংলা (Bengali), தமிழ் (Tamil), తెలుగు (Telugu), ಕನ್ನಡ (Kannada), മലയാളം (Malayalam) and ਪੰਜਾਬੀ (Punjabi). |
-| Daily AI limit | 1 to 1000 draft requests a day. The default is 200. One tap of **Write my review** is 1 request: 1 **Review Pack** credit, or ₹5 plus GST from your wallet. |
-| Daily voice limit | 1 to 1000 recordings a day. The default is 100. Phones that type speech themselves don't count. |
+| Daily AI limit | 1 to 1000 draft requests a day. The default is 200. One tap of **Write my review** is 1 request: 1 **Review Pack** credit, or ₹5 + GST paid from your wallet. |
+| Daily voice limit | 1 to 1000 recordings a day. The default is 100. With a **Review + Voice Pack**, phones that type speech themselves don't count. |
 | Accent colour | A colour code like `#1A73E8`. |
 | Logo URL | An image link that starts with `https://`. |
 
@@ -245,15 +245,15 @@ For every rating:
 !!! warning "Why drafts don't stuff keywords"
     Google removes reviews that look alike or repeat the same phrases, and can put a warning on your profile. Drafts mention your name, service and area once, the way a customer would, and each draft is worded differently. Don't edit your own page or flyer to push keywords into reviews.
 
-When drafts are not available, the page offers only **Write it myself**. That happens when **AI review drafts** is off, the **Daily AI limit** is reached, or you have no **Review Pack** credit and your wallet is empty.
+When drafts are not available, the page offers only **Write it myself**. That happens when **AI review drafts** is off, the **Daily AI limit** is reached, or you have no **Review Pack** credit and your wallet can't cover ₹5.
 
 ### Voice input
 
 When **Voice input** is on, customers see **Speak instead** next to **In your own words (optional)**. Their words are added to the text box, where they can change them.
 
-- On phones that type speech themselves, the button reads **Listening… tap to stop** while the customer speaks. These don't count toward the **Daily voice limit**.
+- With a **Review + Voice Pack**, on phones that type speech themselves, the button reads **Listening… tap to stop** while the customer speaks. These don't count toward the **Daily voice limit**.
 - On other phones, the page records up to 1 minute. It shows **Recording** with a timer and a **Stop** button, then **Turning your voice into text…**. Each recording counts toward the **Daily voice limit**.
-- Without a **Review + Voice Pack**, every phone records this way, and each recording turned into text costs ₹1 plus GST from your wallet.
+- Without a **Review + Voice Pack**, every phone records this way, and each recording turned into text costs ₹1 + GST, paid from your wallet.
 
 The recording is never stored. It is turned into text and dropped.
 
@@ -266,7 +266,7 @@ The customer may see:
 | **Voice input isn't available right now. Please type instead.** | The **Daily voice limit** is reached, or voice input is off. |
 | **Too many tries. Please wait a few minutes, or type instead.** | Many recordings came from one network in a few minutes. |
 
-**Speak instead** is hidden when **Voice input** is off, or when the phone can neither type speech nor record.
+**Speak instead** is hidden when **Voice input** is off, or when the phone can neither type speech nor record. Without a **Review + Voice Pack**, it is also hidden when your wallet can't cover ₹1, when the **Daily voice limit** is reached, or when the phone can't record.
 
 ### What a 1 to 3 star customer also sees
 
@@ -339,14 +339,14 @@ Make a new code if your link was shared somewhere you don't want it.
 | **Use up to 12 names.**, **Each name must be 2 to 40 characters.** or **You already have this name.** | A group has too many names, a name is too short or too long, or it is a repeat. | Remove or shorten names, then click **Save names**. |
 | **The daily voice limit must be between 1 and 1000.** | The **Daily voice limit** is outside 1 to 1000. | Enter a number from 1 to 1000. |
 | **Choose one of the listed languages.** | The page language isn't one of the 11 languages. | Pick a language from **Page language**. |
-| Customers don't see **Speak instead** | **Voice input** is off, your wallet can't pay ₹1 for it and you have no **Review + Voice Pack**, or their phone can't record. | Turn on **Voice input**, [add funds](../add-funds.md), or buy a **Review + Voice Pack** from [Add-on packs](../billing/packs-and-usage-limits.md). Customers can still type. |
+| Customers don't see **Speak instead** | **Voice input** is off, or their phone can't record. Without a **Review + Voice Pack**, also when your wallet can't pay ₹1 or the **Daily voice limit** is reached. | Turn on **Voice input**, [add funds](../add-funds.md), or buy a **Review + Voice Pack** from [Add-on packs](../billing/packs-and-usage-limits.md). Customers can still type. |
 | Customers see **Voice input isn't available right now. Please type instead.** | The **Daily voice limit** is reached. | Raise the **Daily voice limit**. |
 | The website widget reads **These reviews are not available.** | **Website widget** or **Page is live** is off, or the page has no review link. | Turn on **Website widget** and **Page is live**, click **Save settings**, and finish setup. |
 | The website widget reads **No Google reviews to show yet.** | Google returned no reviews for your listing. | No fix needed. Reviews show once Google has them, within a day. |
 | The website widget reads **Please try again in a few minutes.** | The widget was loaded many times from one network in a few minutes. | Wait 5 minutes and reload the page. |
 | **No review link yet** | No listing is confirmed and no link is pasted. The page stays closed. | Click **Find my business**, or paste your review link. |
 | Customers see **This review link is not active** | **Page is live** is off, a new QR code was made, or no review link is set. | Turn on **Page is live**, share the current link, or finish setup. |
-| Customers see **Drafts aren't available right now. Tap Write it myself; a few words are enough.** | **AI review drafts** is off, the **Daily AI limit** is reached, or your wallet is empty. | Turn on **AI review drafts**, raise the **Daily AI limit**, or [add funds](../add-funds.md). Customers can still post their own words. |
+| Customers see **Drafts aren't available right now. Tap Write it myself; a few words are enough.** | **AI review drafts** is off, the **Daily AI limit** is reached, or you have no **Review Pack** credit and your wallet can't cover ₹5. | Turn on **AI review drafts**, raise the **Daily AI limit**, [add funds](../add-funds.md), or buy a **Review Pack** from [Add-on packs](../billing/packs-and-usage-limits.md). Customers can still post their own words. |
 | Customers see **Too many tries. Please wait a few minutes, or write it yourself.** | Many draft requests came from one network in a few minutes. | Wait 5 minutes. Customers on their own mobile data are not affected. |
 | A printed QR code stopped working | A new QR code was made. | Print the current QR code or flyer. |
 | **Please remove the word "…" and try again.** | A question, an answer or a name has a swear word or slur. They show on your public page. | Remove or replace the word shown, then save again. Honest words such as "slow" or "poor" are fine. |

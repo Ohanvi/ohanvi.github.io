@@ -107,7 +107,7 @@ Inside **Want to add more?**, under the questions, customers also see a short bo
 
 ### Add names customers can pick
 
-Customers can also tap who helped them and what they came for. Each group you fill shows on the page as its own question, inside the **Want to add more?** card.
+Customers can also tap who helped them and what they came for. Each group you fill shows on the page as its own question, in a card under your questions, so customers always see the names you added.
 
 | Group | Customers see | Example |
 | --- | --- | --- |
@@ -195,9 +195,8 @@ The page uses your **Accent colour** for its buttons, chips and header, or indig
 1. Optional: pick another language in the 🌐 menu at the top. The page reloads in that language, and the drafts are written in it.
 2. Read the top of the page: your logo or initials, your business name, your area, and the line **Tap a few answers and we'll write a review you can post on Google.**
 3. Under **How was your experience?**, tap the stars. A word under them names the rating: **Very poor**, **Poor**, **Okay**, **Good** or **Excellent!**
-4. Answer the numbered question cards, **01**, **02** and so on. Tap one answer on each card. Tap it again to clear it.
+4. Answer the numbered question cards, **01**, **02** and so on. Tap one answer on each card. Tap it again to clear it. If you added names, tap them under **Who helped you?**, **What did you come for?** or **What did you buy?**, in the card below the questions.
 5. Optional: tap **Want to add more?** (**Optional**). The card opens with:
-    - **Who helped you?**, **What did you come for?** and **What did you buy?**, if you added names.
     - **Other (optional)**, a short box that reads **Anything else? e.g. the service you used**, up to 120 characters.
     - **In your own words (optional)**, up to 300 characters, with **Speak instead** next to it. See [Voice input](#voice-input).
 6. Tap **Write my review** at the bottom of the screen. On a phone it stays in reach while you scroll. It reads **Writing…** while the drafts are made.
@@ -226,7 +225,7 @@ If the customer taps **Write it myself**, or **Write my own instead**, the page 
 A draft never states a star count. The customer chooses their stars on Google.
 
 !!! note "When 'Want to add more?' is open from the start"
-    With no questions on the page, the names, **Other** and own words show open, without the **Want to add more?** button. The card also opens on its own when the customer taps **Write my review** with nothing picked, or when their words need a change.
+    With no questions on the page, **Other** and own words show open, without the **Want to add more?** button. The card also opens on its own when the customer taps **Write my review** with nothing picked, or when their words need a change.
 
 ### How drafts differ by stars
 
@@ -278,6 +277,8 @@ When **Private note for 1–3 stars** is on, a card **Also tell the owner privat
 2. They type in **Message to the owner**, 3 to 1000 characters.
 3. Optional: they fill **Your name (optional)** and **Phone (optional)**.
 4. They tap **Send to the owner**. The page shows **Sent to the owner. You can still post on Google.**
+
+If drafts aren't available (**AI review drafts** is off, the **Daily AI limit** is reached or the AI didn't answer), the same card shows under **Write it myself** instead, so a 1 to 3 star customer can still tell you privately.
 
 The Google button stays on the screen the whole time. The note goes to **Private notes**, and **Review page** shows an alert such as **2 unread private notes** with **Read notes**. See [Read private notes](read-private-notes.md).
 

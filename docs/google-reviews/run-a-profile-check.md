@@ -44,7 +44,7 @@ Results from before the score existed show no score card. Run the check again to
 
 ### Read the checklist
 
-The **Checklist** card groups the checks under **Your listing** and, with Google Business Profile connected, **Reviews**. Each line shows **Looks good** or **Fix this**, with a short reason. The card's note reads **Everything we check looks good.**, or how many lines you have to fix.
+The **Checklist** card groups the checks under **Your listing** and **Reviews**. **Google rating** and **Number of reviews** are always under **Reviews**. With Google Business Profile connected, **Replies to recent reviews** and **Unanswered reviews** join them there. Each line shows **Looks good** or **Fix this**, with a short reason. The card's note reads **Everything we check looks good.**, or how many lines you have to fix.
 
 | Check | Looks good when | Fix this reads, for example |
 | --- | --- | --- |
@@ -87,23 +87,23 @@ When Google Business Profile is connected for this branch's listing, the check a
 
 The **Activity on Google** card shows 4 tiles: **Searches**, **Calls**, **Directions** and **Website clicks**. Each shows the count for the last 28 days and the change against the 28 days before, such as **↑ 13%** or **↓ 20%**. **No change** means the same count. When the 28 days before had none, the tile shows **↑ from 0**. The card's note reads **Last 28 days vs previous 28**, followed by the dates.
 
-The reply lines appear once your reviews have synced, and the **Activity on Google** card once Google has sent your profile's numbers. Until then, they're left out and your score doesn't count them.
+The reply lines appear once your reviews have synced. The **Activity on Google** card needs about 56 days of your profile's numbers synced from Google: the last 28 days and the 28 before to compare with. Until then, they're left out and your score doesn't count them.
 
 When your Business Profile isn't connected, the **Checklist** card ends with **Connect Google Business Profile on the Review page to add reply-rate and activity checks.** The line shows only when Ohanvi can connect Google Business Profile. See [Manage your Google Business Profile](../social/manage-google-business-profile.md).
 
 ### Read the suggestions
 
-The **Suggestions** card lists 3 to 6 numbered ideas, most important first, under the line **Ideas based on the checklist and the businesses nearby.**
+The **Suggestions** card lists up to 6 numbered ideas, most important first, under the line **Ideas based on the checklist and the businesses nearby.**
 
-Ohanvi's AI writes them only from your checklist and the nearby businesses' numbers. They don't add facts about your business or promise a result. If the AI is not available, the check still runs and the card is left out.
+When there is a [category suggestion](#category-suggestion), it comes first. Ohanvi's AI writes the rest only from your checklist and the nearby businesses' numbers. They don't add facts about your business or promise a result. If the AI is not available, the check still runs. The card then shows only the category suggestion, or is left out when there is none.
 
 ### Compare with businesses nearby
 
 The **Businesses nearby** card lists up to 5 similar businesses within about 2 km, from Google Maps.
 
-Ohanvi finds them by your Google category. When your category is too general, such as **Service**, it searches by the **Industry** you picked on the Review page instead, such as **IT / Software**. Public places, such as police stations, government offices, schools, places of worship, ATMs, parking and bus or train stations, are left out.
+Ohanvi finds them by your Google category. When your category is too general, such as **Service**, or doesn't match the **Industry** you picked on the Review page, it searches by that **Industry** instead, such as **IT / Software**. When you haven't picked one, Ohanvi works out the industry from your Google category, or else from your business name. Public places, such as police stations, government offices, schools, places of worship, ATMs, parking and bus or train stations, are left out.
 
-If your Google category is too general and **Industry** is **Other business**, no search runs. The card reads **Google found no similar businesses nearby.** and **Number of reviews** ends **Pick your industry on the Review page to compare with similar businesses.** See [Choose the questions customers answer](get-more-google-reviews.md#choose-the-questions-customers-answer).
+If your Google category is too general and the industry is **Other business**, or none is picked and your business name doesn't point to one, no search runs. The card reads **Google found no similar businesses nearby.** and **Number of reviews** ends **Pick your industry on the Review page to compare with similar businesses.** See [Choose the questions customers answer](get-more-google-reviews.md#choose-the-questions-customers-answer).
 
 1. Read the badges at the top, such as **#2 of 6 by rating** and **#3 of 6 by number of reviews**. They show your rank among these businesses and yours. #1 is the best. Businesses with the same rating or review count share a rank, and a business with no rating ranks below any rating.
 2. Read the table: **Business**, **Rating** and **Reviews**. The best-rated business is first.
@@ -130,12 +130,12 @@ If Google has no similar business near you, the card reads **Google found no sim
 | **Couldn't read your listing from Google. Try again.** | Google didn't answer. | Click **Run check** again in a minute. |
 | **No check yet** after you ran it before | The last result is more than 30 days old. | Click **Run check**. |
 | **Google found no similar businesses nearby.** | Google has no business of the same kind within about 2 km. | No fix needed. The checklist still applies. |
-| **Pick your industry on the Review page to compare with similar businesses.** | Your Google category is too general, and **Industry** is **Other business**. | On the Review page, pick your industry under **Industry**, then click **Run check**. |
+| **Pick your industry on the Review page to compare with similar businesses.** | Your Google category is too general, and Ohanvi can't tell your industry from **Industry** or your business name. | On the Review page, pick your industry under **Industry**, then click **Run check**. |
 | A government office, temple or bus stop showed up nearby in an older check | Older checks didn't leave out public places. | Click **Run check**. |
 | No score card | The result is from before scores, or no check could be scored. | Click **Run check**. |
 | **Google's summary of your business** shows **Fix this** | Google hasn't written a summary for your listing. You can't add one yourself. | Keep your listing complete and ask for reviews. To have your own description checked instead, connect Google Business Profile. |
 | **Has photos** shows 10 but you have more | Google shows the check up to 10 photos. | No fix needed. 10 means 10 or more. |
-| No **Replies to recent reviews** or **Activity on Google** with Google Business Profile connected | Your reviews or numbers haven't synced yet, the connected profile is another branch's listing, or no review came in during the last 90 days. | Wait a day, then click **Run check**. |
+| No **Replies to recent reviews** or **Activity on Google** with Google Business Profile connected | Your reviews haven't synced yet, fewer than about 56 days of your profile's numbers have synced, the connected profile is another branch's listing, or no review came in during the last 90 days. | Wait for the sync, then click **Run check**. **Activity on Google** shows once about 56 days of numbers are in. |
 | A line still shows **Fix this** after you fixed it | Google Maps hasn't updated the listing yet. | Run the check again in a few days. |
 
 ## Related

@@ -51,7 +51,7 @@ The **Reply queue** card lists the replies drafted for new Google reviews. Each 
 | --- | --- |
 | **Pending** | Replies that need your OK. |
 | **Scheduled** | Approved replies, and **Automatic** replies waiting for their time. |
-| **Posted** | Replies posted to Google, with **Posted** followed by the date and time, and **Pending Google review** or **Live on Google**. |
+| **Posted** | Replies posted to Google, with **Posted** followed by the date and time. Once Google reports its decision, the reply also shows **Pending Google review** or **Live on Google**. |
 | **Skipped** | Replies you skipped, and replies Ohanvi dropped because the review already had a reply or was removed from Google. |
 | **Failed** | Replies that didn't post or that Google rejected, with the reason. Edit them if needed, then click **Approve** to try again. |
 
@@ -59,7 +59,7 @@ Ohanvi never replies to a review that already has a reply, and never posts a rep
 
 ### Check that Google published the reply
 
-Google checks each reply before it shows on your listing. After a reply posts, Ohanvi reads Google's decision and shows it on the reply:
+Google checks each reply before it shows on your listing. After a reply posts, Ohanvi reads Google's decision and shows it on the reply. A reply shows no label until Google reports one:
 
 | Label | What it means |
 | --- | --- |
@@ -78,13 +78,13 @@ To fix a rejected reply:
 
 ### What drafted replies leave out
 
-Drafted replies are short, polite and plain. They never include:
+Drafted replies are short, polite and plain. The AI is asked to leave out:
 
 - Phone numbers, email addresses, links or website addresses.
 - Offers, discounts, discount codes or other promotions.
 - Swear words or slurs, even when the review used them.
 
-A draft with a phone number, email address, link, swear word or slur is written again. If the new one still has one, no reply is drafted for that review, and you can reply yourself.
+Ohanvi checks every draft for contact details and blocked words. Offers and discounts are not checked, so read each draft before you approve it, or before an automatic reply posts. A draft with a phone number, email address, link, swear word or slur is written again. If the new one still has one, no reply is drafted for that review, and you can reply yourself.
 
 Google allows a reply of about 4,000 letters in English. Very long replies, especially in Indian languages, are shortened, because Hindi and other Indian scripts use more of Google's limit for each letter.
 

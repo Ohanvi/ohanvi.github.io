@@ -62,27 +62,31 @@ The **Per day** chart shows each day of the last 30 days: scans, drafts made, co
 
 ### See what customers told you
 
-The **What customers told you** section adds up what customers picked on your review page. Pick **30 days**, **90 days** or **1 year** to choose the period.
+The **What customers told you** card adds up what customers picked on your review page. Pick **30 days**, **90 days** or **1 year** to choose the period.
 
 | Part | What it shows |
 | --- | --- |
-| **Visits** | Customers who used the page in the period. See how they are counted below. |
-| **Ratings** | How many visits gave 1, 2, 3, 4 and 5 stars. |
-| **Your questions** | Each question, with the share of customers who picked each answer. The share is of the customers who answered that question. |
-| **Top names** | The staff, services and products customers picked most. |
+| Visits | The number of visits in the period, such as **42** with **Visits in the last 30 days**. See how they are counted below. |
+| **Stars given** | How many visits gave 5, 4, 3, 2 and 1 stars. |
+| Each of your questions | The question, how many customers answered it, and the share of them who picked each answer. |
+| **Names customers tapped** | The **Staff**, **Services** and **Products** customers picked, with how many times each. |
 | **Languages** | The page languages customers used, with each one's share of visits. |
 
 How visits are counted:
 
-- Each time a customer gets drafts with **Write my review** is 1 visit.
+- Each tap of **Write my review** is 1 visit, even when no drafts come back.
 - Each private note is 1 visit.
-- A customer who gets drafts twice counts twice. A scan with no drafts and no note doesn't count.
+- A customer who taps **Write my review** and also sends a private note counts as 2 visits. A customer who taps **Write my review** twice counts twice.
+- A scan with no tap of **Write my review** and no note doesn't count.
 
-The section holds no personal data. It shows counts only, never who picked what. Answers are kept for 400 days, then deleted.
+The card holds no personal data. It shows counts only, never who picked what. Answers are kept for 400 days, then deleted.
 
-If you remove a question or an answer, last month's numbers stay. The removed ones show after your current questions.
+If you remove a question or an answer, the numbers already counted stay:
 
-With several branches, **Stats** shows the branch picked in **Branch:**. To see every branch together, open **Branches**: its **All N branches** card shows the same section for all of them.
+- A removed answer shows inside its own question, under **No longer on your page**, after the current answers.
+- A removed question shows after your current questions, under **No longer on your page**.
+
+With several branches, **Stats** shows the branch picked in **Branch:**. To see every branch together, open **Branches**. Below the **All N branches** card, a separate **What customers told you** card adds up all branches. It shows only when you have 2 or more branches.
 
 Staff names show here even when **Staff names in drafts** is off. See [Get more Google reviews](get-more-google-reviews.md#set-up-the-page).
 
@@ -101,9 +105,10 @@ The tiles, funnel and charts above it are for the branch picked in **Branch:**. 
 | **Google rating over time** shows no chart | The rating has been checked fewer than 2 times, or no listing is confirmed. | Confirm your listing and check back in 2 weeks. |
 | The numbers look low with several branches | The tiles show only the branch picked in **Branch:**. | Read the **All** branches card at the bottom, or pick another branch. |
 | **Google opens** is high, but few new reviews | Some customers open Google and don't post. | No fix needed. Keep asking every customer. |
-| **Drafts made** is 0 while scans go up | **AI review drafts** is off, the **Daily AI limit** is reached, or the branch has no **Google Reviews Annual Pack** and your credits can't cover ₹5 + GST. | Check **Settings** on **Review page**, [add funds](../add-funds.md), or [buy the Annual Pack for the branch](buy-the-annual-pack.md). |
+| **Drafts made** is 0 while scans go up | **AI review drafts** is off, the **Daily AI limit** is reached, or the branch has no **Google Reviews Annual Pack** and your credits can't cover ₹5. | Check **Settings** on **Review page**, [add funds](../add-funds.md), or [buy the Annual Pack for the branch](buy-the-annual-pack.md). |
 | **Scans** is 0 | The QR code or link is not shared, or the page is off. | Check that **Page is live** is on and share the current link. |
-| **What customers told you** has fewer visits than **Scans** | A visit counts only when a customer gets drafts or sends a private note. Customers who scan and leave, or tap **Write it myself**, aren't counted. | No fix needed. |
+| **What customers told you** has fewer visits than **Scans** | A visit counts only when a customer taps **Write my review** or sends a private note. Customers who scan and leave, or tap **Write it myself**, aren't counted. | No fix needed. |
+| **What customers told you** has more visits than **Drafts made** | A tap of **Write my review** counts as a visit even when no drafts come back, and a private note is a visit of its own. | No fix needed. |
 | A question shows no answers | No customer answered it in the period, or you added it recently. | Pick a longer period, such as **90 days**. |
 
 ## Related
@@ -113,4 +118,4 @@ The tiles, funnel and charts above it are for the branch picked in **Branch:**. 
 - [Reply to Google reviews](../social/reply-to-google-reviews.md)
 
 !!! note "Screenshots to add"
-    After **Read the tiles** — the four tiles; after **Read the funnel** — the **Funnel** with **Copies** and percentages; after **Read your rating over time** — the **Google rating over time** chart; after **See what customers told you** — the section with **Ratings** and one question's answers.
+    After **Read the tiles** — the four tiles; after **Read the funnel** — the **Funnel** with **Copies** and percentages; after **Read your rating over time** — the **Google rating over time** chart; after **See what customers told you** — the card with **Stars given** and one question's answers.

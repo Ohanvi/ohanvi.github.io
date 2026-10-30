@@ -33,8 +33,8 @@ A pack works on any plan, **Pay as you go** included.
 - Packs are used **before** your credits are. A bot message takes a Bot credit once your plan's 1,000 automated and service messages for the month are used. On **Pay as you go** it takes a credit from the first message.
 - AI replies take an AI credit.
 - Each time a customer gets AI drafts on your Google review page, it costs ₹5 + GST, paid from your credits. Each request gives up to 3 drafts. On a branch with the **Google Reviews Annual Pack**, drafts are free.
-- Each voice input on your Google review page costs ₹3 + GST, paid from your credits, or ₹2 + GST on a branch with the Annual Pack. It is charged every time, whether the customer's phone or our AI turns the speech into text. Voice is hidden when your credits can't pay for it.
-- The **Daily AI limit** and **Daily voice limit** of the review page still apply with the Annual Pack. See [Get more Google reviews](../google-reviews/get-more-google-reviews.md#set-up-the-page).
+- Each voice input on your Google review page (one tap of **Speak instead**) costs ₹3 + GST, paid from your credits, or ₹2 + GST on a branch with the Annual Pack. It is charged for every voice input, whether the customer's phone or our AI turns the speech into text. Voice is hidden when your credits can't pay for it.
+- The review page's **Daily AI limit**, and its limit of up to 100 voice inputs a day per branch, still apply with the Annual Pack. See [Get more Google reviews](../google-reviews/get-more-google-reviews.md#set-up-the-page).
 
 !!! note "When a pack runs out"
     A pack ends a month after you buy it: **31 days** if you buy it in a 31-day month, otherwise **30 days**. This is the same on every plan and does not follow your billing cycle. What is left is not refunded.

@@ -12,7 +12,7 @@ Set up a review page that is linked to your Google listing, then share its QR co
 - You can see **Google Reviews** under **More** on the left rail. If not, ask your admin to give your role access. See [Team, roles and permissions](../settings/roles-and-permissions.md).
 - Your organisation's name and address are filled in on your Ohanvi account. Ohanvi uses them to find your business on Google.
 - Your business has a listing on Google Maps.
-- For AI drafts, the branch has the **Google Reviews Annual Pack**, or your credits cover ₹5 + GST a request. For voice input, your credits cover ₹3 + GST a use, or ₹2 + GST with the Annual Pack. See [Add funds](../add-funds.md) and [Buy the Annual Pack for a branch](buy-the-annual-pack.md).
+- For AI drafts, the branch has the **Google Reviews Annual Pack**, or your credits cover ₹5 a request. For voice input, your credits cover ₹3 a use, or ₹2 with the Annual Pack. See [Add funds](../add-funds.md) and [Buy the Annual Pack for a branch](buy-the-annual-pack.md).
 - If you have several branches, each branch has its own review page. Pick the branch in **Branch:** at the top of the screen. See [Manage branches](manage-branches.md).
 
 ## Steps
@@ -134,28 +134,26 @@ Names, questions and answers show on your public page, so a swear word or slur i
 1. On **Review page**, go to **Settings**.
 2. Make sure **Page is live** is on. Turn it off to stop the QR code and link from opening.
 3. Turn **AI review drafts** on or off. When it is on, customers get 3 drafts written only from their stars, answers and words.
-4. Turn **Emoji in drafts** on or off. When it is on, drafts may add one fitting emoji. When it is off, drafts use emoji only if the customer did.
-5. Turn **Staff names in drafts** on or off. It is off by default. When it is off, staff names the customer taps go to your private notes and stats, not into the drafts.
-6. Turn **Voice input** on or off. When it is on, customers can tap **Speak instead** and say their review. The recording is never stored.
-7. Turn **Private note for 1–3 stars** on or off. It is on by default. See [Read private notes](read-private-notes.md).
-8. Set the **Business name** customers see. Leave it empty to use your Google listing name.
-9. Pick the **Page language**. The customer page and its drafts use it. Customers can switch to another language on the page.
-10. Set the **Daily AI limit**: the most draft requests a day. After that, customers write their own words.
-11. Set the **Daily voice limit**: the most voice inputs in a day.
-12. Optional: pick an **Accent colour** and enter a **Logo URL**. The accent colour is used for the page's buttons, chips and header.
+4. Set the **Business name** customers see. Leave it empty to use your Google listing name.
+5. Pick the **Page language**. The customer page and its drafts use it. Customers can switch to another language on the page.
+6. Click **More settings** to open the rest. It holds **Voice input**, **Private note for 1–3 stars**, **Staff names in drafts**, **Daily AI limit**, **Accent colour**, **Logo**, **Website widget** and **Generate new QR code**.
+7. Turn **Voice input** on or off. When it is on, customers can tap **Speak instead** and say their review. The recording is never stored.
+8. Turn **Private note for 1–3 stars** on or off. It is on by default. See [Read private notes](read-private-notes.md).
+9. Turn **Staff names in drafts** on or off. It is off by default. When it is off, staff names the customer taps go to your private notes and stats, not into the drafts.
+10. Set the **Daily AI limit**: the most draft requests a day. After that, customers write their own words. You can change it only while **AI review drafts** is on.
+11. Optional: pick an **Accent colour**. It is used for the page's buttons, chips and header. Pick **Default** to use the page's own colour.
+12. Optional: to change the **Logo**, click **Change logo in Flyer**. The logo you upload in the flyer shows on the review page and the flyer. See [Design a review flyer](design-a-review-flyer.md).
 13. Click **Save settings**. The message **Settings saved** appears.
 
 | Setting | What it allows |
 | --- | --- |
-| Emoji in drafts | Off by default. When on, at most one emoji per draft. |
 | Staff names in drafts | Off by default. When off, staff names customers tap reach only your private notes and stats. Google doesn't allow asking for specific content, such as staff names, in reviews. When on, a draft may mention a staff member the customer picked. |
-| Voice input | On by default. Each voice input costs ₹3 + GST, paid from your credits, or ₹2 + GST with the **Google Reviews Annual Pack**. It is charged whether the customer's phone or our AI turns the speech into text. |
+| Voice input | On by default. Each voice input (one tap of **Speak instead**) costs ₹3 + GST, paid from your credits, or ₹2 + GST with the **Google Reviews Annual Pack**. It is charged whether the customer's phone or our AI turns the speech into text. Each branch takes up to 100 voice inputs a day, with or without the pack. |
 | Business name | Up to 120 characters. |
 | Page language | 11 languages: English, हिन्दी (Hindi), Hinglish (Hindi in English letters), मराठी (Marathi), ગુજરાતી (Gujarati), বাংলা (Bengali), தமிழ் (Tamil), తెలుగు (Telugu), ಕನ್ನಡ (Kannada), മലയാളം (Malayalam) and ਪੰਜਾਬੀ (Punjabi). |
 | Daily AI limit | 1 to 1000 draft requests a day. The default is 200. One tap of **Write my review** is 1 request: ₹5 + GST paid from your credits, or free with the **Google Reviews Annual Pack**. The limit applies with the pack too. |
-| Daily voice limit | 1 to 1000 voice inputs a day. The default is 100. Every voice input counts, including on phones that type speech themselves. The limit applies with the Annual Pack too. |
-| Accent colour | A colour code like `#1A73E8`. |
-| Logo URL | An image link that starts with `https://`. |
+| Accent colour | One of the colours shown, or **Default**. |
+| Logo | Set in the flyer, with **Change logo in Flyer**. Until you add one, **Settings** shows your business initials in its place. |
 
 !!! tip "Unlimited drafts for a busy branch"
     The **Google Reviews Annual Pack** gives one branch unlimited AI drafts and voice input at ₹2 + GST for 1 year, for ₹1,000 + GST from your credits. Buy it with **Buy Annual Pack** under **Settings**. See [Buy the Annual Pack for a branch](buy-the-annual-pack.md).
@@ -164,7 +162,7 @@ Names, questions and answers show on your public page, so a swear word or slur i
 
 The website widget shows your Google rating and recent Google reviews on your own website, with a **Write a review** button that opens your review page.
 
-1. On **Review page**, under **Settings**, turn on **Website widget**.
+1. On **Review page**, under **Settings**, click **More settings**, then turn on **Website widget**.
 2. Click **Save settings**. Until you save, the screen reads **Save settings to get the code for your website.**
 3. Read the line **Paste this code into your website where the reviews should show.** The code box appears below it.
 4. Click **Copy code**. The message **Code copied** appears.
@@ -253,7 +251,7 @@ For every rating:
 !!! warning "Why drafts don't stuff keywords"
     Google removes reviews that look alike or repeat the same phrases, and can put a warning on your profile. Drafts mention your name, service and area once, the way a customer would, and each draft is worded differently. Don't edit your own page or flyer to push keywords into reviews.
 
-When drafts are not available, the page offers only **Write it myself**. That happens when **AI review drafts** is off, the **Daily AI limit** is reached, or the branch has no **Google Reviews Annual Pack** and your credits can't cover ₹5 + GST.
+When drafts are not available, the page offers only **Write it myself**. That happens when **AI review drafts** is off, the **Daily AI limit** is reached, or the branch has no **Google Reviews Annual Pack** and your credits can't cover ₹5.
 
 ### Voice input
 
@@ -261,7 +259,8 @@ When **Voice input** is on, customers see **Speak instead** next to **In your ow
 
 - On phones that type speech themselves, the button reads **Listening… tap to stop** while the customer speaks.
 - On other phones, the page records up to 1 minute. It shows **Recording** with a timer and a **Stop** button, then **Turning your voice into text…**.
-- Either way, each voice input costs ₹3 + GST, paid from your credits, or ₹2 + GST on a branch with the **Google Reviews Annual Pack**, and counts toward the **Daily voice limit**.
+- Either way, each voice input (one tap of **Speak instead**, until it stops listening or recording) costs ₹3 + GST, paid from your credits, or ₹2 + GST on a branch with the **Google Reviews Annual Pack**. A pause while speaking is not a new voice input.
+- Each branch takes up to 100 voice inputs a day, with or without the pack.
 
 The recording is never stored. It is turned into text and dropped.
 
@@ -271,10 +270,10 @@ The customer may see:
 | --- | --- |
 | **Allow the microphone to speak, or type instead.** | The phone blocked the microphone for the page. |
 | **Couldn't catch that. Try again, or type instead.** | Nothing clear was heard, or the recording failed. |
-| **Voice input isn't available right now. Please type instead.** | The **Daily voice limit** is reached, or voice input is off. |
+| **Voice input isn't available right now. Please type instead.** | The branch has had 100 voice inputs today, or voice input is off. |
 | **Too many tries. Please wait a few minutes, or type instead.** | Many recordings came from one network in a few minutes. |
 
-**Speak instead** is hidden when **Voice input** is off, when the phone can neither type speech nor record, when your credits can't cover a voice input, or when the **Daily voice limit** is reached.
+**Speak instead** is hidden when **Voice input** is off, when the phone can neither type speech nor record, when your credits can't cover a voice input, or when the branch has had 100 voice inputs today.
 
 ### What a 1 to 3 star customer also sees
 
@@ -316,7 +315,7 @@ Ohanvi catches common tricks too, such as `f.u.c.k`, `sh1t` or long repeated let
 
 Make a new code if your link was shared somewhere you don't want it.
 
-1. On **Review page**, under **Settings**, click **Generate new QR code**. The **Generate a new QR code?** window opens.
+1. On **Review page**, under **Settings**, click **More settings**, then click **Generate new QR code**. The **Generate a new QR code?** window opens.
 2. Click **Generate new code**. The message **New QR code ready. Download it again before printing.** appears.
 3. Download and print the new QR code or flyer.
 
@@ -348,16 +347,15 @@ Make a new code if your link was shared somewhere you don't want it.
 | The questions don't fit your business | **Industry** is wrong, or Google lists your business under another type. | Pick your industry under **Industry**. If you edited the questions, click **Reset to industry defaults** to load the new industry's questions. |
 | **Suggest with AI** gives no questions | The AI model didn't answer. | Try again in a minute, or check the model in **Google Reviews** → **Settings**. |
 | **Use up to 12 names.**, **Each name must be 2 to 40 characters.** or **You already have this name.** | A group has too many names, a name is too short or too long, or it is a repeat. | Remove or shorten names, then click **Save names**. |
-| **The daily voice limit must be between 1 and 1000.** | The **Daily voice limit** is outside 1 to 1000. | Enter a number from 1 to 1000. |
 | **Choose one of the listed languages.** | The page language isn't one of the 11 languages. | Pick a language from **Page language**. |
-| Customers don't see **Speak instead** | **Voice input** is off, their phone can neither type speech nor record, your credits can't cover a voice input (₹3 + GST, or ₹2 + GST with the Annual Pack), or the **Daily voice limit** is reached. | Turn on **Voice input**, [add funds](../add-funds.md), or raise the **Daily voice limit**. Customers can still type. |
-| Customers see **Voice input isn't available right now. Please type instead.** | The **Daily voice limit** is reached. | Raise the **Daily voice limit**. |
+| Customers don't see **Speak instead** | **Voice input** is off, their phone can neither type speech nor record, your credits can't cover a voice input (₹3, or ₹2 with the Annual Pack), or the branch has had 100 voice inputs today. | Turn on **Voice input** under **More settings**, or [add funds](../add-funds.md). After 100 voice inputs, voice comes back the next day. Customers can still type. |
+| Customers see **Voice input isn't available right now. Please type instead.** | The branch has had 100 voice inputs today. | No fix needed. Customers can type, and voice input comes back the next day. |
 | The website widget reads **These reviews are not available.** | **Website widget** or **Page is live** is off, or the page has no review link. | Turn on **Website widget** and **Page is live**, click **Save settings**, and finish setup. |
 | The website widget reads **No Google reviews to show yet.** | Google returned no reviews for your listing. | No fix needed. Reviews show once Google has them, within a day. |
 | The website widget reads **Please try again in a few minutes.** | The widget was loaded many times from one network in a few minutes. | Wait 5 minutes and reload the page. |
 | **No review link yet** | No listing is confirmed and no link is pasted. The page stays closed. | Click **Find my business**, or paste your review link. |
 | Customers see **This review link is not active** | **Page is live** is off, a new QR code was made, or no review link is set. | Turn on **Page is live**, share the current link, or finish setup. |
-| Customers see **Drafts aren't available right now. Tap Write it myself; a few words are enough.** | **AI review drafts** is off, the **Daily AI limit** is reached, or the branch has no **Google Reviews Annual Pack** and your credits can't cover ₹5 + GST. | Turn on **AI review drafts**, raise the **Daily AI limit**, [add funds](../add-funds.md), or [buy the Annual Pack for the branch](buy-the-annual-pack.md). Customers can still post their own words. |
+| Customers see **Drafts aren't available right now. Tap Write it myself; a few words are enough.** | **AI review drafts** is off, the **Daily AI limit** is reached, or the branch has no **Google Reviews Annual Pack** and your credits can't cover ₹5. | Turn on **AI review drafts**, raise the **Daily AI limit**, [add funds](../add-funds.md), or [buy the Annual Pack for the branch](buy-the-annual-pack.md). Customers can still post their own words. |
 | Drafts don't mention the staff member the customer tapped | **Staff names in drafts** is off. It is off by default, because Google doesn't allow asking for specific content in reviews. | No fix needed. The name is in your private notes and stats. To let drafts mention it, turn on **Staff names in drafts** and click **Save settings**. |
 | Customers see **Too many tries. Please wait a few minutes, or write it yourself.** | Many draft requests came from one network in a few minutes. | Wait 5 minutes. Customers on their own mobile data are not affected. |
 | A printed QR code stopped working | A new QR code was made. | Print the current QR code or flyer. |

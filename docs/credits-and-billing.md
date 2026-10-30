@@ -49,7 +49,7 @@ Your Google review page is paid from your credits at these prices:
 | Action | What is charged |
 | --- | --- |
 | **AI review drafts** (a customer taps **Write my review**) | **₹5 + GST** per request that returns drafts, up to 3 drafts. Free on a branch with the **Google Reviews Annual Pack**. |
-| **Voice input** (a customer speaks their review) | **₹3 + GST** per voice input, or **₹2 + GST** on a branch with the Annual Pack. Charged whether the customer's phone or our AI turns the speech into text. |
+| **Voice input** (a customer speaks their review) | **₹3 + GST** per voice input (one tap of **Speak instead**), or **₹2 + GST** on a branch with the Annual Pack. Charged whether the customer's phone or our AI turns the speech into text. |
 | **Google Reviews Annual Pack** | **₹1,000 + GST** per branch, for 1 year. See [Buy the Annual Pack for a branch](google-reviews/buy-the-annual-pack.md). |
 
 GST was paid when you added funds, so your credits go down by the price before GST: ₹5, ₹3, ₹2 or ₹1,000. A draft request that returns no drafts costs nothing. Voice input is hidden when your credits can't pay for it. **Suggest with AI** questions and AI flyer backgrounds are free. See [Add-on packs and usage limits](billing/packs-and-usage-limits.md).

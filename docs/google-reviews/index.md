@@ -94,10 +94,10 @@ No. Google does not tell Ohanvi who posted. The page asks for no name or number,
 Your organisation's default AI model. See or change it in **Google Reviews** → **Settings**. See [Choose the AI model for Google Reviews](settings.md).
 
 **Who pays for the AI drafts?**
-You do, from your credits. Each tap of **Write my review** that returns drafts costs ₹5 + GST, on every plan. It gives up to 3 drafts. A tap that returns no drafts costs nothing. On a branch with the **Google Reviews Annual Pack** (₹1,000 + GST per branch for 1 year), drafts are free. See [Buy the Annual Pack for a branch](buy-the-annual-pack.md). **Suggest with AI** questions and AI flyer backgrounds are free. The daily AI limit caps how many run in a day, with or without the pack. When the branch has no pack and your credits can't cover ₹5 + GST, or the limit is reached, customers see only **Write it myself**.
+You do, from your credits. Each tap of **Write my review** that returns drafts costs ₹5 + GST, on every plan. It gives up to 3 drafts. A tap that returns no drafts costs nothing. On a branch with the **Google Reviews Annual Pack** (₹1,000 + GST per branch for 1 year), drafts are free. See [Buy the Annual Pack for a branch](buy-the-annual-pack.md). **Suggest with AI** questions and AI flyer backgrounds are free. The daily AI limit caps how many run in a day, with or without the pack. When the branch has no pack and your credits can't cover ₹5, or the limit is reached, customers see only **Write it myself**.
 
 **What does voice input cost?**
-₹3 + GST each time a customer speaks their review, or ₹2 + GST on a branch with the Annual Pack, paid from your credits. It is charged whether the customer's phone or our AI turns the speech into text. When your credits can't cover it, customers don't see **Speak instead** and type instead.
+₹3 + GST for each voice input (one tap of **Speak instead**), or ₹2 + GST on a branch with the Annual Pack, paid from your credits. It is charged whether the customer's phone or our AI turns the speech into text. Each branch takes up to 100 voice inputs a day. When your credits can't cover one, customers don't see **Speak instead** and type instead.
 
 **Do I need Google Business Profile?**
 No. Ohanvi finds your listing on Google Maps. Google Business Profile is needed only to read and reply to reviews inside Ohanvi, and for auto-reply.

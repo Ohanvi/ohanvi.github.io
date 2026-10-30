@@ -15,10 +15,10 @@ The section lists:
 
 - **Review page** — set up your page, confirm your business on Google, and share the QR code and link.
 - **Flyer** — design a printable flyer with your QR code.
-- **Stats** — your Google rating, review count, and how many customers reached Google.
-- **Private notes** — notes that 1 to 3 star customers chose to send you as well as posting on Google.
-- **Profile check** — what your Google listing is missing, and how it compares with businesses nearby.
-- **Auto-reply** — draft replies to new Google reviews, and approve them or let them post. This needs Google Business Profile.
+- **Stats** — your Google rating, review count, how many customers reached Google, and what customers told you on the page.
+- **Private notes** — a follow-up inbox for notes that 1 to 3 star customers chose to send you as well as posting on Google. Set a status, add your comment and contact the customer on WhatsApp.
+- **Profile check** — a score for your Google listing, what it is missing, and how it compares with similar businesses nearby.
+- **Auto-reply** — draft replies to new Google reviews, and approve them or let them post. This needs Google Business Profile, and shows only once Google approves Business Profile access for Ohanvi.
 - **Branches** — a review page, QR code and numbers for each branch.
 - **Settings** — the AI model that writes drafts and replies. It is your organisation's default AI model.
 
@@ -51,8 +51,9 @@ They can edit a draft, or tap **Write it myself** and write their own. Customers
 | --- | --- |
 | [Get more Google reviews](get-more-google-reviews.md) | You set up your review page, confirm your business and share the code. |
 | [Design a review flyer](design-a-review-flyer.md) | You want a printed flyer for your counter or reception. |
-| [Read Google review stats](read-google-review-stats.md) | You want your rating, review count and how many customers reached Google. |
-| [Read private notes](read-private-notes.md) | A customer sent you a private note from the review page. |
+| [Buy the Annual Pack for a branch](buy-the-annual-pack.md) | You want unlimited AI drafts and cheaper voice input on a branch's review page for a year. |
+| [Read Google review stats](read-google-review-stats.md) | You want your rating, review count, how many customers reached Google, and what they told you. |
+| [Read private notes](read-private-notes.md) | A customer sent you a private note from the review page, and you want to follow up. |
 | [Ask for a Google review after an appointment](ask-for-a-review-after-an-appointment.md) | You want a WhatsApp review request after each completed appointment. |
 | [Manage branches](manage-branches.md) | You have more than one branch, each with its own Google listing. |
 | [Run a profile check](run-a-profile-check.md) | You want to see what your listing is missing and how you rank nearby. |
@@ -65,7 +66,7 @@ They can edit a draft, or tap **Write it myself** and write their own. Customers
 - Your role has access to Google Reviews. If you cannot see it under **More**, ask your admin. See [Team, roles and permissions](../settings/roles-and-permissions.md).
 - Your business has a listing on Google Maps.
 
-You do not need to connect Google Business Profile to collect reviews, run a profile check or show the website widget. You need it only to read and reply to reviews inside Ohanvi, and for auto-reply. See [Reply to Google reviews](../social/reply-to-google-reviews.md).
+You do not need to connect Google Business Profile to collect reviews, run a profile check or show the website widget. You need it only to read and reply to reviews inside Ohanvi, and for auto-reply. Connected, it also adds reply-rate and activity checks to the profile check. See [Reply to Google reviews](../social/reply-to-google-reviews.md).
 
 ## Google's rules
 
@@ -75,7 +76,7 @@ Google removes reviews, and can restrict your listing, when you break its review
 - **Ask every customer.** Don't ask only happy customers. Every customer sees the same **Copy & post on Google** button, whatever rating they pick.
 - **Don't hide Google from unhappy customers.** The private note sits below the Google button. It never replaces it.
 - **The customer's own words.** Don't write reviews for customers, and don't post from staff or family accounts. Drafts use only what the customer picked, typed or said, and the customer can edit them.
-- **Names only when the customer picks them.** A draft mentions a staff name, service or product only when the customer tapped or typed it. Don't use names to stuff keywords into reviews.
+- **Names only when the customer picks them.** A draft mentions a service or product only when the customer tapped or typed it. Staff names stay out of drafts unless you turn on **Staff names in drafts**, because Google doesn't allow asking for specific content in reviews. Don't use names to stuff keywords into reviews.
 - **No keyword stuffing.** Google removes reviews that look alike. Drafts mention your name, service and area once at most, word each draft differently, and say **These are suggestions. Please edit them to reflect your genuine experience.**
 
 ## FAQ
@@ -87,13 +88,16 @@ No. Google does not allow review gating. A 1 to 3 star customer can send you a p
 No. A draft never states a star count. The customer chooses their stars on Google.
 
 **Does Ohanvi know which customer posted a review?**
-No. Google does not tell Ohanvi who posted. The page asks for no name or number, except an optional name and phone in a private note.
+No. Google does not tell Ohanvi who posted. The page asks for no name or number, except an optional name and phone in a private note. Those are saved only when the customer ticks that you may contact them, and are deleted after 90 days.
 
 **Which AI writes the drafts?**
 Your organisation's default AI model. See or change it in **Google Reviews** → **Settings**. See [Choose the AI model for Google Reviews](settings.md).
 
 **Who pays for the AI drafts?**
-You do. Each tap of **Write my review** that returns drafts uses 1 credit from a **Review Pack** (₹1,000 for 1,000, valid 1 year). With no pack credit left, it costs ₹5 + GST, paid from your wallet, on every plan. See [Add-on packs](../billing/packs-and-usage-limits.md). A tap that returns no drafts costs nothing. **Suggest with AI** questions and AI flyer backgrounds are free. The daily AI limit caps how many run in a day. When you have no pack credit and your wallet can't cover ₹5, or the limit is reached, customers see only **Write it myself**.
+You do, from your credits. Each tap of **Write my review** that returns drafts costs ₹5 + GST, on every plan. It gives up to 3 drafts. A tap that returns no drafts costs nothing. On a branch with the **Google Reviews Annual Pack** (₹1,000 + GST per branch for 1 year), drafts are free. See [Buy the Annual Pack for a branch](buy-the-annual-pack.md). **Suggest with AI** questions and AI flyer backgrounds are free. The daily AI limit caps how many run in a day, with or without the pack. When the branch has no pack and your credits can't cover ₹5, or the limit is reached, customers see only **Write it myself**.
+
+**What does voice input cost?**
+₹3 + GST for each voice input (one tap of **Speak instead**), or ₹2 + GST on a branch with the Annual Pack, paid from your credits. It is charged whether the customer's phone or our AI turns the speech into text. Each branch takes up to 100 voice inputs a day. When your credits can't cover one, customers don't see **Speak instead** and type instead.
 
 **Do I need Google Business Profile?**
 No. Ohanvi finds your listing on Google Maps. Google Business Profile is needed only to read and reply to reviews inside Ohanvi, and for auto-reply.

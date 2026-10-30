@@ -106,7 +106,7 @@ With **Straight away**, photos reach guests as soon as their faces are found.
 | A HEIF or RAW photo shows **Failed** | HEIF and RAW files are not supported yet. | Export the photo as JPEG, delete the failed one, and upload the JPEG. |
 | A photo shows **Failed** with **This photo could not be processed. Delete it and upload it again.** | The file could not be read. | Click **Retry**. If it fails again, delete it, export it as JPEG, and upload the JPEG. |
 | A photo stays on **Finding faces…** | Ohanvi is still working through the upload. | Wait a few minutes, then refresh the tab. |
-| Photos stuck on **Finding faces…** or marked **Failed** | Processing stopped before the faces were found. | Click **Retry** on the photo, or select the photos and click **Retry** in the selection bar. If they keep failing, contact Ohanvi support. Face matching may be unavailable for a while. |
+| Photos marked **Failed** | Processing stopped before the faces were found. | Click **Retry** on the photo, or select the photos and click **Retry** in the selection bar. If they keep failing, contact Ohanvi support. Face matching may be unavailable for a while. |
 | You can't set the cover | More than one photo is selected. | Select exactly one photo, then click **Set as cover**. |
 | The event card shows the wrong photo | No cover was picked, so the latest photo is used. | Select the photo you want and click **Set as cover**. |
 | A photo shows **No faces** | No face was found, for example in a décor or a back-view shot. | No fix needed. Guests can still see it in the full gallery. |

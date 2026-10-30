@@ -33,7 +33,8 @@ Find the problem below, read the cause, and follow the fix. Most problems come f
 | --- | --- | --- |
 | A HEIF photo shows **Failed** | HEIF is not supported yet. iPhones save HEIF by default. | Export the photo as JPEG, delete the failed one, and upload the JPEG. |
 | A RAW photo shows **Failed** | RAW is not supported yet. | Export it as JPEG from your editor, then upload the JPEG. |
-| Photos stuck on **Finding faces…** or marked **Failed** | Processing stopped before the faces were found. | Click **Retry** on the photo, or select the photos and click **Retry** in the selection bar. If they keep failing, contact Ohanvi support. Face matching may be unavailable for a while. See [Upload and organise photos](upload-and-organise-photos.md#retry-failed-photos). |
+| Photos stuck on **Finding faces…** for more than 15 minutes | Face matching is busy or briefly unavailable. | Nothing to click: Ohanvi tries these photos again by itself every few minutes. If they are still stuck after an hour, contact Ohanvi support. |
+| Photos marked **Failed** | Processing stopped before the faces were found. | Click **Retry** on the photo, or select the photos and click **Retry** in the selection bar. If they keep failing, contact Ohanvi support. Face matching may be unavailable for a while. See [Upload and organise photos](upload-and-organise-photos.md#retry-failed-photos). |
 | A photo shows **Failed** with **This photo could not be processed. Delete it and upload it again.** | The file could not be read. | Click **Retry**. If it fails again, delete it, export it as JPEG, and upload the JPEG. |
 | A photo shows **No faces** | No face was found, for example in a décor or back-view shot. | No fix needed. It still shows in the full gallery. |
 

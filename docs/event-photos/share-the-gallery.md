@@ -5,7 +5,7 @@ description: Share an event's guest, full gallery, album selection and VIP links
 
 # Share the gallery
 
-Each event has 4 links: one for guests, one for the full gallery, one for the couple's album selection, and one for VIPs. You copy a link, show its QR code, protect it with a PIN, or send it to a CRM list on WhatsApp.
+Each event has 4 links: one for guests, one for the full gallery, one for the couple's album selection, and one for VIPs. You copy a link, show its QR code, protect it with a PIN, or send it to a CRM list on WhatsApp. Every switch and PIN change on the **Share** tab saves at once.
 
 ## Before you start
 
@@ -29,7 +29,7 @@ Each event has 4 links: one for guests, one for the full gallery, one for the co
 
 ### Share the guest QR code
 
-1. Click **Photos** on the left rail, select **Events**, and open the event.
+1. Click **Events** on the left rail, select **Events**, and open the event.
 2. Go to the **Share** tab. Each link has its own card with its QR code and address. The guest link's address looks like `app.ohanvi.com/e/aarav-diya-wedding`. The other links add a part and a key, for example `app.ohanvi.com/e/aarav-diya-wedding/all?t=…`.
 3. On the **Guest link** card, check the badge reads **On**. If it reads **Off**, turn on the switch.
 4. Click **Copy link** to copy the address. The message **Link copied** appears.
@@ -40,7 +40,7 @@ Each event has 4 links: one for guests, one for the full gallery, one for the co
 1. On the **Share** tab, find the link's card.
 2. Turn the switch off. The message, for example **Full gallery link turned off**, appears, and the badge reads **Off**.
 
-A link that is off doesn't open. Turn the switch on again to open it.
+The change saves at once. A link that is off doesn't open. Turn the switch on again to open it.
 
 ### Ask for a PIN
 
@@ -49,7 +49,7 @@ A link that is off doesn't open. Turn the switch on again to open it.
 3. Click **Set PIN**. The message **PIN set** appears.
 4. Share the PIN with the people who should open the link.
 
-Visitors type the PIN before they see anything. The PIN is stored scrambled and cannot be shown again, so note it down. To pick a new one, click **Change**.
+The PIN saves at once. Visitors type the PIN before they see anything. The PIN is stored scrambled and cannot be shown again, so note it down. To pick a new one, click **Change**.
 
 To remove the PIN, turn **Ask for a PIN** off and click **Remove PIN**. Anyone with the link can then open it without a PIN.
 

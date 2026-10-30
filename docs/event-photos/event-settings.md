@@ -1,11 +1,11 @@
 ---
 title: Change event settings
-description: Set how closely a face must match, when photos reach guests, how WhatsApp groups new matches, downloads, watermark and how long selfies are kept.
+description: Set how closely a face must match, when photos reach guests, how WhatsApp groups new matches, downloads, the studio-name watermark and how long selfies are kept.
 ---
 
 # Change event settings
 
-Each event has its own settings. They decide how closely a face must match a guest's selfie, when photos reach guests, how often WhatsApp tells guests about new photos, what guests can download, and how long selfies are kept.
+Each event has its own settings. They decide how closely a face must match a guest's selfie, when photos reach guests, how often WhatsApp tells guests about new photos, what guests can download, whether photos carry your studio name, and how long selfies are kept.
 
 ## Before you start
 
@@ -13,7 +13,7 @@ Each event has its own settings. They decide how closely a face must match a gue
 
 ## Steps
 
-1. Click **Photos** on the left rail, select **Events**, and open the event.
+1. Click **Events** on the left rail, select **Events**, and open the event.
 2. Go to the **Settings** tab. It reads **Choose who can open the gallery, when photos reach guests, and how long the photos are kept.**
 3. Change the settings below.
 4. Save your changes.
@@ -55,7 +55,14 @@ What guests can save from the gallery.
 
 ### Watermark
 
-Turn the watermark on to show it on the photos guests see.
+Turn **Watermark** on to draw your studio name on the photos guests see and download.
+
+- It goes on the web-size copies: the ones guests see in the gallery, and the ones they download with **Web size**.
+- It applies to photos uploaded after you turn it on, including photos from Beam. Photos already in the event stay as they are.
+- Your originals stay clean.
+
+!!! tip "Turn it on before the first photo"
+    Turn **Watermark** on before you upload or start shooting with Beam, so every photo carries it. If guests should only download watermarked photos, set **Downloads** to **Web size**.
 
 ### Selfie retention
 
@@ -74,6 +81,8 @@ Pick how long guests' selfies are kept. Selfies are deleted after this period. G
 | Guests say they get too many WhatsApp messages | The **WhatsApp window** is short. | Pick **5 min**. Matches are grouped into fewer messages. |
 | A guest stops getting WhatsApp messages during the event | They reached 6 live messages for the day, or replied STOP. | No fix needed. Their new photos still show on the guest page. |
 | Guests can't download photos | **Downloads** is **Off**. | Pick **Originals** or **Web size**. |
+| Some photos have no watermark | They were uploaded before you turned **Watermark** on. | No fix for those photos. Photos uploaded from now on carry it. |
+| A guest's download has no watermark | **Downloads** is **Originals**. Originals stay clean. | Pick **Web size**. |
 
 ## Related
 
@@ -83,4 +92,4 @@ Pick how long guests' selfies are kept. Selfies are deleted after this period. G
 - [Event Photos](index.md)
 
 !!! note "Screenshots to add"
-    After step 2 — the **Settings** tab with **Match strictness**, **Release** and **WhatsApp window**.
+    After step 2 — the **Settings** tab with **Match strictness**, **Release** and **WhatsApp window**; the **Watermark** switch; a guest photo with the studio-name watermark.

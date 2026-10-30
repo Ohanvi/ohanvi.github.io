@@ -1,6 +1,6 @@
 ---
 title: Set up auto-reply
-description: Draft a reply to every new Google review, then approve each one or let good reviews get a reply on their own after a wait.
+description: Draft a reply to every new Google review, approve each one or let good reviews get a reply on their own after a wait, and see whether Google published it.
 ---
 
 # Set up auto-reply
@@ -11,9 +11,10 @@ Have Ohanvi draft a reply to each new Google review. You choose whether every re
 
 - Google Business Profile is connected. See [Connect social accounts](../social/connect-social-accounts.md).
 - You can see **Google Reviews** under **More** on the left rail.
+- Google has approved Business Profile access for Ohanvi. Until it does, **Auto-reply** doesn't show under **Google Reviews**.
 
 !!! warning "Waiting for Google"
-    Auto-reply works only after Google approves Business Profile access for Ohanvi and your profile is connected. Until then the screen shows **Waiting for Google to approve Business Profile access. Replies will start once it's connected.** You can save your settings now, but no reply is drafted or posted until then.
+    Auto-reply works only after Google approves Business Profile access for Ohanvi and your profile is connected. Until then **Auto-reply** is hidden from the **Google Reviews** menu. If you open it from an old link, the screen shows **Waiting for Google to approve Business Profile access. Replies will start once it's connected.** No reply is drafted or posted until then.
 
 ## Steps
 
@@ -50,22 +51,57 @@ The **Reply queue** card lists the replies drafted for new Google reviews. Each 
 | --- | --- |
 | **Pending** | Replies that need your OK. |
 | **Scheduled** | Approved replies, and **Automatic** replies waiting for their time. |
-| **Posted** | Replies posted to Google, with **Posted** followed by the date and time. |
+| **Posted** | Replies posted to Google, with **Posted** followed by the date and time, and **Pending Google review** or **Live on Google**. |
 | **Skipped** | Replies you skipped, and replies Ohanvi dropped because the review already had a reply or was removed from Google. |
-| **Failed** | Replies Google didn't accept, with the reason. Click **Approve** to try again. |
+| **Failed** | Replies that didn't post or that Google rejected, with the reason. Edit them if needed, then click **Approve** to try again. |
 
 Ohanvi never replies to a review that already has a reply, and never posts a reply twice.
+
+### Check that Google published the reply
+
+Google checks each reply before it shows on your listing. After a reply posts, Ohanvi reads Google's decision and shows it on the reply:
+
+| Label | What it means |
+| --- | --- |
+| **Pending Google review** | Google is still checking the reply. It isn't on your listing yet. |
+| **Live on Google** | Google published the reply. Customers can see it. |
+| **Rejected by Google** | Google refused to publish the reply. The reason Google gave shows with it, and the reply moves to **Failed**. |
+
+Ohanvi checks again each time your reviews sync, until Google decides.
+
+To fix a rejected reply:
+
+1. Open the **Failed** tab and find the reply marked **Rejected by Google**.
+2. Read the reason.
+3. Click **Edit** and change the text. Take out anything the reason points to, such as a phone number, a link or an offer.
+4. Click **Save reply**, then **Approve**. The new reply replaces the rejected one on the review.
+
+### What drafted replies leave out
+
+Drafted replies are short, polite and plain. They never include:
+
+- Phone numbers, email addresses, links or website addresses.
+- Offers, discounts, discount codes or other promotions.
+- Swear words or slurs, even when the review used them.
+
+A draft with a phone number, email address, link, swear word or slur is written again. If the new one still has one, no reply is drafted for that review, and you can reply yourself.
+
+Google allows a reply of about 4,000 letters in English. Very long replies, especially in Indian languages, are shortened, because Hindi and other Indian scripts use more of Google's limit for each letter.
 
 ## Troubleshooting
 
 | Issue | Cause | Fix |
 | --- | --- | --- |
+| **Auto-reply** is missing under **Google Reviews** | Google hasn't approved Business Profile access for Ohanvi yet. | No fix needed. It shows once Google approves access. Collect reviews with your review page meanwhile. |
 | **Waiting for Google to approve Business Profile access. Replies will start once it's connected.** | Google hasn't approved Business Profile access for Ohanvi yet, or your profile isn't connected. | Connect Google Business Profile when it is available. Your saved settings start working then. |
 | The queue is empty and reads **Auto-reply is off** | **Reply mode** is **Off**. | Pick **Ask me first** or **Automatic**, then click **Save settings**. |
 | **Wait before posting** and **Minimum stars** can't be changed | They apply only in **Automatic** mode. | Pick **Automatic** first. |
 | A reply is under **Failed** with **Google Business Profile isn't connected.** | The connection to Google ended. | Reconnect Google Business Profile, then click **Approve** on the reply. |
 | A reply is under **Failed** with **Couldn't post the reply to Google.** | Google didn't accept the reply. | Click **Edit** to check the text, then click **Approve**. |
-| **Write the reply in 2 to 4000 characters.** | The edited reply is empty or too long. | Shorten or finish the reply, then click **Save reply**. |
+| A reply shows **Rejected by Google** under **Failed** | Google refused to publish it. The reason shows with the reply. | Click **Edit**, change what the reason points to, click **Save reply**, then **Approve**. |
+| A reply shows **Pending Google review** for days | Google hasn't finished checking it. | No fix needed. Ohanvi checks again on each sync. |
+| **Write the reply in at least 2 characters.** | The edited reply is empty. | Finish the reply, then click **Save reply**. |
+| **This reply is too long for Google. Please shorten it and try again.** | The reply is over Google's limit. Replies in Hindi and other Indian scripts reach it sooner. | Click **Edit**, shorten the reply, then click **Save reply** and **Approve**. |
 | **This reply was already posted.** or **This reply was skipped.** | Someone else acted on it first, or it posted while you edited. | Refresh the queue. |
 | **Please remove the word "…" and try again.** | The reply has a swear word or slur. Replies are public on Google under your business name. | Click **Edit**, remove or replace the word shown, then click **Save reply** and **Approve**. |
 | A reply is under **Failed** with **Please remove the word "…" and try again.** | The drafted reply had a swear word or slur, so it was not posted. | Click **Edit**, fix the reply, then click **Approve**. |
@@ -78,4 +114,4 @@ Ohanvi never replies to a review that already has a reply, and never posts a rep
 - [Google Reviews](index.md)
 
 !!! note "Screenshots to add"
-    After **Choose how replies work** step 3 — **Reply settings** with **Automatic** picked; after **Work through the queue** step 2 — a pending reply with **Edit**, **Skip** and **Approve**.
+    After **Choose how replies work** step 3 — **Reply settings** with **Automatic** picked; after **Work through the queue** step 2 — a pending reply with **Edit**, **Skip** and **Approve**; after **Check that Google published the reply** — a reply marked **Rejected by Google** with its reason.

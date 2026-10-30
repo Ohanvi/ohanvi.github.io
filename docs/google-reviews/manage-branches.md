@@ -21,6 +21,7 @@ Each branch is a separate review page. It has its own:
 - QR code and link.
 - Flyer.
 - Settings, questions and names customers can pick.
+- **Google Reviews Annual Pack**. A pack covers only the branch you bought it for. See [Buy the Annual Pack for a branch](buy-the-annual-pack.md).
 - Stats, private notes, profile check and auto-reply.
 
 Your first review page is your default branch. Until you name it, it shows as **Main branch**.

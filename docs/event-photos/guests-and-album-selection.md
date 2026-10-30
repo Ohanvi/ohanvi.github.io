@@ -16,7 +16,7 @@ The **Guests** tab lists everyone who verified their WhatsApp number for the eve
 
 ### See who verified
 
-1. Click **Photos** on the left rail, select **Events**, and open the event.
+1. Click **Events** on the left rail, select **Events**, and open the event.
 2. Go to the **Guests** tab. The count above the table reads, for example, **128 guests**.
 3. To find one guest, type in **Search guests by name or number**.
 4. Read the guest's row.

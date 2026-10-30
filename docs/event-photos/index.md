@@ -1,20 +1,22 @@
 ---
 title: Event Photos
-description: What Event Photos does, where to find it, how guests find the photos they are in with a selfie, and the guides to follow in order.
+description: What Event Photos does, where to find it under Events, how guests find the photos they are in with a selfie, and the guides to follow in order.
 ---
 
 # Event Photos
 
-Event Photos delivers an event's photos to its guests. You upload the photos, or send them straight from the camera with Beam. Guests scan a QR code, verify on WhatsApp, take a selfie, and see only the photos they are in.
+Event Photos delivers an event's photos to its guests. You upload the photos, or send them straight from the camera with Beam. Guests scan a QR code, verify on WhatsApp, take a selfie, and see only the photos they are in. In the app, it is called **Events**.
 
 ## Where to find it
 
-Click **Photos** on the left rail. The **Event Photos** menu lists:
+Click **Events** on the left rail. The **Events** side pane lists:
 
 - **Events** — every event you photograph, and its gallery.
 - **Cameras** — every camera login your studio has, and the event each one sends to.
 
-If you moved it under **More**, click **More**, then open the **Event Photos** section. See [Customize the left rail](../customize-the-left-rail.md).
+If you moved it under **More**, click **More**, then open the **Events** section. See [Customize the left rail](../customize-the-left-rail.md).
+
+The top bar reads **Events**. Inside an event, it shows the event's name instead, for example **Aarav & Diya Wedding**.
 
 ## How it works
 
@@ -32,7 +34,7 @@ Open an event from **Events** to reach its workspace. It has these tabs:
 
 | Tab | What you do there |
 | --- | --- |
-| **Photos** | Upload photos, sort them into folders, and see how many faces each one has. |
+| **Photos** | Upload photos, move them between folders, pick the cover, retry failed photos, and see how many faces each one has. |
 | **Beam** | Link cameras that send photos to this event while you shoot. |
 | **Share** | Copy the four links, set a PIN, download the QR code, and send a link on WhatsApp. |
 | **Guests** | See every guest who verified, how many photos they were found in, and their last WhatsApp message. |
@@ -48,7 +50,7 @@ Follow them in this order the first time.
 | Guide | Use it when |
 | --- | --- |
 | [Create an event](create-an-event.md) | You set up a new event, pick its guest-page design, and publish it. |
-| [Upload and organise photos](upload-and-organise-photos.md) | You add photos, sort them into folders, or delete them. |
+| [Upload and organise photos](upload-and-organise-photos.md) | You add photos, move them between folders, set the cover, retry failed photos, or delete them. |
 | [Set up Beam](set-up-beam.md) | You want photos to arrive from the camera while you shoot. |
 | [Share the gallery](share-the-gallery.md) | You share the guest QR code, the full gallery, the album selection or the VIP link. |
 | [Work with guests and album selection](guests-and-album-selection.md) | You check who verified, or export the couple's album picks. |
@@ -58,7 +60,7 @@ Follow them in this order the first time.
 
 ## Before you start
 
-- Your role has access to Event Photos. If you cannot see **Photos** on the rail or under **More**, ask your admin. See [Team, roles and permissions](../settings/roles-and-permissions.md).
+- Your role has access to Event Photos. If you cannot see **Events** on the rail or under **More**, ask your admin. See [Team, roles and permissions](../settings/roles-and-permissions.md).
 - Your WhatsApp number is connected in Ohanvi. Guests verify on it, and their photo messages come from it. See [Connect your WhatsApp number](../whatsapp/connect-whatsapp-number.md).
 - For guests who verify with a 6-digit code, your WhatsApp account has an approved Authentication template. See [Create a message template](../whatsapp/create-message-template.md).
 
@@ -82,6 +84,12 @@ No. The page opens in their phone's browser.
 
 **Which photo files can I upload?**
 JPEG and PNG. HEIF and RAW files are not supported yet. Export them as JPEG first.
+
+**Which photo shows on the event card and the guest page?**
+The cover you pick. If you don't pick one, the latest photo is used. See [Upload and organise photos](upload-and-organise-photos.md#set-the-cover-photo).
+
+**Can I put my studio name on the photos?**
+Yes. Turn on **Watermark** in the event's settings. See [Change event settings](event-settings.md#watermark).
 
 ## Related
 

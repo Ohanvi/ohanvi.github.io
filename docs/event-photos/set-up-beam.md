@@ -17,6 +17,7 @@ Beam sends photos straight from the camera to the event while you shoot. Each ca
 ## How a camera login works
 
 - Each camera has its own **Username** and **Password**. The password has 8 characters, letters and digits only, so it is easy to type on a camera keypad.
+- Ohanvi hides the password until you click the eye icon next to it. Copying works while it is hidden.
 - The login belongs to your studio, not to one event. It stays the same from event to event.
 - A camera sends to one event at a time. To move it to the next event, you re-link it in Ohanvi. Nothing changes on the camera.
 - New photos land in the camera's current folder. You change the folder from Ohanvi during the shoot, for example from Haldi to Mehendi.
@@ -38,15 +39,15 @@ Use these values on every camera.
 
 ### Add a camera
 
-1. Open the event and go to the **Beam** tab. Or click **Photos** on the left rail and select **Cameras**.
+1. Open the event and go to the **Beam** tab. Or click **Events** on the left rail and select **Cameras**.
 2. Click **Add camera**.
 3. In **Label**, type who shoots with it, for example `Rahul's Z6`. The login username is made from this.
 4. Pick a **Role**: **Main camera**, **Second shooter** or **Candid**.
 5. Pick the **Brand**: **Sony**, **Canon** or **Nikon**. It picks the setup steps to show.
-6. Click **Add camera**. The login opens with **Server**, **Port**, **Username** and **Password**.
-7. Click **Copy all** to copy the login, or keep the window open while you set up the camera. Click **Done**.
+6. Click **Add camera**. The login opens with **Server**, **Port**, **Username** and **Password**. The password is hidden. Click the eye icon to read it.
+7. Click **Copy all** to copy the login, password included, or keep the window open while you set up the camera. Click **Done**.
 
-To see the login again, open the camera's menu on **Cameras** and click **Show login**. The **Setup card** on the **Beam** tab shows the same values with menu steps for the brand.
+To see the login again, open the camera's menu on **Cameras** and click **Show login**. Click the eye icon to show the password. The **Setup card** on the **Beam** tab shows the same values with menu steps for the brand.
 
 ### Link a camera to the event
 
@@ -167,7 +168,7 @@ Open the camera's menu on the **Beam** tab or on **Cameras**.
 | The camera connects but no photos arrive | Passive mode is off. | Turn passive mode on in the camera's FTP settings. |
 | A Nikon doesn't connect | The server type and port don't match. | Use FTPS with port `21` and PASV mode on, or SFTP with port `22`. |
 | The camera shows a certificate error | **Secure Protocol** is off, or the host is typed wrong. | Set **Secure Protocol** to **On**, and type the host exactly as `beam.ohanvi.com`, not an IP address. |
-| The login is refused | The password is mistyped, or the camera is unlinked or locked. 10 wrong passwords in a row lock it for 15 minutes. | Check the login with **Show login**. Link the camera to the event. If it is locked, click **Reset password** and type the new one. |
+| The login is refused | The password is mistyped, or the camera is unlinked or locked. 10 wrong passwords in a row lock it for 15 minutes. | Check the login with **Show login**, and click the eye icon to read the password. Link the camera to the event. If it is locked, click **Reset password** and type the new one. |
 | Photos go to the wrong folder | The camera's folder is from an earlier moment. | Pick the folder on the **Beam** tab. New frames go there. |
 | RAW files don't arrive | Beam takes JPEG only. | Set the camera to send JPEG. |
 
@@ -181,4 +182,4 @@ More fixes: [Fix Event Photos problems](troubleshooting.md).
 - [Event Photos](index.md)
 
 !!! note "Screenshots to add"
-    After **Add a camera** step 6 — the camera login with **Server**, **Port**, **Username** and **Password**; after **Pick the folder** step 2 — **Cameras on this event** with the **Folder** column; the **Setup card** for Sony; after **Set up a Sony camera** step 7 — the camera's **Destination Settings** screen.
+    After **Add a camera** step 6 — the camera login with **Server**, **Port**, **Username** and the hidden **Password** with its eye icon; after **Pick the folder** step 2 — **Cameras on this event** with the **Folder** column; the **Setup card** for Sony; after **Set up a Sony camera** step 7 — the camera's **Destination Settings** screen.

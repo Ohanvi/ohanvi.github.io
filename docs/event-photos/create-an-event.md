@@ -9,13 +9,13 @@ Create an event in 2 steps: its details, then the design of the guest page. At t
 
 ## Before you start
 
-- You can see **Photos** on the left rail. If not, ask your admin to give your role access. See [Team, roles and permissions](../settings/roles-and-permissions.md).
+- You can see **Events** on the left rail. If not, ask your admin to give your role access. See [Team, roles and permissions](../settings/roles-and-permissions.md).
 
 ## Steps
 
 ### Find your events
 
-1. Click **Photos** on the left rail, then select **Events**. The list reads **Every event you photograph, and its gallery.**
+1. Click **Events** on the left rail, then select **Events**. The top bar reads **Events**, and the list reads **Every event you photograph, and its gallery.**
 2. Pick a tab: **All**, **Published**, **Draft** or **Expired**.
 3. To find one event, type in **Search events by name**.
 
@@ -24,6 +24,8 @@ Create an event in 2 steps: its details, then the design of the guest page. At t
 | **Published** | Events guests can open. |
 | **Draft** | Events guests cannot open yet. |
 | **Expired** | Events whose gallery has closed. The photos are kept. |
+
+Each event card shows the event's cover photo. Until you pick one, it shows the latest photo. See [Upload and organise photos](upload-and-organise-photos.md#set-the-cover-photo).
 
 ### Add the details
 
@@ -56,7 +58,7 @@ A **Wedding** event comes with the folders Haldi, Mehendi, Sangeet, Pheras and R
 
 Guests see no photos until you publish. They can still register on a draft event, so you can put the QR code up early.
 
-1. Open the event from **Events**. The top of the workspace reads **Guests cannot open the gallery yet.**
+1. Open the event from **Events**. The top bar shows the event's name, and the top of the workspace reads **Guests cannot open the gallery yet.**
 2. Click **Publish**. The window **Publish "Aarav & Diya Wedding"?** opens and reads **Guests can open the gallery and find their photos with a selfie.**
 3. Click **Publish**. The top now reads **Guests can open the gallery.**
 

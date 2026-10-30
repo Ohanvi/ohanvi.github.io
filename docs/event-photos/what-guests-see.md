@@ -12,6 +12,13 @@ A guest scans the QR code, verifies their WhatsApp number, takes a selfie, and s
 - The event is published. See [Create an event](create-an-event.md#publish-the-event).
 - The **Guest link** is on. See [Share the gallery](share-the-gallery.md).
 
+## What the guest page shows
+
+- The event's name, in the design you picked.
+- The event's cover photo. If you didn't pick one, the latest photo. See [Upload and organise photos](upload-and-organise-photos.md#set-the-cover-photo).
+- Your studio's WhatsApp Business name, so guests know who the photos come from.
+- A footer that reads **Events by** and your studio name, for example **Events by Pixel Studio**.
+
 ## Steps
 
 ### Find your photos as a guest
@@ -19,7 +26,7 @@ A guest scans the QR code, verifies their WhatsApp number, takes a selfie, and s
 Try this on your own phone before the event.
 
 1. Scan the guest QR code with the phone camera. The event page opens in the phone's browser, at an address such as `app.ohanvi.com/e/aarav-diya-wedding`.
-2. Tap **Find my photos**. Enter your name and WhatsApp number, and tick the box to agree to the selfie.
+2. Tap **Find my photos**. Enter your name and WhatsApp number, and tick the box to agree to the selfie. If something is missing or wrong, every problem shows at once, under its own field: the name, the WhatsApp number or the consent box.
 3. Tap **Verify with WhatsApp**. WhatsApp opens with a ready-made message to the studio. Send it, then go back to the page. Or tap **Get a 6-digit code instead** and type the code you get on WhatsApp.
 4. Take a selfie. Face the camera in good light.
 5. Read your photos. They are sorted by folder, for example Haldi, Sangeet and Reception.
@@ -76,6 +83,9 @@ New photos keep arriving while the event is live. Photos taken from the side or 
 **It says no face was found in my selfie.**
 Take the selfie again in good light, facing the camera. Remove sunglasses or a mask, and keep only your face in the frame.
 
+**Why is there a name on my photos?**
+The studio added its name as a watermark. Ask the studio if you need a copy without it.
+
 **I'm not on WhatsApp.**
 Ask the studio. They can send you a link that needs no number.
 
@@ -90,6 +100,7 @@ Yes. Select the photos and tap **Share**. The link shows up to 50 photos and wor
 | Issue | Cause | Fix |
 | --- | --- | --- |
 | The page opens but shows no photos | The event is still a draft, or no photo matches yet. | Publish the event. Ask the guest to check again later. |
+| A message shows under the name, number or consent box | That field is empty or not filled in correctly. Every problem shows at once. | Fix each field with a message under it, then tap **Verify with WhatsApp** again. |
 | **Verify with WhatsApp** doesn't open WhatsApp | WhatsApp isn't installed on that phone. | Ask the guest to use the 6-digit code, or send them the **VIP** link. |
 | No face found in the selfie | The light is poor, or the face is covered or turned away. | Take the selfie again in good light, facing the camera. |
 | The guest stopped getting messages | They replied **STOP**, or reached 6 messages for the day. | Their photos still show on the page. Ask them to open it from the QR code. |
@@ -105,4 +116,4 @@ Yes. Select the photos and tap **Share**. The link shows up to 50 photos and wor
 - [Event Photos](index.md)
 
 !!! note "Screenshots to add"
-    After **Find your photos as a guest** step 2 — the page with **Verify with WhatsApp**; after step 4 — the selfie screen; after step 5 — the guest's photos sorted by folder; after **Download and share photos** step 3 — **Your ZIP is ready**; the WhatsApp message with **View my photos**.
+    The guest page with the cover photo, the studio's WhatsApp Business name and the **Events by** footer; after **Find your photos as a guest** step 2 — the page with **Verify with WhatsApp**, and the form with a message under each field; after step 4 — the selfie screen; after step 5 — the guest's photos sorted by folder; after **Download and share photos** step 3 — **Your ZIP is ready**; the WhatsApp message with **View my photos**.

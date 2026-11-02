@@ -13,6 +13,7 @@ Click **Photos** on the left rail. The **Event Photos** menu lists:
 
 - **Events** — every event you photograph, and its gallery.
 - **Cameras** — every camera login your studio has, and the event each one sends to.
+- **Reels** — a short video for each guest, made from their own photos.
 
 If you moved it under **More**, click **More**, then open the **Event Photos** section. See [Customize the left rail](../customize-the-left-rail.md).
 
@@ -23,6 +24,7 @@ If you moved it under **More**, click **More**, then open the **Event Photos** s
 3. You publish the event and put the guest QR code up at the venue.
 4. A guest scans the QR code, verifies their WhatsApp number and takes a selfie.
 5. The guest sees the photos they are in, sorted by folder. While the event is live, new photos of them appear, and WhatsApp tells them.
+6. With Reels on, each guest also gets a short video made from their photos, in the gallery and on WhatsApp.
 
 Guests need no app. The page opens in the phone's browser, at an address such as `app.ohanvi.com/e/aarav-diya-wedding`.
 
@@ -53,6 +55,7 @@ Follow them in this order the first time.
 | [Share the gallery](share-the-gallery.md) | You share the guest QR code, the full gallery, the album selection or the VIP link. |
 | [Work with guests and album selection](guests-and-album-selection.md) | You check who verified, or export the couple's album picks. |
 | [Change event settings](event-settings.md) | You change match strictness, release, WhatsApp timing, downloads, watermark or selfie retention. |
+| [Make reels for guests](reels.md) | You want each guest to get a short video made from their photos. |
 | [What guests see](what-guests-see.md) | You want to know the guest's steps, or answer a guest's question. |
 | [Fix Event Photos problems](troubleshooting.md) | A camera won't connect, a photo failed, or a guest gets no photos or messages. |
 
@@ -68,6 +71,7 @@ Follow them in this order the first time.
 - A search never crosses events. A guest at one event never sees photos from another.
 - Original photos open only through private links.
 - Selfies are deleted after the retention period you set. Guests can delete their data at any time. See [Change event settings](event-settings.md#selfie-retention).
+- A reel uses only photos the guest can already see. A guest can turn reels off, and deleting their data deletes their reel. See [Make reels for guests](reels.md).
 
 ## FAQ
 

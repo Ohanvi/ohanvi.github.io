@@ -49,6 +49,23 @@ When new photos of a guest arrive, Ohanvi sends a WhatsApp message such as **We 
 
 See [Change event settings](event-settings.md#whatsapp-window).
 
+### Your reel
+
+When the studio turns on Reels, a guest who found their photos gets a short video made from them.
+
+1. Open your photos. A **Your reel is ready** card shows at the top. While it is being made, the page reads **We're making your reel. It'll be here in a couple of minutes.**
+2. Tap **Watch**. The reel plays without sound. Tap **Tap for sound** to hear it.
+3. Tap **Save video** to keep it. Post the saved video to Instagram Reels or your WhatsApp Status from your phone.
+
+The reel also arrives on WhatsApp, with a **Watch my reel** button.
+
+- **Your reel needs a few more photos** means there are too few photos of you yet. The reel is made when more arrive.
+- **Your reel has expired** means its keep-for period ended. Tap **Make my reel again**.
+- To stop reels of you, open the menu and tap **Don't make reels of me**. Your reel is deleted. Your photos stay.
+- If the reel shows someone else, open **⋯** in the player and tap **This isn't me**. The reel is hidden and the studio is told.
+
+See [Make reels for guests](reels.md).
+
 ### VIP guests
 
 Guests who open the **VIP** link take a selfie and see the photos they are in. They don't give a WhatsApp number, and they get no WhatsApp messages. To see new photos, they open the same link again. The studio sends this link only to the people it is for, such as parents and elders.
@@ -76,6 +93,9 @@ New photos keep arriving while the event is live. Photos taken from the side or 
 **It says no face was found in my selfie.**
 Take the selfie again in good light, facing the camera. Remove sunglasses or a mask, and keep only your face in the frame.
 
+**Can I get a video of my photos?**
+If the studio turned on Reels, yes. Your reel appears at the top of your photos once there are enough photos of you.
+
 **I'm not on WhatsApp.**
 Ask the studio. They can send you a link that needs no number.
 
@@ -96,6 +116,7 @@ Yes. Select the photos and tap **Share**. The link shows up to 50 photos and wor
 | **You can make 3 ZIPs an hour.** | The guest made 3 ZIPs in the last hour. | Wait an hour, or download photos one by one. |
 | A shared link reads **This link has expired** | Share links work for 7 days. | Select the photos again and tap **Share** for a new link. |
 | **The studio has turned off downloads for this gallery.** | **Downloads** is **Off** in the event's settings. | Pick **Originals** or **Web size**. See [Change event settings](event-settings.md#downloads). |
+| The guest has no reel | Reels are off for the event, or the guest has too few photos yet. | Turn Reels on for the event, or upload more photos. See [Make reels for guests](reels.md). |
 
 ## Related
 

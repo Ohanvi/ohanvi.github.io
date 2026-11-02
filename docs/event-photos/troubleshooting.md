@@ -46,6 +46,14 @@ Find the problem below, read the cause, and follow the fix. Most problems come f
 | The guest misses photos they are in | **Match strictness** is too strict, or the photos are side-on or far away. | Pick **Balanced** or **Loose**. |
 | The guest sees look-alikes | **Match strictness** is too loose. | Pick **Balanced** or **Strict**. |
 
+## A guest has no reel
+
+| Issue | Cause | Fix |
+| --- | --- | --- |
+| The guest's reel shows **Needs photos** | The guest has fewer photos than the event's minimum. | Upload or release more photos of them, or lower **Fewest photos for a reel**. See [Make reels for guests](reels.md#choose-the-look-and-delivery). |
+| The reel is ready, but the guest doesn't see it | The reel is **Held for review**. | Pick **Send to guest** in the reel's menu. |
+| The reel never arrived on WhatsApp | The `evp_reel_ready` template is not approved, or the message waits for 8:30 am. | Check the reel's **WhatsApp** column. See [Make reels for guests](reels.md#the-whatsapp-message). |
+
 ## A guest doesn't get WhatsApp messages
 
 | Issue | Cause | Fix |
@@ -63,3 +71,4 @@ Find the problem below, read the cause, and follow the fix. Most problems come f
 - [Upload and organise photos](upload-and-organise-photos.md)
 - [Change event settings](event-settings.md)
 - [What guests see](what-guests-see.md)
+- [Make reels for guests](reels.md)

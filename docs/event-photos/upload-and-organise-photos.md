@@ -46,15 +46,20 @@ If some files fail to upload, click **Show files** to see which, then **Retry fa
 !!! tip "Send photos from the camera instead"
     To skip uploading, link the camera with Beam. Photos arrive in the event while you shoot. See [Set up Beam](set-up-beam.md).
 
+!!! tip "Photos from guests"
+    With **Guest uploads** on, guests can add their own photos. They wait under **From guests** until you approve them, then go into the **Guest photos** folder. See [Let guests add their photos](guest-uploads.md).
+
 ### Release held photos
 
-When **Release** is set to **Review first** in the event's settings, new photos are **Held**. Guests don't see a held photo until you release it. See [Change event settings](event-settings.md#release).
+When **Release photos** is set to **Review first** in the event's settings, new photos are **Held**. Guests don't see a held photo until you release it. See [Change event settings](event-settings.md#release-photos).
 
 1. On the **Photos** tab, find the photos marked **Held**.
 2. Check each photo, and delete any you don't want guests to see.
 3. Release the rest. Guests in them can now find them.
 
 With **Straight away**, photos reach guests as soon as their faces are found.
+
+**Release all** leaves out photos guests added. Approve those one by one under **From guests**. See [Let guests add their photos](guest-uploads.md#approve-or-delete-guest-photos).
 
 ### Delete photos
 
@@ -75,11 +80,12 @@ With **Straight away**, photos reach guests as soon as their faces are found.
 | A photo stays on **Finding faces…** | Ohanvi is still working through the upload. | Wait a few minutes, then refresh the tab. |
 | A photo shows **No faces** | No face was found, for example in a décor or a back-view shot. | No fix needed. Guests can still see it in the full gallery. |
 | **Wait for the current upload to finish.** | An upload is still running. | Wait until the progress line ends, then upload the next batch. |
-| Guests don't see new photos | **Release** is **Review first**, and the photos are **Held**. | Release the photos, or set **Release** to **Straight away**. |
+| Guests don't see new photos | **Release photos** is **Review first**, and the photos are **Held**. | Release the photos, or set **Release photos** to **Straight away**. |
 
 ## Related
 
 - [Set up Beam](set-up-beam.md)
+- [Let guests add their photos](guest-uploads.md)
 - [Change event settings](event-settings.md)
 - [Share the gallery](share-the-gallery.md)
 - [Fix Event Photos problems](troubleshooting.md)

@@ -1,6 +1,6 @@
 ---
 title: What guests see
-description: The guest's steps from scanning the QR code to seeing their photos, downloading and sharing them, the WhatsApp messages they get, and answers to the questions guests ask.
+description: The guest's steps from scanning the QR code to seeing their photos, downloading, sharing, adding and buying photos, the WhatsApp messages they get, and answers to the questions guests ask.
 ---
 
 # What guests see
@@ -46,6 +46,7 @@ When new photos of a guest arrive, Ohanvi sends a WhatsApp message such as **We 
 - Matches are grouped into one message per WhatsApp window, set in the event's settings.
 - A guest gets at most 6 of these live messages a day.
 - To stop the messages, the guest replies **STOP**.
+- If the studio turned **WhatsApp messages** off for the event, no photo messages come. The photos still show on the page.
 
 See [Change event settings](event-settings.md#whatsapp-window).
 
@@ -65,6 +66,26 @@ The reel also arrives on WhatsApp, with a **Watch my reel** button.
 - If the reel shows someone else, open **⋯** in the player and tap **This isn't me**. The reel is hidden and the studio is told.
 
 See [Make reels for guests](reels.md).
+
+### Add your photos
+
+When the studio turns on guest uploads, a guest who verified their number can add the photos they took.
+
+1. Open your photos. Tap **Add your photos** on the card **Took photos at the event? Add them to the gallery.**, or in the page menu.
+2. Tap **Choose photos** and pick the photos. Keep the page open until it reads, for example, **5 photos sent. The studio will review them.**
+3. Under **Your photos**, each photo shows **Waiting for approval** until the studio approves it, then **Approved**.
+
+Each guest can add up to 50 photos, JPEG or PNG, up to 25 MB each. See [Let guests add their photos](guest-uploads.md).
+
+### Buy photos
+
+When the studio sells photos, a guest can pay for full-quality copies.
+
+- Tap **Buy ₹49** on an open photo, or select photos and tap **Buy 3 photos · ₹147**.
+- Or tap **Unlock all photos** to download every photo in full quality for the period shown, such as 1 year.
+- Pay on the Razorpay page that opens in a new tab, then come back. The page reads **Payment received. Your photos are ready to download.**
+
+See [Sell photos to guests](selling.md#what-guests-see).
 
 ### VIP guests
 
@@ -96,6 +117,12 @@ Take the selfie again in good light, facing the camera. Remove sunglasses or a m
 **Can I get a video of my photos?**
 If the studio turned on Reels, yes. Your reel appears at the top of your photos once there are enough photos of you.
 
+**Can I add the photos I took?**
+If the studio turned on guest uploads, yes. Tap **Add your photos**. The studio checks each photo before anyone else sees it.
+
+**Can I get my photos in full quality?**
+If the studio sells photos, yes. Tap **Buy** on a photo, or **Unlock all photos**.
+
 **I'm not on WhatsApp.**
 Ask the studio. They can send you a link that needs no number.
 
@@ -116,6 +143,8 @@ Yes. Select the photos and tap **Share**. The link shows up to 50 photos and wor
 | **You can make 3 ZIPs an hour.** | The guest made 3 ZIPs in the last hour. | Wait an hour, or download photos one by one. |
 | A shared link reads **This link has expired** | Share links work for 7 days. | Select the photos again and tap **Share** for a new link. |
 | **The studio has turned off downloads for this gallery.** | **Downloads** is **Off** in the event's settings. | Pick **Originals** or **Web size**. See [Change event settings](event-settings.md#downloads). |
+| The guest doesn't see **Add your photos** | Guest uploads are off for the event, or the guest hasn't verified. | Turn on **Guest uploads**. See [Let guests add their photos](guest-uploads.md). |
+| The guest paid, but the photos are still locked | The page hasn't checked the payment yet. | Ask the guest to tap **Check payment**. See [Sell photos to guests](selling.md#troubleshooting). |
 | The guest has no reel | Reels are off for the event, or the guest has too few photos yet. | Turn Reels on for the event, or upload more photos. See [Make reels for guests](reels.md). |
 
 ## Related

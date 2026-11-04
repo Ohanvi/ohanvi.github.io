@@ -556,10 +556,12 @@ nav:
       - event-photos/index.md
       - Create an event: event-photos/create-an-event.md
       - Photos: event-photos/upload-and-organise-photos.md
+      - Guest uploads: event-photos/guest-uploads.md
       - Beam: event-photos/set-up-beam.md
       - Share: event-photos/share-the-gallery.md
       - Guests and selection: event-photos/guests-and-album-selection.md
       - Reels: event-photos/reels.md
+      - Selling: event-photos/selling.md
       - Settings: event-photos/event-settings.md
       - What guests see: event-photos/what-guests-see.md
       - Troubleshooting: event-photos/troubleshooting.md

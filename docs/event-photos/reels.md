@@ -27,7 +27,7 @@ Guests who already searched with a selfie get a reel too. A guest with fewer pho
 
 1. Click **Reel settings**.
 2. Pick a **Look**. Each look shows how many photos it uses, for example **7–11 photos · 7+ portrait**. A guest whose photos don't fit the look gets a look that fits them instead.
-3. Turn **Review reels before guests get them** on to check each reel first. It follows the event's photo **Release** setting until you change it. See [Change event settings](event-settings.md#release).
+3. Turn **Review reels before guests get them** on to check each reel first. It follows the event's photo **Release photos** setting until you change it. See [Change event settings](event-settings.md#release-photos).
 4. Keep **Send on WhatsApp when ready** on to send each guest their reel.
 5. Set **Fewest photos for a reel**, from 5 to 25. The default is 6.
 6. Set **Keep reels for**. **As long as the guest's selfie** follows the event's selfie retention. A reel is never kept past the gallery's own expiry.
@@ -81,7 +81,7 @@ A guest who taps **This isn't me** in the player hides the reel at once. It show
 | A reel shows **Held for review** | **Review reels before guests get them** is on. | Play the reel, then pick **Send to guest**. |
 | A reel shows **Failed** | It could not be made after 3 tries. | Pick **Try again** in the row's menu. If it fails again, contact Ohanvi support. |
 | The WhatsApp column says **Not sent: template not approved** | The `evp_reel_ready` template is missing or not approved. | Create the template in Meta WhatsApp Manager, then sync templates in Ohanvi. See [Create a message template](../whatsapp/create-message-template.md). Then pick **Send again on WhatsApp**. |
-| A reel shows **Reported** | The guest said the reel is not them. | Delete the reel. Check the event's match strictness. See [Change event settings](event-settings.md#match-strictness). |
+| A reel shows **Reported** | The guest said the reel is not them. | Delete the reel. Check the event's match strictness. See [Change event settings](event-settings.md#face-match-strictness). |
 
 ## Related
 

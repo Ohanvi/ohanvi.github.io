@@ -1,6 +1,6 @@
 ---
 title: Work with guests and album selection
-description: See every guest who verified for an event, how many photos they were found in and their last WhatsApp status, and export the couple's album picks.
+description: See every guest who verified for an event, how many photos they were found in and whether their last WhatsApp message was sent, delivered, read or failed, and export the couple's album picks.
 ---
 
 # Work with guests and album selection
@@ -28,9 +28,32 @@ The **Guests** tab lists everyone who verified their WhatsApp number for the eve
 | **Joined** | When they registered for the event. |
 | **Verified via** | How they verified: the ready-made WhatsApp message, or the 6-digit code. |
 | **Photos found** | How many photos they were found in. |
-| **Last message** | The status of the last WhatsApp message they were sent. |
+| **Last message** | The status of the last WhatsApp photo message they were sent. See [Read the message status](#read-the-message-status). |
 
 A guest marked **Pending** gave a number but has not verified it yet. A guest marked **Stopped** asked for no more WhatsApp messages about this event.
+
+### Read the message status
+
+The **Last message** column shows what happened to the last WhatsApp message about the guest's photos.
+
+| Status | What it means |
+| --- | --- |
+| **Sent** | WhatsApp accepted the message. |
+| **Delivered** | The message reached the guest's phone. |
+| **Read** | The guest opened the message. |
+| **Failed** | WhatsApp could not deliver the message. Hover over **Failed** to read WhatsApp's reason, for example **WhatsApp could not deliver the last message: Message undeliverable**. |
+| **—** | No photo message has gone to the guest yet. |
+
+Reel messages have their own status on the **Reels** page. See [Make reels for guests](reels.md#the-whatsapp-message).
+
+### When messages can't go out
+
+A notice above the table tells you when guests get no messages:
+
+- **Connect WhatsApp to send photos to guests.** No WhatsApp number is connected, so guests can't verify their number or get their photos on WhatsApp. Click **Connect WhatsApp**. See [Connect your WhatsApp number](../whatsapp/connect-whatsapp-number.md).
+- **WhatsApp messages are off for this event.** Guests see their photos in the gallery but get no messages. Click **Open Settings** and pick **On** under **WhatsApp messages**. See [Change event settings](event-settings.md#whatsapp-messages).
+
+In both cases **Send photos again** is turned off. It is also off until the event is published.
 
 ### Find guests in your CRM
 
@@ -63,6 +86,10 @@ Send the couple the **Album selection** link from the **Share** tab. See [Share 
 | A guest shows **Pending** | They gave a number but didn't finish verifying. | Ask them to tap **Verify with WhatsApp** and send the ready-made message. |
 | A guest shows **Photos found** as 0 | No photo matches their selfie yet, or the matching photos are held. | Check the photos are uploaded and released. If the selfie was dark or blurred, ask them to take a new one. See [Fix Event Photos problems](troubleshooting.md). |
 | A guest shows **Stopped** | They replied STOP. | No fix needed. They get no more WhatsApp messages about this event. |
+| A guest's **Last message** shows **Failed** | WhatsApp could not deliver the message. | Hover over **Failed** to read the reason. If the number isn't on WhatsApp, send the guest the **VIP** link. See [Share the gallery](share-the-gallery.md). |
+| The tab reads **Connect WhatsApp to send photos to guests.** | No WhatsApp number is connected. | Click **Connect WhatsApp**. See [Connect your WhatsApp number](../whatsapp/connect-whatsapp-number.md). |
+| The tab reads **WhatsApp messages are off for this event.** | **WhatsApp messages** is **Off** in the event's settings. | Click **Open Settings** and pick **On**. Guests get the photos found while it was off. |
+| **Send photos again** is greyed out | The event isn't published, no WhatsApp number is connected, or **WhatsApp messages** is **Off**. | Hover over the button to see which. Publish the event, connect your number, or turn messages on. |
 | The tab reads **No picks yet — send the Album selection link to the couple** | The couple hasn't hearted any photos yet. | Send them the **Album selection** link. |
 | The couple wants to change their picks after sending them | Sent picks are locked. | Ask them for the changes, for example on WhatsApp, and apply them yourself. |
 
@@ -74,4 +101,4 @@ Send the couple the **Album selection** link from the **Share** tab. See [Share 
 - [Manage contacts](../crm/manage-contacts.md)
 
 !!! note "Screenshots to add"
-    After **See who verified** step 2 — the **Guests** table with **Photos found** and **Last message**; after **Read the couple's album picks** step 3 — the **Selection** tab with hearted photos, notes and the **Submitted** badge; after step 4 — the **Export the selection** window.
+    After **See who verified** step 2 — the **Guests** table with **Photos found** and **Last message**; under **Read the message status** — a **Failed** badge with its reason on hover; under **When messages can't go out** — the **Connect WhatsApp** notice; after **Read the couple's album picks** step 3 — the **Selection** tab with hearted photos, notes and the **Submitted** badge; after step 4 — the **Export the selection** window.

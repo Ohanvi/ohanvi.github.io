@@ -14,6 +14,7 @@ Click **Photos** on the left rail. The **Event Photos** menu lists:
 - **Events** — every event you photograph, and its gallery.
 - **Cameras** — every camera login your studio has, and the event each one sends to.
 - **Reels** — a short video for each guest, made from their own photos.
+- **Selling** — sell single photos and whole-gallery unlocks to guests. Off until you turn it on.
 
 If you moved it under **More**, click **More**, then open the **Event Photos** section. See [Customize the left rail](../customize-the-left-rail.md).
 
@@ -25,6 +26,8 @@ If you moved it under **More**, click **More**, then open the **Event Photos** s
 4. A guest scans the QR code, verifies their WhatsApp number and takes a selfie.
 5. The guest sees the photos they are in, sorted by folder. While the event is live, new photos of them appear, and WhatsApp tells them.
 6. With Reels on, each guest also gets a short video made from their photos, in the gallery and on WhatsApp.
+7. With Guest uploads on, guests can add the photos they took. You approve each one first.
+8. With Selling on, guests can buy photos, or unlock the whole gallery, in full quality.
 
 Guests need no app. The page opens in the phone's browser, at an address such as `app.ohanvi.com/e/aarav-diya-wedding`.
 
@@ -34,12 +37,12 @@ Open an event from **Events** to reach its workspace. It has these tabs:
 
 | Tab | What you do there |
 | --- | --- |
-| **Photos** | Upload photos, sort them into folders, and see how many faces each one has. |
+| **Photos** | Upload photos, sort them into folders, see how many faces each one has, and approve photos from guests. |
 | **Beam** | Link cameras that send photos to this event while you shoot. |
 | **Share** | Copy the four links, set a PIN, download the QR code, and send a link on WhatsApp. |
 | **Guests** | See every guest who verified, how many photos they were found in, and their last WhatsApp message. |
 | **Selection** | See the photos the couple picked for the album, and export them. |
-| **Settings** | Choose match strictness, when photos reach guests, WhatsApp timing, downloads, watermark and selfie retention. |
+| **Settings** | Choose match strictness, when photos reach guests, WhatsApp messages and timing, guest uploads, downloads, watermark and selfie retention. |
 
 The top of the workspace shows whether the event is published, with **Publish** or **Unpublish**.
 
@@ -51,13 +54,15 @@ Follow them in this order the first time.
 | --- | --- |
 | [Create an event](create-an-event.md) | You set up a new event, pick its guest-page design, and publish it. |
 | [Upload and organise photos](upload-and-organise-photos.md) | You add photos, sort them into folders, or delete them. |
+| [Let guests add their photos](guest-uploads.md) | You want guests to add the photos they took, and approve them first. |
 | [Set up Beam](set-up-beam.md) | You want photos to arrive from the camera while you shoot. |
 | [Share the gallery](share-the-gallery.md) | You share the guest QR code, the full gallery, the album selection or the VIP link. |
 | [Work with guests and album selection](guests-and-album-selection.md) | You check who verified, or export the couple's album picks. |
-| [Change event settings](event-settings.md) | You change match strictness, release, WhatsApp timing, downloads, watermark or selfie retention. |
+| [Change event settings](event-settings.md) | You change match strictness, release, WhatsApp messages and timing, guest uploads, downloads, watermark or selfie retention. |
 | [Make reels for guests](reels.md) | You want each guest to get a short video made from their photos. |
+| [Sell photos to guests](selling.md) | You want guests to pay for single photos or a whole-gallery unlock. |
 | [What guests see](what-guests-see.md) | You want to know the guest's steps, or answer a guest's question. |
-| [Fix Event Photos problems](troubleshooting.md) | A camera won't connect, a photo failed, or a guest gets no photos or messages. |
+| [Fix Event Photos problems](troubleshooting.md) | A camera won't connect, a photo failed, a guest gets no photos or messages, or a sale needs checking. |
 
 ## Before you start
 
@@ -71,6 +76,7 @@ Follow them in this order the first time.
 - A search never crosses events. A guest at one event never sees photos from another.
 - Original photos open only through private links.
 - Selfies are deleted after the retention period you set. Guests can delete their data at any time. See [Change event settings](event-settings.md#selfie-retention).
+- A photo a guest adds stays hidden from everyone else until you approve it. See [Let guests add their photos](guest-uploads.md).
 - A reel uses only photos the guest can already see. A guest can turn reels off, and deleting their data deletes their reel. See [Make reels for guests](reels.md).
 
 ## FAQ

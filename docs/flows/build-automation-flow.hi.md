@@ -16,14 +16,13 @@ description: तय करें कि ऑटोमेशन किस बा�
 
 ## ट्रिगर जो आप चुन सकते हैं { #triggers-you-can-choose }
 
-**When this runs** पैनल में 6 ट्रिगर मिलते हैं:
+**When this runs** पैनल में ये ट्रिगर मिलते हैं:
 
 | ट्रिगर | फ़्लो तब शुरू होता है जब |
 | --- | --- |
 | **When something happens here** | Ohanvi में कोई इवेंट होता है, जैसे स्टोर ऑर्डर, फ़ॉर्म या टैग। इसे **Which event** में चुनें। |
 | **Run by hand** | आप लिस्ट या बिल्डर में **Run test** पर क्लिक करते हैं। |
-| **When a record appears** | किसी कनेक्टर ऐप में नया रिकॉर्ड आता है। Ohanvi हर कुछ देर में ऐप को चेक करता रहता है। |
-| **When a webhook arrives** | कोई कनेक्टर ऐप Ohanvi को वेबहुक भेजता है। |
+| किसी ऐप का इवेंट, जैसे **Shopify** के नीचे **New or updated order** | किसी कनेक्ट किए हुए ऐप में कुछ होता है। देखें [किसी ऐप के इवेंट से फ़्लो शुरू करें](start-a-flow-from-an-app-event.md)। |
 | **When Zapier/Pabbly sends data** | कोई Zap या Pabbly वर्कफ़्लो इस फ़्लो को कॉल करता है। |
 | **On a schedule** | आपका तय किया हुआ समय आता है, जैसे हर दिन 09:00 बजे। |
 
@@ -55,8 +54,7 @@ description: तय करें कि ऑटोमेशन किस बा�
 7. ट्रिगर जो फ़ील्ड दिखाता है, उन्हें भरें:
     - **When something happens here:** **Which event** चुनें। **A contact joins an email list** के लिए **Which list** भी चुनें। **A contact is tagged** के लिए **Which tag** लिखें।
     - **On a schedule:** **Runs every day at** के बगल में दिए समय पर क्लिक करें, फिर **Timezone** चुनें। दूसरे पैटर्न के लिए 6 फ़ील्ड वाला **Cron expression (advanced)** लिखें।
-    - **When a record appears:** **Trigger operation** और **Connection** चुनें।
-    - **When a webhook arrives:** **Connection** में कनेक्शन की id लिखें। देखें [कोई ऐप कनेक्ट करें और उसे फ़्लो में इस्तेमाल करें](connect-apps-for-flows.md)।
+    - किसी ऐप का इवेंट: **Listens to** में अकाउंट चुनें। देखें [किसी ऐप के इवेंट से फ़्लो शुरू करें](start-a-flow-from-an-app-event.md)।
     - **When Zapier/Pabbly sends data:** नीचे "Zapier या Pabbly से फ़्लो शुरू करें" देखें।
 
 ट्रिगर को बाद में बदलना हो, तो कैनवास की शुरुआत में ट्रिगर नोड पर क्लिक करें।
@@ -67,6 +65,8 @@ description: तय करें कि ऑटोमेशन किस बा�
 2. **COMMON** में से कोई स्टेप चुनें। सारे ग्रुप देखने के लिए **All steps** पर क्लिक करें। आप **Search** में टाइप भी कर सकते हैं।
 3. नए स्टेप पर क्लिक करें। उसकी सेटिंग्स दाईं तरफ़ **Step** पैनल के **Setup** टैब पर खुलती हैं।
 4. उसकी फ़ील्ड भरें। हर स्टेप के लिए यही करें।
+
+Shiprocket जैसे किसी बाहरी ऐप में कोई काम करवाना हो, तो उसे **Apps** के नीचे खोलें। देखें [फ़्लो में ऐप का स्टेप जोड़ें](add-an-app-step.md)।
 
 ऑटोमेशन में ये स्टेप काम आते हैं:
 
@@ -107,6 +107,8 @@ description: तय करें कि ऑटोमेशन किस बा�
 - `{{2.meetLink}}`: स्टेप 2 के आउटपुट की एक फ़ील्ड।
 
 आप एक्सप्रेशन को सादे टेक्स्ट के साथ मिला सकते हैं, जैसे `Hi {{trigger.firstName}}, your order is on its way.` कोई भी स्टेप सिर्फ़ अपने से पहले चलने वाले स्टेप का डेटा ले सकता है।
+
+चुनने के लिए असली फ़ील्ड देखनी हों, तो पहले वाले स्टेप पहले टेस्ट करें। देखें [स्टेप टेस्ट करें और सैंपल डेटा पिन करें](test-a-step-and-pin-sample-data.md)।
 
 ### Zapier या Pabbly से फ़्लो शुरू करें { #start-the-flow-from-zapier-or-pabbly }
 

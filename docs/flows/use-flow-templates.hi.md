@@ -25,6 +25,9 @@ description: Start from library खोलें, तैयार स्टार
 | स्टार्टर | यह क्या करता है |
 | --- | --- |
 | **Collect a lead on WhatsApp** | कोई हाय कहे, तो उससे नाम, फ़ोन नंबर और पता पूछता है। फिर उसे CRM में लीड के रूप में सेव कर देता है। |
+| **Order → Shipping → WhatsApp** | Shopify पर ऑर्डर आने पर नाम और फ़ोन ठीक करता है, Shiprocket से पार्सल बुक करता है और ट्रैकिंग लिंक WhatsApp पर भेजता है। देखें [ऐप रेसिपी](#app-recipes)। |
+| **Delivery failed → confirm address** | कूरियर डिलीवरी न कर पाए, तो ग्राहक से WhatsApp पर पता कन्फ़र्म करने को कहता है। साथ ही फ़ॉलो-अप के लिए CRM टास्क बनाता है। देखें [ऐप रेसिपी](#app-recipes)। |
+| **New lead → welcome** | फ़ॉर्म सबमिट होने पर नाम और तारीख ठीक करता है, फिर WhatsApp पर वेलकम मैसेज भेजता है। देखें [ऐप रेसिपी](#app-recipes)। |
 | **Add form answers to a Google Sheet** | फ़ॉर्म सबमिट होने पर स्प्रेडशीट में एक लाइन जोड़ता है। इसमें लिखा होता है कि किसने, कब और कौन सा फ़ॉर्म भरा। |
 | **Book a Google Meet when someone is free** | फ़ॉर्म सबमिट होने पर कैलेंडर देखता है। स्लॉट खाली हो, तो Meet लिंक के साथ मीटिंग बुक करता है और लिंक WhatsApp पर भेज देता है। |
 | **Send an instant Google Meet link** | फ़ॉर्म सबमिट होते ही Meet रूम बना देता है और लिंक WhatsApp पर भेजता है। कैलेंडर इनवाइट नहीं बनता। |
@@ -33,6 +36,45 @@ description: Start from library खोलें, तैयार स्टार
 | **Publish everywhere** | पोस्ट तैयार होने पर उसे चुने हुए हर चैनल पर भेजता है। फिर दर्ज करता है कि कैसा रहा। |
 | **Only promote big posts** | पोस्ट तैयार होने पर पहले एक शर्त जाँचता है। शर्त लागू न हो, तो चुपचाप रुक जाता है। |
 | **Give drafts a breather** | ड्राफ़्ट बनने पर उसके साथ कुछ करने से पहले थोड़ी देर रुकता है। |
+
+### ऐप रेसिपी { #app-recipes }
+
+तीन स्टार्टर ऐप और **Formatter** इस्तेमाल करते हैं। इनमें हर स्टेप अपनी जगह पर होता है, पर अकाउंट और टेम्प्लेट खाली आते हैं। पब्लिश करने से पहले इन्हें भरें।
+
+इन्हें खाली कैनवस पर भी शुरू किया जा सकता है। **Add first step…** पर क्लिक करें, फिर **Start from a recipe** पर।
+
+हर रेसिपी का WhatsApp स्टेप **Don't retry** पर सेट होता है, ताकि ग्राहक को मैसेज कभी दो बार न मिले। देखें [तय करें कि स्टेप फ़ेल होने पर क्या हो](choose-what-happens-when-a-step-fails.md)।
+
+#### Order → Shipping → WhatsApp { #order-shipping-whatsapp }
+
+यह Shopify के **New or updated order** से शुरू होता है, जो हर 5 मिनट में चेक होता है।
+
+- **कनेक्ट करें:** Shopify, Shiprocket और आपका WhatsApp नंबर।
+- **ट्रिगर:** **Listens to** में Shopify अकाउंट चुनें।
+- **Create the Shiprocket order:** Shiprocket अकाउंट चुनें। **Pickup location**, **Address**, **City**, **PIN code** और **State** भरें। Shopify के ऑर्डर में डिलीवरी का पता नहीं आता। आइटम और पार्सल की **Length (cm)**, **Breadth (cm)**, **Height (cm)** और **Weight (kg)** भी भरें।
+- **Create the Shiprocket order:** **COD or Prepaid** जाँच लें। रेसिपी इसे `Prepaid` पर रखती है।
+- **Assign a courier (AWB):** Shiprocket अकाउंट चुनें।
+- **Send the tracking link on WhatsApp:** दो वेरिएबल वाला अप्रूव्ड **Template** चुनें: पहले नाम, फिर ट्रैकिंग लिंक।
+
+!!! warning "यह रेसिपी असली पार्सल बुक करती है"
+    पब्लिश होने के बाद हर नया ऑर्डर Shiprocket में एक ऑर्डर बनाता है। पहले हर स्टेप टेस्ट करें। देखें [स्टेप टेस्ट करें और सैंपल डेटा पिन करें](test-a-step-and-pin-sample-data.md)।
+
+#### Delivery failed → confirm address { #delivery-failed-confirm-address }
+
+यह Ohanvi के **A delivery attempt fails** इवेंट से शुरू होता है। Ohanvi यह इवेंट तब भेजता है जब Store ऑर्डर का पार्सल कूरियर की ओर से undelivered, RTO या lost होता है, या कोई जुड़ा हुआ स्टोर फ़ेल शिपमेंट बताता है।
+
+- **कनेक्ट करें:** आपका WhatsApp नंबर।
+- **Ask them to confirm their address:** दो वेरिएबल वाला अप्रूव्ड **Template** चुनें: पहले पहला नाम, फिर ऑर्डर नंबर।
+- **Create a CRM task to follow up:** कोई बदलाव ज़रूरी नहीं। यह कूरियर के मैसेज के साथ हाई-प्रायोरिटी टास्क बनाता है।
+
+#### New lead → welcome { #new-lead-welcome }
+
+यह **A form is submitted** से शुरू होता है।
+
+- **कनेक्ट करें:** आपका WhatsApp नंबर।
+- **ट्रिगर:** चाहें तो फ़ॉर्म चुनें, ताकि सिर्फ़ वही फ़ॉर्म फ़्लो शुरू करे।
+- **Name in title case:** यह `{{trigger.answers.name}}` पढ़ता है। आपका फ़ॉर्म नाम किसी दूसरी key में सेव करता हो, तो इसे बदलें।
+- **Send a welcome on WhatsApp:** दो वेरिएबल वाला अप्रूव्ड **Template** चुनें: पहले नाम, फिर तारीख।
 
 ### चैटबॉट टेम्प्लेट { #chatbot-templates }
 
@@ -90,6 +132,9 @@ description: Start from library खोलें, तैयार स्टार
 3. फ़्लो बिल्डर में खुलता है। यह ड्राफ़्ट होता है, जिसका नाम **Untitled** और एक नंबर होता है, जैसे **Untitled 1**।
 4. नाम बदलने के लिए ऊपर नाम पर क्लिक करें। टूलटिप में **Rename flow** लिखा आता है।
 5. हर स्टेप पर क्लिक करें और जो खाली है, उसे भरें। Google स्टार्टर में स्प्रेडशीट, मीटिंग विंडो और Google अकाउंट खाली आते हैं। इन्हें भरे बिना पब्लिश नहीं होगा। स्टेप में **Choose from Google Drive** से स्प्रेडशीट चुनें। देखें [स्प्रेडशीट और उसका टैब सेट करें](../whatsapp/flow-google-workspace-steps.md#set-the-spreadsheet-and-its-tab)।
+
+    ऐप रेसिपी में अकाउंट और टेम्प्लेट खाली आते हैं। देखें [ऐप रेसिपी](#app-recipes)।
+
 6. **Save** पर क्लिक करें, फिर **Publish** पर क्लिक करें। देखें [ऑटोमेशन फ़्लो बनाएँ](build-automation-flow.md)।
 
 ### चैटबॉट टेम्प्लेट का प्रीव्यू देखें { #preview-a-chatbot-template }
@@ -122,10 +167,12 @@ description: Start from library खोलें, तैयार स्टार
 | **The flow could not be created.** | सर्वर पर कॉपी नहीं बन पाई। | दोबारा कोशिश करें। फिर भी न बने, तो सपोर्ट से बात करें। |
 | **Could not load "…".** | उस टेम्प्लेट का प्रीव्यू लोड नहीं हुआ। | प्रीव्यू बंद करें और दोबारा कोशिश करें। |
 | Google स्टार्टर पब्लिश नहीं हो रहा | स्प्रेडशीट, मीटिंग विंडो या Google अकाउंट खाली है। | स्टेप खोलें और उसे भरें। देखें [Google Workspace कनेक्ट करें](../settings/connect-google-workspace.md)। |
+| ऐप रेसिपी के स्टेप में **No … account connected yet.** लिखा है | रेसिपी बिना अकाउंट के आती है। | स्टेप में **Connect** और ऐप के नाम वाले बटन पर क्लिक करें। देखें [फ़्लो में ऐप का स्टेप जोड़ें](add-an-app-step.md#choose-the-account)। |
 
 ## संबंधित गाइड { #related }
 
 - [फ़्लो और फ़्लो की लिस्ट को समझें](flows-overview-and-list.md)
 - [ऑटोमेशन फ़्लो बनाएँ](build-automation-flow.md)
+- [किसी ऐप के इवेंट से फ़्लो शुरू करें](start-a-flow-from-an-app-event.md)
 - [WhatsApp चैटबॉट फ़्लो बनाएँ](../create-whatsapp-flow.md)
 - [फ़्लो बिल्डर को समझें](../whatsapp/understand-the-flow-builder.md)

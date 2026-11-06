@@ -189,16 +189,18 @@ Zapier and Pabbly answer as soon as they get the data, with a receipt, not the r
 ### Use a connector app
 
 1. In **This step will**, choose an app operation. It reads the app name, then the operation.
-2. Under **Connection**, click **Signs in as** and choose the connection. If it reads **No connections yet. Connect the app under Integrations → Connectors before this step can authenticate.**, connect the app first.
-3. Fill in the fields the operation shows.
+2. Under **1 · Account**, choose the account in **Account**. If none exists, click **Connect** followed by the app's name.
+3. Under **2 · What to send**, fill in the fields the operation shows.
+
+You can also add an app step straight from **Apps** in the **Add a step after** panel. See [Add an app step to a flow](../flows/add-an-app-step.md).
 
 ### Set a handler by name (advanced)
 
-1. In **Platform handler**, type the name of an Ohanvi action, for example `saveCrmLeadApiService`.
-2. In **Input mapping (JSON)**, type what to send as a JSON object. Example: `{ "email": "{{trigger.email}}" }`.
+1. Click **Advanced**. In **Platform handler**, type the name of an Ohanvi action, for example `saveCrmLeadApiService`.
+2. In **What to send (JSON)**, type what to send as a JSON object. Example: `{ "email": "{{trigger.email}}" }`.
 3. Remember: set a handler or a connector app, not both.
 
-Values are expressions over the trigger and the steps before this one. Anything else is sent as written. If the box shows **Input mapping must be a JSON object.** or **Input mapping is not valid JSON.**, fix the braces and quotes.
+Values are expressions over the trigger and the steps before this one. Anything else is sent as written. If the box shows **What to send must be a JSON object.** or **What to send is not valid JSON.**, fix the braces and quotes.
 
 ### Stop a run unless a rule holds
 

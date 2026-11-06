@@ -189,16 +189,18 @@ Zapier और Pabbly डेटा मिलते ही एक रसीद क
 ### कनेक्टर ऐप इस्तेमाल करें { #use-a-connector-app }
 
 1. **This step will** में किसी ऐप का ऑपरेशन चुनें। उसमें पहले ऐप का नाम लिखा होता है, फिर ऑपरेशन।
-2. **Connection** के नीचे **Signs in as** पर क्लिक करें और कनेक्शन चुनें। अगर **No connections yet. Connect the app under Integrations → Connectors before this step can authenticate.** लिखा है, तो पहले ऐप कनेक्ट करें।
-3. ऑपरेशन में जो फ़ील्ड दिखें, उन्हें भरें।
+2. **1 · Account** के नीचे **Account** में अकाउंट चुनें। कोई अकाउंट न हो, तो **Connect** और ऐप के नाम वाले बटन पर क्लिक करें।
+3. **2 · What to send** के नीचे ऑपरेशन में दिखने वाली फ़ील्ड भरें।
+
+ऐप का स्टेप सीधे **Add a step after** पैनल के **Apps** से भी जोड़ा जा सकता है। देखें [फ़्लो में ऐप का स्टेप जोड़ें](../flows/add-an-app-step.md)।
 
 ### नाम से हैंडलर सेट करें (एडवांस्ड) { #set-a-handler-by-name-advanced }
 
-1. **Platform handler** में Ohanvi के किसी एक्शन का नाम लिखें, जैसे `saveCrmLeadApiService`।
-2. **Input mapping (JSON)** में जो भेजना है, उसे JSON ऑब्जेक्ट की तरह लिखें। उदाहरण: `{ "email": "{{trigger.email}}" }`।
+1. **Advanced** पर क्लिक करें। **Platform handler** में Ohanvi के किसी एक्शन का नाम लिखें, जैसे `saveCrmLeadApiService`।
+2. **What to send (JSON)** में जो भेजना है, उसे JSON ऑब्जेक्ट की तरह लिखें। उदाहरण: `{ "email": "{{trigger.email}}" }`।
 3. याद रखें: हैंडलर या कनेक्टर ऐप, दोनों में से सिर्फ़ एक सेट करें।
 
-वैल्यू एक्सप्रेशन होती हैं, जो ट्रिगर और इस स्टेप से पहले के स्टेप के डेटा पर चलती हैं। बाकी जो कुछ भी लिखा है, वह वैसा का वैसा भेजा जाता है। अगर बॉक्स में **Input mapping must be a JSON object.** या **Input mapping is not valid JSON.** दिखे, तो ब्रेसिज़ और कोट्स ठीक करें।
+वैल्यू एक्सप्रेशन होती हैं, जो ट्रिगर और इस स्टेप से पहले के स्टेप के डेटा पर चलती हैं। बाकी जो कुछ भी लिखा है, वह वैसा का वैसा भेजा जाता है। अगर बॉक्स में **What to send must be a JSON object.** या **What to send is not valid JSON.** दिखे, तो ब्रेसिज़ और कोट्स ठीक करें।
 
 ### नियम पूरा न हो तो रन रोकें { #stop-a-run-unless-a-rule-holds }
 

@@ -16,14 +16,13 @@ Build a flow that runs by itself when something happens, on a schedule, or when 
 
 ## Triggers you can choose
 
-The **When this runs** panel offers 6 triggers:
+The **When this runs** panel offers these triggers:
 
 | Trigger | Starts the flow when |
 | --- | --- |
 | **When something happens here** | An event happens in Ohanvi, for example a store order, a form, a tag. Pick it in **Which event**. |
 | **Run by hand** | You click **Run test** in the list or the builder. |
-| **When a record appears** | A connector app has a new record. Ohanvi checks the app on a timer. |
-| **When a webhook arrives** | A connector app sends a webhook to Ohanvi. |
+| An app's event, such as **New or updated order** under **Shopify** | Something happens in a connected app. See [Start a flow from an app event](start-a-flow-from-an-app-event.md). |
 | **When Zapier/Pabbly sends data** | A Zap or a Pabbly workflow calls this flow. |
 | **On a schedule** | A time you set comes round, for example every day at 09:00. |
 
@@ -58,8 +57,7 @@ A ready-made draft, **Weekly Instagram summary**, sends last week's Instagram nu
 7. Fill in the fields the trigger shows:
     - **When something happens here** — choose **Which event**. For **A contact joins an email list**, also choose **Which list**. For **A contact is tagged**, type **Which tag**.
     - **On a schedule** — click the time beside **Runs every day at**, then choose a **Timezone**. For other patterns, type a **Cron expression (advanced)** with 6 fields.
-    - **When a record appears** — choose the **Trigger operation** and the **Connection**.
-    - **When a webhook arrives** — type the connection's id in **Connection**. See [Connect an app and use it in a flow](connect-apps-for-flows.md).
+    - An app's event — choose the account in **Listens to**. See [Start a flow from an app event](start-a-flow-from-an-app-event.md).
     - **When Zapier/Pabbly sends data** — see "Start the flow from Zapier or Pabbly" below.
 
 To change the trigger later, click the trigger node at the start of the canvas.
@@ -70,6 +68,8 @@ To change the trigger later, click the trigger node at the start of the canvas.
 2. Pick a step under **COMMON**, or click **All steps** to see every group. You can also type in **Search**.
 3. Click the new step. Its settings open in the **Step** panel on the right, on the **Setup** tab.
 4. Fill in its fields. Repeat for each step.
+
+To run an action in an outside app, such as Shiprocket, open it under **Apps**. See [Add an app step to a flow](add-an-app-step.md).
 
 Steps that suit automations:
 
@@ -110,6 +110,8 @@ Expressions use double curly braces:
 - `{{2.meetLink}}` — a field from the output of step 2.
 
 You can mix expressions with text, for example `Hi {{trigger.firstName}}, your order is on its way.` A step can only use steps that run before it.
+
+To see real fields to pick from, test the earlier steps first. See [Test a step and pin sample data](test-a-step-and-pin-sample-data.md).
 
 ### Start the flow from Zapier or Pabbly
 

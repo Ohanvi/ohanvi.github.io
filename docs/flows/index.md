@@ -39,6 +39,11 @@ The guides follow the order of the screens in the app.
 | [Build an automation flow](build-automation-flow.md) | You want steps to run on their own when an event happens. |
 | [Automate store messages with flows](store-journeys.md) | You want order, cart and delivery messages on WhatsApp. |
 | [Connect an app and use it in a flow](connect-apps-for-flows.md) | A step needs to call an outside app. |
+| [Add an app step to a flow](add-an-app-step.md) | A step should do something in Shiprocket, Shopify or another app. |
+| [Start a flow from an app event](start-a-flow-from-an-app-event.md) | A flow should start when something happens in an app. |
+| [Test a step and pin sample data](test-a-step-and-pin-sample-data.md) | You want real fields to map without running the whole flow. |
+| [Choose what happens when a step fails](choose-what-happens-when-a-step-fails.md) | You want retries, or the run to carry on after a failure. |
+| [Call any API of an app](call-any-api-of-an-app.md) | You are an admin and need an endpoint with no ready-made action. |
 
 The chatbot guides, such as [Create a WhatsApp chatbot flow](../create-whatsapp-flow.md) and [Understand the flow builder](../whatsapp/understand-the-flow-builder.md), are in **WhatsApp** → **Flows**.
 

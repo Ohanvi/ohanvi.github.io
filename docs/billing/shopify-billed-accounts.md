@@ -22,6 +22,8 @@ If you installed Ohanvi from Shopify, Shopify bills your plan, not Ohanvi. You c
 | **Credits** | Yes |
 | **Current Usage** | Yes |
 
+Workspaces billed through Shopify are not charged for Event Photos storage or face recognition at the moment. See [Events pricing and usage](../event-photos/pricing-and-usage.md).
+
 ## Steps
 
 ### Change or cancel your plan

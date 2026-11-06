@@ -16,7 +16,7 @@ Create an event in 2 steps: its details, then the design of the guest page. At t
 ### Find your events
 
 1. Click **Photos** on the left rail, then select **Events**. The list reads **Every event you photograph, and its gallery.**
-2. Pick a tab: **All**, **Published**, **Draft** or **Expired**.
+2. Pick a tab: **All**, **Published**, **Draft**, **Expired** or **Bin**.
 3. To find one event, type in **Search events by name**.
 
 | Tab | What it lists |
@@ -24,6 +24,9 @@ Create an event in 2 steps: its details, then the design of the guest page. At t
 | **Published** | Events guests can open. |
 | **Draft** | Events guests cannot open yet. |
 | **Expired** | Events whose gallery has closed. The photos are kept. |
+| **Bin** | Events you deleted in the last 30 days. You can restore them. |
+
+Each event shows its photo count and size, for example **1,240 photos · 8.6 GB**. The size is the original photos' size, which your Events storage is charged on. See [Events pricing and usage](pricing-and-usage.md).
 
 ### Add the details
 
@@ -62,13 +65,26 @@ Guests see no photos until you publish. They can still register on a draft event
 
 To close the gallery, click **Unpublish**. Guests can no longer open the gallery. The photos are kept, and you can publish again.
 
-### Edit or delete an event
+### Edit an event
 
-- To edit, open the event and click **Edit event**, change the details or design, and click **Save changes**. The message **Event saved.** appears.
-- To delete, open the event's menu on **Events** and click **Delete event**.
+Open the event and click **Edit event**, change the details or design, and click **Save changes**. The message **Event saved.** appears.
+
+### Move an event to the Bin
+
+1. On **Events**, open the event's menu and click **Move to Bin**. The window **Move "Aarav & Diya Wedding" to the Bin?** opens.
+2. Click **Move to Bin**. The message **"Aarav & Diya Wedding" moved to the Bin. You can restore it for 30 days.** appears.
+
+The event waits on the **Bin** tab for 30 days. Its line shows how long is left, for example **Deleted · 12 days left to restore**. After 30 days it is deleted for good, with its photos and face data.
 
 !!! warning "Guests lose the gallery"
-    When you delete an event, it and its photos leave your list, and guests can no longer open its gallery.
+    When you move an event to the Bin, guests can no longer open its gallery.
+
+To bring it back, open the event's menu on the **Bin** tab and click **Restore event**. If a published event comes back as a draft, the message reads **"Aarav & Diya Wedding" restored as a draft. Publish it when you are ready.**
+
+To delete it for good now, open the event's menu on the **Bin** tab and click **Delete forever**, then **Delete forever** again in the window. This cannot be undone.
+
+!!! note "Storage while an event is in the Bin"
+    An event's photos still count toward your Events storage while it is in the Bin. They stop counting when it is deleted for good, once your plan's minimum storage period has passed. See [Events pricing and usage](pricing-and-usage.md#minimum-storage-period).
 
 ## Troubleshooting
 
@@ -79,12 +95,14 @@ To close the gallery, click **Unpublish**. Guests can no longer open the gallery
 | **Couldn't create the event.** or **Couldn't save the event.** | Ohanvi could not save it. | Check your connection and try again. |
 | Guests scan the QR code and see no photos | The event is still a draft. | Click **Publish**. |
 | The event is under **Expired** | The gallery has closed. | Open the event to see its photos. They are kept. |
+| You deleted an event by mistake | It is on the **Bin** tab for 30 days. | Open its menu on the **Bin** tab and click **Restore event**. |
 
 ## Related
 
 - [Upload and organise photos](upload-and-organise-photos.md)
 - [Share the gallery](share-the-gallery.md)
 - [Change event settings](event-settings.md)
+- [Events pricing and usage](pricing-and-usage.md)
 - [Event Photos](index.md)
 
 !!! note "Screenshots to add"

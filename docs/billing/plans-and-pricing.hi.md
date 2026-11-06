@@ -26,8 +26,9 @@ Plans & Pricing पेज पर हर प्लान दिखता है, 
 1. हर प्लान कार्ड पढ़ें। उसमें प्लान का नाम, **Billed per user** और **Highlights** होते हैं। साथ में **Everything in** होता है, यानी पिछले प्लान की सारी सुविधाएँ। उसके बाद **plus** में बताया जाता है कि नया क्या जुड़ा है।
 2. **Contacts** देखें। इससे पता चलता है कि आपका प्लान ज़्यादा से ज़्यादा कितने लोग रख सकता है। **Pay as you go** में 10,000, **Starter** में 20,000, **Growth** में 30,000, **Scale** में 75,000 और **Pro** में असीमित। इस सीमा के बाद हर कॉन्टैक्ट के 5 पैसे आपके बैलेंस से कटते हैं।
 3. **Automated + service messages a month** देखें। हर पेड प्लान में 1,000 मैसेज मिलते हैं। **Pay as you go** में हर मैसेज के हिसाब से पैसे लगते हैं। ये 1,000 ऑटोमेटेड (बॉट) और सर्विस मैसेज, दोनों को मिलाकर हैं। इसके बाद बॉट मैसेज पर आपके प्लान का **Extra automated message** रेट लगता है। सर्विस मैसेज पर Meta का रेट लगता है (Meta की कीमतें, 1 अक्टूबर 2026 से)। हर **Email** के 5 पैसे लगते हैं, चाहे कोई भी प्लान हो। ये सारे पैसे आपके क्रेडिट से कटते हैं।
-4. **Add-ons** देखें, जैसे **Extra user seat**। किसी भी प्लान पर आप अपने क्रेडिट से Bot, AI और Marketing पैक खरीद सकते हैं। देखें [ऐड-ऑन पैक और इस्तेमाल की सीमाएँ](packs-and-usage-limits.md)।
-5. कुछ खास चाहिए, तो Enterprise कार्ड पर **Contact us** या **Let's talk** पर क्लिक करें। सेल्स टीम के लिए ईमेल खुल जाएगा।
+4. Event Photos के लिए **Events** वाला हिस्सा देखें: हर GB-महीने का स्टोरेज (पहले active, फिर 90 दिन बाद archive), हर फ़ोटो का **Face recognition**, और **Minimum storage period**। जैसे **Starter** पर लिखा है **Storage ₹4/GB-month active, ₹3 archive after 90 days**, **Face recognition 6 paise/photo** और **Minimum storage period 60 days**। Events का इस्तेमाल प्लान की फ़ीस के ऊपर, आपके क्रेडिट से कटता है। देखें [Events की कीमत और इस्तेमाल](../event-photos/pricing-and-usage.md)।
+5. **Add-ons** देखें, जैसे **Extra user seat**। किसी भी प्लान पर आप अपने क्रेडिट से Bot, AI और Marketing पैक खरीद सकते हैं। देखें [ऐड-ऑन पैक और इस्तेमाल की सीमाएँ](packs-and-usage-limits.md)।
+6. कुछ खास चाहिए, तो Enterprise कार्ड पर **Contact us** या **Let's talk** पर क्लिक करें। सेल्स टीम के लिए ईमेल खुल जाएगा। Enterprise पर Events की दरें Pro वाली होती हैं।
 
 ### अपना प्लान बनाएँ { #build-your-own-plan }
 
@@ -60,3 +61,4 @@ Plans & Pricing पेज पर हर प्लान दिखता है, 
 - [अपना प्लान और यूज़र मैनेज करें](manage-plan-and-users.md)
 - [अपना फ़्री ट्रायल शुरू करें](../welcome-and-free-trial.md)
 - [अपने अकाउंट में पैसे जोड़ें](../add-funds.md)
+- [Events की कीमत और इस्तेमाल](../event-photos/pricing-and-usage.md)

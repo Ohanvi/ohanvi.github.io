@@ -40,10 +40,12 @@ description: देखें कि हर बिलिंग साइकल �
 
 | कार्ड | यह क्या बताता है |
 | --- | --- |
-| **Spend by product** | इस साइकल का खर्च प्रोडक्ट के हिसाब से बँटा हुआ दिखता है। जैसे **WhatsApp messages**, **AI replies**, **Email delivered**, **Extra messages over plan** और **Social posts**। |
+| **Spend by product** | इस साइकल का खर्च प्रोडक्ट के हिसाब से बँटा हुआ दिखता है। जैसे **WhatsApp messages**, **AI replies**, **Email delivered**, **Extra messages over plan**, **Social posts** और **Events**। |
 | **Biggest line items** | आपके 6 सबसे बड़े खर्च। हर लाइन में एक रेट पर एक प्रोडक्ट होता है, और कुल खर्च में उसका हिस्सा भी दिखता है। |
 | **Breakdown** | साइकल का हर चार्ज, प्रोडक्ट के हिसाब से ग्रुप करके। कॉलम हैं **RATE LINE**, **CHARGES**, **USED**, **PERIOD** और **COST**। हर प्रोडक्ट के नीचे उसका **SUBTOTAL** होता है। |
 | **Cost this cycle** | **Actual** में **Used so far** और **Credit balance now** दिखते हैं। चल रहे साइकल में **Forecast** भी दिखता है (आज के रेट पर)। उसमें **Rest of the cycle**, **Cycle total**, और **Left at cycle end** या **Short by** होते हैं। |
+
+Event Photos एक ही प्रोडक्ट, **Events**, के रूप में दिखता है। **Breakdown** में इसके ग्रुप में 2 तरह की लाइन होती हैं: **Events storage**, यानी हर तरह के स्टोरेज का रोज़ एक चार्ज, और **Events face recognition**, यानी हर फ़ोटो का एक चार्ज। देखें [Events की कीमत और इस्तेमाल](../event-photos/pricing-and-usage.md)।
 
 !!! tip "फ़ोरकास्ट कैसे पढ़ें"
     फ़ोरकास्ट यह मानकर चलता है कि आप आज जितना रोज़ खर्च कर रहे हैं, उतना ही करते रहेंगे। अगर **Short by** दिखे, तो महीना खत्म होने से पहले आपका बैलेंस खत्म हो जाएगा। तब कार्ड में **Recharge credits** बटन आ जाता है। देखें [पैसे जोड़ें](../add-funds.md)।

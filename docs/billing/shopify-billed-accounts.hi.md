@@ -22,6 +22,8 @@ description: अगर आपने Ohanvi को Shopify App Store से इ�
 | **Credits** | हाँ |
 | **Current Usage** | हाँ |
 
+Shopify के ज़रिए बिल होने वाले वर्कस्पेस से अभी Event Photos के स्टोरेज या फ़ेस रिकग्निशन का पैसा नहीं कटता। देखें [Events की कीमत और इस्तेमाल](../event-photos/pricing-and-usage.md)।
+
 ## स्टेप { #steps }
 
 ### अपना प्लान बदलें या कैंसिल करें { #change-or-cancel-your-plan }

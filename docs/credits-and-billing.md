@@ -11,7 +11,7 @@ Ohanvi runs on prepaid credits. You add money to your account, it becomes credit
 
 - **1 credit = ₹1.**
 - Credits are **prepaid**. You add them first (a recharge, also called "add funds"), and charges come off the balance as they happen.
-- Credits are spent on **WhatsApp messages, extra usage, email and AI**.
+- Credits are spent on **WhatsApp messages, extra usage, email, AI and Events** (Event Photos).
 - Credits stay valid for **one year** from the date they are added.
 - **18% GST** is charged when you recharge, not when you spend. See [Add funds to your account](add-funds.md).
 
@@ -54,6 +54,20 @@ Your Google review page is paid from your credits at these prices:
 
 GST was paid when you added funds, so your credits go down by the price before GST: ₹5, ₹3, ₹2 or ₹1,000. A draft request that returns no drafts costs nothing. Voice input is hidden when your credits can't pay for it. **Suggest with AI** questions and AI flyer backgrounds are free. See [Add-on packs and usage limits](billing/packs-and-usage-limits.md).
 
+## Events
+
+Event Photos is charged from your credits, on top of your plan fee, at your plan's rates:
+
+| Usage | What is charged |
+| --- | --- |
+| **Storage** | Per GB-month on the original photos, billed each day. A photo's first 90 days are at the active rate, from **₹5** on **Pay as you go** to **₹3** on Growth and up. From day 91 it is at the lower archive rate. |
+| **Face recognition** | Once per photo, from **12 paise** on **Pay as you go** to **5 paise** on Growth and up. Guest selfies are free. |
+
+Each upload is billed for storage for at least a minimum period: 90, 60 or 30 days, depending on your plan. When your credits are empty, only face recognition pauses. New photos wait, marked **Waiting for credit**, until you recharge. See [Events pricing and usage](event-photos/pricing-and-usage.md) for every plan's rates.
+
+!!! note "Charges show as a preview for now"
+    Until Events billing is switched on, Events charges show on **Plan & usage** as a preview. Nothing is taken from your credits.
+
 ## Before you start
 
 - You are signed in to Ohanvi. See [Sign in to Ohanvi](sign-in.md).
@@ -78,7 +92,7 @@ GST was paid when you added funds, so your credits go down by the price before G
 | **Usage and limits** | One bar for each pack and plan limit, such as messages, contacts, team members and storage, with numbers like **250 of 1,000 used**. See [Add-on packs and usage limits](billing/packs-and-usage-limits.md). |
 | **Invoice history** / **Invoices** | Invoices raised on your account: one for each recharge, plus any plan invoices. **Invoice history** charts the total billed in each cycle, and **Invoices** lists the latest ones. Click **All invoices** to see the full list. |
 | **This cycle — Where the balance moved** | **Opening balance**, **Added**, **Used** and **Balance now** for the cycle. |
-| **Statement** | Every movement of money, newest first: recharges, WhatsApp charges, extra-message fees and referral rewards. |
+| **Statement** | Every movement of money, newest first: recharges, WhatsApp charges, extra-message fees, Events charges and referral rewards. |
 
 The buttons at the top of the page:
 
@@ -106,4 +120,5 @@ The buttons at the top of the page:
 
 - [Add funds to your account](add-funds.md)
 - [Add-on packs and usage limits](billing/packs-and-usage-limits.md)
+- [Events pricing and usage](event-photos/pricing-and-usage.md)
 - [Sign in to Ohanvi](sign-in.md)

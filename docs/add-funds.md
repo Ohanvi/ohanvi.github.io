@@ -5,7 +5,7 @@ description: Recharge your Ohanvi credits with Razorpay using card, UPI, netbank
 
 # Add funds to your account
 
-Add funds (recharge credits) to keep sending WhatsApp messages, emails and AI replies. You pick an amount, Ohanvi adds 18% GST, and you pay through Razorpay by card, UPI, netbanking or wallet.
+Add funds (recharge credits) to keep sending WhatsApp messages, emails and AI replies, and to keep finding faces in event photos. You pick an amount, Ohanvi adds 18% GST, and you pay through Razorpay by card, UPI, netbanking or wallet.
 
 ## Before you start
 
@@ -45,6 +45,9 @@ Add funds (recharge credits) to keep sending WhatsApp messages, emails and AI re
 
 !!! note
     You receive credits equal to the amount you chose. GST is charged on top. A ₹500 recharge costs ₹590 and adds 500 credits.
+
+!!! tip "Event photos waiting for credit"
+    If event photos show **Waiting for credit**, you don't need to upload them again. Within about 15 minutes of the recharge, their faces are found on their own. See [Events pricing and usage](event-photos/pricing-and-usage.md).
 
 ## Video walkthrough
 

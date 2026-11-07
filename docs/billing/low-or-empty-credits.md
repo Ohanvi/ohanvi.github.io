@@ -55,6 +55,7 @@ Before a WhatsApp broadcast, campaign or test message goes out, Ohanvi checks yo
 | Automated messages (bot replies, auto-replies) | The bot stops replying when your credits run out. The customer's message still arrives in the **Inbox**, and your agents can answer it by hand. Replies inside your plan's monthly allowance of 1,000 automated and service messages (one shared allowance) keep going; past it, each bot reply is charged at your plan's extra-message rate and each service message at Meta's rate. | Add funds. The bot answers new messages again. |
 | Email campaigns sent through Ohanvi's email sender | Approving the campaign is refused with **Your wallet balance is empty. Please add money to your wallet before sending an email campaign.** A campaign already sending pauses; the recipients not yet reached stay queued. | Retry the campaign. It continues where it stopped, and nobody gets it twice. |
 | Social posts | The post fails with **Your wallet balance is empty. Add money to your wallet, then retry this post.** | Open the post and retry it. |
+| Events face recognition | Face recognition pauses. New photos still upload and show in the full gallery, marked **Waiting for credit**, but guests can't find them with a selfie yet. **Plan & usage** reads **Face recognition is paused: your wallet is empty.** Galleries and downloads keep working. | Nothing to do. Within about 15 minutes, the waiting photos are face-matched on their own. See [Events pricing and usage](../event-photos/pricing-and-usage.md#when-your-credits-run-out). |
 | Email campaigns sent through your own email provider | Not blocked by Ohanvi's credits. | — |
 
 !!! note
@@ -80,6 +81,7 @@ Before a WhatsApp broadcast, campaign or test message goes out, Ohanvi checks yo
 | Balance shows **₹0** but you recharged a few minutes ago | Razorpay has not confirmed the payment yet. | Wait a few minutes and refresh the **Credits** page. The page shows **A recharge has not completed yet** meanwhile. |
 | Credits box shows **—** instead of an amount | The balance could not be read. This is not the same as ₹0. | Refresh the page. Sends are not blocked just because the balance failed to load. |
 | The AI agent stopped answering customers | Your credits are empty, so AI replies are paused. | Recharge. AI replies resume on the next message. |
+| Event photos show **Waiting for credit** | Your credits are empty, so face recognition is paused. | Recharge. The photos are face-matched within about 15 minutes. |
 | You never got the low-balance email | You have not recharged yet, you are on a free trial, or the email already went out for this low spell. | Watch the **Credits** box and the **Credits** page instead. |
 
 ## Related

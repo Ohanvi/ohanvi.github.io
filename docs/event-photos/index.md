@@ -15,6 +15,7 @@ Click **Photos** on the left rail. The **Event Photos** menu lists:
 - **Cameras** — every camera login your studio has, and the event each one sends to.
 - **Reels** — a short video for each guest, made from their own photos.
 - **Selling** — sell single photos and whole-gallery unlocks to guests. Off until you turn it on.
+- **Plan & usage** — what Events cost this month: your rates, storage and face recognition.
 
 If you moved it under **More**, click **More**, then open the **Event Photos** section. See [Customize the left rail](../customize-the-left-rail.md).
 
@@ -62,6 +63,8 @@ Follow them in this order the first time.
 | [Make reels for guests](reels.md) | You want each guest to get a short video made from their photos. |
 | [Sell photos to guests](selling.md) | You want guests to pay for single photos or a whole-gallery unlock. |
 | [What guests see](what-guests-see.md) | You want to know the guest's steps, or answer a guest's question. |
+| [Events pricing and usage](pricing-and-usage.md) | You want to know what storage and face recognition cost on your plan. |
+| [Read your Events plan and usage](plan-and-usage.md) | You want to see this month's charges, or find the events that use the most storage. |
 | [Fix Event Photos problems](troubleshooting.md) | A camera won't connect, a photo failed, a guest gets no photos or messages, or a sale needs checking. |
 
 ## Before you start
@@ -93,9 +96,16 @@ No. The page opens in their phone's browser.
 **Which photo files can I upload?**
 JPEG and PNG. HEIF and RAW files are not supported yet. Export them as JPEG first.
 
+**What does Event Photos cost?**
+Storage and face recognition are charged from your credits, at your plan's rates, on top of your plan fee. See [Events pricing and usage](pricing-and-usage.md).
+
+**What happens when my credits run out?**
+Only face recognition pauses. Photos still upload and show in the full gallery, marked **Waiting for credit**. After you recharge, their faces are found within about 15 minutes. See [Events pricing and usage](pricing-and-usage.md#when-your-credits-run-out).
+
 ## Related
 
 - [Create an event](create-an-event.md)
 - [Set up Beam](set-up-beam.md)
 - [Share the gallery](share-the-gallery.md)
 - [What guests see](what-guests-see.md)
+- [Events pricing and usage](pricing-and-usage.md)

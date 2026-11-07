@@ -5,7 +5,7 @@ description: Understand your prepaid credits, recharge, read usage, get invoices
 
 # Billing and credits
 
-Ohanvi runs on prepaid credits: you recharge, and paid actions such as WhatsApp messages, email and AI take from the balance. These guides cover the balance, usage, invoices and your plan.
+Ohanvi runs on prepaid credits: you recharge, and paid actions such as WhatsApp messages, email, AI and Event Photos take from the balance. These guides cover the balance, usage, invoices and your plan.
 
 ## Where to find it
 
@@ -26,6 +26,7 @@ Ohanvi runs on prepaid credits: you recharge, and paid actions such as WhatsApp 
 | [Add funds to your account](../add-funds.md) | You need to recharge. |
 | [Add-on packs and usage limits](packs-and-usage-limits.md) | You want to buy a Bot, AI or Marketing pack, or see how much of each limit you have used. |
 | [Read your current usage](read-current-usage.md) | You want to see what a cycle cost, product by product. |
+| [Events pricing and usage](../event-photos/pricing-and-usage.md) | You want to know what Event Photos storage and face recognition cost on your plan. |
 | [Export your statement and view invoices](statement-and-invoices.md) | You need a statement or an invoice. |
 | [Add your GSTIN and invoice details](add-gst-invoice-details.md) | You want your GSTIN on invoices to claim input tax credit. |
 | [When credits run low or run out](low-or-empty-credits.md) | Sends have stopped, or you saw a low-balance warning. |

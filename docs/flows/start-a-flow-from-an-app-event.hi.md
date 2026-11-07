@@ -81,6 +81,7 @@ Shiprocket आपके लिए अपने आप सेट नहीं ह
 | **This app trigger is no longer offered, or the list of app triggers has not loaded. Use Change to pick another.** | ऐप का इवेंट हटा दिया गया, या लिस्ट लोड नहीं हुई। | फ़्लो दोबारा खोलें। फिर भी दिखे, तो **Change** पर क्लिक करके दूसरा इवेंट चुनें। |
 | **The list of app events could not be loaded. Reopen the flow to try again.** | इवेंट की लिस्ट लोड नहीं हुई। | फ़्लो बंद करके दोबारा खोलें। |
 | **Choose the account this webhook comes from first.** | **Listens to** में कोई अकाउंट नहीं चुना गया। | अकाउंट चुनें, फिर सेव करें। |
+| **Shopify did not accept this account's login. Reconnect it under Integrations, then fetch again.** | ऐप अब इस अकाउंट का लॉगिन स्वीकार नहीं करता, जैसे स्टोर से ऐप हटाने के बाद। | **Integrations** में अकाउंट दोबारा कनेक्ट करें, फिर **Get sample event** पर फिर से क्लिक करें। |
 
 ## संबंधित गाइड { #related }
 

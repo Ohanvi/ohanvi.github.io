@@ -99,6 +99,7 @@ The number in a value is the step's position on the canvas. `value[0]` is the fi
 | **The sample must be a JSON object, like { "id": 1 }.** | The edited sample is a list or a single value. | Wrap it in `{ }` with named fields. |
 | A field from an **example** group is empty in real runs | The app's example has a field your account does not return. | Test the step, or pin a real run, and pick the field again. |
 | **Test with this data** is missing | The flow has no unpublished changes, or the run is still going. | Save a change to the flow, or wait for the run to finish. |
+| The trigger's sample is gone after **Change** | A different app or event sends different fields, so the old sample is cleared. | Click **Get sample event** again for the new trigger. |
 
 ## Related
 

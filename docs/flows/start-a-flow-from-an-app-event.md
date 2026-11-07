@@ -81,6 +81,7 @@ After the test event arrives, click **Get sample event** under **Sample data**. 
 | **This app trigger is no longer offered, or the list of app triggers has not loaded. Use Change to pick another.** | The app event was removed, or the list did not load. | Reopen the flow. If it persists, click **Change** and pick another event. |
 | **The list of app events could not be loaded. Reopen the flow to try again.** | The event list did not load. | Close the flow and open it again. |
 | **Choose the account this webhook comes from first.** | No account is chosen under **Listens to**. | Choose the account, then save. |
+| **Shopify did not accept this account's login. Reconnect it under Integrations, then fetch again.** | The app no longer accepts the account's login, for example after the app was removed from the store. | Reconnect the account under **Integrations**, then click **Get sample event** again. |
 
 ## Related
 

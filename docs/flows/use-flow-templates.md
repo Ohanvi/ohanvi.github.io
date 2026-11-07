@@ -52,7 +52,7 @@ Starts on Shopify's **New or updated order**, checked every 5 minutes.
 
 - **Connect:** Shopify, Shiprocket and your WhatsApp number.
 - **Trigger:** choose the Shopify account in **Listens to**.
-- **Create the Shiprocket order:** choose the Shiprocket account. Fill in **Pickup location**, **Address**, **City**, **PIN code** and **State**. The Shopify order does not carry the delivery address. Also fill in the items and the parcel's **Length (cm)**, **Breadth (cm)**, **Height (cm)** and **Weight (kg)**.
+- **Create the Shiprocket order:** choose the Shiprocket account and the **Pickup location**. **Address**, **City**, **PIN code** and **State** come filled in from the Shopify order's shipping address. Fill in the items and the parcel's **Length (cm)**, **Breadth (cm)**, **Height (cm)** and **Weight (kg)**.
 - **Create the Shiprocket order:** check **COD or Prepaid**. The recipe sets `Prepaid`.
 - **Assign a courier (AWB):** choose the Shiprocket account.
 - **Send the tracking link on WhatsApp:** choose an approved **Template** with two variables: the name, then the tracking link.

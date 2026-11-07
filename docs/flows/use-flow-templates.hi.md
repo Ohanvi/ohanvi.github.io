@@ -51,7 +51,7 @@ description: Start from library खोलें, तैयार स्टार
 
 - **कनेक्ट करें:** Shopify, Shiprocket और आपका WhatsApp नंबर।
 - **ट्रिगर:** **Listens to** में Shopify अकाउंट चुनें।
-- **Create the Shiprocket order:** Shiprocket अकाउंट चुनें। **Pickup location**, **Address**, **City**, **PIN code** और **State** भरें। Shopify के ऑर्डर में डिलीवरी का पता नहीं आता। आइटम और पार्सल की **Length (cm)**, **Breadth (cm)**, **Height (cm)** और **Weight (kg)** भी भरें।
+- **Create the Shiprocket order:** Shiprocket अकाउंट और **Pickup location** चुनें। **Address**, **City**, **PIN code** और **State** Shopify ऑर्डर के शिपिंग पते से अपने-आप भर जाते हैं। आइटम और पार्सल की **Length (cm)**, **Breadth (cm)**, **Height (cm)** और **Weight (kg)** भरें।
 - **Create the Shiprocket order:** **COD or Prepaid** जाँच लें। रेसिपी इसे `Prepaid` पर रखती है।
 - **Assign a courier (AWB):** Shiprocket अकाउंट चुनें।
 - **Send the tracking link on WhatsApp:** दो वेरिएबल वाला अप्रूव्ड **Template** चुनें: पहले नाम, फिर ट्रैकिंग लिंक।

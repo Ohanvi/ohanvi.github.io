@@ -25,6 +25,9 @@ Add a ready-made flow to your workspace instead of building it card by card. At 
 | Starter | What it does |
 | --- | --- |
 | **Collect a lead on WhatsApp** | When someone says hi, asks their name, phone and address, then saves them as a lead in the CRM. |
+| **Order → Shipping → WhatsApp** | When a Shopify order comes in, books the parcel with Shiprocket. Then sends the tracking link on WhatsApp. See [App recipes](#app-recipes). |
+| **Delivery failed → confirm address** | When a courier cannot deliver, asks the customer on WhatsApp to confirm their address. It also creates a CRM task to follow up. See [App recipes](#app-recipes). |
+| **New lead → welcome** | When a form is submitted, tidies the name and the date, then sends a welcome on WhatsApp. See [App recipes](#app-recipes). |
 | **Add form answers to a Google Sheet** | When a form is submitted, adds a row to a spreadsheet: who, when, and which form. |
 | **Book a Google Meet when someone is free** | When a form is submitted, checks the calendar, books a meeting with a Meet link if the slot is free, and sends the link on WhatsApp. |
 | **Send an instant Google Meet link** | When a form is submitted, creates a Meet room right away and sends the link on WhatsApp. There is no calendar invite. |
@@ -34,6 +37,45 @@ Add a ready-made flow to your workspace instead of building it card by card. At 
 | **Only promote big posts** | When a post is ready, checks a condition first and stops quietly if it does not apply. |
 | **Give drafts a breather** | When a draft is created, waits a while before doing anything with it. |
 | **Ask for a Google review after an appointment** | When an appointment is marked completed, waits 2 hours, then sends the customer your Google review link on WhatsApp. Skipped when your review page is not set up. See [Ask for a Google review after an appointment](../google-reviews/ask-for-a-review-after-an-appointment.md). |
+
+### App recipes
+
+Three starters use apps and the **Formatter**. They arrive with every step in place, but without accounts or templates. Fill these in before you publish.
+
+You can also start one on a blank canvas. Click **Add first step…**, then **Start from a recipe**.
+
+Each recipe's WhatsApp step is set to **Don't retry**. A customer never gets the message twice. See [Choose what happens when a step fails](choose-what-happens-when-a-step-fails.md).
+
+#### Order → Shipping → WhatsApp
+
+Starts on Shopify's **New or updated order**, checked every 5 minutes.
+
+- **Connect:** Shopify, Shiprocket and your WhatsApp number.
+- **Trigger:** choose the Shopify account in **Listens to**.
+- **Create the Shiprocket order:** choose the Shiprocket account and the **Pickup location**. **Address**, **City**, **PIN code** and **State** come filled in from the Shopify order's shipping address. Fill in the items and the parcel's **Length (cm)**, **Breadth (cm)**, **Height (cm)** and **Weight (kg)**.
+- **Create the Shiprocket order:** check **COD or Prepaid**. The recipe sets `Prepaid`.
+- **Assign a courier (AWB):** choose the Shiprocket account.
+- **Send the tracking link on WhatsApp:** choose an approved **Template** with two variables: the name, then the tracking link.
+
+!!! warning "This recipe books real parcels"
+    Once published, every new order creates a Shiprocket order. Test each step first. See [Test a step and pin sample data](test-a-step-and-pin-sample-data.md).
+
+#### Delivery failed → confirm address
+
+Starts on **A delivery attempt fails** in Ohanvi. Ohanvi raises it when a Store order's parcel is marked undelivered, returned to origin or lost by the courier, or when a connected store reports a failed shipment.
+
+- **Connect:** your WhatsApp number.
+- **Ask them to confirm their address:** choose an approved **Template** with two variables: the first name, then the order number.
+- **Create a CRM task to follow up:** no changes needed. It creates a high-priority task with the courier's message.
+
+#### New lead → welcome
+
+Starts on **A form is submitted**.
+
+- **Connect:** your WhatsApp number.
+- **Trigger:** optionally choose the form, so only that form starts the flow.
+- **Name in title case:** it reads `{{trigger.answers.name}}`. If your form saves the name under another key, change it.
+- **Send a welcome on WhatsApp:** choose an approved **Template** with two variables: the name, then the date.
 
 ### Chatbot templates
 
@@ -91,6 +133,9 @@ The library can hold more templates than this list. Your screen shows the ones a
 3. The flow opens in the builder. It is a draft named **Untitled** followed by a number, for example **Untitled 1**.
 4. Click the name at the top to rename it. The tooltip is **Rename flow**.
 5. Click each step and fill in what is empty. Google starters arrive without a spreadsheet, meeting window or Google account. Publishing is refused until you fill them in. Choose the spreadsheet with **Choose from Google Drive** in the step. See [Set the spreadsheet and its tab](../whatsapp/flow-google-workspace-steps.md#set-the-spreadsheet-and-its-tab).
+
+    App recipes arrive without accounts or templates. See [App recipes](#app-recipes).
+
 6. Click **Save**, then **Publish**. See [Build an automation flow](build-automation-flow.md).
 
 ### Preview a chatbot template
@@ -123,10 +168,12 @@ If the preview cannot load, the message **Could not load "…".** appears with t
 | **The flow could not be created.** | The copy failed on the server. | Try again. If it fails again, contact support. |
 | **Could not load "…".** | The preview of that template failed. | Close the preview and try again. |
 | Publishing a Google starter is refused | A spreadsheet, meeting window or Google account is empty. | Open the step and fill it in. See [Connect Google Workspace](../settings/connect-google-workspace.md). |
+| An app recipe step shows **No … account connected yet.** | The recipe arrives without accounts. | Click **Connect** followed by the app's name in the step. See [Add an app step to a flow](add-an-app-step.md#choose-the-account). |
 
 ## Related
 
 - [Understand flows and the Flows list](flows-overview-and-list.md)
 - [Build an automation flow](build-automation-flow.md)
+- [Start a flow from an app event](start-a-flow-from-an-app-event.md)
 - [Create a WhatsApp chatbot flow](../create-whatsapp-flow.md)
 - [Understand the flow builder](../whatsapp/understand-the-flow-builder.md)

@@ -166,6 +166,11 @@ plugins:
             'Build an automation flow': 'ऑटोमेशन फ़्लो बनाएँ'
             'Automate store messages': 'स्टोर के संदेश ऑटोमेट करें'
             'Connect an app': 'कोई ऐप कनेक्ट करें'
+            'Add an app step': 'ऐप का स्टेप जोड़ें'
+            'Start from an app event': 'ऐप के इवेंट से शुरू करें'
+            'Test a step and pin data': 'स्टेप टेस्ट करें और डेटा पिन करें'
+            'Handle a failed step': 'फ़ेल हुए स्टेप को संभालें'
+            'Call any API of an app': 'ऐप की कोई भी API कॉल करें'
             'Social': 'सोशल'
             'Connect social accounts': 'सोशल अकाउंट कनेक्ट करें'
             'Use the Social sidebar': 'सोशल साइडबार का इस्तेमाल करें'
@@ -437,6 +442,11 @@ nav:
       - Build an automation flow: flows/build-automation-flow.md
       - Automate store messages: flows/store-journeys.md
       - Connect an app: flows/connect-apps-for-flows.md
+      - Add an app step: flows/add-an-app-step.md
+      - Start from an app event: flows/start-a-flow-from-an-app-event.md
+      - Test a step and pin data: flows/test-a-step-and-pin-sample-data.md
+      - Handle a failed step: flows/choose-what-happens-when-a-step-fails.md
+      - Call any API of an app: flows/call-any-api-of-an-app.md
   - Social:
       - social/index.md
       - Set up:

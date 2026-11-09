@@ -10,6 +10,7 @@ Connect an outside app, such as a store or a CRM, through the connector catalog 
 ## Before you start
 
 - You can see **Connectors** in the **Connect** panel. This screen is for admins by default. If you do not see it, ask your admin.
+- To connect an app while you build a flow, you can do it from the step instead. See [Add an app step to a flow](add-an-app-step.md#choose-the-account).
 - You have the app's credentials, for example an API key, or you can sign in to the app to approve access.
 - The app is listed in the catalog. Apps built into Ohanvi, such as your store, WhatsApp and Google Workspace, are connected on their own screens and do not need the catalog. For Google apps, see "Connect a Google app" below.
 
@@ -77,18 +78,21 @@ To try one operation for real, open the **Operations** tab and click the play ic
 ### Use an operation in a flow step
 
 1. Open the flow in the builder. See [Build an automation flow](build-automation-flow.md).
-2. Click **+** after a step, click **All steps**, and under **Advanced** click **Action**.
-3. In the **Step** panel, open **This step will** and choose the operation. Connector operations appear as the app's name, a dot and the operation, for example `Acme CRM · Find customer`.
-4. Under **Connection**, choose the account in **Signs in as**.
-5. Click **Advanced** and fill in **Input mapping (JSON)** with the values to send, for example `{ "email": "{{trigger.email}}" }`.
+2. Click **+** after a step. In the **Add a step after** panel, scroll to **Apps** and click the app.
+3. Click the action. The step opens in the **Step** panel.
+4. Under **1 · Account**, choose the account in **Account**.
+5. Under **2 · What to send**, fill in the fields.
 6. Click **Save**, then **Publish**.
 
-Values in the mapping can use the trigger and earlier steps. See "Use data from the trigger or an earlier step" in [Build an automation flow](build-automation-flow.md).
+For every option, including connecting from the step, see [Add an app step to a flow](add-an-app-step.md).
 
 ### Start a flow from an app
 
-- **New records** — in the flow's **When this runs** panel, choose **When a record appears**. Pick the **Trigger operation** and the **Connection**. The first check only marks where to start, so existing records do not start runs.
-- **Webhooks** — on the connector's **Webhooks** tab, choose the **Connection** and click **Subscribe** beside an event. In the flow, choose **When a webhook arrives** and enter the connection in **Connection**. If the row reads **Registered locally**, paste its callback URL into the app. Click the copy icon (tooltip **Copy callback URL**) to copy it.
+1. Click the trigger at the start of the canvas, then click the box that reads **Change**.
+2. In **What starts this flow?**, click an event under the app's name, for example **New or updated order** under **Shopify**.
+3. Under **1 · Account**, choose the account in **Listens to**.
+
+Ohanvi checks some apps on a timer and hears from others at once. See [Start a flow from an app event](start-a-flow-from-an-app-event.md).
 
 ### Fix or remove a connection
 
@@ -108,16 +112,18 @@ Values in the mapping can use the trigger and earlier steps. See "Use data from 
 
 | Issue | Cause | Fix |
 | --- | --- | --- |
-| Step panel says **No connections yet. Connect the app under Integrations → Connectors before this step can authenticate.** | The app has no connection you can use. | Add a connection, then reopen the flow. |
-| **This step will** lists only Ohanvi's own actions | No connector apps are set up, or the catalog did not load. | Set up the app under **Connect** → **Connectors**, then reopen the flow. |
+| Step panel says **No … account connected yet.** | The app has no connection you can use. | Click **Connect** followed by the app's name in the step, or add a connection here. |
+| **Connector apps couldn't be loaded right now, so only Ohanvi's own actions are listed. Reopen the flow to try again.** | The catalog did not load. | Close the flow and open it again. |
 | **No token arrived yet. If you approved, press Connect account again…** | You did not finish approving, or the link expired. | Click **Connect account** again and approve within 15 minutes. |
 | **The provider rejected the stored credential. Use Connect account to consent again.** | The key or token expired or was revoked in the app. | Click **Connect account**, or **Edit** and paste a new key. |
-| **You cannot publish a flow that uses a connection you do not have access to.** | The step signs in with a connection shared only with someone else. | Pick your own connection in **Signs in as**, or ask the owner to share it. |
-| **The connection this step uses no longer exists.** | The connection was deleted. | Choose another connection in **Signs in as**, then publish. |
+| **You cannot publish a flow that uses a connection you do not have access to.** | The step signs in with a connection shared only with someone else. | Pick your own connection in **Account**, or ask the owner to share it. |
+| **The connection this step uses no longer exists.** | The connection was deleted. | Choose another connection in **Account**, then publish. |
 
 ## Related
 
 - [Build an automation flow](build-automation-flow.md)
+- [Add an app step to a flow](add-an-app-step.md)
+- [Start a flow from an app event](start-a-flow-from-an-app-event.md)
 - [Test a flow and fix failed runs](test-and-monitor-flows.md)
 - [Understand flows and the Flows list](flows-overview-and-list.md)
 - [Choose your own or Ohanvi's managed services](../settings/choose-connectors.md)

@@ -10,6 +10,7 @@ description: कनेक्टर ऐप का कनेक्शन जोड
 ## शुरू करने से पहले { #before-you-start }
 
 - **Connect** पैनल में आपको **Connectors** दिखना चाहिए। यह स्क्रीन डिफ़ॉल्ट रूप से सिर्फ़ एडमिन के लिए है। न दिखे, तो अपने एडमिन से पूछें।
+- फ़्लो बनाते समय ऐप कनेक्ट करना हो, तो यह काम स्टेप से भी हो सकता है। देखें [फ़्लो में ऐप का स्टेप जोड़ें](add-an-app-step.md#choose-the-account)।
 - आपके पास ऐप के क्रेडेंशियल हों, जैसे API key। या फिर आप ऐप में साइन इन करके एक्सेस की मंज़ूरी दे सकते हों।
 - ऐप कैटलॉग की लिस्ट में हो। Ohanvi में पहले से बने ऐप, जैसे आपका स्टोर, WhatsApp और Google Workspace, अपनी-अपनी स्क्रीन से कनेक्ट होते हैं। इनके लिए कैटलॉग नहीं चाहिए। Google ऐप के लिए नीचे "Google ऐप कनेक्ट करें" देखें।
 
@@ -77,18 +78,21 @@ Ohanvi सिर्फ़ वही स्प्रेडशीट और फ़
 ### फ़्लो स्टेप में ऑपरेशन इस्तेमाल करें { #use-an-operation-in-a-flow-step }
 
 1. फ़्लो को बिल्डर में खोलें। देखें [ऑटोमेशन फ़्लो बनाएँ](build-automation-flow.md)।
-2. किसी स्टेप के बाद **+** पर क्लिक करें, फिर **All steps** पर क्लिक करें, और **Advanced** के नीचे **Action** पर क्लिक करें।
-3. **Step** पैनल में **This step will** खोलें और ऑपरेशन चुनें। कनेक्टर के ऑपरेशन इस तरह दिखते हैं: ऐप का नाम, एक बिंदु, फिर ऑपरेशन, जैसे `Acme CRM · Find customer`।
-4. **Connection** के नीचे **Signs in as** में अकाउंट चुनें।
-5. **Advanced** पर क्लिक करें और **Input mapping (JSON)** में भेजी जाने वाली वैल्यू भरें, जैसे `{ "email": "{{trigger.email}}" }`।
+2. किसी स्टेप के बाद **+** पर क्लिक करें। **Add a step after** पैनल में **Apps** तक स्क्रॉल करें और ऐप पर क्लिक करें।
+3. एक्शन पर क्लिक करें। स्टेप **Step** पैनल में खुल जाता है।
+4. **1 · Account** के नीचे **Account** में अकाउंट चुनें।
+5. **2 · What to send** के नीचे फ़ील्ड भरें।
 6. **Save** पर क्लिक करें, फिर **Publish** पर क्लिक करें।
 
-मैपिंग की वैल्यू में ट्रिगर और पिछले स्टेप का डेटा लिया जा सकता है। इसके लिए [ऑटोमेशन फ़्लो बनाएँ](build-automation-flow.md) में "Use data from the trigger or an earlier step" देखें।
+स्टेप से ही कनेक्ट करने समेत सारे विकल्प देखने के लिए पढ़ें [फ़्लो में ऐप का स्टेप जोड़ें](add-an-app-step.md)।
 
 ### किसी ऐप से फ़्लो शुरू करें { #start-a-flow-from-an-app }
 
-- **New records:** फ़्लो के **When this runs** पैनल में **When a record appears** चुनें। **Trigger operation** और **Connection** चुनें। पहली बार की जाँच सिर्फ़ यह निशान लगाती है कि शुरुआत कहाँ से करनी है। इसलिए जो रिकॉर्ड पहले से मौजूद हैं, उनसे रन शुरू नहीं होते।
-- **Webhooks:** कनेक्टर के **Webhooks** टैब पर **Connection** चुनें और किसी इवेंट के बगल में **Subscribe** पर क्लिक करें। फ़्लो में **When a webhook arrives** चुनें और **Connection** में वही कनेक्शन भरें। रो में **Registered locally** लिखा हो, तो उसका कॉलबैक URL ऐप में पेस्ट करें। उसे कॉपी करने के लिए कॉपी आइकन (टूलटिप **Copy callback URL**) पर क्लिक करें।
+1. कैनवस की शुरुआत में ट्रिगर पर क्लिक करें। फिर उस बॉक्स पर क्लिक करें जिस पर **Change** लिखा है।
+2. **What starts this flow?** में ऐप के नाम के नीचे कोई इवेंट चुनें, जैसे **Shopify** के नीचे **New or updated order**।
+3. **1 · Account** के नीचे **Listens to** में अकाउंट चुनें।
+
+Ohanvi कुछ ऐप को तय समय पर चेक करता है, और कुछ ऐप से उसे तुरंत ख़बर मिल जाती है। देखें [किसी ऐप के इवेंट से फ़्लो शुरू करें](start-a-flow-from-an-app-event.md)।
 
 ### कनेक्शन ठीक करें या हटाएँ { #fix-or-remove-a-connection }
 
@@ -108,16 +112,18 @@ Ohanvi सिर्फ़ वही स्प्रेडशीट और फ़
 
 | समस्या | कारण | समाधान |
 | --- | --- | --- |
-| Step पैनल में **No connections yet. Connect the app under Integrations → Connectors before this step can authenticate.** लिखा है | इस ऐप का ऐसा कोई कनेक्शन नहीं है जिसे आप इस्तेमाल कर सकें। | कनेक्शन जोड़ें, फिर फ़्लो दोबारा खोलें। |
-| **This step will** में सिर्फ़ Ohanvi के अपने एक्शन दिख रहे हैं | कोई कनेक्टर ऐप सेट नहीं है, या कैटलॉग लोड नहीं हुआ। | **Connect** → **Connectors** में ऐप सेट करें, फिर फ़्लो दोबारा खोलें। |
+| Step पैनल में **No … account connected yet.** लिखा है | इस ऐप का ऐसा कोई कनेक्शन नहीं है जिसे आप इस्तेमाल कर सकें। | स्टेप में **Connect** और ऐप के नाम वाले बटन पर क्लिक करें, या यहाँ कनेक्शन जोड़ें। |
+| **Connector apps couldn't be loaded right now, so only Ohanvi's own actions are listed. Reopen the flow to try again.** | कैटलॉग लोड नहीं हुआ। | फ़्लो बंद करके दोबारा खोलें। |
 | **No token arrived yet. If you approved, press Connect account again…** | आपने मंज़ूरी पूरी नहीं की, या लिंक ख़त्म हो गया। | **Connect account** पर दोबारा क्लिक करें और 15 मिनट के अंदर मंज़ूरी दें। |
 | **The provider rejected the stored credential. Use Connect account to consent again.** | ऐप में key या टोकन की मियाद पूरी हो गई, या उसे कैंसिल कर दिया गया। | **Connect account** पर क्लिक करें, या **Edit** पर क्लिक करके नई key पेस्ट करें। |
-| **You cannot publish a flow that uses a connection you do not have access to.** | स्टेप ऐसे कनेक्शन से साइन इन करता है जो सिर्फ़ किसी और के साथ शेयर किया गया है। | **Signs in as** में अपना कनेक्शन चुनें, या उसके ओनर से उसे शेयर करने को कहें। |
-| **The connection this step uses no longer exists.** | कनेक्शन डिलीट कर दिया गया था। | **Signs in as** में कोई दूसरा कनेक्शन चुनें, फिर पब्लिश करें। |
+| **You cannot publish a flow that uses a connection you do not have access to.** | स्टेप ऐसे कनेक्शन से साइन इन करता है जो सिर्फ़ किसी और के साथ शेयर किया गया है। | **Account** में अपना कनेक्शन चुनें, या उसके ओनर से उसे शेयर करने को कहें। |
+| **The connection this step uses no longer exists.** | कनेक्शन डिलीट कर दिया गया था। | **Account** में कोई दूसरा कनेक्शन चुनें, फिर पब्लिश करें। |
 
 ## संबंधित गाइड { #related }
 
 - [ऑटोमेशन फ़्लो बनाएँ](build-automation-flow.md)
+- [फ़्लो में ऐप का स्टेप जोड़ें](add-an-app-step.md)
+- [किसी ऐप के इवेंट से फ़्लो शुरू करें](start-a-flow-from-an-app-event.md)
 - [फ़्लो टेस्ट करें और फ़ेल हुए रन ठीक करें](test-and-monitor-flows.md)
 - [फ़्लो और फ़्लो की लिस्ट को समझें](flows-overview-and-list.md)
 - [अपनी या Ohanvi की मैनेज की हुई सेवाएँ चुनें](../settings/choose-connectors.md)

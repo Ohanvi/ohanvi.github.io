@@ -1,6 +1,6 @@
 ---
 title: Fix Event Photos problems
-description: Fix a camera that won't connect to Beam, photos that fail, a selfie with no face found, guests who don't get their WhatsApp messages, guest uploads and photo sales.
+description: Fix Beam camera connections, photos that fail or wait for credit, selfies with no face found, missing WhatsApp messages, guest uploads, sales and charges.
 ---
 
 # Fix Event Photos problems
@@ -35,6 +35,17 @@ Find the problem below, read the cause, and follow the fix. Most problems come f
 | A RAW photo shows **Failed** | RAW is not supported yet. | Export it as JPEG from your editor, then upload the JPEG. |
 | A photo shows **Failed** with **This photo could not be processed. Delete it and upload it again.** | The file could not be read. | Delete it and upload it again. If it fails again, export it as JPEG. |
 | A photo shows **No faces** | No face was found, for example in a décor or back-view shot. | No fix needed. It still shows in the full gallery. |
+
+## Photos wait for credit or charges look wrong
+
+| Issue | Cause | Fix |
+| --- | --- | --- |
+| Photos show **Waiting for credit** | Your credits are empty, so face recognition is paused. Uploads and galleries keep working. | Recharge. Within about 15 minutes the faces are found on their own. See [Add funds to your account](../add-funds.md). |
+| Photos still wait 15 minutes after a recharge | The event is expired or in the Bin, or the balance can't pay for one photo. | Restore the event from the **Bin** tab, or recharge more. |
+| A guest can't find a photo they are in, and it shows **Waiting for credit** | Its faces haven't been found yet. | Recharge. The guest finds it once its faces are found. |
+| **Plan & usage** shows charges, but your credits didn't go down | Charges show as a preview until Events billing is switched on. | No fix needed. Nothing is taken during the preview. |
+| Storage is still charged for photos you deleted | Each photo is billed for your plan's minimum storage period. | No fix needed. Billing stops when the period ends. See [Events pricing and usage](pricing-and-usage.md#minimum-storage-period). |
+| Storage is still charged for an event you deleted | The event is in the **Bin**. Its photos count until it is deleted for good. | On the **Bin** tab, open its menu and click **Delete forever**. |
 
 ## A guest can't find their photos
 
@@ -93,3 +104,4 @@ Find the problem below, read the cause, and follow the fix. Most problems come f
 - [Make reels for guests](reels.md)
 - [Let guests add their photos](guest-uploads.md)
 - [Sell photos to guests](selling.md)
+- [Events pricing and usage](pricing-and-usage.md)

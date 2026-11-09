@@ -11,6 +11,7 @@ Upload an event's photos into folders such as Haldi or Reception. Ohanvi finds t
 
 - The event exists. See [Create an event](create-an-event.md).
 - Your photos are JPEG or PNG files. HEIF and RAW files are not supported yet. Export them as JPEG first.
+- You know what photos cost. Each photo is charged for face recognition once, and for storage each day. See [Events pricing and usage](pricing-and-usage.md).
 
 ## Steps
 
@@ -38,10 +39,14 @@ A **Wedding** event starts with the folders Haldi, Mehendi, Sangeet, Pheras and 
 | **Finding faces…** | Ohanvi is looking for faces in the photo. |
 | **No faces**, **1 face**, **3 faces** | The photo is ready. Guests in it can find it. |
 | **Failed** | The photo could not be processed. The reason shows on the photo. |
+| **Waiting for credit** | Your credits are empty, so face recognition is paused. The photo is stored and shows in the full gallery. Guests can't find it with their selfie yet. |
 
 If you picked more than 200 photos, the message **Uploading the first 200 photos. Upload the rest once these finish.** appears. Upload the rest when the first batch ends.
 
 If some files fail to upload, click **Show files** to see which, then **Retry failed**.
+
+!!! note "Photos waiting for credit"
+    When your credits run out, uploads carry on, but new photos show **Waiting for credit**. Point at the label to read **Face recognition is paused because your wallet is empty. Recharge, and faces in this photo are found automatically.** After you recharge, their faces are found within about 15 minutes. See [Events pricing and usage](pricing-and-usage.md#when-your-credits-run-out).
 
 !!! tip "Send photos from the camera instead"
     To skip uploading, link the camera with Beam. Photos arrive in the event while you shoot. See [Set up Beam](set-up-beam.md).
@@ -71,6 +76,8 @@ With **Straight away**, photos reach guests as soon as their faces are found.
 !!! warning "Guests lose these photos"
     Deleted photos leave the event, and guests stop seeing them in their matches.
 
+Deleting photos lowers your Events storage, but not at once. Each photo is billed for your plan's minimum storage period, counting its upload day, even if you delete it sooner. See [Events pricing and usage](pricing-and-usage.md#minimum-storage-period).
+
 ## Troubleshooting
 
 | Issue | Cause | Fix |
@@ -81,6 +88,7 @@ With **Straight away**, photos reach guests as soon as their faces are found.
 | A photo shows **No faces** | No face was found, for example in a décor or a back-view shot. | No fix needed. Guests can still see it in the full gallery. |
 | **Wait for the current upload to finish.** | An upload is still running. | Wait until the progress line ends, then upload the next batch. |
 | Guests don't see new photos | **Release photos** is **Review first**, and the photos are **Held**. | Release the photos, or set **Release photos** to **Straight away**. |
+| Photos show **Waiting for credit** | Your credits are empty, so face recognition is paused. | Recharge. Within about 15 minutes the faces are found on their own. See [Add funds to your account](../add-funds.md). |
 
 ## Related
 
@@ -88,6 +96,7 @@ With **Straight away**, photos reach guests as soon as their faces are found.
 - [Let guests add their photos](guest-uploads.md)
 - [Change event settings](event-settings.md)
 - [Share the gallery](share-the-gallery.md)
+- [Events pricing and usage](pricing-and-usage.md)
 - [Fix Event Photos problems](troubleshooting.md)
 
 !!! note "Screenshots to add"

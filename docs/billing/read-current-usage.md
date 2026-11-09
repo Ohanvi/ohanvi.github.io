@@ -40,10 +40,12 @@ You can also click **Current usage** at the top of the **Credits** page.
 
 | Card | What it tells you |
 | --- | --- |
-| **Spend by product** | This cycle's spend split by product, for example **WhatsApp messages**, **AI replies**, **Email delivered**, **Extra messages over plan** and **Social posts**. |
+| **Spend by product** | This cycle's spend split by product, for example **WhatsApp messages**, **AI replies**, **Email delivered**, **Extra messages over plan**, **Social posts** and **Events**. |
 | **Biggest line items** | Your 6 largest costs. Each line is one product at one rate, with its share of the total. |
 | **Breakdown** | Every charge in the cycle, grouped by product. Columns: **RATE LINE**, **CHARGES**, **USED**, **PERIOD** and **COST**, with a **SUBTOTAL** per product. |
 | **Cost this cycle** | **Actual**: **Used so far** and **Credit balance now**. For the cycle in progress, **Forecast** (at today's rate): **Rest of the cycle**, **Cycle total**, and **Left at cycle end** or **Short by**. |
+
+Event Photos shows as one product, **Events**. In **Breakdown**, its group has 2 kinds of line: **Events storage**, one charge a day for each kind of storage, and **Events face recognition**, one charge a photo. See [Events pricing and usage](../event-photos/pricing-and-usage.md).
 
 !!! tip "Read the forecast"
     The forecast assumes you keep spending at today's daily rate. If it shows **Short by**, your balance runs out before the end of the month. A **Recharge credits** button appears in the card. See [Add funds to your account](../add-funds.md).

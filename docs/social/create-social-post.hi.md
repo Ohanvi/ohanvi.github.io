@@ -59,7 +59,7 @@ description: एक पोस्ट लिखकर कई नेटवर्क
 - हर इमेज 25 MB तक की हो सकती है। हर वीडियो 200 MB तक का हो सकता है।
 - वीडियो MP4, MOV, M4V, WEBM, AVI या MKV फ़ाइल होना चाहिए।
 - **Instagram** पर सिर्फ़ टेक्स्ट वाली पोस्ट नहीं चलती। फ़ोटो जोड़ें, या Instagram को अनचुना कर दें।
-- **Facebook** पर वीडियो पोस्ट नहीं चलती। वीडियो हटा दें, या Facebook को अनचुना कर दें।
+- **Facebook**, **Instagram**, **LinkedIn** और **Threads** पर वीडियो पोस्ट हो सकता है। **Google Business** और **X** पर नहीं। देखें [वीडियो पोस्ट करें](post-a-video.md)।
 
 ### Google Business के ऑप्शन सेट करें { #set-google-business-options }
 
@@ -93,7 +93,6 @@ description: एक पोस्ट लिखकर कई नेटवर्क
 | **Post text is required** | टेक्स्ट बॉक्स खाली है। | पोस्ट का टेक्स्ट लिखें। |
 | **Post text is over the … character … limit** | टेक्स्ट आपके चुने हुए नेटवर्क की सबसे कम सीमा से लंबा है। | टेक्स्ट छोटा करें, या कम सीमा वाले नेटवर्क को अनचुना कर दें। |
 | **Instagram needs a photo or video — add one, or deselect it.** | Instagram पर सिर्फ़ टेक्स्ट वाली पोस्ट नहीं होती। | फ़ोटो जोड़ें, या Instagram को अनचुना कर दें। |
-| **Facebook does not accept video posts — remove the video, or deselect it.** | Ohanvi, Facebook Page पर वीडियो पोस्ट नहीं कर सकता। | वीडियो हटाएँ, या Facebook को अनचुना कर दें। |
 | **Too large to attach: … (over 25 MB)** | फ़ाइल साइज़ की सीमा से बड़ी है। | फ़ाइल कंप्रेस करें और दोबारा जोड़ें। |
 
 ## संबंधित गाइड { #related }

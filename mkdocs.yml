@@ -274,6 +274,21 @@ plugins:
             'Advertisements': 'विज्ञापन'
             'Documentation': 'डॉक्यूमेंटेशन'
             'Embed Videos in Articles': 'लेखों में वीडियो एम्बेड करें'
+            'Start from a WhatsApp message': 'WhatsApp मैसेज से शुरू करें'
+            'Use text rules in conditions': 'कंडीशन में टेक्स्ट नियम इस्तेमाल करें'
+            'Start from a webhook': 'वेबहुक से शुरू करें'
+            'Use Tasks and HR steps': 'Tasks और HR के स्टेप इस्तेमाल करें'
+            'Answer from a Google Sheet': 'Google Sheet से जवाब दें'
+            'Post a video': 'वीडियो पोस्ट करें'
+            'WhatsApp tasks': 'WhatsApp पर टास्क'
+            'Set up WhatsApp tasks': 'WhatsApp tasks सेट करें'
+            'Use task commands on WhatsApp': 'WhatsApp पर टास्क कमांड इस्तेमाल करें'
+            'Set your own command words': 'कमांड के लिए अपने शब्द रखें'
+            'Reminders and the daily summary': 'रिमाइंडर और रोज़ का सारांश'
+            'HR': 'HR'
+            'Add staff': 'स्टाफ़ जोड़ें'
+            'Mark attendance on WhatsApp': 'WhatsApp पर हाज़िरी लगाएँ'
+            'Attendance reports and dashboard': 'हाज़िरी की रिपोर्ट और डैशबोर्ड'
   # Click any image to open it full-screen (zoom, swipe between images, Esc to close).
   - glightbox:
       touchNavigation: true
@@ -447,6 +462,11 @@ nav:
       - Test a step and pin data: flows/test-a-step-and-pin-sample-data.md
       - Handle a failed step: flows/choose-what-happens-when-a-step-fails.md
       - Call any API of an app: flows/call-any-api-of-an-app.md
+      - Start from a WhatsApp message: flows/start-a-flow-from-a-whatsapp-message.md
+      - Use text rules in conditions: flows/use-text-rules-in-conditions.md
+      - Start from a webhook: flows/start-a-flow-from-a-webhook.md
+      - Use Tasks and HR steps: flows/use-tasks-and-hr-steps-in-flows.md
+      - Answer from a Google Sheet: flows/answer-from-a-google-sheet.md
   - Social:
       - social/index.md
       - Set up:
@@ -462,6 +482,7 @@ nav:
       - Publish:
           - social/publish/index.md
           - Create a post: social/create-social-post.md
+          - Post a video: social/post-a-video.md
           - Use the AI Assistant: social/use-ai-assistant-in-the-composer.md
           - Schedule and manage posts: social/schedule-social-posts.md
           - Publish filters, overview and post details: social/use-publish-filters-and-extras.md
@@ -550,6 +571,17 @@ nav:
       - Board: tasks/move-tasks-on-board.md
       - List: tasks/use-the-list-view.md
       - Notifications: tasks/read-task-notifications.md
+      - WhatsApp tasks:
+          - tasks/whatsapp/index.md
+          - Set up WhatsApp tasks: tasks/set-up-whatsapp-tasks.md
+          - Use task commands on WhatsApp: tasks/use-whatsapp-task-commands.md
+          - Set your own command words: tasks/set-your-own-command-words.md
+          - Reminders and the daily summary: tasks/whatsapp-task-reminders-and-summary.md
+  - HR:
+      - hr/index.md
+      - Add staff: hr/add-staff.md
+      - Mark attendance on WhatsApp: hr/whatsapp-attendance.md
+      - Attendance reports and dashboard: hr/attendance-reports-and-dashboard.md
   - Google Reviews:
       - google-reviews/index.md
       - Review page: google-reviews/get-more-google-reviews.md

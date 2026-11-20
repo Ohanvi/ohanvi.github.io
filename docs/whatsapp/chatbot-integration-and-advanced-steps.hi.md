@@ -22,14 +22,14 @@ description: फ़्लो में लीड को CRM में सेव 
 | ग्रुप | स्टेप |
 | --- | --- |
 | **Integrations** | **CRM**, **Social**, **Forms**, **Meta Conversion** |
-| **Advanced** | **Action**, **Continue only if…**, **Many paths by rule**, **Delay**, **For each**, **Sub-flow**, **Parallel**, **Join**, **Send email**, **Wait**, **Tag contact**, **Remove tag**, **Unsubscribe**, **Split A/B**, **Webhook**, **Request Intervention**, **Invoke Action** |
+| **Advanced** | **Action**, **Continue only if…**, **Split into paths**, **Delay**, **For each**, **Sub-flow**, **Parallel**, **Join**, **Send email**, **Wait**, **Tag contact**, **Remove tag**, **Unsubscribe**, **Split A/B**, **Webhook**, **Request Intervention**, **Invoke Action** |
 
 **Advanced** के स्टेप 3 तरह के फ़्लो में काम आते हैं:
 
 | टाइप | स्टेप |
 | --- | --- |
 | चैटबॉट | **Request Intervention**, **Invoke Action** |
-| ऑटोमेशन | **Action**, **Continue only if…**, **Many paths by rule**, **Delay**, **For each**, **Sub-flow**, **Parallel**, **Join** |
+| ऑटोमेशन | **Action**, **Continue only if…**, **Split into paths**, **Delay**, **For each**, **Sub-flow**, **Parallel**, **Join** |
 | ईमेल जर्नी | **Send email**, **Wait**, **Tag contact**, **Remove tag**, **Unsubscribe**, **Split A/B**, **Webhook** |
 
 [VERIFY: क्या मेन्यू वे स्टेप छिपा देता है जो आपके बनाए जा रहे फ़्लो के टाइप से मेल नहीं खाते।]
@@ -171,7 +171,7 @@ description: फ़्लो में लीड को CRM में सेव 
 3. **Sub-flow** स्टेप जोड़ें। **Which flow** के नीचे **Runs** खोलें और फ़्लो चुनें। दूसरा फ़्लो पूरा चलता है। उसके खत्म होने के बाद ही यह फ़्लो आगे बढ़ता है।
 4. **Parallel** स्टेप जोड़ें। **Lanes** पढ़ें: हर लेन एक ही समय पर चलती है। कार्ड से और लेन जोड़ें।
 5. लेन के बाद **Join** स्टेप जोड़ें। यह आगे बढ़ने से पहले अपने ऊपर की हर लेन के पूरा होने का इंतज़ार करता है।
-6. **Many paths by rule** स्टेप जोड़ें। **Add two paths** पर क्लिक करें। और रास्ते चाहिए, तो **Add a path** पर क्लिक करें। हर रास्ते के लिए एक नियम सेट करें।
+6. **Split into paths** स्टेप जोड़ें। **Add two paths** पर क्लिक करें। और रास्ते चाहिए, तो **Add a path** पर क्लिक करें। हर रास्ते के लिए एक नियम सेट करें।
 7. किसी रास्ते को बंद करने के लिए **Turn this path off** पर क्लिक करें। उसे डिलीट करने के लिए **Remove this path** पर क्लिक करें। जिस रास्ते पर स्टेप लगे हों, उसे हटाया नहीं जा सकता। पहले उन स्टेप को डिलीट करें।
 
 ऑटोमेशन के हर स्टेप में **Step name** में आप लिख सकते हैं कि वह स्टेप किसलिए है।
@@ -191,7 +191,7 @@ description: फ़्लो में लीड को CRM में सेव 
 | **No forms published yet.** | वर्कस्पेस में कोई फ़ॉर्म पब्लिश नहीं है। | एक फ़ॉर्म पब्लिश करें, फिर **Forms** दोबारा खोलें। |
 | **No email templates yet.** | **Send email** में चुनने के लिए कोई टेम्प्लेट नहीं है। | एक ईमेल टेम्प्लेट बनाएँ, फिर स्टेप दोबारा खोलें। |
 | **This path has steps on it. Delete those first.** | आपने ऐसा रास्ता हटाना चाहा जिस पर अब भी स्टेप लगे हैं। | रास्ते के स्टेप डिलीट करें, फिर रास्ता हटाएँ। |
-| **No paths yet. A branch needs at least two.** | **Many paths by rule** में 2 से कम रास्ते हैं। | **Add two paths** पर क्लिक करें। |
+| **No paths yet. A branch needs at least two.** | **Split into paths** में 2 से कम रास्ते हैं। | **Add two paths** पर क्लिक करें। |
 | **Social** पोस्ट नहीं गई | **Mode** में **DRAFT** चुना है। | **Social** में जाकर ड्राफ़्ट देखें, या **Mode** को **PUBLISH** करें। |
 | **Could not publish — the step that needs fixing is marked on the canvas** | कोई स्टेप अधूरा है। | निशान लगा स्टेप चुनें, फ़ील्ड भरें, सेव करें और पब्लिश करें। |
 

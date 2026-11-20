@@ -23,7 +23,7 @@ The **When this runs** panel offers these triggers:
 | **When something happens here** | An event happens in Ohanvi, for example a store order, a form, a tag. Pick it in **Which event**. |
 | **Run by hand** | You click **Run test** in the list or the builder. |
 | An app's event, such as **New or updated order** under **Shopify** | Something happens in a connected app. See [Start a flow from an app event](start-a-flow-from-an-app-event.md). |
-| **When Zapier/Pabbly sends data** | A Zap or a Pabbly workflow calls this flow. |
+| **Webhook** | Any app, form or Google Sheet button sends data to a URL, including Zapier and Pabbly. See [Start a flow from a webhook](start-a-flow-from-a-webhook.md). |
 | **On a schedule** | A time you set comes round, for example every day at 09:00. |
 
 Events in **Which event** include:
@@ -58,7 +58,7 @@ A ready-made draft, **Weekly Instagram summary**, sends last week's Instagram nu
     - **When something happens here** — choose **Which event**. For **A contact joins an email list**, also choose **Which list**. For **A contact is tagged**, type **Which tag**.
     - **On a schedule** — click the time beside **Runs every day at**, then choose a **Timezone**. For other patterns, type a **Cron expression (advanced)** with 6 fields.
     - An app's event — choose the account in **Listens to**. See [Start a flow from an app event](start-a-flow-from-an-app-event.md).
-    - **When Zapier/Pabbly sends data** — see "Start the flow from Zapier or Pabbly" below.
+    - **Webhook** — see [Start a flow from a webhook](start-a-flow-from-a-webhook.md).
 
 To change the trigger later, click the trigger node at the start of the canvas.
 
@@ -79,7 +79,7 @@ Steps that suit automations:
 | **Save to CRM** | **COMMON** | Creates or updates the contact in CRM. |
 | **Action** | **All steps** → **Advanced** | Runs one action. In **This step will**, choose, for example, **Send a WhatsApp template**, **Send a WhatsApp message**, **Create a CRM lead**, **Enrol in an email journey**, **Post to social**, a Google Sheets or Calendar action, or a connector operation. |
 | **Continue only if…** | **All steps** → **Advanced** | Stops the run unless a condition holds. |
-| **Many paths by rule** | **All steps** → **Advanced** | Sends the run down the first path whose condition matches. |
+| **Split into paths** | **All steps** → **Advanced** | Sends the run down the first path whose condition matches. |
 | **For each** | **All steps** → **Advanced** | Repeats the next steps for each item in a list. |
 | **Sub-flow** | **All steps** → **Advanced** | Runs another flow, then continues. |
 | **Parallel** and **Join** | **All steps** → **Advanced** | Runs several paths at once, then waits for all of them. |
@@ -96,7 +96,7 @@ Steps that suit automations:
 
 A run that stops at this step ends as **Filtered**. That is a normal result, not a failure.
 
-For several paths, use **Many paths by rule**. Click **Add two paths**, set a rule for each path, and choose **If nothing matches, take**.
+For several paths, use **Split into paths**. Click **Add two paths**, set a rule for each path, and choose **If nothing matches, take**.
 
 ### Use data from the trigger or an earlier step
 
@@ -115,12 +115,7 @@ To see real fields to pick from, test the earlier steps first. See [Test a step 
 
 ### Start the flow from Zapier or Pabbly
 
-1. Click **Save** first. The endpoint is created for a saved flow.
-2. Click the trigger node and choose **When Zapier/Pabbly sends data**.
-3. In **Which platform sends the data**, choose **Zapier** or **Pabbly Connect**, then click **Create endpoint**.
-4. Copy **URL (POST)**, the **Header X-Api-Key** and the **Body (JSON)** into your Zap or Pabbly workflow.
-5. Send a test from Zapier or Pabbly. Its fields appear under **Sample**, ready to use in your steps.
-6. Optional: in **Field that identifies one event (optional)**, type a field such as `order.id`. The same value sent twice starts the flow once.
+Zapier and Pabbly call the flow through its **Webhook** trigger. Click **Create webhook URL**, then add the platform's API key under **More options → Authentication**. See [Start a flow from a webhook](start-a-flow-from-a-webhook.md).
 
 The API key comes from **Connect** → **Zapier** or **Connect** → **Pabbly**. There, **API keys** lists each key with its status, and **Create key** at the top right makes a new one. Each key acts with the permissions of the user who created it.
 

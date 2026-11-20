@@ -23,7 +23,7 @@ description: तय करें कि ऑटोमेशन किस बा�
 | **When something happens here** | Ohanvi में कोई इवेंट होता है, जैसे स्टोर ऑर्डर, फ़ॉर्म या टैग। इसे **Which event** में चुनें। |
 | **Run by hand** | आप लिस्ट या बिल्डर में **Run test** पर क्लिक करते हैं। |
 | किसी ऐप का इवेंट, जैसे **Shopify** के नीचे **New or updated order** | किसी कनेक्ट किए हुए ऐप में कुछ होता है। देखें [किसी ऐप के इवेंट से फ़्लो शुरू करें](start-a-flow-from-an-app-event.md)। |
-| **When Zapier/Pabbly sends data** | कोई Zap या Pabbly वर्कफ़्लो इस फ़्लो को कॉल करता है। |
+| **Webhook** | कोई ऐप, फ़ॉर्म या Google Sheet का बटन किसी URL पर डेटा भेजता है, Zapier और Pabbly भी। देखें [वेबहुक से फ़्लो शुरू करें](start-a-flow-from-a-webhook.md)। |
 | **On a schedule** | आपका तय किया हुआ समय आता है, जैसे हर दिन 09:00 बजे। |
 
 **Which event** में ये इवेंट मिलते हैं:
@@ -55,7 +55,7 @@ description: तय करें कि ऑटोमेशन किस बा�
     - **When something happens here:** **Which event** चुनें। **A contact joins an email list** के लिए **Which list** भी चुनें। **A contact is tagged** के लिए **Which tag** लिखें।
     - **On a schedule:** **Runs every day at** के बगल में दिए समय पर क्लिक करें, फिर **Timezone** चुनें। दूसरे पैटर्न के लिए 6 फ़ील्ड वाला **Cron expression (advanced)** लिखें।
     - किसी ऐप का इवेंट: **Listens to** में अकाउंट चुनें। देखें [किसी ऐप के इवेंट से फ़्लो शुरू करें](start-a-flow-from-an-app-event.md)।
-    - **When Zapier/Pabbly sends data:** नीचे "Zapier या Pabbly से फ़्लो शुरू करें" देखें।
+    - **Webhook:** देखें [वेबहुक से फ़्लो शुरू करें](start-a-flow-from-a-webhook.md)।
 
 ट्रिगर को बाद में बदलना हो, तो कैनवास की शुरुआत में ट्रिगर नोड पर क्लिक करें।
 
@@ -76,7 +76,7 @@ Shiprocket जैसे किसी बाहरी ऐप में कोई 
 | **Save to CRM** | **COMMON** | CRM में कॉन्टैक्ट बनाता है या अपडेट करता है। |
 | **Action** | **All steps** → **Advanced** | एक एक्शन चलाता है। **This step will** में चुनें, जैसे **Send a WhatsApp template**, **Send a WhatsApp message**, **Create a CRM lead**, **Enrol in an email journey**, **Post to social**, Google Sheets या Calendar का एक्शन, या कोई कनेक्टर ऑपरेशन। |
 | **Continue only if…** | **All steps** → **Advanced** | कंडीशन पूरी न हो तो रन को रोक देता है। |
-| **Many paths by rule** | **All steps** → **Advanced** | रन को उस पहले रास्ते पर भेजता है जिसकी कंडीशन मेल खाती है। |
+| **Split into paths** | **All steps** → **Advanced** | रन को उस पहले रास्ते पर भेजता है जिसकी कंडीशन मेल खाती है। |
 | **For each** | **All steps** → **Advanced** | लिस्ट के हर आइटम के लिए अगले स्टेप दोहराता है। |
 | **Sub-flow** | **All steps** → **Advanced** | कोई दूसरा फ़्लो चलाता है, फिर आगे बढ़ता है। |
 | **Parallel** और **Join** | **All steps** → **Advanced** | कई रास्ते एक साथ चलाता है, फिर सबके पूरे होने का इंतज़ार करता है। |
@@ -93,7 +93,7 @@ Shiprocket जैसे किसी बाहरी ऐप में कोई 
 
 जो रन इस स्टेप पर रुक जाता है, वह **Filtered** बनकर ख़त्म होता है। यह सामान्य नतीजा है, फ़ेल होना नहीं।
 
-कई रास्ते चाहिए, तो **Many paths by rule** इस्तेमाल करें। **Add two paths** पर क्लिक करें, हर रास्ते का नियम सेट करें और **If nothing matches, take** चुनें।
+कई रास्ते चाहिए, तो **Split into paths** इस्तेमाल करें। **Add two paths** पर क्लिक करें, हर रास्ते का नियम सेट करें और **If nothing matches, take** चुनें।
 
 ### ट्रिगर या पिछले स्टेप का डेटा इस्तेमाल करें { #use-data-from-the-trigger-or-an-earlier-step }
 
@@ -112,12 +112,7 @@ Shiprocket जैसे किसी बाहरी ऐप में कोई 
 
 ### Zapier या Pabbly से फ़्लो शुरू करें { #start-the-flow-from-zapier-or-pabbly }
 
-1. सबसे पहले **Save** पर क्लिक करें। एंडपॉइंट सिर्फ़ सेव किए हुए फ़्लो के लिए बनता है।
-2. ट्रिगर नोड पर क्लिक करें और **When Zapier/Pabbly sends data** चुनें।
-3. **Which platform sends the data** में **Zapier** या **Pabbly Connect** चुनें, फिर **Create endpoint** पर क्लिक करें।
-4. **URL (POST)**, **Header X-Api-Key** और **Body (JSON)** को अपने Zap या Pabbly वर्कफ़्लो में कॉपी करें।
-5. Zapier या Pabbly से एक टेस्ट भेजें। उसकी फ़ील्ड **Sample** के नीचे दिखती हैं। आप उन्हें सीधे अपने स्टेप में इस्तेमाल कर सकते हैं।
-6. ऑप्शनल: **Field that identifies one event (optional)** में `order.id` जैसी कोई फ़ील्ड लिखें। एक ही वैल्यू दो बार आए, तो फ़्लो सिर्फ़ एक बार शुरू होता है।
+Zapier और Pabbly फ़्लो को उसके **Webhook** ट्रिगर से कॉल करते हैं। **Create webhook URL** पर क्लिक करें, फिर **More options → Authentication** में प्लेटफ़ॉर्म की API key जोड़ें। देखें [वेबहुक से फ़्लो शुरू करें](start-a-flow-from-a-webhook.md)।
 
 API key **Connect** → **Zapier** या **Connect** → **Pabbly** से मिलती है। वहाँ **API keys** में हर key उसके स्टेटस के साथ दिखती है। नई key बनाने के लिए ऊपर दाईं तरफ़ **Create key** पर क्लिक करें। हर key उसी यूज़र की अनुमतियों से काम करती है जिसने उसे बनाया है।
 

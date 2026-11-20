@@ -59,7 +59,7 @@ Media rules:
 - Each image can be up to 25 MB. Each video can be up to 200 MB.
 - Videos are MP4, MOV, M4V, WEBM, AVI or MKV files.
 - **Instagram** does not accept text-only posts. Add a photo, or deselect Instagram.
-- **Facebook** does not accept video posts. Remove the video, or deselect Facebook.
+- **Facebook**, **Instagram**, **LinkedIn** and **Threads** accept a video. **Google Business** and **X** do not. See [Post a video](post-a-video.md).
 
 ### Set Google Business options
 
@@ -93,7 +93,6 @@ To edit a draft later, open **Social** → **Publish**, click the **Drafts** tab
 | **Post text is required** | The text box is empty. | Type the post text. |
 | **Post text is over the … character … limit** | The text is longer than the tightest network you picked allows. | Shorten the text, or deselect the network with the lower limit. |
 | **Instagram needs a photo or video — add one, or deselect it.** | Instagram has no text-only posts. | Add a photo, or deselect Instagram. |
-| **Facebook does not accept video posts — remove the video, or deselect it.** | Ohanvi cannot post video to a Facebook Page. | Remove the video, or deselect Facebook. |
 | **Too large to attach: … (over 25 MB)** | The file is over the size limit. | Compress the file and add it again. |
 
 ## Related

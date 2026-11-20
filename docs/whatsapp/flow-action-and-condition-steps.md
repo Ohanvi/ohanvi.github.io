@@ -5,7 +5,7 @@ description: Pick a ready-made action, fill in every field, send data to Zapier 
 
 # Use the Action step and conditions in a flow
 
-The **Action** step does one job for you: send a WhatsApp template, create a CRM lead, enrol someone in an email journey, call Zapier and more. The **Continue only if…** and **Many paths by rule** steps decide which runs go on. This page explains every field of each one and what to type. It takes about 10 minutes to read.
+The **Action** step does one job for you: send a WhatsApp template, create a CRM lead, enrol someone in an email journey, call Zapier and more. The **Continue only if…** and **Split into paths** steps decide which runs go on. This page explains every field of each one and what to type. It takes about 10 minutes to read.
 
 ## Before you start
 
@@ -223,6 +223,9 @@ Values are expressions over the trigger and the steps before this one. Anything 
     | **is less than** | is smaller than the value. |
     | **is at least** | is the value or bigger. |
     | **is at most** | is the value or smaller. |
+    | **is one of** | equals one of the values you list, separated by commas. |
+    | **matches regex** | fits a text rule. See [Use text rules in conditions](../flows/use-text-rules-in-conditions.md). |
+    | **does not match regex** | does not fit the text rule. |
 
 5. In **Value**, type or pick what to compare with. The box shows `paid` as an example. For **is empty** and **is not empty**, there is no value.
 6. To add more rules, click **Add condition** again. When there are two or more, **Continue when** appears. Choose **all match** to need every rule, or **any match** to need one. Between the rules the card shows **and** or **or**.
@@ -235,7 +238,7 @@ A run that stops here ends as **Filtered**. That is a normal result, not a failu
 
 ### Send runs down different paths
 
-1. Add a **Many paths by rule** step.
+1. Add a **Split into paths** step.
 2. Click **Add two paths**. To add more later, click **Add a path**.
 3. For each path, set its rule the same way as above.
 4. Read the rule. The first path whose rule matches wins. Order the paths from the most specific to the least.

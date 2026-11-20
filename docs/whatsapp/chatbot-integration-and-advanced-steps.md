@@ -22,14 +22,14 @@ Open the **Add a step after** menu with the **+**, then click **All steps**. The
 | Group | Steps |
 | --- | --- |
 | **Integrations** | **CRM**, **Social**, **Forms**, **Meta Conversion** |
-| **Advanced** | **Action**, **Continue only if…**, **Many paths by rule**, **Delay**, **For each**, **Sub-flow**, **Parallel**, **Join**, **Send email**, **Wait**, **Tag contact**, **Remove tag**, **Unsubscribe**, **Split A/B**, **Webhook**, **Request Intervention**, **Invoke Action** |
+| **Advanced** | **Action**, **Continue only if…**, **Split into paths**, **Delay**, **For each**, **Sub-flow**, **Parallel**, **Join**, **Send email**, **Wait**, **Tag contact**, **Remove tag**, **Unsubscribe**, **Split A/B**, **Webhook**, **Request Intervention**, **Invoke Action** |
 
 The steps in **Advanced** belong to 3 kinds of flow:
 
 | Kind | Steps |
 | --- | --- |
 | Chatbot | **Request Intervention**, **Invoke Action** |
-| Automation | **Action**, **Continue only if…**, **Many paths by rule**, **Delay**, **For each**, **Sub-flow**, **Parallel**, **Join** |
+| Automation | **Action**, **Continue only if…**, **Split into paths**, **Delay**, **For each**, **Sub-flow**, **Parallel**, **Join** |
 | Email journey | **Send email**, **Wait**, **Tag contact**, **Remove tag**, **Unsubscribe**, **Split A/B**, **Webhook** |
 
 [VERIFY: whether the menu hides steps that do not fit the kind of flow you are building.]
@@ -171,7 +171,7 @@ These steps work in an automation flow. See [Build an automation flow](../flows/
 3. Add a **Sub-flow** step. Under **Which flow**, open **Runs** and choose the flow. The other flow runs to its end before this one continues.
 4. Add a **Parallel** step. Read **Lanes**: each lane runs at the same time. Add lanes from the card.
 5. Add a **Join** step after the lanes. It waits for every lane above it before going on.
-6. Add a **Many paths by rule** step. Click **Add two paths**, then **Add a path** for more. Set a rule for each path.
+6. Add a **Split into paths** step. Click **Add two paths**, then **Add a path** for more. Set a rule for each path.
 7. To stop a path, click **Turn this path off**. To delete it, click **Remove this path**. A path with steps on it cannot be removed. Delete those steps first.
 
 For every automation step, **Step name** lets you type what the step is for.
@@ -191,7 +191,7 @@ For every automation step, **Step name** lets you type what the step is for.
 | **No forms published yet.** | The workspace has no published form. | Publish a form, then reopen **Forms**. |
 | **No email templates yet.** | **Send email** has no template to choose. | Create an email template, then reopen the step. |
 | **This path has steps on it. Delete those first.** | You tried to remove a path that still has steps. | Delete the steps on the path, then remove it. |
-| **No paths yet. A branch needs at least two.** | **Many paths by rule** has fewer than 2 paths. | Click **Add two paths**. |
+| **No paths yet. A branch needs at least two.** | **Split into paths** has fewer than 2 paths. | Click **Add two paths**. |
 | A **Social** post did not go out | **Mode** is **DRAFT**. | Review the draft in **Social**, or switch **Mode** to **PUBLISH**. |
 | **Could not publish — the step that needs fixing is marked on the canvas** | A step is incomplete. | Select the marked step, fill in the field, save and publish. |
 

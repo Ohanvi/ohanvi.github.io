@@ -5,7 +5,7 @@ description: Connect Google Analytics, link your GA4 property, and read visitors
 
 # Connect Google Analytics
 
-Connect Google Analytics to see who visits your website or online store: users, sessions, engagement rate, key events (conversions) and revenue, where visitors come from and which pages they land on. Ohanvi only reads this data. It never creates properties, edits events or changes anything in Google Analytics. Takes about 5 minutes.
+Connect Google Analytics to see what happens after people reach your website or online store, from every source: visitors, engaged visits, key actions (conversions) and revenue, where visitors come from and which pages they open. Ohanvi only reads this data. It never creates properties, edits events or changes anything in Google Analytics. Takes about 5 minutes.
 
 ## Before you start
 
@@ -60,22 +60,35 @@ To read the list again, for example after you created a property in Google Analy
 
 A property is linked through one Google account. If you link the same property through another Google account, the link moves to that account. A property with no web stream, such as an app-only property, can still be linked.
 
-### Read the Overview tab
+### Read the Summary
 
-1. Open **Analytics** in the left rail, or under **More** if it is not on the rail, and click **Website Analytics**. The **Google Analytics** dashboard opens on the **Overview** tab. Under the title, it names the property and the Google account it reads through.
+The **Summary** tab answers three questions in a few seconds: how many people came, where they came from, and what they did.
+
+1. Open **Analytics** in the left rail, or under **More** if it is not on the rail, and click **Website Analytics**. The dashboard opens on the **Summary** tab. Under the title, it names the property and the Google account it reads through.
 
     You can also click **Open** on the **Google Analytics** card in Google Workspace.
 
     If Google Analytics is not connected yet, the page shows **Connect Google Analytics**, which opens Google Workspace. If it is connected but no property is linked yet, the page lists your properties so you can link one there. See [Link a property](#link-a-property).
 
 2. If you linked more than one property, choose one in the list at the top.
-3. Choose a date range: **7d**, **28d**, **3m**, **6m** or **12m**. The range ends yesterday.
-4. Under **Compare**, choose **Off**, **Prev** for the period just before, or **YoY** for the same dates a year earlier.
-5. Read the tiles: **Users**, **Sessions**, **Engagement rate**, **Key events** and **Revenue**. Each shows the change against the comparison period. A tile reads **No earlier data** when the comparison period had none. **Revenue** appears only when your site sends e-commerce data to Google Analytics.
-6. Click a tile to show that number in **Trend**, or choose it above the chart. The solid line is the current period, the dashed line the comparison period.
-7. Read the chip above the tiles, for example **12 users right now**. It counts people active on your site in the last 30 minutes.
+3. Choose a date range, from **Last 7 days** to **Last 12 months**. The range ends yesterday.
+4. Choose what to compare with: **vs previous period**, **vs same days last year** or **No comparison**.
+5. Read the badge at the top, for example **12 people on your site now**. It counts people active on your site in the last 30 minutes.
+6. Read the sentence. It says how many people visited and the change against the comparison period, how many visits were engaged (for example **6 in 10 visits**), and how many times people did a key action, with its value when your site records sales.
+7. Read the tiles:
+    - **Visitors**: people who came. The line under it gives the number of visits.
+    - **Engaged visits**: the share of visits that stayed 10 seconds or more, opened 2 or more pages, or did a key action.
+    - **Key actions**: purchases, sign-ups, forms sent and the other events marked as key events in Google Analytics.
+    - **Revenue**: shown only when your site sends e-commerce data to Google Analytics.
 
-To add today, tick **Include today**. Today is not over yet, so it shows as a dotted line in **Trend**.
+    Each tile shows the change against the comparison period, or **No earlier data** when that period had none. Point at a tile to see Google's own name for it.
+
+8. Click a tile to chart it per day. The solid line is this period, the dashed line the previous period.
+9. Read **Where visitors came from**: each source's share of all visits, in plain words, with Google's channel name beside it. For example, **Typed or saved link** is what Google calls **Direct**. On **Search (free)**, click **Which searches? Search Analytics** to see the searches. Click **See all** for the full table.
+10. Read **Pages people opened**: the 5 most viewed pages. Click **See all pages** for the full list.
+11. Read **What they did**: your 3 most frequent key actions, with their value when they have one. Click **See all** for the full list.
+
+To add today, tick **Include today**. Today is not over yet, so it reads low and shows as a dotted line on the chart.
 
 To fetch the numbers again, click **Refresh**. To see the same property in Google Analytics, click **Open in Google Analytics**.
 
@@ -87,35 +100,35 @@ If the tab reads **No visits in this period**, choose a longer range. If your si
 !!! note "Recent days can still change"
     A day's numbers take about 12 hours to arrive, and longer on large properties. Google then keeps updating them: totals can change for 2 days, and key events can move for up to 12 days. Ohanvi reads the last 14 days again every day, so its numbers catch up with Google's.
 
-### Read the Acquisition tab
+### See where visitors came from
 
-1. Open the **Acquisition** tab. The **Acquisition**, **Pages** and **Conversions** tabs load the first time you open them.
-2. Read **Channels**. It lists the channels that bring visitors, such as search, social, ads, email, direct and other sites. **Share** shows each channel's share of sessions.
+1. Open the **Where visitors came from** tab, or click **See all** on that card in the **Summary**. This tab, **Pages** and **Key actions** load the first time you open them.
+2. Read **Where visitors came from**: search, social media, ads, email, typed or saved links, and other websites. **Share** shows each source's share of visits.
 3. Choose a view:
-    - **Top**: the channels that brought the most sessions.
-    - **Losing**: the channels that brought fewer sessions than the previous period, biggest drop first. It compares with the previous period even when **Compare** is **Off**.
-4. Read **Source / medium** for the exact site or campaign behind each visit.
+    - **Top**: the sources that brought the most visits.
+    - **Falling**: the sources that brought fewer visits than the previous period, biggest drop first. It compares with the previous period even with **No comparison**.
+4. Read **Source / medium** for the exact site and how people came. For example, **google / organic** is free Google search and **google / cpc** is an ad.
 
-Each table shows **Sessions**, **Users**, **Engagement** and **Key events**, and **Revenue** when the site records it. With a comparison, **Change** shows the change in sessions. It reads **New** for a row the comparison period did not have.
+Each table shows **Visits**, **Visitors**, **Engaged** and **Key actions**, and **Revenue** when the site records it. With a comparison, **Change** shows the change in visits. It reads **New** for a row the comparison period did not have.
 
-One person can arrive by two channels, so users per channel do not add up to the **Users** tile. Sessions, key events and revenue do add up.
+One person can arrive from two sources, so visitors per source do not add up to the **Visitors** tile. Visits, key actions and revenue do add up.
 
 ### Read the Pages tab
 
-1. Open the **Pages** tab.
-2. Read **Landing pages**: the first page of each visit, and which of them lead to key events. Use it to see which pages turn visitors into buyers or leads.
+1. Open the **Pages** tab, or click **See all pages** on the **Summary**.
+2. Read **First page of each visit**: where visits start, and which of those pages lead to key actions. Use it to see which pages turn visitors into buyers or leads.
 3. Read **All pages** to see how often each page was viewed, under **Views**.
 
 On a small screen, scroll the table sideways to see every column.
 
-### Read the Conversions tab
+### Read the Key actions tab
 
-1. Open the **Conversions** tab.
-2. Read **Key events**: purchases, sign-ups, form submissions and the other events marked as key events. Each shows its **Count**, its **Change** against the comparison period and, when it has one, its **Value**.
+1. Open the **Key actions** tab, or click **See all** on **What they did** in the **Summary**.
+2. Read **Key actions**: purchases, sign-ups, forms sent and the other events marked as key in Google Analytics. Each shows how many **Times** it happened, its **Change** against the comparison period and, when it has one, its **Value**.
 
-Under each key event, **Counted once per session** or **Counted every time** shows how Google Analytics counts it.
+Under each key action, **Counted once per visit** or **Counted every time** shows how Google Analytics counts it.
 
-The tab reads **No key events set up** when the property has none. Click **Open Google Analytics**, mark an event as a key event there, then come back.
+The tab reads **No key actions set up yet** when the property has none. Click **Open Google Analytics**, mark an event as a key event there, then come back.
 
 ### Unlink a property
 
@@ -152,7 +165,7 @@ If you connected a Shopify, Wix or WooCommerce store, Ohanvi matches it to the p
 
 ## See search visitors on your site
 
-The **Overview** tab of the Search Console dashboard has an **On your site** card. Once a property is linked, **From search to your site** follows people from Google Search to your site: impressions, clicks, organic sessions and key events. See [Compare organic, paid and local](connect-google-search-console.md#compare-organic-paid-and-local).
+The **Summary** tab of **Search Analytics** has a **From Google to your site** card. Once a property is linked, it follows people from Google Search to your site: seen on Google, clicked, visited your site and key actions. See [Read the Summary](connect-google-search-console.md#read-the-summary).
 
 ## Troubleshooting
 
@@ -165,10 +178,10 @@ The **Overview** tab of the Search Console dashboard has an **On your site** car
 | **Google hid some rows to protect privacy** | **Small numbers are withheld when Google signals is on, so some rows are missing. Totals still show.** | Choose a longer range. |
 | **Numbers are estimated** | **Google sampled this report because of its size. Totals are close, but not exact.** | Choose a shorter range for exact numbers. |
 | **No visits in this period** | The site had no visits in these dates, or the tag is missing. | Choose a longer range. Check that the Google Analytics tag is installed on every page. |
-| **No key events set up** | The property has no key events. | Click **Open Google Analytics** and mark an event as a key event. |
+| **No key actions set up yet** | The property has no key events. | Click **Open Google Analytics** and mark an event as a key event. |
 | The **Revenue** tile is missing | The site does not send e-commerce data to Google Analytics. | Set up e-commerce tracking on your site. |
 | Analytics revenue does not match your store | Ad blockers and cookie consent stop some purchases from reaching Google Analytics. | Read **Tracking gap** in **Store analytics**. A gap under 5% is normal. |
-| Yesterday's numbers look low, or changed | Google is still adding that day's data. | Check again tomorrow. See [Recent days can still change](#read-the-overview-tab). |
+| Yesterday's numbers look low, or changed | Google is still adding that day's data. | Check again tomorrow. See [Read the Summary](#read-the-summary). |
 | Numbers differ from Google Analytics | The dates differ, or Google updated recent days. | Compare the same dates in the property's time zone. |
 | Google shows a warning that it has not verified the app | Google is still reviewing Ohanvi's access to Analytics. | Open the advanced option on the warning and continue to Ohanvi. |
 | A property reads **Account needs attention** | The Google account it reads through needs permission, a reconnect, or was disconnected. | Open the dashboard and follow its message, or fix the account on its **Google Analytics** card. |

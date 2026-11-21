@@ -34,10 +34,12 @@ This is read-only access. To submit a sitemap or add a site, Ohanvi opens Search
 
 ### Link a site
 
-1. On the **Search Console** card, click **Open**.
-2. Read **Sites on** followed by your Google account. It lists every site that account can see in Search Console.
+1. On the **Search Console** card, click **Open**. **Search Analytics** opens. You can also open it from **Analytics** in the left rail, or under **More** if it is not on the rail.
+2. Read **Sites on** followed by your Google account. It lists every site that account can see in Search Console. If you connected more than one Google account, choose one under **Google account**.
 3. Next to the site you want, click **Link**.
-4. Ohanvi shows **linked. Ohanvi is fetching its history now.** The site moves to **Linked properties**.
+4. Ohanvi shows **linked. Ohanvi is fetching its history now.** The site's dashboard opens.
+
+To link another site later, click **Manage properties** at the top of the dashboard. The **Search Console properties** window lists your linked sites under **Linked properties** and the account's other sites below them.
 
 Ohanvi saves the site's daily totals for the last 16 months in the background, then adds each new day. Google itself keeps only 16 months, so Ohanvi keeps your history longer than Google does.
 
@@ -48,9 +50,11 @@ A site that reads **Verify in Search Console** is not verified for this Google a
 
 ### Read your search performance
 
-1. Open **Analytics** in the left rail, or under **More** if it is not on the rail, and click **Search Analytics**. The **Search Console** dashboard opens on the **Performance** tab. You can also open it from Google Workspace: on the **Search Console** card, click **Open**, then click **Open dashboard** under **Linked properties**.
+1. Open **Analytics** in the left rail, or under **More** if it is not on the rail, and click **Search Analytics**. The dashboard opens on the **Performance** tab. You can also click **Open** on the **Search Console** card in Google Workspace.
 
-    If Search Console is not connected yet, the page shows **Connect Search Console**. If no site is linked, it shows **Link a property**. Both open Google Workspace.
+    If Search Console is not connected yet, the page shows **Connect Search Console**, which opens Google Workspace. If no site is linked yet, the page lists your sites so you can link one there. See [Link a site](#link-a-site).
+
+    To switch to another linked site, choose it in the list at the top, or click **Manage properties** and then **Open dashboard** next to the site.
 
 2. Choose a date range: **7d**, **28d**, **3m**, **6m**, **12m** or **16m**.
 3. Under **Compare**, choose **Off**, **Prev** for the period just before, or **YoY** for the same dates a year earlier.
@@ -96,7 +100,7 @@ A card that reads **Not connected** says why:
 
 - **Organic search**: click **Go to Google Workspace** and connect Search Console.
 - **Local (Business Profile)**: click **Connect Business Profile** and connect your Google Business Profile.
-- **On your site**: click **Connect Google Analytics** to open Google Workspace, then connect Google Analytics and link the property of your site. See [Connect Google Analytics](connect-google-analytics.md).
+- **On your site**: click **Connect Google Analytics** to open Google Workspace and connect Google Analytics. Then link the property of your site in **Website Analytics**. See [Connect Google Analytics](connect-google-analytics.md).
 - **Paid search**: there is no button. Your Google Ads account is not connected from a screen in Ohanvi, so contact Ohanvi support to compare paid clicks.
 
 The other cards keep working either way.
@@ -110,8 +114,8 @@ If you connected a Shopify, Wix or WooCommerce store, **Store SEO** under **Stor
 
 ### Unlink a site
 
-1. On the **Search Console** card, click **Open**.
-2. Under **Linked properties**, click **Unlink** next to the site.
+1. In **Search Analytics**, click **Manage properties** at the top of the dashboard.
+2. Under **Linked properties**, click **Unlink** next to the site. It is the icon beside **Open dashboard**.
 3. In the **Unlink** window that names the site, click **Unlink**.
 
 The dashboard stops showing the site. Daily totals Ohanvi already saved are kept and come back if you link the site again. Nothing changes in Search Console.

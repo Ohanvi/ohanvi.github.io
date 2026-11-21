@@ -18,7 +18,7 @@ Open **Analytics** in the left rail. The panel lists:
 - **Website Analytics** — visitors, traffic sources, top pages and key events from Google Analytics.
 - **Search Analytics** — clicks, impressions, rankings and index status from Google Search Console.
 
-If **Analytics** is not on the rail, click **More** and find it there. **Website Analytics** and **Search Analytics** show only when your role has access and the feature is switched on for your account. If you are not connected yet, they show **Connect Google Analytics** or **Connect Search Console**. If you are connected but have not linked a property, they show **Link a property**. Both buttons open Google Workspace.
+If **Analytics** is not on the rail, click **More** and find it there. **Website Analytics** and **Search Analytics** show only when your role has access and the feature is switched on for your account. If you are not connected yet, they show **Connect Google Analytics** or **Connect Search Console**, which open Google Workspace. If you are connected but have not linked a property, they list your properties or sites so you can link one right there.
 
 ## Before you start
 

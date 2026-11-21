@@ -43,10 +43,12 @@ Google asks only for Analytics. The permissions the account already gave are kep
 
 ### Link a property
 
-1. On the **Google Analytics** card, click **Open**.
-2. Read **Properties on** followed by your Google account. It lists every Analytics account that Google account can see, with its properties. Each property shows its number, for example **Property 123456789**, and **Sub-property** or **Roll-up property** when it is one.
+1. On the **Google Analytics** card, click **Open**. **Website Analytics** opens. You can also open it from **Analytics** in the left rail, or under **More** if it is not on the rail.
+2. Read **Properties on** followed by your Google account. If you connected more than one Google account, choose one under **Google account**. It lists every Analytics account that Google account can see, with its properties. Each property shows its number, for example **Property 123456789**, and **Sub-property** or **Roll-up property** when it is one.
 3. Next to the property you want, click **Link**.
-4. Ohanvi shows **linked. Ohanvi is fetching its history now.** The property moves to **Linked properties** and reads **Fetching history**, then **Active**. In the list below, it now reads **Linked · Open**.
+4. Ohanvi shows **linked. Ohanvi is fetching its history now.** The property's dashboard opens.
+
+To link another property later, click **Manage properties** at the top of the dashboard. In the **Google Analytics properties** window, a linked property is listed under **Linked properties** and reads **Fetching history**, then **Active**. In the list below, it reads **Linked · Open**.
 
 A linked property that reads **Lost access** or **Account needs attention** cannot be read right now. See [Troubleshooting](#troubleshooting).
 
@@ -62,9 +64,9 @@ A property is linked through one Google account. If you link the same property t
 
 1. Open **Analytics** in the left rail, or under **More** if it is not on the rail, and click **Website Analytics**. The **Google Analytics** dashboard opens on the **Overview** tab. Under the title, it names the property and the Google account it reads through.
 
-    You can also open it from Google Workspace: on the **Google Analytics** card, click **Open**, then click **Open dashboard** under **Linked properties**.
+    You can also click **Open** on the **Google Analytics** card in Google Workspace.
 
-    If Google Analytics is not connected yet, the page shows **Connect Google Analytics**. If it is connected but no property is linked, it shows **Link a property**. Both open Google Workspace.
+    If Google Analytics is not connected yet, the page shows **Connect Google Analytics**, which opens Google Workspace. If it is connected but no property is linked yet, the page lists your properties so you can link one there. See [Link a property](#link-a-property).
 
 2. If you linked more than one property, choose one in the list at the top.
 3. Choose a date range: **7d**, **28d**, **3m**, **6m** or **12m**. The range ends yesterday.
@@ -117,7 +119,7 @@ The tab reads **No key events set up** when the property has none. Click **Open 
 
 ### Unlink a property
 
-1. On the **Google Analytics** card, click **Open**.
+1. In **Website Analytics**, click **Manage properties** at the top of the dashboard.
 2. Under **Linked properties**, click **Unlink** next to the property. It is the icon beside **Open dashboard**.
 3. In the **Unlink** window that names the property, click **Unlink**.
 
